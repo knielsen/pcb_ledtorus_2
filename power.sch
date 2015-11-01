@@ -1,0 +1,1102 @@
+EESchema Schematic File Version 2
+LIBS:knielsenlib
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:pcb_ledtorus_2-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L STM32F46X_LQFP176 U4
+U 2 1 5635F248
+P 2525 2725
+F 0 "U4" H 2525 3475 60  0000 C CNN
+F 1 "STM32F46X_LQFP176" H 2525 1950 60  0000 C CNN
+F 2 "" H 2525 3025 60  0000 C CNN
+F 3 "" H 2525 3025 60  0000 C CNN
+	2    2525 2725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2125 3050 2150
+$Comp
+L GND #PWR?
+U 1 1 5636DEF8
+P 3050 2150
+F 0 "#PWR?" H 3050 2150 30  0001 C CNN
+F 1 "GND" H 3050 2080 30  0001 C CNN
+F 2 "" H 3050 2150 60  0000 C CNN
+F 3 "" H 3050 2150 60  0000 C CNN
+	1    3050 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 5636DEFF
+P 3050 2025
+F 0 "#PWR?" H 3050 1985 30  0001 C CNN
+F 1 "+3.3V" H 3050 2135 30  0000 C CNN
+F 2 "" H 3050 2025 60  0000 C CNN
+F 3 "" H 3050 2025 60  0000 C CNN
+	1    3050 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5636DF07
+P 1825 3425
+F 0 "#PWR?" H 1825 3425 30  0001 C CNN
+F 1 "GND" H 1825 3355 30  0001 C CNN
+F 2 "" H 1825 3425 60  0000 C CNN
+F 3 "" H 1825 3425 60  0000 C CNN
+	1    1825 3425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2125 2025 2125 2775
+Connection ~ 2125 2175
+Connection ~ 2125 2125
+Connection ~ 2125 2075
+$Comp
+L +3.3V #PWR?
+U 1 1 5636DF11
+P 2125 2025
+F 0 "#PWR?" H 2125 1985 30  0001 C CNN
+F 1 "+3.3V" H 2125 2135 30  0000 C CNN
+F 2 "" H 2125 2025 60  0000 C CNN
+F 3 "" H 2125 2025 60  0000 C CNN
+	1    2125 2025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2375 3250 2325
+$Comp
+L +3.3V #PWR?
+U 1 1 5636DF18
+P 3250 2325
+F 0 "#PWR?" H 3250 2285 30  0001 C CNN
+F 1 "+3.3V" H 3250 2435 30  0000 C CNN
+F 2 "" H 3250 2325 60  0000 C CNN
+F 3 "" H 3250 2325 60  0000 C CNN
+	1    3250 2325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2925 2825 3225 2825
+$Comp
+L C_Small C?
+U 1 1 5636DF1F
+P 3325 2825
+F 0 "C?" H 3350 2875 30  0000 L CNN
+F 1 "2.2u" H 3350 2775 30  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 3325 2825 60  0001 C CNN
+F 3 "" H 3325 2825 60  0000 C CNN
+	1    3325 2825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5636DF26
+P 3325 2675
+F 0 "C?" H 3350 2725 30  0000 L CNN
+F 1 "2.2u" H 3350 2625 30  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 3325 2675 60  0001 C CNN
+F 3 "" H 3325 2675 60  0000 C CNN
+	1    3325 2675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2925 2775 3225 2775
+Wire Wire Line
+	3225 2775 3225 2675
+Wire Wire Line
+	3425 2825 3425 2675
+Wire Wire Line
+	3425 2675 3525 2675
+Wire Wire Line
+	3525 2675 3525 2725
+$Comp
+L GND #PWR?
+U 1 1 5636DF32
+P 3525 2725
+F 0 "#PWR?" H 3525 2725 30  0001 C CNN
+F 1 "GND" H 3525 2655 30  0001 C CNN
+F 2 "" H 3525 2725 60  0000 C CNN
+F 3 "" H 3525 2725 60  0000 C CNN
+	1    3525 2725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2275 4650 2375
+Wire Wire Line
+	4400 2275 4650 2275
+Wire Wire Line
+	3800 2975 3800 2275
+Wire Wire Line
+	3800 2275 4000 2275
+Wire Wire Line
+	4100 3025 4100 2975
+Wire Wire Line
+	4100 2975 4000 2975
+Connection ~ 3375 3725
+Wire Wire Line
+	3125 3725 3575 3725
+Wire Wire Line
+	2925 3375 3125 3375
+Wire Wire Line
+	3125 3375 3125 3725
+Wire Wire Line
+	2925 3325 3575 3325
+Connection ~ 3375 3325
+Wire Wire Line
+	3775 3325 3775 3875
+Connection ~ 3775 3725
+Wire Wire Line
+	2925 3175 3175 3175
+Wire Wire Line
+	3175 3175 3175 3200
+Wire Wire Line
+	2925 2975 3800 2975
+Connection ~ 3800 2275
+Wire Wire Line
+	3800 2575 4000 2575
+Connection ~ 4000 2275
+Connection ~ 4000 2575
+Wire Wire Line
+	4400 2575 4550 2575
+Wire Wire Line
+	4550 2575 4550 2275
+Connection ~ 4550 2275
+$Comp
+L GND #PWR?
+U 1 1 5636DF50
+P 4650 2375
+F 0 "#PWR?" H 4650 2375 30  0001 C CNN
+F 1 "GND" H 4650 2305 30  0001 C CNN
+F 2 "" H 4650 2375 60  0001 C CNN
+F 3 "" H 4650 2375 60  0001 C CNN
+	1    4650 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L SWITCH_4PIN B1
+U 1 1 5636DF56
+P 4200 2425
+F 0 "B1" H 4207 2648 60  0000 C CNN
+F 1 "SWITCH_4PIN" H 4199 2170 60  0000 C CNN
+F 2 "knielsenlib:SWITCH_FSMJSMA" H 4200 2425 60  0001 C CNN
+F 3 "" H 4200 2425 60  0001 C CNN
+	1    4200 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5636DF5D
+P 4100 3025
+F 0 "#PWR?" H 4100 3025 30  0001 C CNN
+F 1 "GND" H 4100 2955 30  0001 C CNN
+F 2 "" H 4100 3025 60  0001 C CNN
+F 3 "" H 4100 3025 60  0001 C CNN
+	1    4100 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5636DF63
+P 3900 2975
+F 0 "C?" H 3925 3025 30  0000 L CNN
+F 1 "100n" H 3925 2925 30  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 3900 2975 60  0001 C CNN
+F 3 "" H 3900 2975 60  0001 C CNN
+	1    3900 2975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5636DF6A
+P 3175 3200
+F 0 "#PWR?" H 3175 3200 30  0001 C CNN
+F 1 "GND" H 3175 3130 30  0001 C CNN
+F 2 "" H 3175 3200 60  0001 C CNN
+F 3 "" H 3175 3200 60  0001 C CNN
+	1    3175 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5636DF70
+P 3775 3875
+F 0 "#PWR?" H 3775 3875 30  0001 C CNN
+F 1 "GND" H 3775 3805 30  0001 C CNN
+F 2 "" H 3775 3875 60  0001 C CNN
+F 3 "" H 3775 3875 60  0001 C CNN
+	1    3775 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5636DF76
+P 3675 3725
+F 0 "C?" H 3700 3775 30  0000 L CNN
+F 1 "22p" H 3700 3675 30  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 3675 3725 60  0001 C CNN
+F 3 "" H 3675 3725 60  0001 C CNN
+	1    3675 3725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5636DF7D
+P 3675 3325
+F 0 "C?" H 3700 3375 30  0000 L CNN
+F 1 "22p" H 3700 3275 30  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 3675 3325 60  0001 C CNN
+F 3 "" H 3675 3325 60  0001 C CNN
+	1    3675 3325
+	0    -1   -1   0   
+$EndComp
+Text Label 2975 3375 0    30   ~ 0
+osc_out
+Text Label 2975 3325 0    30   ~ 0
+osc_in
+$Comp
+L CRYSTAL_SMD X1
+U 1 1 5636DF86
+P 3375 3525
+F 0 "X1" H 3375 3675 60  0000 C CNN
+F 1 "CRYSTAL" H 3375 3375 60  0000 C CNN
+F 2 "knielsenlib:2-SOJ" H 3375 3525 60  0001 C CNN
+F 3 "" H 3375 3525 60  0001 C CNN
+	1    3375 3525
+	0    -1   -1   0   
+$EndComp
+Text Label 2975 2975 0    30   ~ 0
+nrst
+Wire Wire Line
+	2125 2075 1975 2075
+$Comp
+L C_Small C?
+U 1 1 5636DF90
+P 3150 1675
+F 0 "C?" H 3175 1725 30  0000 L CNN
+F 1 "100n" H 3175 1625 30  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 3150 1675 60  0001 C CNN
+F 3 "" H 3150 1675 60  0000 C CNN
+	1    3150 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5636DF97
+P 3350 1675
+F 0 "C?" H 3375 1725 30  0000 L CNN
+F 1 "100n" H 3375 1625 30  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 3350 1675 60  0001 C CNN
+F 3 "" H 3350 1675 60  0000 C CNN
+	1    3350 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5636DF9E
+P 3550 1675
+F 0 "C?" H 3575 1725 30  0000 L CNN
+F 1 "100n" H 3575 1625 30  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 3550 1675 60  0001 C CNN
+F 3 "" H 3550 1675 60  0000 C CNN
+	1    3550 1675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1775 4150 1775
+Connection ~ 3350 1775
+$Comp
+L C_Small C?
+U 1 1 5636DFA7
+P 3750 1675
+F 0 "C?" H 3775 1725 30  0000 L CNN
+F 1 "100n" H 3775 1625 30  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 3750 1675 60  0001 C CNN
+F 3 "" H 3750 1675 60  0000 C CNN
+	1    3750 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5636DFAE
+P 3950 1675
+F 0 "C?" H 3975 1725 30  0000 L CNN
+F 1 "100n" H 3975 1625 30  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 3950 1675 60  0001 C CNN
+F 3 "" H 3950 1675 60  0000 C CNN
+	1    3950 1675
+	1    0    0    -1  
+$EndComp
+Connection ~ 3550 1775
+Connection ~ 3750 1775
+$Comp
+L C_Small C?
+U 1 1 5636DFB7
+P 4150 1675
+F 0 "C?" H 4175 1725 30  0000 L CNN
+F 1 "4.7u" H 4175 1625 30  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 4150 1675 60  0001 C CNN
+F 3 "" H 4150 1675 60  0000 C CNN
+	1    4150 1675
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 1775
+Wire Wire Line
+	2950 1575 4350 1575
+Connection ~ 3350 1575
+Connection ~ 3550 1575
+Connection ~ 3750 1575
+Connection ~ 3950 1575
+Wire Wire Line
+	4350 1575 4350 1675
+Connection ~ 4150 1575
+$Comp
+L GND #PWR?
+U 1 1 5636DFC6
+P 4350 1675
+F 0 "#PWR?" H 4350 1675 30  0001 C CNN
+F 1 "GND" H 4350 1605 30  0001 C CNN
+F 2 "" H 4350 1675 60  0000 C CNN
+F 3 "" H 4350 1675 60  0000 C CNN
+	1    4350 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5636DFCC
+P 2950 1675
+F 0 "C?" H 2975 1725 30  0000 L CNN
+F 1 "100n" H 2975 1625 30  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 2950 1675 60  0001 C CNN
+F 3 "" H 2950 1675 60  0000 C CNN
+	1    2950 1675
+	1    0    0    -1  
+$EndComp
+Connection ~ 3150 1775
+Connection ~ 3150 1575
+Connection ~ 7850 1875
+Wire Wire Line
+	7850 2025 7850 1875
+Connection ~ 6750 2575
+Wire Wire Line
+	6750 2325 6750 2625
+Wire Wire Line
+	6400 1875 7050 1875
+Wire Wire Line
+	7650 1875 8150 1875
+Wire Wire Line
+	6750 2025 6750 1875
+Connection ~ 6750 1875
+Wire Wire Line
+	6550 1875 6550 1825
+Connection ~ 6550 1875
+Wire Wire Line
+	6550 2575 7850 2575
+Wire Wire Line
+	7850 2575 7850 2325
+Wire Wire Line
+	7050 1975 7050 2575
+Connection ~ 7050 2575
+$Comp
+L LP38691 U6
+U 1 1 5636DFE3
+P 7350 1925
+F 0 "U6" H 7350 2075 60  0000 C CNN
+F 1 "LP38691" H 7350 1725 60  0000 C CNN
+F 2 "knielsenlib:TO-252-3" H 7350 1925 60  0001 C CNN
+F 3 "" H 7350 1925 60  0001 C CNN
+	1    7350 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 5636DFEA
+P 6550 2575
+F 0 "#FLG?" H 6550 2670 30  0001 C CNN
+F 1 "PWR_FLAG" H 6550 2755 30  0000 C CNN
+F 2 "" H 6550 2575 60  0001 C CNN
+F 3 "" H 6550 2575 60  0001 C CNN
+	1    6550 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 5636DFF0
+P 6550 1825
+F 0 "#FLG?" H 6550 1920 30  0001 C CNN
+F 1 "PWR_FLAG" H 6550 2005 30  0000 C CNN
+F 2 "" H 6550 1825 60  0001 C CNN
+F 3 "" H 6550 1825 60  0001 C CNN
+	1    6550 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5636DFF6
+P 6400 1875
+F 0 "#PWR?" H 6400 1965 20  0001 C CNN
+F 1 "+5V" H 6400 1965 30  0000 C CNN
+F 2 "" H 6400 1875 60  0001 C CNN
+F 3 "" H 6400 1875 60  0001 C CNN
+	1    6400 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5636DFFC
+P 7850 2175
+F 0 "C?" H 7900 2275 50  0000 L CNN
+F 1 "2.2u" H 7900 2075 50  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 7850 2175 60  0001 C CNN
+F 3 "" H 7850 2175 60  0001 C CNN
+	1    7850 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5636E003
+P 6750 2175
+F 0 "C?" H 6800 2275 50  0000 L CNN
+F 1 "2.2u" H 6800 2075 50  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 6750 2175 60  0001 C CNN
+F 3 "" H 6750 2175 60  0001 C CNN
+	1    6750 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5636E00A
+P 6750 2625
+F 0 "#PWR?" H 6750 2625 30  0001 C CNN
+F 1 "GND" H 6750 2555 30  0001 C CNN
+F 2 "" H 6750 2625 60  0001 C CNN
+F 3 "" H 6750 2625 60  0001 C CNN
+	1    6750 2625
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 5636E010
+P 8150 1875
+F 0 "#PWR?" H 8150 1835 30  0001 C CNN
+F 1 "+3.3V" H 8150 1985 30  0000 C CNN
+F 2 "" H 8150 1875 60  0001 C CNN
+F 3 "" H 8150 1875 60  0001 C CNN
+	1    8150 1875
+	1    0    0    -1  
+$EndComp
+Connection ~ 8000 1875
+Wire Wire Line
+	6775 4925 6775 4975
+Wire Wire Line
+	6775 4975 7025 4975
+Wire Wire Line
+	7325 4975 7625 4975
+Wire Wire Line
+	8275 4975 8275 5625
+Wire Wire Line
+	8275 4975 8025 4975
+Wire Wire Line
+	8025 5425 8275 5425
+Connection ~ 8275 5425
+Wire Wire Line
+	7325 5425 7625 5425
+Wire Wire Line
+	6625 5425 7025 5425
+Text Label 6675 5425 0    40   ~ 0
+user_led
+$Comp
+L +3.3V #PWR?
+U 1 1 5636E021
+P 6775 4925
+F 0 "#PWR?" H 6775 4885 30  0001 C CNN
+F 1 "+3.3V" H 6775 5035 30  0000 C CNN
+F 2 "" H 6775 4925 60  0001 C CNN
+F 3 "" H 6775 4925 60  0001 C CNN
+	1    6775 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5636E027
+P 8275 5625
+F 0 "#PWR?" H 8275 5625 30  0001 C CNN
+F 1 "GND" H 8275 5555 30  0001 C CNN
+F 2 "" H 8275 5625 60  0001 C CNN
+F 3 "" H 8275 5625 60  0001 C CNN
+	1    8275 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5636E02D
+P 7175 5425
+F 0 "R?" V 7255 5425 50  0000 C CNN
+F 1 "1k" V 7175 5425 50  0000 C CNN
+F 2 "w_smd_resistors:r_0805" H 7175 5425 60  0001 C CNN
+F 3 "" H 7175 5425 60  0001 C CNN
+	1    7175 5425
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5636E034
+P 7175 4975
+F 0 "R?" V 7255 4975 50  0000 C CNN
+F 1 "1k" V 7175 4975 50  0000 C CNN
+F 2 "w_smd_resistors:r_0805" H 7175 4975 60  0001 C CNN
+F 3 "" H 7175 4975 60  0001 C CNN
+	1    7175 4975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 5636E03B
+P 7825 5425
+F 0 "D2" H 7825 5525 50  0000 C CNN
+F 1 "SML-211YTT86" H 7825 5325 50  0000 C CNN
+F 2 "w_smd_leds:Led_0805" H 7825 5425 60  0001 C CNN
+F 3 "" H 7825 5425 60  0001 C CNN
+	1    7825 5425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 5636E042
+P 7825 4975
+F 0 "D1" H 7825 5075 50  0000 C CNN
+F 1 "SML-211UTT86" H 7825 4875 50  0000 C CNN
+F 2 "w_smd_leds:Led_0805" H 7825 4975 60  0001 C CNN
+F 3 "" H 7825 4975 60  0001 C CNN
+	1    7825 4975
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 4775 2600 4725
+Wire Wire Line
+	2600 4725 2450 4725
+Wire Wire Line
+	2650 5725 3000 5725
+Wire Wire Line
+	2650 5425 3000 5425
+Wire Wire Line
+	2800 6525 2800 6625
+Wire Wire Line
+	2650 5625 3000 5625
+Wire Wire Line
+	2650 5525 3000 5525
+Wire Wire Line
+	2650 5925 2800 5925
+Wire Wire Line
+	2650 5825 2950 5825
+Wire Wire Line
+	2950 5825 2950 5925
+Wire Wire Line
+	3000 5025 3200 5025
+Wire Wire Line
+	2450 4925 2700 4925
+Wire Wire Line
+	2700 4925 2700 4775
+Wire Wire Line
+	2700 4775 2900 4775
+$Comp
+L GND #PWR?
+U 1 1 5636E057
+P 2800 6625
+F 0 "#PWR?" H 2800 6625 30  0001 C CNN
+F 1 "GND" H 2800 6555 30  0001 C CNN
+F 2 "" H 2800 6625 60  0001 C CNN
+F 3 "" H 2800 6625 60  0001 C CNN
+	1    2800 6625
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5636E05D
+P 2600 4775
+F 0 "#PWR?" H 2600 4775 30  0001 C CNN
+F 1 "GND" H 2600 4705 30  0001 C CNN
+F 2 "" H 2600 4775 60  0001 C CNN
+F 3 "" H 2600 4775 60  0001 C CNN
+	1    2600 4775
+	1    0    0    -1  
+$EndComp
+Text Label 2700 5725 0    30   ~ 0
+usb_id
+Text Label 2450 4925 0    30   ~ 0
+bat_vcc
+Text Label 2700 5425 0    30   ~ 0
+usb_5v
+Text Label 2700 5525 0    30   ~ 0
+usb_dm
+Text Label 2700 5625 0    30   ~ 0
+usb_dp
+$Comp
+L JUMPER3 JP1
+U 1 1 5636E068
+P 2900 5025
+F 0 "JP1" H 2950 4925 40  0000 L CNN
+F 1 "JUMPER3" H 2900 5125 40  0000 C CNN
+F 2 "w_pin_strip:pin_strip_3" H 2900 5025 60  0001 C CNN
+F 3 "" H 2900 5025 60  0001 C CNN
+	1    2900 5025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5636E06F
+P 2950 5925
+F 0 "#PWR?" H 2950 5925 30  0001 C CNN
+F 1 "GND" H 2950 5855 30  0001 C CNN
+F 2 "" H 2950 5925 60  0001 C CNN
+F 3 "" H 2950 5925 60  0001 C CNN
+	1    2950 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L1
+U 1 1 5636E075
+P 2800 6225
+F 0 "L1" V 2750 6225 40  0000 C CNN
+F 1 "30@100MHz" V 2900 6225 40  0000 C CNN
+F 2 "SMD_Packages:SMD-0603" H 2800 6225 60  0001 C CNN
+F 3 "" H 2800 6225 60  0001 C CNN
+	1    2800 6225
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5636E07C
+P 3200 5025
+F 0 "#PWR?" H 3200 5115 20  0001 C CNN
+F 1 "+5V" H 3200 5115 30  0000 C CNN
+F 2 "" H 3200 5025 60  0001 C CNN
+F 3 "" H 3200 5025 60  0001 C CNN
+	1    3200 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L KNUSB P5
+U 1 1 5636E082
+P 2300 5325
+F 0 "P5" H 2300 5325 60  0000 C CNN
+F 1 "KNUSB" H 2300 4625 60  0000 C CNN
+F 2 "knielsenlib:10103594-0001LF" H 2300 5325 60  0001 C CNN
+F 3 "" H 2300 5325 60  0001 C CNN
+	1    2300 5325
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P4
+U 1 1 5636E089
+P 2250 4825
+F 0 "P4" V 2175 4825 40  0000 C CNN
+F 1 "CONN_2" V 2350 4825 40  0000 C CNN
+F 2 "w_pin_strip:pin_strip_2-90" H 2250 4825 60  0001 C CNN
+F 3 "" H 2250 4825 60  0000 C CNN
+	1    2250 4825
+	-1   0    0    1   
+$EndComp
+Text HLabel 3000 5725 2    60   BiDi ~ 0
+usb_id
+Text HLabel 3000 5625 2    60   BiDi ~ 0
+usb_dp
+Text HLabel 3000 5525 2    60   BiDi ~ 0
+usb_dm
+Text HLabel 6625 5425 0    60   Input ~ 0
+user_led
+Wire Wire Line
+	2900 5275 2900 5425
+Connection ~ 2900 5425
+Text HLabel 3000 5425 2    60   Output ~ 0
+vusb
+Wire Wire Line
+	3525 2900 3525 2975
+Connection ~ 3525 2975
+Text HLabel 3525 2900 2    60   Input ~ 0
+nrst
+Text Notes 2325 1375 0    120  ~ 24
+MCU
+Text Notes 6450 1375 0    120  ~ 24
+Voltage Regulator
+Text Notes 1450 4525 0    120  ~ 24
+Power connectors (USB)
+Text Notes 6525 4525 0    120  ~ 24
+LED indication
+Connection ~ 3800 2575
+Text Label 2950 2775 0    30   ~ 0
+vcap1
+Text Label 2950 2825 0    30   ~ 0
+vcap2
+Wire Wire Line
+	2450 4875 2450 4925
+Wire Wire Line
+	2450 4725 2450 4775
+Wire Wire Line
+	2925 2375 3250 2375
+Wire Wire Line
+	2125 2925 2125 3375
+Connection ~ 2125 2975
+Connection ~ 2125 3025
+Connection ~ 2125 3075
+Connection ~ 2125 3125
+Connection ~ 2125 3175
+Connection ~ 2125 3225
+Connection ~ 2125 3275
+Connection ~ 2125 3325
+Wire Wire Line
+	2125 3375 1825 3375
+Wire Wire Line
+	1825 3375 1825 3425
+Connection ~ 2125 2225
+Connection ~ 2125 2275
+Connection ~ 2125 2325
+Connection ~ 2125 2375
+Connection ~ 2125 2425
+Connection ~ 2125 2475
+Connection ~ 2125 2525
+Connection ~ 2125 2575
+Connection ~ 2125 2625
+Wire Wire Line
+	2925 2075 3125 2075
+Wire Wire Line
+	2925 2125 3050 2125
+Wire Wire Line
+	1975 2075 1975 1775
+$Comp
+L C_Small C?
+U 1 1 563640DF
+P 1975 1675
+F 0 "C?" H 2000 1725 30  0000 L CNN
+F 1 "100n" H 2000 1625 30  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 1975 1675 60  0001 C CNN
+F 3 "" H 1975 1675 60  0000 C CNN
+	1    1975 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 563640E5
+P 2175 1675
+F 0 "C?" H 2200 1725 30  0000 L CNN
+F 1 "100n" H 2200 1625 30  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 2175 1675 60  0001 C CNN
+F 3 "" H 2175 1675 60  0000 C CNN
+	1    2175 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 563640EB
+P 2375 1675
+F 0 "C?" H 2400 1725 30  0000 L CNN
+F 1 "100n" H 2400 1625 30  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 2375 1675 60  0001 C CNN
+F 3 "" H 2375 1675 60  0000 C CNN
+	1    2375 1675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1175 1775 2975 1775
+Connection ~ 2175 1775
+$Comp
+L C_Small C?
+U 1 1 563640F8
+P 2575 1675
+F 0 "C?" H 2600 1725 30  0000 L CNN
+F 1 "100n" H 2600 1625 30  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 2575 1675 60  0001 C CNN
+F 3 "" H 2575 1675 60  0000 C CNN
+	1    2575 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 563640FE
+P 2775 1675
+F 0 "C?" H 2800 1725 30  0000 L CNN
+F 1 "100n" H 2800 1625 30  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 2775 1675 60  0001 C CNN
+F 3 "" H 2775 1675 60  0000 C CNN
+	1    2775 1675
+	1    0    0    -1  
+$EndComp
+Connection ~ 2375 1775
+Connection ~ 2575 1775
+Connection ~ 2775 1775
+Wire Wire Line
+	1175 1575 2975 1575
+Connection ~ 2175 1575
+Connection ~ 2375 1575
+Connection ~ 2575 1575
+Connection ~ 2775 1575
+$Comp
+L C_Small C?
+U 1 1 56364111
+P 1775 1675
+F 0 "C?" H 1800 1725 30  0000 L CNN
+F 1 "100n" H 1800 1625 30  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 1775 1675 60  0001 C CNN
+F 3 "" H 1775 1675 60  0000 C CNN
+	1    1775 1675
+	1    0    0    -1  
+$EndComp
+Connection ~ 1975 1775
+Connection ~ 1975 1575
+$Comp
+L C_Small C?
+U 1 1 56364EBF
+P 1375 1675
+F 0 "C?" H 1400 1725 30  0000 L CNN
+F 1 "100n" H 1400 1625 30  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 1375 1675 60  0001 C CNN
+F 3 "" H 1375 1675 60  0000 C CNN
+	1    1375 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 56364EC5
+P 1575 1675
+F 0 "C?" H 1600 1725 30  0000 L CNN
+F 1 "100n" H 1600 1625 30  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 1575 1675 60  0001 C CNN
+F 3 "" H 1575 1675 60  0000 C CNN
+	1    1575 1675
+	1    0    0    -1  
+$EndComp
+Connection ~ 1575 1775
+Connection ~ 1575 1575
+$Comp
+L C_Small C?
+U 1 1 56364ED3
+P 1175 1675
+F 0 "C?" H 1200 1725 30  0000 L CNN
+F 1 "100n" H 1200 1625 30  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 1175 1675 60  0001 C CNN
+F 3 "" H 1175 1675 60  0000 C CNN
+	1    1175 1675
+	1    0    0    -1  
+$EndComp
+Connection ~ 1375 1775
+Connection ~ 1375 1575
+Connection ~ 1775 1775
+Connection ~ 1775 1575
+Connection ~ 2975 1575
+Connection ~ 2975 1775
+Wire Wire Line
+	2925 3025 3250 3025
+Wire Wire Line
+	3250 3025 3250 3150
+Wire Wire Line
+	3250 3150 3350 3150
+$Comp
+L +3.3V #PWR?
+U 1 1 5636533F
+P 3350 3150
+F 0 "#PWR?" H 3350 3000 50  0001 C CNN
+F 1 "+3.3V" H 3350 3290 30  0000 C CNN
+F 2 "" H 3350 3150 60  0000 C CNN
+F 3 "" H 3350 3150 60  0000 C CNN
+	1    3350 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 2125 2675
+$Comp
+L +3.3V #PWR?
+U 1 1 56365C22
+P 3425 2350
+F 0 "#PWR?" H 3425 2200 50  0001 C CNN
+F 1 "+3.3V" H 3425 2490 30  0000 C CNN
+F 2 "" H 3425 2350 60  0000 C CNN
+F 3 "" H 3425 2350 60  0000 C CNN
+	1    3425 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2925 2425 3425 2425
+Wire Wire Line
+	2925 2625 3175 2625
+Wire Wire Line
+	3175 2625 3175 2475
+Wire Wire Line
+	2925 2475 3375 2475
+Connection ~ 3175 2475
+$Comp
+L C_Small C?
+U 1 1 56366493
+P 3475 2475
+F 0 "C?" H 3400 2525 30  0000 L CNN
+F 1 "2.2u" H 3500 2425 30  0000 L CNN
+F 2 "" H 3475 2475 60  0000 C CNN
+F 3 "" H 3475 2475 60  0000 C CNN
+	1    3475 2475
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2925 2525 2975 2525
+Wire Wire Line
+	2975 2525 2975 2500
+Wire Wire Line
+	2975 2500 3050 2500
+$Comp
+L GND #PWR?
+U 1 1 56366C02
+P 3050 2500
+F 0 "#PWR?" H 3050 2250 50  0001 C CNN
+F 1 "GND" H 3100 2475 30  0000 C CNN
+F 2 "" H 3050 2500 60  0000 C CNN
+F 3 "" H 3050 2500 60  0000 C CNN
+	1    3050 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2925 2575 2925 2525
+Connection ~ 2925 2525
+Wire Wire Line
+	2925 3075 3050 3075
+$Comp
+L GND #PWR?
+U 1 1 563674FC
+P 3050 3075
+F 0 "#PWR?" H 3050 2825 50  0001 C CNN
+F 1 "GND" H 3100 3050 30  0000 C CNN
+F 2 "" H 3050 3075 60  0000 C CNN
+F 3 "" H 3050 3075 60  0000 C CNN
+	1    3050 3075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2925 2275 2925 2375
+Wire Wire Line
+	2925 2175 2975 2175
+Wire Wire Line
+	2975 2175 2975 2300
+Wire Wire Line
+	2975 2300 3125 2300
+Wire Wire Line
+	3125 2300 3125 2075
+Connection ~ 3050 2075
+Wire Wire Line
+	3125 2175 3475 2175
+Connection ~ 3125 2175
+$Comp
+L C_Small C?
+U 1 1 563686B6
+P 3250 2075
+F 0 "C?" H 3260 2145 30  0000 L CNN
+F 1 "10n" H 3250 2025 30  0000 L CNN
+F 2 "" H 3250 2075 60  0000 C CNN
+F 3 "" H 3250 2075 60  0000 C CNN
+	1    3250 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 56368737
+P 3475 2075
+F 0 "C?" H 3485 2145 30  0000 L CNN
+F 1 "1u" H 3475 2025 30  0000 L CNN
+F 2 "" H 3475 2075 60  0000 C CNN
+F 3 "" H 3475 2075 60  0000 C CNN
+	1    3475 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1975 3725 1975
+Wire Wire Line
+	3725 1975 3725 2000
+Connection ~ 3475 1975
+$Comp
+L GND #PWR?
+U 1 1 56368C5C
+P 3725 2000
+F 0 "#PWR?" H 3725 1750 50  0001 C CNN
+F 1 "GND" H 3725 1850 30  0000 C CNN
+F 2 "" H 3725 2000 60  0000 C CNN
+F 3 "" H 3725 2000 60  0000 C CNN
+	1    3725 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 3250 2175
+Wire Wire Line
+	3050 2025 3050 2075
+Wire Wire Line
+	3425 2425 3425 2350
+Wire Wire Line
+	3425 2350 3475 2350
+Wire Wire Line
+	3475 2350 3475 2250
+Wire Wire Line
+	3475 2250 3650 2250
+$Comp
+L C_Small C?
+U 1 1 5636969C
+P 3650 2350
+F 0 "C?" H 3660 2420 30  0000 L CNN
+F 1 "100n" H 3660 2270 30  0000 L CNN
+F 2 "" H 3650 2350 60  0000 C CNN
+F 3 "" H 3650 2350 60  0000 C CNN
+	1    3650 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3575 2475 3650 2475
+Wire Wire Line
+	3650 2450 3650 2525
+Connection ~ 3650 2475
+$Comp
+L GND #PWR?
+U 1 1 563698CB
+P 3650 2525
+F 0 "#PWR?" H 3650 2275 50  0001 C CNN
+F 1 "GND" H 3650 2375 30  0000 C CNN
+F 2 "" H 3650 2525 60  0000 C CNN
+F 3 "" H 3650 2525 60  0000 C CNN
+	1    3650 2525
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
