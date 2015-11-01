@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -884,4 +884,10 @@ Wire Wire Line
 	5600 1700 5250 1700
 Wire Wire Line
 	5600 1600 5250 1600
+$Sheet
+S 8675 1675 1175 1975
+U 5636686F
+F0 "LEDs" 60
+F1 "leds.sch" 60
+$EndSheet
 $EndSCHEMATC
