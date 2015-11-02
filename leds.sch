@@ -122,11 +122,11 @@ Wire Wire Line
 Wire Wire Line
 	2050 4050 2250 4050
 Text Label 2100 3950 0    30   ~ 0
-led1r
+led2r
 Text Label 2100 4000 0    30   ~ 0
-led1g
+led2g
 Text Label 2100 4050 0    30   ~ 0
-led1b
+led2b
 $Comp
 L RGB_LED_SMALL LD3
 U 1 1 56375628
@@ -158,11 +158,11 @@ Wire Wire Line
 Wire Wire Line
 	2650 4050 2850 4050
 Text Label 2700 3950 0    30   ~ 0
-led1r
+led3r
 Text Label 2700 4000 0    30   ~ 0
-led1g
+led3g
 Text Label 2700 4050 0    30   ~ 0
-led1b
+led3b
 $Comp
 L RGB_LED_SMALL LD4
 U 1 1 5637563B
@@ -194,11 +194,11 @@ Wire Wire Line
 Wire Wire Line
 	3250 4050 3450 4050
 Text Label 3300 3950 0    30   ~ 0
-led1r
+led4r
 Text Label 3300 4000 0    30   ~ 0
-led1g
+led4g
 Text Label 3300 4050 0    30   ~ 0
-led1b
+led4b
 $Comp
 L RGB_LED_SMALL LD5
 U 1 1 563757D6
@@ -230,11 +230,11 @@ Wire Wire Line
 Wire Wire Line
 	3850 4050 4050 4050
 Text Label 3900 3950 0    30   ~ 0
-led1r
+led5r
 Text Label 3900 4000 0    30   ~ 0
-led1g
+led5g
 Text Label 3900 4050 0    30   ~ 0
-led1b
+led5b
 $Comp
 L RGB_LED_SMALL LD6
 U 1 1 563757E9
@@ -266,11 +266,11 @@ Wire Wire Line
 Wire Wire Line
 	4450 4050 4650 4050
 Text Label 4500 3950 0    30   ~ 0
-led1r
+led6r
 Text Label 4500 4000 0    30   ~ 0
-led1g
+led6g
 Text Label 4500 4050 0    30   ~ 0
-led1b
+led6b
 $Comp
 L RGB_LED_SMALL LD7
 U 1 1 563757FC
@@ -302,11 +302,11 @@ Wire Wire Line
 Wire Wire Line
 	5050 4050 5250 4050
 Text Label 5100 3950 0    30   ~ 0
-led1r
+led7r
 Text Label 5100 4000 0    30   ~ 0
-led1g
+led7g
 Text Label 5100 4050 0    30   ~ 0
-led1b
+led7b
 $Comp
 L RGB_LED_SMALL LD8
 U 1 1 5637580F
@@ -338,11 +338,11 @@ Wire Wire Line
 Wire Wire Line
 	5650 4050 5850 4050
 Text Label 5700 3950 0    30   ~ 0
-led1r
+led8r
 Text Label 5700 4000 0    30   ~ 0
-led1g
+led8g
 Text Label 5700 4050 0    30   ~ 0
-led1b
+led8b
 $Comp
 L RGB_LED_SMALL LD9
 U 1 1 56375B5A
@@ -374,11 +374,11 @@ Wire Wire Line
 Wire Wire Line
 	6250 4050 6450 4050
 Text Label 6300 3950 0    30   ~ 0
-led1r
+led9r
 Text Label 6300 4000 0    30   ~ 0
-led1g
+led9g
 Text Label 6300 4050 0    30   ~ 0
-led1b
+led9b
 $Comp
 L RGB_LED_SMALL LD10
 U 1 1 56375B6D
@@ -410,11 +410,11 @@ Wire Wire Line
 Wire Wire Line
 	6850 4050 7050 4050
 Text Label 6900 3950 0    30   ~ 0
-led1r
+led10r
 Text Label 6900 4000 0    30   ~ 0
-led1g
+led10g
 Text Label 6900 4050 0    30   ~ 0
-led1b
+led10b
 $Comp
 L RGB_LED_SMALL LD11
 U 1 1 56375B80
@@ -446,11 +446,11 @@ Wire Wire Line
 Wire Wire Line
 	7450 4050 7650 4050
 Text Label 7500 3950 0    30   ~ 0
-led1r
+led11r
 Text Label 7500 4000 0    30   ~ 0
-led1g
+led11g
 Text Label 7500 4050 0    30   ~ 0
-led1b
+led11b
 $Comp
 L RGB_LED_SMALL LD12
 U 1 1 56375B93
@@ -482,11 +482,11 @@ Wire Wire Line
 Wire Wire Line
 	8050 4050 8250 4050
 Text Label 8100 3950 0    30   ~ 0
-led1r
+led12r
 Text Label 8100 4000 0    30   ~ 0
-led1g
+led12g
 Text Label 8100 4050 0    30   ~ 0
-led1b
+led12b
 $Comp
 L RGB_LED_SMALL LD13
 U 1 1 56375BA6
@@ -518,11 +518,11 @@ Wire Wire Line
 Wire Wire Line
 	8650 4050 8850 4050
 Text Label 8700 3950 0    30   ~ 0
-led1r
+led13r
 Text Label 8700 4000 0    30   ~ 0
-led1g
+led13g
 Text Label 8700 4050 0    30   ~ 0
-led1b
+led13b
 $Comp
 L RGB_LED_SMALL LD14
 U 1 1 56375BB9
@@ -554,11 +554,11 @@ Wire Wire Line
 Wire Wire Line
 	9250 4050 9450 4050
 Text Label 9300 3950 0    30   ~ 0
-led1r
+led14r
 Text Label 9300 4000 0    30   ~ 0
-led1g
+led14g
 Text Label 9300 4050 0    30   ~ 0
-led1b
+led14b
 $Comp
 L RGB_LED_SMALL LD15
 U 1 1 56375BCC
@@ -590,11 +590,11 @@ Wire Wire Line
 Wire Wire Line
 	9850 4050 10050 4050
 Text Label 9900 3950 0    30   ~ 0
-led1r
+led15r
 Text Label 9900 4000 0    30   ~ 0
-led1g
+led15g
 Text Label 9900 4050 0    30   ~ 0
-led1b
+led15b
 $Comp
 L RGB_LED_SMALL LD16
 U 1 1 56375BDF
@@ -626,11 +626,11 @@ Wire Wire Line
 Wire Wire Line
 	10450 4050 10650 4050
 Text Label 10500 3950 0    30   ~ 0
-led1r
+led16r
 Text Label 10500 4000 0    30   ~ 0
-led1g
+led16g
 Text Label 10500 4050 0    30   ~ 0
-led1b
+led16b
 $Comp
 L RGB_LED_SMALL LD17
 U 1 1 56375E0A
@@ -662,11 +662,11 @@ Wire Wire Line
 Wire Wire Line
 	1450 4650 1650 4650
 Text Label 1500 4550 0    30   ~ 0
-led1r
+led17r
 Text Label 1500 4600 0    30   ~ 0
-led1g
+led17g
 Text Label 1500 4650 0    30   ~ 0
-led1b
+led17b
 $Comp
 L RGB_LED_SMALL LD18
 U 1 1 56375E1D
@@ -698,11 +698,11 @@ Wire Wire Line
 Wire Wire Line
 	2050 4650 2250 4650
 Text Label 2100 4550 0    30   ~ 0
-led1r
+led18r
 Text Label 2100 4600 0    30   ~ 0
-led1g
+led18g
 Text Label 2100 4650 0    30   ~ 0
-led1b
+led18b
 $Comp
 L RGB_LED_SMALL LD19
 U 1 1 56375E30
@@ -734,11 +734,11 @@ Wire Wire Line
 Wire Wire Line
 	2650 4650 2850 4650
 Text Label 2700 4550 0    30   ~ 0
-led1r
+led19r
 Text Label 2700 4600 0    30   ~ 0
-led1g
+led19g
 Text Label 2700 4650 0    30   ~ 0
-led1b
+led19b
 $Comp
 L RGB_LED_SMALL LD20
 U 1 1 56375E43
@@ -770,11 +770,11 @@ Wire Wire Line
 Wire Wire Line
 	3250 4650 3450 4650
 Text Label 3300 4550 0    30   ~ 0
-led1r
+led20r
 Text Label 3300 4600 0    30   ~ 0
-led1g
+led20g
 Text Label 3300 4650 0    30   ~ 0
-led1b
+led20b
 $Comp
 L RGB_LED_SMALL LD21
 U 1 1 56375E56
@@ -806,11 +806,11 @@ Wire Wire Line
 Wire Wire Line
 	3850 4650 4050 4650
 Text Label 3900 4550 0    30   ~ 0
-led1r
+led21r
 Text Label 3900 4600 0    30   ~ 0
-led1g
+led21g
 Text Label 3900 4650 0    30   ~ 0
-led1b
+led21b
 $Comp
 L RGB_LED_SMALL LD22
 U 1 1 56375E69
@@ -842,11 +842,11 @@ Wire Wire Line
 Wire Wire Line
 	4450 4650 4650 4650
 Text Label 4500 4550 0    30   ~ 0
-led1r
+led22r
 Text Label 4500 4600 0    30   ~ 0
-led1g
+led22g
 Text Label 4500 4650 0    30   ~ 0
-led1b
+led22b
 $Comp
 L RGB_LED_SMALL LD23
 U 1 1 56375E7C
@@ -878,11 +878,11 @@ Wire Wire Line
 Wire Wire Line
 	5050 4650 5250 4650
 Text Label 5100 4550 0    30   ~ 0
-led1r
+led23r
 Text Label 5100 4600 0    30   ~ 0
-led1g
+led23g
 Text Label 5100 4650 0    30   ~ 0
-led1b
+led23b
 $Comp
 L RGB_LED_SMALL LD24
 U 1 1 56375E8F
@@ -914,11 +914,11 @@ Wire Wire Line
 Wire Wire Line
 	5650 4650 5850 4650
 Text Label 5700 4550 0    30   ~ 0
-led1r
+led24r
 Text Label 5700 4600 0    30   ~ 0
-led1g
+led24g
 Text Label 5700 4650 0    30   ~ 0
-led1b
+led24b
 $Comp
 L RGB_LED_SMALL LD25
 U 1 1 56375EA2
@@ -950,11 +950,11 @@ Wire Wire Line
 Wire Wire Line
 	6250 4650 6450 4650
 Text Label 6300 4550 0    30   ~ 0
-led1r
+led25r
 Text Label 6300 4600 0    30   ~ 0
-led1g
+led25g
 Text Label 6300 4650 0    30   ~ 0
-led1b
+led25b
 $Comp
 L RGB_LED_SMALL LD26
 U 1 1 56375EB5
@@ -986,11 +986,11 @@ Wire Wire Line
 Wire Wire Line
 	6850 4650 7050 4650
 Text Label 6900 4550 0    30   ~ 0
-led1r
+led26r
 Text Label 6900 4600 0    30   ~ 0
-led1g
+led26g
 Text Label 6900 4650 0    30   ~ 0
-led1b
+led26b
 $Comp
 L RGB_LED_SMALL LD27
 U 1 1 56375EC8
@@ -1022,11 +1022,11 @@ Wire Wire Line
 Wire Wire Line
 	7450 4650 7650 4650
 Text Label 7500 4550 0    30   ~ 0
-led1r
+led27r
 Text Label 7500 4600 0    30   ~ 0
-led1g
+led27g
 Text Label 7500 4650 0    30   ~ 0
-led1b
+led27b
 $Comp
 L RGB_LED_SMALL LD28
 U 1 1 56375EDB
@@ -1058,11 +1058,11 @@ Wire Wire Line
 Wire Wire Line
 	8050 4650 8250 4650
 Text Label 8100 4550 0    30   ~ 0
-led1r
+led28r
 Text Label 8100 4600 0    30   ~ 0
-led1g
+led28g
 Text Label 8100 4650 0    30   ~ 0
-led1b
+led28b
 $Comp
 L RGB_LED_SMALL LD29
 U 1 1 56375EEE
@@ -1094,11 +1094,11 @@ Wire Wire Line
 Wire Wire Line
 	8650 4650 8850 4650
 Text Label 8700 4550 0    30   ~ 0
-led1r
+led29r
 Text Label 8700 4600 0    30   ~ 0
-led1g
+led29g
 Text Label 8700 4650 0    30   ~ 0
-led1b
+led29b
 $Comp
 L RGB_LED_SMALL LD30
 U 1 1 56375F01
@@ -1130,11 +1130,11 @@ Wire Wire Line
 Wire Wire Line
 	9250 4650 9450 4650
 Text Label 9300 4550 0    30   ~ 0
-led1r
+led30r
 Text Label 9300 4600 0    30   ~ 0
-led1g
+led30g
 Text Label 9300 4650 0    30   ~ 0
-led1b
+led30b
 $Comp
 L RGB_LED_SMALL LD31
 U 1 1 56375F14
@@ -1166,11 +1166,11 @@ Wire Wire Line
 Wire Wire Line
 	9850 4650 10050 4650
 Text Label 9900 4550 0    30   ~ 0
-led1r
+led31r
 Text Label 9900 4600 0    30   ~ 0
-led1g
+led31g
 Text Label 9900 4650 0    30   ~ 0
-led1b
+led31b
 $Comp
 L RGB_LED_SMALL LD32
 U 1 1 56375F27
@@ -1202,11 +1202,11 @@ Wire Wire Line
 Wire Wire Line
 	10450 4650 10650 4650
 Text Label 10500 4550 0    30   ~ 0
-led1r
+led32r
 Text Label 10500 4600 0    30   ~ 0
-led1g
+led32g
 Text Label 10500 4650 0    30   ~ 0
-led1b
+led32b
 $Comp
 L RGB_LED_SMALL LD33
 U 1 1 56376452
@@ -1238,11 +1238,11 @@ Wire Wire Line
 Wire Wire Line
 	1450 5250 1650 5250
 Text Label 1500 5150 0    30   ~ 0
-led1r
+led33r
 Text Label 1500 5200 0    30   ~ 0
-led1g
+led33g
 Text Label 1500 5250 0    30   ~ 0
-led1b
+led33b
 $Comp
 L RGB_LED_SMALL LD34
 U 1 1 56376465
@@ -1274,11 +1274,11 @@ Wire Wire Line
 Wire Wire Line
 	2050 5250 2250 5250
 Text Label 2100 5150 0    30   ~ 0
-led1r
+led34r
 Text Label 2100 5200 0    30   ~ 0
-led1g
+led34g
 Text Label 2100 5250 0    30   ~ 0
-led1b
+led34b
 $Comp
 L RGB_LED_SMALL LD35
 U 1 1 56376478
@@ -1310,11 +1310,11 @@ Wire Wire Line
 Wire Wire Line
 	2650 5250 2850 5250
 Text Label 2700 5150 0    30   ~ 0
-led1r
+led35r
 Text Label 2700 5200 0    30   ~ 0
-led1g
+led35g
 Text Label 2700 5250 0    30   ~ 0
-led1b
+led35b
 $Comp
 L RGB_LED_SMALL LD36
 U 1 1 5637648B
@@ -1346,11 +1346,11 @@ Wire Wire Line
 Wire Wire Line
 	3250 5250 3450 5250
 Text Label 3300 5150 0    30   ~ 0
-led1r
+led36r
 Text Label 3300 5200 0    30   ~ 0
-led1g
+led36g
 Text Label 3300 5250 0    30   ~ 0
-led1b
+led36b
 $Comp
 L RGB_LED_SMALL LD37
 U 1 1 5637649E
@@ -1382,11 +1382,11 @@ Wire Wire Line
 Wire Wire Line
 	3850 5250 4050 5250
 Text Label 3900 5150 0    30   ~ 0
-led1r
+led37r
 Text Label 3900 5200 0    30   ~ 0
-led1g
+led37g
 Text Label 3900 5250 0    30   ~ 0
-led1b
+led37b
 $Comp
 L RGB_LED_SMALL LD38
 U 1 1 563764B1
@@ -1418,11 +1418,11 @@ Wire Wire Line
 Wire Wire Line
 	4450 5250 4650 5250
 Text Label 4500 5150 0    30   ~ 0
-led1r
+led38r
 Text Label 4500 5200 0    30   ~ 0
-led1g
+led38g
 Text Label 4500 5250 0    30   ~ 0
-led1b
+led38b
 $Comp
 L RGB_LED_SMALL LD39
 U 1 1 563764C4
@@ -1454,11 +1454,11 @@ Wire Wire Line
 Wire Wire Line
 	5050 5250 5250 5250
 Text Label 5100 5150 0    30   ~ 0
-led1r
+led39r
 Text Label 5100 5200 0    30   ~ 0
-led1g
+led39g
 Text Label 5100 5250 0    30   ~ 0
-led1b
+led39b
 $Comp
 L RGB_LED_SMALL LD40
 U 1 1 563764D7
@@ -1490,11 +1490,11 @@ Wire Wire Line
 Wire Wire Line
 	5650 5250 5850 5250
 Text Label 5700 5150 0    30   ~ 0
-led1r
+led40r
 Text Label 5700 5200 0    30   ~ 0
-led1g
+led40g
 Text Label 5700 5250 0    30   ~ 0
-led1b
+led40b
 $Comp
 L RGB_LED_SMALL LD41
 U 1 1 563764EA
@@ -1526,11 +1526,11 @@ Wire Wire Line
 Wire Wire Line
 	6250 5250 6450 5250
 Text Label 6300 5150 0    30   ~ 0
-led1r
+led41r
 Text Label 6300 5200 0    30   ~ 0
-led1g
+led41g
 Text Label 6300 5250 0    30   ~ 0
-led1b
+led41b
 $Comp
 L RGB_LED_SMALL LD42
 U 1 1 563764FD
@@ -1562,11 +1562,11 @@ Wire Wire Line
 Wire Wire Line
 	6850 5250 7050 5250
 Text Label 6900 5150 0    30   ~ 0
-led1r
+led42r
 Text Label 6900 5200 0    30   ~ 0
-led1g
+led42g
 Text Label 6900 5250 0    30   ~ 0
-led1b
+led42b
 $Comp
 L RGB_LED_SMALL LD43
 U 1 1 56376510
@@ -1598,11 +1598,11 @@ Wire Wire Line
 Wire Wire Line
 	7450 5250 7650 5250
 Text Label 7500 5150 0    30   ~ 0
-led1r
+led43r
 Text Label 7500 5200 0    30   ~ 0
-led1g
+led43g
 Text Label 7500 5250 0    30   ~ 0
-led1b
+led43b
 $Comp
 L RGB_LED_SMALL LD44
 U 1 1 56376523
@@ -1634,11 +1634,11 @@ Wire Wire Line
 Wire Wire Line
 	8050 5250 8250 5250
 Text Label 8100 5150 0    30   ~ 0
-led1r
+led44r
 Text Label 8100 5200 0    30   ~ 0
-led1g
+led44g
 Text Label 8100 5250 0    30   ~ 0
-led1b
+led44b
 $Comp
 L RGB_LED_SMALL LD45
 U 1 1 56376536
@@ -1670,11 +1670,11 @@ Wire Wire Line
 Wire Wire Line
 	8650 5250 8850 5250
 Text Label 8700 5150 0    30   ~ 0
-led1r
+led45r
 Text Label 8700 5200 0    30   ~ 0
-led1g
+led45g
 Text Label 8700 5250 0    30   ~ 0
-led1b
+led45b
 $Comp
 L RGB_LED_SMALL LD46
 U 1 1 56376549
@@ -1706,11 +1706,11 @@ Wire Wire Line
 Wire Wire Line
 	9250 5250 9450 5250
 Text Label 9300 5150 0    30   ~ 0
-led1r
+led46r
 Text Label 9300 5200 0    30   ~ 0
-led1g
+led46g
 Text Label 9300 5250 0    30   ~ 0
-led1b
+led46b
 $Comp
 L RGB_LED_SMALL LD47
 U 1 1 5637655C
@@ -1742,11 +1742,11 @@ Wire Wire Line
 Wire Wire Line
 	9850 5250 10050 5250
 Text Label 9900 5150 0    30   ~ 0
-led1r
+led47r
 Text Label 9900 5200 0    30   ~ 0
-led1g
+led47g
 Text Label 9900 5250 0    30   ~ 0
-led1b
+led47b
 $Comp
 L RGB_LED_SMALL LD48
 U 1 1 5637656F
@@ -1778,11 +1778,11 @@ Wire Wire Line
 Wire Wire Line
 	10450 5250 10650 5250
 Text Label 10500 5150 0    30   ~ 0
-led1r
+led48r
 Text Label 10500 5200 0    30   ~ 0
-led1g
+led48g
 Text Label 10500 5250 0    30   ~ 0
-led1b
+led48b
 $Comp
 L RGB_LED_SMALL LD49
 U 1 1 56376582
@@ -1814,11 +1814,11 @@ Wire Wire Line
 Wire Wire Line
 	1450 5850 1650 5850
 Text Label 1500 5750 0    30   ~ 0
-led1r
+led49r
 Text Label 1500 5800 0    30   ~ 0
-led1g
+led49g
 Text Label 1500 5850 0    30   ~ 0
-led1b
+led49b
 $Comp
 L RGB_LED_SMALL LD50
 U 1 1 56376595
@@ -1850,11 +1850,11 @@ Wire Wire Line
 Wire Wire Line
 	2050 5850 2250 5850
 Text Label 2100 5750 0    30   ~ 0
-led1r
+led50r
 Text Label 2100 5800 0    30   ~ 0
-led1g
+led50g
 Text Label 2100 5850 0    30   ~ 0
-led1b
+led50b
 $Comp
 L RGB_LED_SMALL LD51
 U 1 1 563765A8
@@ -1886,11 +1886,11 @@ Wire Wire Line
 Wire Wire Line
 	2650 5850 2850 5850
 Text Label 2700 5750 0    30   ~ 0
-led1r
+led51r
 Text Label 2700 5800 0    30   ~ 0
-led1g
+led51g
 Text Label 2700 5850 0    30   ~ 0
-led1b
+led51b
 $Comp
 L RGB_LED_SMALL LD52
 U 1 1 563765BB
@@ -1922,11 +1922,11 @@ Wire Wire Line
 Wire Wire Line
 	3250 5850 3450 5850
 Text Label 3300 5750 0    30   ~ 0
-led1r
+led52r
 Text Label 3300 5800 0    30   ~ 0
-led1g
+led52g
 Text Label 3300 5850 0    30   ~ 0
-led1b
+led52b
 $Comp
 L RGB_LED_SMALL LD53
 U 1 1 563765CE
@@ -1958,11 +1958,11 @@ Wire Wire Line
 Wire Wire Line
 	3850 5850 4050 5850
 Text Label 3900 5750 0    30   ~ 0
-led1r
+led53r
 Text Label 3900 5800 0    30   ~ 0
-led1g
+led53g
 Text Label 3900 5850 0    30   ~ 0
-led1b
+led53b
 $Comp
 L RGB_LED_SMALL LD54
 U 1 1 563765E1
@@ -1994,11 +1994,11 @@ Wire Wire Line
 Wire Wire Line
 	4450 5850 4650 5850
 Text Label 4500 5750 0    30   ~ 0
-led1r
+led54r
 Text Label 4500 5800 0    30   ~ 0
-led1g
+led54g
 Text Label 4500 5850 0    30   ~ 0
-led1b
+led54b
 $Comp
 L RGB_LED_SMALL LD55
 U 1 1 563765F4
@@ -2030,11 +2030,11 @@ Wire Wire Line
 Wire Wire Line
 	5050 5850 5250 5850
 Text Label 5100 5750 0    30   ~ 0
-led1r
+led55r
 Text Label 5100 5800 0    30   ~ 0
-led1g
+led55g
 Text Label 5100 5850 0    30   ~ 0
-led1b
+led55b
 $Comp
 L RGB_LED_SMALL LD56
 U 1 1 56376607
@@ -2066,11 +2066,11 @@ Wire Wire Line
 Wire Wire Line
 	5650 5850 5850 5850
 Text Label 5700 5750 0    30   ~ 0
-led1r
+led56r
 Text Label 5700 5800 0    30   ~ 0
-led1g
+led56g
 Text Label 5700 5850 0    30   ~ 0
-led1b
+led56b
 $Comp
 L RGB_LED_SMALL LD57
 U 1 1 5637661A
@@ -2102,11 +2102,11 @@ Wire Wire Line
 Wire Wire Line
 	6250 5850 6450 5850
 Text Label 6300 5750 0    30   ~ 0
-led1r
+led57r
 Text Label 6300 5800 0    30   ~ 0
-led1g
+led57g
 Text Label 6300 5850 0    30   ~ 0
-led1b
+led57b
 $Comp
 L RGB_LED_SMALL LD58
 U 1 1 5637662D
@@ -2138,11 +2138,11 @@ Wire Wire Line
 Wire Wire Line
 	6850 5850 7050 5850
 Text Label 6900 5750 0    30   ~ 0
-led1r
+led58r
 Text Label 6900 5800 0    30   ~ 0
-led1g
+led58g
 Text Label 6900 5850 0    30   ~ 0
-led1b
+led58b
 $Comp
 L RGB_LED_SMALL LD59
 U 1 1 56376640
@@ -2174,11 +2174,11 @@ Wire Wire Line
 Wire Wire Line
 	7450 5850 7650 5850
 Text Label 7500 5750 0    30   ~ 0
-led1r
+led59r
 Text Label 7500 5800 0    30   ~ 0
-led1g
+led59g
 Text Label 7500 5850 0    30   ~ 0
-led1b
+led59b
 $Comp
 L RGB_LED_SMALL LD60
 U 1 1 56376653
@@ -2210,11 +2210,11 @@ Wire Wire Line
 Wire Wire Line
 	8050 5850 8250 5850
 Text Label 8100 5750 0    30   ~ 0
-led1r
+led60r
 Text Label 8100 5800 0    30   ~ 0
-led1g
+led60g
 Text Label 8100 5850 0    30   ~ 0
-led1b
+led60b
 $Comp
 L RGB_LED_SMALL LD61
 U 1 1 56376666
@@ -2246,11 +2246,11 @@ Wire Wire Line
 Wire Wire Line
 	8650 5850 8850 5850
 Text Label 8700 5750 0    30   ~ 0
-led1r
+led61r
 Text Label 8700 5800 0    30   ~ 0
-led1g
+led61g
 Text Label 8700 5850 0    30   ~ 0
-led1b
+led61b
 $Comp
 L RGB_LED_SMALL LD62
 U 1 1 56376679
@@ -2282,11 +2282,11 @@ Wire Wire Line
 Wire Wire Line
 	9250 5850 9450 5850
 Text Label 9300 5750 0    30   ~ 0
-led1r
+led62r
 Text Label 9300 5800 0    30   ~ 0
-led1g
+led62g
 Text Label 9300 5850 0    30   ~ 0
-led1b
+led62b
 $Comp
 L RGB_LED_SMALL LD63
 U 1 1 5637668C
@@ -2318,11 +2318,11 @@ Wire Wire Line
 Wire Wire Line
 	9850 5850 10050 5850
 Text Label 9900 5750 0    30   ~ 0
-led1r
+led63r
 Text Label 9900 5800 0    30   ~ 0
-led1g
+led63g
 Text Label 9900 5850 0    30   ~ 0
-led1b
+led63b
 $Comp
 L RGB_LED_SMALL LD64
 U 1 1 5637669F
@@ -2354,11 +2354,11 @@ Wire Wire Line
 Wire Wire Line
 	10450 5850 10650 5850
 Text Label 10500 5750 0    30   ~ 0
-led1r
+led64r
 Text Label 10500 5800 0    30   ~ 0
-led1g
+led64g
 Text Label 10500 5850 0    30   ~ 0
-led1b
+led64b
 $Comp
 L RGB_LED_SMALL LD65
 U 1 1 563777D6
@@ -2390,11 +2390,11 @@ Wire Wire Line
 Wire Wire Line
 	1450 6450 1650 6450
 Text Label 1500 6350 0    30   ~ 0
-led1r
+led65r
 Text Label 1500 6400 0    30   ~ 0
-led1g
+led65g
 Text Label 1500 6450 0    30   ~ 0
-led1b
+led65b
 $Comp
 L RGB_LED_SMALL LD66
 U 1 1 563777E9
@@ -2426,11 +2426,11 @@ Wire Wire Line
 Wire Wire Line
 	2050 6450 2250 6450
 Text Label 2100 6350 0    30   ~ 0
-led1r
+led66r
 Text Label 2100 6400 0    30   ~ 0
-led1g
+led66g
 Text Label 2100 6450 0    30   ~ 0
-led1b
+led66b
 $Comp
 L RGB_LED_SMALL LD67
 U 1 1 563777FC
@@ -2462,11 +2462,11 @@ Wire Wire Line
 Wire Wire Line
 	2650 6450 2850 6450
 Text Label 2700 6350 0    30   ~ 0
-led1r
+led67r
 Text Label 2700 6400 0    30   ~ 0
-led1g
+led67g
 Text Label 2700 6450 0    30   ~ 0
-led1b
+led67b
 $Comp
 L RGB_LED_SMALL LD68
 U 1 1 5637780F
@@ -2498,11 +2498,11 @@ Wire Wire Line
 Wire Wire Line
 	3250 6450 3450 6450
 Text Label 3300 6350 0    30   ~ 0
-led1r
+led68r
 Text Label 3300 6400 0    30   ~ 0
-led1g
+led68g
 Text Label 3300 6450 0    30   ~ 0
-led1b
+led68b
 $Comp
 L RGB_LED_SMALL LD69
 U 1 1 56377822
@@ -2534,11 +2534,11 @@ Wire Wire Line
 Wire Wire Line
 	3850 6450 4050 6450
 Text Label 3900 6350 0    30   ~ 0
-led1r
+led69r
 Text Label 3900 6400 0    30   ~ 0
-led1g
+led69g
 Text Label 3900 6450 0    30   ~ 0
-led1b
+led69b
 $Comp
 L RGB_LED_SMALL LD70
 U 1 1 56377835
@@ -2570,11 +2570,11 @@ Wire Wire Line
 Wire Wire Line
 	4450 6450 4650 6450
 Text Label 4500 6350 0    30   ~ 0
-led1r
+led70r
 Text Label 4500 6400 0    30   ~ 0
-led1g
+led70g
 Text Label 4500 6450 0    30   ~ 0
-led1b
+led70b
 $Comp
 L RGB_LED_SMALL LD71
 U 1 1 56377848
@@ -2606,11 +2606,11 @@ Wire Wire Line
 Wire Wire Line
 	5050 6450 5250 6450
 Text Label 5100 6350 0    30   ~ 0
-led1r
+led71r
 Text Label 5100 6400 0    30   ~ 0
-led1g
+led71g
 Text Label 5100 6450 0    30   ~ 0
-led1b
+led71b
 $Comp
 L RGB_LED_SMALL LD72
 U 1 1 5637785B
@@ -2642,11 +2642,11 @@ Wire Wire Line
 Wire Wire Line
 	5650 6450 5850 6450
 Text Label 5700 6350 0    30   ~ 0
-led1r
+led72r
 Text Label 5700 6400 0    30   ~ 0
-led1g
+led72g
 Text Label 5700 6450 0    30   ~ 0
-led1b
+led72b
 $Comp
 L RGB_LED_SMALL LD73
 U 1 1 5637786E
@@ -2678,11 +2678,11 @@ Wire Wire Line
 Wire Wire Line
 	6250 6450 6450 6450
 Text Label 6300 6350 0    30   ~ 0
-led1r
+led73r
 Text Label 6300 6400 0    30   ~ 0
-led1g
+led73g
 Text Label 6300 6450 0    30   ~ 0
-led1b
+led73b
 $Comp
 L RGB_LED_SMALL LD74
 U 1 1 56377881
@@ -2714,11 +2714,11 @@ Wire Wire Line
 Wire Wire Line
 	6850 6450 7050 6450
 Text Label 6900 6350 0    30   ~ 0
-led1r
+led74r
 Text Label 6900 6400 0    30   ~ 0
-led1g
+led74g
 Text Label 6900 6450 0    30   ~ 0
-led1b
+led74b
 $Comp
 L RGB_LED_SMALL LD75
 U 1 1 56377894
@@ -2750,11 +2750,11 @@ Wire Wire Line
 Wire Wire Line
 	7450 6450 7650 6450
 Text Label 7500 6350 0    30   ~ 0
-led1r
+led75r
 Text Label 7500 6400 0    30   ~ 0
-led1g
+led75g
 Text Label 7500 6450 0    30   ~ 0
-led1b
+led75b
 $Comp
 L RGB_LED_SMALL LD76
 U 1 1 563778A7
@@ -2786,11 +2786,11 @@ Wire Wire Line
 Wire Wire Line
 	8050 6450 8250 6450
 Text Label 8100 6350 0    30   ~ 0
-led1r
+led76r
 Text Label 8100 6400 0    30   ~ 0
-led1g
+led76g
 Text Label 8100 6450 0    30   ~ 0
-led1b
+led76b
 $Comp
 L RGB_LED_SMALL LD77
 U 1 1 563778BA
@@ -2822,11 +2822,11 @@ Wire Wire Line
 Wire Wire Line
 	8650 6450 8850 6450
 Text Label 8700 6350 0    30   ~ 0
-led1r
+led77r
 Text Label 8700 6400 0    30   ~ 0
-led1g
+led77g
 Text Label 8700 6450 0    30   ~ 0
-led1b
+led77b
 $Comp
 L RGB_LED_SMALL LD78
 U 1 1 563778CD
@@ -2858,11 +2858,11 @@ Wire Wire Line
 Wire Wire Line
 	9250 6450 9450 6450
 Text Label 9300 6350 0    30   ~ 0
-led1r
+led78r
 Text Label 9300 6400 0    30   ~ 0
-led1g
+led78g
 Text Label 9300 6450 0    30   ~ 0
-led1b
+led78b
 $Comp
 L RGB_LED_SMALL LD79
 U 1 1 563778E0
@@ -2894,11 +2894,11 @@ Wire Wire Line
 Wire Wire Line
 	9850 6450 10050 6450
 Text Label 9900 6350 0    30   ~ 0
-led1r
+led79r
 Text Label 9900 6400 0    30   ~ 0
-led1g
+led79g
 Text Label 9900 6450 0    30   ~ 0
-led1b
+led79b
 $Comp
 L RGB_LED_SMALL LD80
 U 1 1 563778F3
@@ -2930,11 +2930,11 @@ Wire Wire Line
 Wire Wire Line
 	10450 6450 10650 6450
 Text Label 10500 6350 0    30   ~ 0
-led1r
+led80r
 Text Label 10500 6400 0    30   ~ 0
-led1g
+led80g
 Text Label 10500 6450 0    30   ~ 0
-led1b
+led80b
 $Comp
 L RGB_LED_SMALL LD81
 U 1 1 56377906
@@ -2966,11 +2966,11 @@ Wire Wire Line
 Wire Wire Line
 	1450 7050 1650 7050
 Text Label 1500 6950 0    30   ~ 0
-led1r
+led81r
 Text Label 1500 7000 0    30   ~ 0
-led1g
+led81g
 Text Label 1500 7050 0    30   ~ 0
-led1b
+led81b
 $Comp
 L RGB_LED_SMALL LD82
 U 1 1 56377919
@@ -3002,11 +3002,11 @@ Wire Wire Line
 Wire Wire Line
 	2050 7050 2250 7050
 Text Label 2100 6950 0    30   ~ 0
-led1r
+led82r
 Text Label 2100 7000 0    30   ~ 0
-led1g
+led82g
 Text Label 2100 7050 0    30   ~ 0
-led1b
+led82b
 $Comp
 L RGB_LED_SMALL LD83
 U 1 1 5637792C
@@ -3038,11 +3038,11 @@ Wire Wire Line
 Wire Wire Line
 	2650 7050 2850 7050
 Text Label 2700 6950 0    30   ~ 0
-led1r
+led83r
 Text Label 2700 7000 0    30   ~ 0
-led1g
+led83g
 Text Label 2700 7050 0    30   ~ 0
-led1b
+led83b
 $Comp
 L RGB_LED_SMALL LD84
 U 1 1 5637793F
@@ -3074,11 +3074,11 @@ Wire Wire Line
 Wire Wire Line
 	3250 7050 3450 7050
 Text Label 3300 6950 0    30   ~ 0
-led1r
+led84r
 Text Label 3300 7000 0    30   ~ 0
-led1g
+led84g
 Text Label 3300 7050 0    30   ~ 0
-led1b
+led84b
 $Comp
 L RGB_LED_SMALL LD85
 U 1 1 56377952
@@ -3110,11 +3110,11 @@ Wire Wire Line
 Wire Wire Line
 	3850 7050 4050 7050
 Text Label 3900 6950 0    30   ~ 0
-led1r
+led85r
 Text Label 3900 7000 0    30   ~ 0
-led1g
+led85g
 Text Label 3900 7050 0    30   ~ 0
-led1b
+led85b
 $Comp
 L RGB_LED_SMALL LD86
 U 1 1 56377965
@@ -3146,11 +3146,11 @@ Wire Wire Line
 Wire Wire Line
 	4450 7050 4650 7050
 Text Label 4500 6950 0    30   ~ 0
-led1r
+led86r
 Text Label 4500 7000 0    30   ~ 0
-led1g
+led86g
 Text Label 4500 7050 0    30   ~ 0
-led1b
+led86b
 $Comp
 L RGB_LED_SMALL LD87
 U 1 1 56377978
@@ -3182,11 +3182,11 @@ Wire Wire Line
 Wire Wire Line
 	5050 7050 5250 7050
 Text Label 5100 6950 0    30   ~ 0
-led1r
+led87r
 Text Label 5100 7000 0    30   ~ 0
-led1g
+led87g
 Text Label 5100 7050 0    30   ~ 0
-led1b
+led87b
 $Comp
 L RGB_LED_SMALL LD88
 U 1 1 5637798B
@@ -3218,11 +3218,11 @@ Wire Wire Line
 Wire Wire Line
 	5650 7050 5850 7050
 Text Label 5700 6950 0    30   ~ 0
-led1r
+led88r
 Text Label 5700 7000 0    30   ~ 0
-led1g
+led88g
 Text Label 5700 7050 0    30   ~ 0
-led1b
+led88b
 $Comp
 L RGB_LED_SMALL LD89
 U 1 1 5637799E
@@ -3254,11 +3254,11 @@ Wire Wire Line
 Wire Wire Line
 	6250 7050 6450 7050
 Text Label 6300 6950 0    30   ~ 0
-led1r
+led89r
 Text Label 6300 7000 0    30   ~ 0
-led1g
+led89g
 Text Label 6300 7050 0    30   ~ 0
-led1b
+led89b
 $Comp
 L RGB_LED_SMALL LD90
 U 1 1 563779B1
@@ -3290,11 +3290,11 @@ Wire Wire Line
 Wire Wire Line
 	6850 7050 7050 7050
 Text Label 6900 6950 0    30   ~ 0
-led1r
+led90r
 Text Label 6900 7000 0    30   ~ 0
-led1g
+led90g
 Text Label 6900 7050 0    30   ~ 0
-led1b
+led90b
 $Comp
 L RGB_LED_SMALL LD91
 U 1 1 563779C4
@@ -3326,11 +3326,11 @@ Wire Wire Line
 Wire Wire Line
 	7450 7050 7650 7050
 Text Label 7500 6950 0    30   ~ 0
-led1r
+led91r
 Text Label 7500 7000 0    30   ~ 0
-led1g
+led91g
 Text Label 7500 7050 0    30   ~ 0
-led1b
+led91b
 $Comp
 L RGB_LED_SMALL LD92
 U 1 1 563779D7
@@ -3362,11 +3362,11 @@ Wire Wire Line
 Wire Wire Line
 	8050 7050 8250 7050
 Text Label 8100 6950 0    30   ~ 0
-led1r
+led92r
 Text Label 8100 7000 0    30   ~ 0
-led1g
+led92g
 Text Label 8100 7050 0    30   ~ 0
-led1b
+led92b
 $Comp
 L RGB_LED_SMALL LD93
 U 1 1 563779EA
@@ -3398,11 +3398,11 @@ Wire Wire Line
 Wire Wire Line
 	8650 7050 8850 7050
 Text Label 8700 6950 0    30   ~ 0
-led1r
+led93r
 Text Label 8700 7000 0    30   ~ 0
-led1g
+led93g
 Text Label 8700 7050 0    30   ~ 0
-led1b
+led93b
 $Comp
 L RGB_LED_SMALL LD94
 U 1 1 563779FD
@@ -3434,11 +3434,11 @@ Wire Wire Line
 Wire Wire Line
 	9250 7050 9450 7050
 Text Label 9300 6950 0    30   ~ 0
-led1r
+led94r
 Text Label 9300 7000 0    30   ~ 0
-led1g
+led94g
 Text Label 9300 7050 0    30   ~ 0
-led1b
+led94b
 $Comp
 L RGB_LED_SMALL LD95
 U 1 1 56377A10
@@ -3470,11 +3470,11 @@ Wire Wire Line
 Wire Wire Line
 	9850 7050 10050 7050
 Text Label 9900 6950 0    30   ~ 0
-led1r
+led95r
 Text Label 9900 7000 0    30   ~ 0
-led1g
+led95g
 Text Label 9900 7050 0    30   ~ 0
-led1b
+led95b
 $Comp
 L RGB_LED_SMALL LD96
 U 1 1 56377A23
@@ -3506,11 +3506,11 @@ Wire Wire Line
 Wire Wire Line
 	10450 7050 10650 7050
 Text Label 10500 6950 0    30   ~ 0
-led1r
+led96r
 Text Label 10500 7000 0    30   ~ 0
-led1g
+led96g
 Text Label 10500 7050 0    30   ~ 0
-led1b
+led96b
 $Comp
 L RGB_LED_SMALL LD97
 U 1 1 56377A36
@@ -3542,11 +3542,11 @@ Wire Wire Line
 Wire Wire Line
 	1450 7650 1650 7650
 Text Label 1500 7550 0    30   ~ 0
-led1r
+led97r
 Text Label 1500 7600 0    30   ~ 0
-led1g
+led97g
 Text Label 1500 7650 0    30   ~ 0
-led1b
+led97b
 $Comp
 L RGB_LED_SMALL LD98
 U 1 1 56377A49
@@ -3578,11 +3578,11 @@ Wire Wire Line
 Wire Wire Line
 	2050 7650 2250 7650
 Text Label 2100 7550 0    30   ~ 0
-led1r
+led98r
 Text Label 2100 7600 0    30   ~ 0
-led1g
+led98g
 Text Label 2100 7650 0    30   ~ 0
-led1b
+led98b
 $Comp
 L RGB_LED_SMALL LD99
 U 1 1 56377A5C
@@ -3614,11 +3614,11 @@ Wire Wire Line
 Wire Wire Line
 	2650 7650 2850 7650
 Text Label 2700 7550 0    30   ~ 0
-led1r
+led99r
 Text Label 2700 7600 0    30   ~ 0
-led1g
+led99g
 Text Label 2700 7650 0    30   ~ 0
-led1b
+led99b
 $Comp
 L RGB_LED_SMALL LD100
 U 1 1 56377A6F
@@ -3650,11 +3650,11 @@ Wire Wire Line
 Wire Wire Line
 	3250 7650 3450 7650
 Text Label 3300 7550 0    30   ~ 0
-led1r
+led100r
 Text Label 3300 7600 0    30   ~ 0
-led1g
+led100g
 Text Label 3300 7650 0    30   ~ 0
-led1b
+led100b
 $Comp
 L RGB_LED_SMALL LD101
 U 1 1 56377A82
@@ -3686,11 +3686,11 @@ Wire Wire Line
 Wire Wire Line
 	3850 7650 4050 7650
 Text Label 3900 7550 0    30   ~ 0
-led1r
+led101r
 Text Label 3900 7600 0    30   ~ 0
-led1g
+led101g
 Text Label 3900 7650 0    30   ~ 0
-led1b
+led101b
 $Comp
 L RGB_LED_SMALL LD102
 U 1 1 56377A95
@@ -3722,11 +3722,11 @@ Wire Wire Line
 Wire Wire Line
 	4450 7650 4650 7650
 Text Label 4500 7550 0    30   ~ 0
-led1r
+led102r
 Text Label 4500 7600 0    30   ~ 0
-led1g
+led102g
 Text Label 4500 7650 0    30   ~ 0
-led1b
+led102b
 $Comp
 L RGB_LED_SMALL LD103
 U 1 1 56377AA8
@@ -3758,11 +3758,11 @@ Wire Wire Line
 Wire Wire Line
 	5050 7650 5250 7650
 Text Label 5100 7550 0    30   ~ 0
-led1r
+led103r
 Text Label 5100 7600 0    30   ~ 0
-led1g
+led103g
 Text Label 5100 7650 0    30   ~ 0
-led1b
+led103b
 $Comp
 L RGB_LED_SMALL LD104
 U 1 1 56377ABB
@@ -3794,11 +3794,11 @@ Wire Wire Line
 Wire Wire Line
 	5650 7650 5850 7650
 Text Label 5700 7550 0    30   ~ 0
-led1r
+led104r
 Text Label 5700 7600 0    30   ~ 0
-led1g
+led104g
 Text Label 5700 7650 0    30   ~ 0
-led1b
+led104b
 $Comp
 L RGB_LED_SMALL LD105
 U 1 1 56377ACE
@@ -3830,11 +3830,11 @@ Wire Wire Line
 Wire Wire Line
 	6250 7650 6450 7650
 Text Label 6300 7550 0    30   ~ 0
-led1r
+led105r
 Text Label 6300 7600 0    30   ~ 0
-led1g
+led105g
 Text Label 6300 7650 0    30   ~ 0
-led1b
+led105b
 $Comp
 L RGB_LED_SMALL LD106
 U 1 1 56377AE1
@@ -3866,11 +3866,11 @@ Wire Wire Line
 Wire Wire Line
 	6850 7650 7050 7650
 Text Label 6900 7550 0    30   ~ 0
-led1r
+led106r
 Text Label 6900 7600 0    30   ~ 0
-led1g
+led106g
 Text Label 6900 7650 0    30   ~ 0
-led1b
+led106b
 $Comp
 L RGB_LED_SMALL LD107
 U 1 1 56377AF4
@@ -3902,11 +3902,11 @@ Wire Wire Line
 Wire Wire Line
 	7450 7650 7650 7650
 Text Label 7500 7550 0    30   ~ 0
-led1r
+led107r
 Text Label 7500 7600 0    30   ~ 0
-led1g
+led107g
 Text Label 7500 7650 0    30   ~ 0
-led1b
+led107b
 $Comp
 L RGB_LED_SMALL LD108
 U 1 1 56377B07
@@ -3938,11 +3938,11 @@ Wire Wire Line
 Wire Wire Line
 	8050 7650 8250 7650
 Text Label 8100 7550 0    30   ~ 0
-led1r
+led108r
 Text Label 8100 7600 0    30   ~ 0
-led1g
+led108g
 Text Label 8100 7650 0    30   ~ 0
-led1b
+led108b
 $Comp
 L RGB_LED_SMALL LD109
 U 1 1 56377B1A
@@ -3974,11 +3974,11 @@ Wire Wire Line
 Wire Wire Line
 	8650 7650 8850 7650
 Text Label 8700 7550 0    30   ~ 0
-led1r
+led109r
 Text Label 8700 7600 0    30   ~ 0
-led1g
+led109g
 Text Label 8700 7650 0    30   ~ 0
-led1b
+led109b
 $Comp
 L RGB_LED_SMALL LD110
 U 1 1 56377B2D
@@ -4010,11 +4010,11 @@ Wire Wire Line
 Wire Wire Line
 	9250 7650 9450 7650
 Text Label 9300 7550 0    30   ~ 0
-led1r
+led110r
 Text Label 9300 7600 0    30   ~ 0
-led1g
+led110g
 Text Label 9300 7650 0    30   ~ 0
-led1b
+led110b
 $Comp
 L RGB_LED_SMALL LD111
 U 1 1 56377B40
@@ -4046,11 +4046,11 @@ Wire Wire Line
 Wire Wire Line
 	9850 7650 10050 7650
 Text Label 9900 7550 0    30   ~ 0
-led1r
+led111r
 Text Label 9900 7600 0    30   ~ 0
-led1g
+led111g
 Text Label 9900 7650 0    30   ~ 0
-led1b
+led111b
 $Comp
 L RGB_LED_SMALL LD112
 U 1 1 56377B53
@@ -4082,11 +4082,11 @@ Wire Wire Line
 Wire Wire Line
 	10450 7650 10650 7650
 Text Label 10500 7550 0    30   ~ 0
-led1r
+led112r
 Text Label 10500 7600 0    30   ~ 0
-led1g
+led112g
 Text Label 10500 7650 0    30   ~ 0
-led1b
+led112b
 $Comp
 L RGB_LED_SMALL LD113
 U 1 1 56377B66
@@ -4118,11 +4118,11 @@ Wire Wire Line
 Wire Wire Line
 	1450 8250 1650 8250
 Text Label 1500 8150 0    30   ~ 0
-led1r
+led113r
 Text Label 1500 8200 0    30   ~ 0
-led1g
+led113g
 Text Label 1500 8250 0    30   ~ 0
-led1b
+led113b
 $Comp
 L RGB_LED_SMALL LD114
 U 1 1 56377B79
@@ -4154,11 +4154,11 @@ Wire Wire Line
 Wire Wire Line
 	2050 8250 2250 8250
 Text Label 2100 8150 0    30   ~ 0
-led1r
+led114r
 Text Label 2100 8200 0    30   ~ 0
-led1g
+led114g
 Text Label 2100 8250 0    30   ~ 0
-led1b
+led114b
 $Comp
 L RGB_LED_SMALL LD115
 U 1 1 56377B8C
@@ -4190,11 +4190,11 @@ Wire Wire Line
 Wire Wire Line
 	2650 8250 2850 8250
 Text Label 2700 8150 0    30   ~ 0
-led1r
+led115r
 Text Label 2700 8200 0    30   ~ 0
-led1g
+led115g
 Text Label 2700 8250 0    30   ~ 0
-led1b
+led115b
 $Comp
 L RGB_LED_SMALL LD116
 U 1 1 56377B9F
@@ -4226,11 +4226,11 @@ Wire Wire Line
 Wire Wire Line
 	3250 8250 3450 8250
 Text Label 3300 8150 0    30   ~ 0
-led1r
+led116r
 Text Label 3300 8200 0    30   ~ 0
-led1g
+led116g
 Text Label 3300 8250 0    30   ~ 0
-led1b
+led116b
 $Comp
 L RGB_LED_SMALL LD117
 U 1 1 56377BB2
@@ -4262,11 +4262,11 @@ Wire Wire Line
 Wire Wire Line
 	3850 8250 4050 8250
 Text Label 3900 8150 0    30   ~ 0
-led1r
+led117r
 Text Label 3900 8200 0    30   ~ 0
-led1g
+led117g
 Text Label 3900 8250 0    30   ~ 0
-led1b
+led117b
 $Comp
 L RGB_LED_SMALL LD118
 U 1 1 56377BC5
@@ -4298,11 +4298,11 @@ Wire Wire Line
 Wire Wire Line
 	4450 8250 4650 8250
 Text Label 4500 8150 0    30   ~ 0
-led1r
+led118r
 Text Label 4500 8200 0    30   ~ 0
-led1g
+led118g
 Text Label 4500 8250 0    30   ~ 0
-led1b
+led118b
 $Comp
 L RGB_LED_SMALL LD119
 U 1 1 56377BD8
@@ -4334,11 +4334,11 @@ Wire Wire Line
 Wire Wire Line
 	5050 8250 5250 8250
 Text Label 5100 8150 0    30   ~ 0
-led1r
+led119r
 Text Label 5100 8200 0    30   ~ 0
-led1g
+led119g
 Text Label 5100 8250 0    30   ~ 0
-led1b
+led119b
 $Comp
 L RGB_LED_SMALL LD120
 U 1 1 56377BEB
@@ -4370,11 +4370,11 @@ Wire Wire Line
 Wire Wire Line
 	5650 8250 5850 8250
 Text Label 5700 8150 0    30   ~ 0
-led1r
+led120r
 Text Label 5700 8200 0    30   ~ 0
-led1g
+led120g
 Text Label 5700 8250 0    30   ~ 0
-led1b
+led120b
 $Comp
 L RGB_LED_SMALL LD121
 U 1 1 56377BFE
@@ -4406,11 +4406,11 @@ Wire Wire Line
 Wire Wire Line
 	6250 8250 6450 8250
 Text Label 6300 8150 0    30   ~ 0
-led1r
+led121r
 Text Label 6300 8200 0    30   ~ 0
-led1g
+led121g
 Text Label 6300 8250 0    30   ~ 0
-led1b
+led121b
 $Comp
 L RGB_LED_SMALL LD122
 U 1 1 56377C11
@@ -4442,11 +4442,11 @@ Wire Wire Line
 Wire Wire Line
 	6850 8250 7050 8250
 Text Label 6900 8150 0    30   ~ 0
-led1r
+led122r
 Text Label 6900 8200 0    30   ~ 0
-led1g
+led122g
 Text Label 6900 8250 0    30   ~ 0
-led1b
+led122b
 $Comp
 L RGB_LED_SMALL LD123
 U 1 1 56377C24
@@ -4478,11 +4478,11 @@ Wire Wire Line
 Wire Wire Line
 	7450 8250 7650 8250
 Text Label 7500 8150 0    30   ~ 0
-led1r
+led123r
 Text Label 7500 8200 0    30   ~ 0
-led1g
+led123g
 Text Label 7500 8250 0    30   ~ 0
-led1b
+led123b
 $Comp
 L RGB_LED_SMALL LD124
 U 1 1 56377C37
@@ -4514,11 +4514,11 @@ Wire Wire Line
 Wire Wire Line
 	8050 8250 8250 8250
 Text Label 8100 8150 0    30   ~ 0
-led1r
+led124r
 Text Label 8100 8200 0    30   ~ 0
-led1g
+led124g
 Text Label 8100 8250 0    30   ~ 0
-led1b
+led124b
 $Comp
 L RGB_LED_SMALL LD125
 U 1 1 56377C4A
@@ -4550,11 +4550,11 @@ Wire Wire Line
 Wire Wire Line
 	8650 8250 8850 8250
 Text Label 8700 8150 0    30   ~ 0
-led1r
+led125r
 Text Label 8700 8200 0    30   ~ 0
-led1g
+led125g
 Text Label 8700 8250 0    30   ~ 0
-led1b
+led125b
 $Comp
 L RGB_LED_SMALL LD126
 U 1 1 56377C5D
@@ -4586,11 +4586,11 @@ Wire Wire Line
 Wire Wire Line
 	9250 8250 9450 8250
 Text Label 9300 8150 0    30   ~ 0
-led1r
+led126r
 Text Label 9300 8200 0    30   ~ 0
-led1g
+led126g
 Text Label 9300 8250 0    30   ~ 0
-led1b
+led126b
 $Comp
 L RGB_LED_SMALL LD127
 U 1 1 56377C70
@@ -4622,11 +4622,11 @@ Wire Wire Line
 Wire Wire Line
 	9850 8250 10050 8250
 Text Label 9900 8150 0    30   ~ 0
-led1r
+led127r
 Text Label 9900 8200 0    30   ~ 0
-led1g
+led127g
 Text Label 9900 8250 0    30   ~ 0
-led1b
+led127b
 $Comp
 L RGB_LED_SMALL LD128
 U 1 1 56377C83
@@ -4658,11 +4658,11 @@ Wire Wire Line
 Wire Wire Line
 	10450 8250 10650 8250
 Text Label 10500 8150 0    30   ~ 0
-led1r
+led128r
 Text Label 10500 8200 0    30   ~ 0
-led1g
+led128g
 Text Label 10500 8250 0    30   ~ 0
-led1b
+led128b
 $Comp
 L RGB_LED_SMALL LD129
 U 1 1 563788BA
@@ -4694,11 +4694,11 @@ Wire Wire Line
 Wire Wire Line
 	1450 8850 1650 8850
 Text Label 1500 8750 0    30   ~ 0
-led1r
+led129r
 Text Label 1500 8800 0    30   ~ 0
-led1g
+led129g
 Text Label 1500 8850 0    30   ~ 0
-led1b
+led129b
 $Comp
 L RGB_LED_SMALL LD130
 U 1 1 563788CD
@@ -4730,11 +4730,11 @@ Wire Wire Line
 Wire Wire Line
 	2050 8850 2250 8850
 Text Label 2100 8750 0    30   ~ 0
-led1r
+led130r
 Text Label 2100 8800 0    30   ~ 0
-led1g
+led130g
 Text Label 2100 8850 0    30   ~ 0
-led1b
+led130b
 $Comp
 L RGB_LED_SMALL LD131
 U 1 1 563788E0
@@ -4766,11 +4766,11 @@ Wire Wire Line
 Wire Wire Line
 	2650 8850 2850 8850
 Text Label 2700 8750 0    30   ~ 0
-led1r
+led131r
 Text Label 2700 8800 0    30   ~ 0
-led1g
+led131g
 Text Label 2700 8850 0    30   ~ 0
-led1b
+led131b
 $Comp
 L RGB_LED_SMALL LD132
 U 1 1 563788F3
@@ -4802,11 +4802,11 @@ Wire Wire Line
 Wire Wire Line
 	3250 8850 3450 8850
 Text Label 3300 8750 0    30   ~ 0
-led1r
+led132r
 Text Label 3300 8800 0    30   ~ 0
-led1g
+led132g
 Text Label 3300 8850 0    30   ~ 0
-led1b
+led132b
 $Comp
 L RGB_LED_SMALL LD133
 U 1 1 56378906
@@ -4838,11 +4838,11 @@ Wire Wire Line
 Wire Wire Line
 	3850 8850 4050 8850
 Text Label 3900 8750 0    30   ~ 0
-led1r
+led133r
 Text Label 3900 8800 0    30   ~ 0
-led1g
+led133g
 Text Label 3900 8850 0    30   ~ 0
-led1b
+led133b
 $Comp
 L RGB_LED_SMALL LD134
 U 1 1 56378919
@@ -4874,11 +4874,11 @@ Wire Wire Line
 Wire Wire Line
 	4450 8850 4650 8850
 Text Label 4500 8750 0    30   ~ 0
-led1r
+led134r
 Text Label 4500 8800 0    30   ~ 0
-led1g
+led134g
 Text Label 4500 8850 0    30   ~ 0
-led1b
+led134b
 $Comp
 L RGB_LED_SMALL LD135
 U 1 1 5637892C
@@ -4910,11 +4910,11 @@ Wire Wire Line
 Wire Wire Line
 	5050 8850 5250 8850
 Text Label 5100 8750 0    30   ~ 0
-led1r
+led135r
 Text Label 5100 8800 0    30   ~ 0
-led1g
+led135g
 Text Label 5100 8850 0    30   ~ 0
-led1b
+led135b
 $Comp
 L RGB_LED_SMALL LD136
 U 1 1 5637893F
@@ -4946,11 +4946,11 @@ Wire Wire Line
 Wire Wire Line
 	5650 8850 5850 8850
 Text Label 5700 8750 0    30   ~ 0
-led1r
+led136r
 Text Label 5700 8800 0    30   ~ 0
-led1g
+led136g
 Text Label 5700 8850 0    30   ~ 0
-led1b
+led136b
 $Comp
 L RGB_LED_SMALL LD137
 U 1 1 56378952
@@ -4982,11 +4982,11 @@ Wire Wire Line
 Wire Wire Line
 	6250 8850 6450 8850
 Text Label 6300 8750 0    30   ~ 0
-led1r
+led137r
 Text Label 6300 8800 0    30   ~ 0
-led1g
+led137g
 Text Label 6300 8850 0    30   ~ 0
-led1b
+led137b
 $Comp
 L RGB_LED_SMALL LD138
 U 1 1 56378965
@@ -5018,11 +5018,11 @@ Wire Wire Line
 Wire Wire Line
 	6850 8850 7050 8850
 Text Label 6900 8750 0    30   ~ 0
-led1r
+led138r
 Text Label 6900 8800 0    30   ~ 0
-led1g
+led138g
 Text Label 6900 8850 0    30   ~ 0
-led1b
+led138b
 $Comp
 L RGB_LED_SMALL LD139
 U 1 1 56378978
@@ -5054,11 +5054,11 @@ Wire Wire Line
 Wire Wire Line
 	7450 8850 7650 8850
 Text Label 7500 8750 0    30   ~ 0
-led1r
+led139r
 Text Label 7500 8800 0    30   ~ 0
-led1g
+led139g
 Text Label 7500 8850 0    30   ~ 0
-led1b
+led139b
 $Comp
 L RGB_LED_SMALL LD140
 U 1 1 5637898B
@@ -5090,11 +5090,11 @@ Wire Wire Line
 Wire Wire Line
 	8050 8850 8250 8850
 Text Label 8100 8750 0    30   ~ 0
-led1r
+led140r
 Text Label 8100 8800 0    30   ~ 0
-led1g
+led140g
 Text Label 8100 8850 0    30   ~ 0
-led1b
+led140b
 $Comp
 L RGB_LED_SMALL LD141
 U 1 1 5637899E
@@ -5126,11 +5126,11 @@ Wire Wire Line
 Wire Wire Line
 	8650 8850 8850 8850
 Text Label 8700 8750 0    30   ~ 0
-led1r
+led141r
 Text Label 8700 8800 0    30   ~ 0
-led1g
+led141g
 Text Label 8700 8850 0    30   ~ 0
-led1b
+led141b
 $Comp
 L RGB_LED_SMALL LD142
 U 1 1 563789B1
@@ -5162,11 +5162,11 @@ Wire Wire Line
 Wire Wire Line
 	9250 8850 9450 8850
 Text Label 9300 8750 0    30   ~ 0
-led1r
+led142r
 Text Label 9300 8800 0    30   ~ 0
-led1g
+led142g
 Text Label 9300 8850 0    30   ~ 0
-led1b
+led142b
 $Comp
 L RGB_LED_SMALL LD143
 U 1 1 563789C4
@@ -5198,11 +5198,11 @@ Wire Wire Line
 Wire Wire Line
 	9850 8850 10050 8850
 Text Label 9900 8750 0    30   ~ 0
-led1r
+led143r
 Text Label 9900 8800 0    30   ~ 0
-led1g
+led143g
 Text Label 9900 8850 0    30   ~ 0
-led1b
+led143b
 $Comp
 L RGB_LED_SMALL LD144
 U 1 1 563789D7
@@ -5234,11 +5234,11 @@ Wire Wire Line
 Wire Wire Line
 	10450 8850 10650 8850
 Text Label 10500 8750 0    30   ~ 0
-led1r
+led144r
 Text Label 10500 8800 0    30   ~ 0
-led1g
+led144g
 Text Label 10500 8850 0    30   ~ 0
-led1b
+led144b
 $Comp
 L RGB_LED_SMALL LD145
 U 1 1 563789EA
@@ -5270,11 +5270,11 @@ Wire Wire Line
 Wire Wire Line
 	1450 9450 1650 9450
 Text Label 1500 9350 0    30   ~ 0
-led1r
+led145r
 Text Label 1500 9400 0    30   ~ 0
-led1g
+led145g
 Text Label 1500 9450 0    30   ~ 0
-led1b
+led145b
 $Comp
 L RGB_LED_SMALL LD146
 U 1 1 563789FD
@@ -5306,11 +5306,11 @@ Wire Wire Line
 Wire Wire Line
 	2050 9450 2250 9450
 Text Label 2100 9350 0    30   ~ 0
-led1r
+led146r
 Text Label 2100 9400 0    30   ~ 0
-led1g
+led146g
 Text Label 2100 9450 0    30   ~ 0
-led1b
+led146b
 $Comp
 L RGB_LED_SMALL LD147
 U 1 1 56378A10
@@ -5342,11 +5342,11 @@ Wire Wire Line
 Wire Wire Line
 	2650 9450 2850 9450
 Text Label 2700 9350 0    30   ~ 0
-led1r
+led147r
 Text Label 2700 9400 0    30   ~ 0
-led1g
+led147g
 Text Label 2700 9450 0    30   ~ 0
-led1b
+led147b
 $Comp
 L RGB_LED_SMALL LD148
 U 1 1 56378A23
@@ -5378,11 +5378,11 @@ Wire Wire Line
 Wire Wire Line
 	3250 9450 3450 9450
 Text Label 3300 9350 0    30   ~ 0
-led1r
+led148r
 Text Label 3300 9400 0    30   ~ 0
-led1g
+led148g
 Text Label 3300 9450 0    30   ~ 0
-led1b
+led148b
 $Comp
 L RGB_LED_SMALL LD149
 U 1 1 56378A36
@@ -5414,11 +5414,11 @@ Wire Wire Line
 Wire Wire Line
 	3850 9450 4050 9450
 Text Label 3900 9350 0    30   ~ 0
-led1r
+led149r
 Text Label 3900 9400 0    30   ~ 0
-led1g
+led149g
 Text Label 3900 9450 0    30   ~ 0
-led1b
+led149b
 $Comp
 L RGB_LED_SMALL LD150
 U 1 1 56378A49
@@ -5450,11 +5450,11 @@ Wire Wire Line
 Wire Wire Line
 	4450 9450 4650 9450
 Text Label 4500 9350 0    30   ~ 0
-led1r
+led150r
 Text Label 4500 9400 0    30   ~ 0
-led1g
+led150g
 Text Label 4500 9450 0    30   ~ 0
-led1b
+led150b
 $Comp
 L RGB_LED_SMALL LD151
 U 1 1 56378A5C
@@ -5486,11 +5486,11 @@ Wire Wire Line
 Wire Wire Line
 	5050 9450 5250 9450
 Text Label 5100 9350 0    30   ~ 0
-led1r
+led151r
 Text Label 5100 9400 0    30   ~ 0
-led1g
+led151g
 Text Label 5100 9450 0    30   ~ 0
-led1b
+led151b
 $Comp
 L RGB_LED_SMALL LD152
 U 1 1 56378A6F
@@ -5522,11 +5522,11 @@ Wire Wire Line
 Wire Wire Line
 	5650 9450 5850 9450
 Text Label 5700 9350 0    30   ~ 0
-led1r
+led152r
 Text Label 5700 9400 0    30   ~ 0
-led1g
+led152g
 Text Label 5700 9450 0    30   ~ 0
-led1b
+led152b
 $Comp
 L RGB_LED_SMALL LD153
 U 1 1 56378A82
@@ -5558,11 +5558,11 @@ Wire Wire Line
 Wire Wire Line
 	6250 9450 6450 9450
 Text Label 6300 9350 0    30   ~ 0
-led1r
+led153r
 Text Label 6300 9400 0    30   ~ 0
-led1g
+led153g
 Text Label 6300 9450 0    30   ~ 0
-led1b
+led153b
 $Comp
 L RGB_LED_SMALL LD154
 U 1 1 56378A95
@@ -5594,11 +5594,11 @@ Wire Wire Line
 Wire Wire Line
 	6850 9450 7050 9450
 Text Label 6900 9350 0    30   ~ 0
-led1r
+led154r
 Text Label 6900 9400 0    30   ~ 0
-led1g
+led154g
 Text Label 6900 9450 0    30   ~ 0
-led1b
+led154b
 $Comp
 L RGB_LED_SMALL LD155
 U 1 1 56378AA8
@@ -5630,11 +5630,11 @@ Wire Wire Line
 Wire Wire Line
 	7450 9450 7650 9450
 Text Label 7500 9350 0    30   ~ 0
-led1r
+led155r
 Text Label 7500 9400 0    30   ~ 0
-led1g
+led155g
 Text Label 7500 9450 0    30   ~ 0
-led1b
+led155b
 $Comp
 L RGB_LED_SMALL LD156
 U 1 1 56378ABB
@@ -5666,11 +5666,11 @@ Wire Wire Line
 Wire Wire Line
 	8050 9450 8250 9450
 Text Label 8100 9350 0    30   ~ 0
-led1r
+led156r
 Text Label 8100 9400 0    30   ~ 0
-led1g
+led156g
 Text Label 8100 9450 0    30   ~ 0
-led1b
+led156b
 $Comp
 L RGB_LED_SMALL LD157
 U 1 1 56378ACE
@@ -5702,11 +5702,11 @@ Wire Wire Line
 Wire Wire Line
 	8650 9450 8850 9450
 Text Label 8700 9350 0    30   ~ 0
-led1r
+led157r
 Text Label 8700 9400 0    30   ~ 0
-led1g
+led157g
 Text Label 8700 9450 0    30   ~ 0
-led1b
+led157b
 $Comp
 L RGB_LED_SMALL LD158
 U 1 1 56378AE1
@@ -5738,11 +5738,11 @@ Wire Wire Line
 Wire Wire Line
 	9250 9450 9450 9450
 Text Label 9300 9350 0    30   ~ 0
-led1r
+led158r
 Text Label 9300 9400 0    30   ~ 0
-led1g
+led158g
 Text Label 9300 9450 0    30   ~ 0
-led1b
+led158b
 $Comp
 L RGB_LED_SMALL LD159
 U 1 1 56378AF4
@@ -5774,11 +5774,11 @@ Wire Wire Line
 Wire Wire Line
 	9850 9450 10050 9450
 Text Label 9900 9350 0    30   ~ 0
-led1r
+led159r
 Text Label 9900 9400 0    30   ~ 0
-led1g
+led159g
 Text Label 9900 9450 0    30   ~ 0
-led1b
+led159b
 $Comp
 L RGB_LED_SMALL LD160
 U 1 1 56378B07
@@ -5810,11 +5810,11 @@ Wire Wire Line
 Wire Wire Line
 	10450 9450 10650 9450
 Text Label 10500 9350 0    30   ~ 0
-led1r
+led160r
 Text Label 10500 9400 0    30   ~ 0
-led1g
+led160g
 Text Label 10500 9450 0    30   ~ 0
-led1b
+led160b
 $Comp
 L RGB_LED_SMALL LD161
 U 1 1 56378B1A
@@ -5846,11 +5846,11 @@ Wire Wire Line
 Wire Wire Line
 	1450 10050 1650 10050
 Text Label 1500 9950 0    30   ~ 0
-led1r
+led161r
 Text Label 1500 10000 0    30   ~ 0
-led1g
+led161g
 Text Label 1500 10050 0    30   ~ 0
-led1b
+led161b
 $Comp
 L RGB_LED_SMALL LD162
 U 1 1 56378B2D
@@ -5882,11 +5882,11 @@ Wire Wire Line
 Wire Wire Line
 	2050 10050 2250 10050
 Text Label 2100 9950 0    30   ~ 0
-led1r
+led162r
 Text Label 2100 10000 0    30   ~ 0
-led1g
+led162g
 Text Label 2100 10050 0    30   ~ 0
-led1b
+led162b
 $Comp
 L RGB_LED_SMALL LD163
 U 1 1 56378B40
@@ -5918,11 +5918,11 @@ Wire Wire Line
 Wire Wire Line
 	2650 10050 2850 10050
 Text Label 2700 9950 0    30   ~ 0
-led1r
+led163r
 Text Label 2700 10000 0    30   ~ 0
-led1g
+led163g
 Text Label 2700 10050 0    30   ~ 0
-led1b
+led163b
 $Comp
 L RGB_LED_SMALL LD164
 U 1 1 56378B53
@@ -5954,11 +5954,11 @@ Wire Wire Line
 Wire Wire Line
 	3250 10050 3450 10050
 Text Label 3300 9950 0    30   ~ 0
-led1r
+led164r
 Text Label 3300 10000 0    30   ~ 0
-led1g
+led164g
 Text Label 3300 10050 0    30   ~ 0
-led1b
+led164b
 $Comp
 L RGB_LED_SMALL LD165
 U 1 1 56378B66
@@ -5990,11 +5990,11 @@ Wire Wire Line
 Wire Wire Line
 	3850 10050 4050 10050
 Text Label 3900 9950 0    30   ~ 0
-led1r
+led165r
 Text Label 3900 10000 0    30   ~ 0
-led1g
+led165g
 Text Label 3900 10050 0    30   ~ 0
-led1b
+led165b
 $Comp
 L RGB_LED_SMALL LD166
 U 1 1 56378B79
@@ -6026,11 +6026,11 @@ Wire Wire Line
 Wire Wire Line
 	4450 10050 4650 10050
 Text Label 4500 9950 0    30   ~ 0
-led1r
+led166r
 Text Label 4500 10000 0    30   ~ 0
-led1g
+led166g
 Text Label 4500 10050 0    30   ~ 0
-led1b
+led166b
 $Comp
 L RGB_LED_SMALL LD167
 U 1 1 56378B8C
@@ -6062,11 +6062,11 @@ Wire Wire Line
 Wire Wire Line
 	5050 10050 5250 10050
 Text Label 5100 9950 0    30   ~ 0
-led1r
+led167r
 Text Label 5100 10000 0    30   ~ 0
-led1g
+led167g
 Text Label 5100 10050 0    30   ~ 0
-led1b
+led167b
 $Comp
 L RGB_LED_SMALL LD168
 U 1 1 56378B9F
@@ -6098,11 +6098,11 @@ Wire Wire Line
 Wire Wire Line
 	5650 10050 5850 10050
 Text Label 5700 9950 0    30   ~ 0
-led1r
+led168r
 Text Label 5700 10000 0    30   ~ 0
-led1g
+led168g
 Text Label 5700 10050 0    30   ~ 0
-led1b
+led168b
 $Comp
 L RGB_LED_SMALL LD169
 U 1 1 56378BB2
@@ -6134,11 +6134,11 @@ Wire Wire Line
 Wire Wire Line
 	6250 10050 6450 10050
 Text Label 6300 9950 0    30   ~ 0
-led1r
+led169r
 Text Label 6300 10000 0    30   ~ 0
-led1g
+led169g
 Text Label 6300 10050 0    30   ~ 0
-led1b
+led169b
 $Comp
 L RGB_LED_SMALL LD170
 U 1 1 56378BC5
@@ -6170,11 +6170,11 @@ Wire Wire Line
 Wire Wire Line
 	6850 10050 7050 10050
 Text Label 6900 9950 0    30   ~ 0
-led1r
+led170r
 Text Label 6900 10000 0    30   ~ 0
-led1g
+led170g
 Text Label 6900 10050 0    30   ~ 0
-led1b
+led170b
 $Comp
 L RGB_LED_SMALL LD171
 U 1 1 56378BD8
@@ -6206,11 +6206,11 @@ Wire Wire Line
 Wire Wire Line
 	7450 10050 7650 10050
 Text Label 7500 9950 0    30   ~ 0
-led1r
+led171r
 Text Label 7500 10000 0    30   ~ 0
-led1g
+led171g
 Text Label 7500 10050 0    30   ~ 0
-led1b
+led171b
 $Comp
 L RGB_LED_SMALL LD172
 U 1 1 56378BEB
@@ -6242,11 +6242,11 @@ Wire Wire Line
 Wire Wire Line
 	8050 10050 8250 10050
 Text Label 8100 9950 0    30   ~ 0
-led1r
+led172r
 Text Label 8100 10000 0    30   ~ 0
-led1g
+led172g
 Text Label 8100 10050 0    30   ~ 0
-led1b
+led172b
 $Comp
 L RGB_LED_SMALL LD173
 U 1 1 56378BFE
@@ -6278,11 +6278,11 @@ Wire Wire Line
 Wire Wire Line
 	8650 10050 8850 10050
 Text Label 8700 9950 0    30   ~ 0
-led1r
+led173r
 Text Label 8700 10000 0    30   ~ 0
-led1g
+led173g
 Text Label 8700 10050 0    30   ~ 0
-led1b
+led173b
 $Comp
 L RGB_LED_SMALL LD174
 U 1 1 56378C11
@@ -6314,11 +6314,11 @@ Wire Wire Line
 Wire Wire Line
 	9250 10050 9450 10050
 Text Label 9300 9950 0    30   ~ 0
-led1r
+led174r
 Text Label 9300 10000 0    30   ~ 0
-led1g
+led174g
 Text Label 9300 10050 0    30   ~ 0
-led1b
+led174b
 $Comp
 L RGB_LED_SMALL LD175
 U 1 1 56378C24
@@ -6350,11 +6350,11 @@ Wire Wire Line
 Wire Wire Line
 	9850 10050 10050 10050
 Text Label 9900 9950 0    30   ~ 0
-led1r
+led175r
 Text Label 9900 10000 0    30   ~ 0
-led1g
+led175g
 Text Label 9900 10050 0    30   ~ 0
-led1b
+led175b
 $Comp
 L RGB_LED_SMALL LD176
 U 1 1 56378C37
@@ -6386,11 +6386,11 @@ Wire Wire Line
 Wire Wire Line
 	10450 10050 10650 10050
 Text Label 10500 9950 0    30   ~ 0
-led1r
+led176r
 Text Label 10500 10000 0    30   ~ 0
-led1g
+led176g
 Text Label 10500 10050 0    30   ~ 0
-led1b
+led176b
 $Comp
 L RGB_LED_SMALL LD177
 U 1 1 56378C4A
@@ -6422,11 +6422,11 @@ Wire Wire Line
 Wire Wire Line
 	1450 10650 1650 10650
 Text Label 1500 10550 0    30   ~ 0
-led1r
+led177r
 Text Label 1500 10600 0    30   ~ 0
-led1g
+led177g
 Text Label 1500 10650 0    30   ~ 0
-led1b
+led177b
 $Comp
 L RGB_LED_SMALL LD178
 U 1 1 56378C5D
@@ -6458,11 +6458,11 @@ Wire Wire Line
 Wire Wire Line
 	2050 10650 2250 10650
 Text Label 2100 10550 0    30   ~ 0
-led1r
+led178r
 Text Label 2100 10600 0    30   ~ 0
-led1g
+led178g
 Text Label 2100 10650 0    30   ~ 0
-led1b
+led178b
 $Comp
 L RGB_LED_SMALL LD179
 U 1 1 56378C70
@@ -6494,11 +6494,11 @@ Wire Wire Line
 Wire Wire Line
 	2650 10650 2850 10650
 Text Label 2700 10550 0    30   ~ 0
-led1r
+led179r
 Text Label 2700 10600 0    30   ~ 0
-led1g
+led179g
 Text Label 2700 10650 0    30   ~ 0
-led1b
+led179b
 $Comp
 L RGB_LED_SMALL LD180
 U 1 1 56378C83
@@ -6530,11 +6530,11 @@ Wire Wire Line
 Wire Wire Line
 	3250 10650 3450 10650
 Text Label 3300 10550 0    30   ~ 0
-led1r
+led180r
 Text Label 3300 10600 0    30   ~ 0
-led1g
+led180g
 Text Label 3300 10650 0    30   ~ 0
-led1b
+led180b
 $Comp
 L RGB_LED_SMALL LD181
 U 1 1 56378C96
@@ -6566,11 +6566,11 @@ Wire Wire Line
 Wire Wire Line
 	3850 10650 4050 10650
 Text Label 3900 10550 0    30   ~ 0
-led1r
+led181r
 Text Label 3900 10600 0    30   ~ 0
-led1g
+led181g
 Text Label 3900 10650 0    30   ~ 0
-led1b
+led181b
 $Comp
 L RGB_LED_SMALL LD182
 U 1 1 56378CA9
@@ -6602,11 +6602,11 @@ Wire Wire Line
 Wire Wire Line
 	4450 10650 4650 10650
 Text Label 4500 10550 0    30   ~ 0
-led1r
+led182r
 Text Label 4500 10600 0    30   ~ 0
-led1g
+led182g
 Text Label 4500 10650 0    30   ~ 0
-led1b
+led182b
 $Comp
 L RGB_LED_SMALL LD183
 U 1 1 56378CBC
@@ -6638,11 +6638,11 @@ Wire Wire Line
 Wire Wire Line
 	5050 10650 5250 10650
 Text Label 5100 10550 0    30   ~ 0
-led1r
+led183r
 Text Label 5100 10600 0    30   ~ 0
-led1g
+led183g
 Text Label 5100 10650 0    30   ~ 0
-led1b
+led183b
 $Comp
 L RGB_LED_SMALL LD184
 U 1 1 56378CCF
@@ -6674,11 +6674,11 @@ Wire Wire Line
 Wire Wire Line
 	5650 10650 5850 10650
 Text Label 5700 10550 0    30   ~ 0
-led1r
+led184r
 Text Label 5700 10600 0    30   ~ 0
-led1g
+led184g
 Text Label 5700 10650 0    30   ~ 0
-led1b
+led184b
 $Comp
 L RGB_LED_SMALL LD185
 U 1 1 56378CE2
@@ -6710,11 +6710,11 @@ Wire Wire Line
 Wire Wire Line
 	6250 10650 6450 10650
 Text Label 6300 10550 0    30   ~ 0
-led1r
+led185r
 Text Label 6300 10600 0    30   ~ 0
-led1g
+led185g
 Text Label 6300 10650 0    30   ~ 0
-led1b
+led185b
 $Comp
 L RGB_LED_SMALL LD186
 U 1 1 56378CF5
@@ -6746,11 +6746,11 @@ Wire Wire Line
 Wire Wire Line
 	6850 10650 7050 10650
 Text Label 6900 10550 0    30   ~ 0
-led1r
+led186r
 Text Label 6900 10600 0    30   ~ 0
-led1g
+led186g
 Text Label 6900 10650 0    30   ~ 0
-led1b
+led186b
 $Comp
 L RGB_LED_SMALL LD187
 U 1 1 56378D08
@@ -6782,11 +6782,11 @@ Wire Wire Line
 Wire Wire Line
 	7450 10650 7650 10650
 Text Label 7500 10550 0    30   ~ 0
-led1r
+led187r
 Text Label 7500 10600 0    30   ~ 0
-led1g
+led187g
 Text Label 7500 10650 0    30   ~ 0
-led1b
+led187b
 $Comp
 L RGB_LED_SMALL LD188
 U 1 1 56378D1B
@@ -6818,11 +6818,11 @@ Wire Wire Line
 Wire Wire Line
 	8050 10650 8250 10650
 Text Label 8100 10550 0    30   ~ 0
-led1r
+led188r
 Text Label 8100 10600 0    30   ~ 0
-led1g
+led188g
 Text Label 8100 10650 0    30   ~ 0
-led1b
+led188b
 $Comp
 L RGB_LED_SMALL LD189
 U 1 1 56378D2E
@@ -6854,11 +6854,11 @@ Wire Wire Line
 Wire Wire Line
 	8650 10650 8850 10650
 Text Label 8700 10550 0    30   ~ 0
-led1r
+led189r
 Text Label 8700 10600 0    30   ~ 0
-led1g
+led189g
 Text Label 8700 10650 0    30   ~ 0
-led1b
+led189b
 $Comp
 L RGB_LED_SMALL LD190
 U 1 1 56378D41
@@ -6890,11 +6890,11 @@ Wire Wire Line
 Wire Wire Line
 	9250 10650 9450 10650
 Text Label 9300 10550 0    30   ~ 0
-led1r
+led190r
 Text Label 9300 10600 0    30   ~ 0
-led1g
+led190g
 Text Label 9300 10650 0    30   ~ 0
-led1b
+led190b
 $Comp
 L RGB_LED_SMALL LD191
 U 1 1 56378D54
@@ -6926,11 +6926,11 @@ Wire Wire Line
 Wire Wire Line
 	9850 10650 10050 10650
 Text Label 9900 10550 0    30   ~ 0
-led1r
+led191r
 Text Label 9900 10600 0    30   ~ 0
-led1g
+led191g
 Text Label 9900 10650 0    30   ~ 0
-led1b
+led191b
 $Comp
 L RGB_LED_SMALL LD192
 U 1 1 56378D67
@@ -6962,11 +6962,11 @@ Wire Wire Line
 Wire Wire Line
 	10450 10650 10650 10650
 Text Label 10500 10550 0    30   ~ 0
-led1r
+led192r
 Text Label 10500 10600 0    30   ~ 0
-led1g
+led192g
 Text Label 10500 10650 0    30   ~ 0
-led1b
+led192b
 Wire Wire Line
 	1700 1900 1450 1900
 Wire Wire Line
@@ -6986,11 +6986,11 @@ Wire Wire Line
 Wire Wire Line
 	1700 2150 1450 2150
 Text Label 1500 2050 0    30   ~ 0
-led1b
+led2b
 Text Label 1500 2100 0    30   ~ 0
-led1r
+led2r
 Text Label 1500 2150 0    30   ~ 0
-led1g
+led2g
 Wire Wire Line
 	1700 2200 1450 2200
 Wire Wire Line
@@ -6998,11 +6998,11 @@ Wire Wire Line
 Wire Wire Line
 	1700 2300 1450 2300
 Text Label 1500 2200 0    30   ~ 0
-led1b
+led3b
 Text Label 1500 2250 0    30   ~ 0
-led1r
+led3r
 Text Label 1500 2300 0    30   ~ 0
-led1g
+led3g
 Wire Wire Line
 	1700 2350 1450 2350
 Wire Wire Line
@@ -7010,11 +7010,11 @@ Wire Wire Line
 Wire Wire Line
 	1700 2450 1450 2450
 Text Label 1500 2350 0    30   ~ 0
-led1b
+led4b
 Text Label 1500 2400 0    30   ~ 0
-led1r
+led4r
 Text Label 1500 2450 0    30   ~ 0
-led1g
+led4g
 Wire Wire Line
 	1700 2500 1450 2500
 Wire Wire Line
@@ -7022,11 +7022,11 @@ Wire Wire Line
 Wire Wire Line
 	1700 2600 1450 2600
 Text Label 1500 2500 0    30   ~ 0
-led1b
+led5b
 Text Label 1500 2550 0    30   ~ 0
-led1r
+led5r
 Text Label 1500 2600 0    30   ~ 0
-led1g
+led5g
 Wire Wire Line
 	1700 2650 1450 2650
 Wire Wire Line
@@ -7034,11 +7034,11 @@ Wire Wire Line
 Wire Wire Line
 	1700 2750 1450 2750
 Text Label 1500 2650 0    30   ~ 0
-led1b
+led6b
 Text Label 1500 2700 0    30   ~ 0
-led1r
+led6r
 Text Label 1500 2750 0    30   ~ 0
-led1g
+led6g
 Wire Wire Line
 	1700 2800 1450 2800
 Wire Wire Line
@@ -7046,11 +7046,11 @@ Wire Wire Line
 Wire Wire Line
 	1700 2900 1450 2900
 Text Label 1500 2800 0    30   ~ 0
-led1b
+led7b
 Text Label 1500 2850 0    30   ~ 0
-led1r
+led7r
 Text Label 1500 2900 0    30   ~ 0
-led1g
+led7g
 Wire Wire Line
 	1700 2950 1450 2950
 Wire Wire Line
@@ -7058,11 +7058,11 @@ Wire Wire Line
 Wire Wire Line
 	1700 3050 1450 3050
 Text Label 1500 2950 0    30   ~ 0
-led1b
+led8b
 Text Label 1500 3000 0    30   ~ 0
-led1r
+led8r
 Text Label 1500 3050 0    30   ~ 0
-led1g
+led8g
 Wire Wire Line
 	2950 1900 2700 1900
 Wire Wire Line
@@ -7070,11 +7070,11 @@ Wire Wire Line
 Wire Wire Line
 	2950 2000 2700 2000
 Text Label 2750 1900 0    30   ~ 0
-led1b
+led9b
 Text Label 2750 1950 0    30   ~ 0
-led1r
+led9r
 Text Label 2750 2000 0    30   ~ 0
-led1g
+led9g
 Wire Wire Line
 	2950 2050 2700 2050
 Wire Wire Line
@@ -7082,11 +7082,11 @@ Wire Wire Line
 Wire Wire Line
 	2950 2150 2700 2150
 Text Label 2750 2050 0    30   ~ 0
-led1b
+led10b
 Text Label 2750 2100 0    30   ~ 0
-led1r
+led10r
 Text Label 2750 2150 0    30   ~ 0
-led1g
+led10g
 Wire Wire Line
 	2950 2200 2700 2200
 Wire Wire Line
@@ -7094,11 +7094,11 @@ Wire Wire Line
 Wire Wire Line
 	2950 2300 2700 2300
 Text Label 2750 2200 0    30   ~ 0
-led1b
+led11b
 Text Label 2750 2250 0    30   ~ 0
-led1r
+led11r
 Text Label 2750 2300 0    30   ~ 0
-led1g
+led11g
 Wire Wire Line
 	2950 2350 2700 2350
 Wire Wire Line
@@ -7106,11 +7106,11 @@ Wire Wire Line
 Wire Wire Line
 	2950 2450 2700 2450
 Text Label 2750 2350 0    30   ~ 0
-led1b
+led12b
 Text Label 2750 2400 0    30   ~ 0
-led1r
+led12r
 Text Label 2750 2450 0    30   ~ 0
-led1g
+led12g
 Wire Wire Line
 	2950 2500 2700 2500
 Wire Wire Line
@@ -7118,11 +7118,11 @@ Wire Wire Line
 Wire Wire Line
 	2950 2600 2700 2600
 Text Label 2750 2500 0    30   ~ 0
-led1b
+led13b
 Text Label 2750 2550 0    30   ~ 0
-led1r
+led13r
 Text Label 2750 2600 0    30   ~ 0
-led1g
+led13g
 Wire Wire Line
 	2950 2650 2700 2650
 Wire Wire Line
@@ -7130,11 +7130,11 @@ Wire Wire Line
 Wire Wire Line
 	2950 2750 2700 2750
 Text Label 2750 2650 0    30   ~ 0
-led1b
+led14b
 Text Label 2750 2700 0    30   ~ 0
-led1r
+led14r
 Text Label 2750 2750 0    30   ~ 0
-led1g
+led14g
 Wire Wire Line
 	2950 2800 2700 2800
 Wire Wire Line
@@ -7142,11 +7142,11 @@ Wire Wire Line
 Wire Wire Line
 	2950 2900 2700 2900
 Text Label 2750 2800 0    30   ~ 0
-led1b
+led15b
 Text Label 2750 2850 0    30   ~ 0
-led1r
+led15r
 Text Label 2750 2900 0    30   ~ 0
-led1g
+led15g
 Wire Wire Line
 	2950 2950 2700 2950
 Wire Wire Line
@@ -7154,11 +7154,11 @@ Wire Wire Line
 Wire Wire Line
 	2950 3050 2700 3050
 Text Label 2750 2950 0    30   ~ 0
-led1b
+led16b
 Text Label 2750 3000 0    30   ~ 0
-led1r
+led16r
 Text Label 2750 3050 0    30   ~ 0
-led1g
+led16g
 Wire Wire Line
 	2150 3300 2300 3300
 Connection ~ 2200 3300
@@ -7238,11 +7238,11 @@ Wire Wire Line
 Wire Wire Line
 	3500 2000 3250 2000
 Text Label 3300 1900 0    30   ~ 0
-led1b
+led17b
 Text Label 3300 1950 0    30   ~ 0
-led1r
+led17r
 Text Label 3300 2000 0    30   ~ 0
-led1g
+led17g
 Wire Wire Line
 	3500 2050 3250 2050
 Wire Wire Line
@@ -7250,11 +7250,11 @@ Wire Wire Line
 Wire Wire Line
 	3500 2150 3250 2150
 Text Label 3300 2050 0    30   ~ 0
-led1b
+led18b
 Text Label 3300 2100 0    30   ~ 0
-led1r
+led18r
 Text Label 3300 2150 0    30   ~ 0
-led1g
+led18g
 Wire Wire Line
 	3500 2200 3250 2200
 Wire Wire Line
@@ -7262,11 +7262,11 @@ Wire Wire Line
 Wire Wire Line
 	3500 2300 3250 2300
 Text Label 3300 2200 0    30   ~ 0
-led1b
+led19b
 Text Label 3300 2250 0    30   ~ 0
-led1r
+led19r
 Text Label 3300 2300 0    30   ~ 0
-led1g
+led19g
 Wire Wire Line
 	3500 2350 3250 2350
 Wire Wire Line
@@ -7274,11 +7274,11 @@ Wire Wire Line
 Wire Wire Line
 	3500 2450 3250 2450
 Text Label 3300 2350 0    30   ~ 0
-led1b
+led20b
 Text Label 3300 2400 0    30   ~ 0
-led1r
+led20r
 Text Label 3300 2450 0    30   ~ 0
-led1g
+led20g
 Wire Wire Line
 	3500 2500 3250 2500
 Wire Wire Line
@@ -7286,11 +7286,11 @@ Wire Wire Line
 Wire Wire Line
 	3500 2600 3250 2600
 Text Label 3300 2500 0    30   ~ 0
-led1b
+led21b
 Text Label 3300 2550 0    30   ~ 0
-led1r
+led21r
 Text Label 3300 2600 0    30   ~ 0
-led1g
+led21g
 Wire Wire Line
 	3500 2650 3250 2650
 Wire Wire Line
@@ -7298,11 +7298,11 @@ Wire Wire Line
 Wire Wire Line
 	3500 2750 3250 2750
 Text Label 3300 2650 0    30   ~ 0
-led1b
+led22b
 Text Label 3300 2700 0    30   ~ 0
-led1r
+led22r
 Text Label 3300 2750 0    30   ~ 0
-led1g
+led22g
 Wire Wire Line
 	3500 2800 3250 2800
 Wire Wire Line
@@ -7310,11 +7310,11 @@ Wire Wire Line
 Wire Wire Line
 	3500 2900 3250 2900
 Text Label 3300 2800 0    30   ~ 0
-led1b
+led23b
 Text Label 3300 2850 0    30   ~ 0
-led1r
+led23r
 Text Label 3300 2900 0    30   ~ 0
-led1g
+led23g
 Wire Wire Line
 	3500 2950 3250 2950
 Wire Wire Line
@@ -7322,11 +7322,11 @@ Wire Wire Line
 Wire Wire Line
 	3500 3050 3250 3050
 Text Label 3300 2950 0    30   ~ 0
-led1b
+led24b
 Text Label 3300 3000 0    30   ~ 0
-led1r
+led24r
 Text Label 3300 3050 0    30   ~ 0
-led1g
+led24g
 Wire Wire Line
 	4750 1900 4500 1900
 Wire Wire Line
@@ -7334,11 +7334,11 @@ Wire Wire Line
 Wire Wire Line
 	4750 2000 4500 2000
 Text Label 4550 1900 0    30   ~ 0
-led1b
+led25b
 Text Label 4550 1950 0    30   ~ 0
-led1r
+led25r
 Text Label 4550 2000 0    30   ~ 0
-led1g
+led25g
 Wire Wire Line
 	4750 2050 4500 2050
 Wire Wire Line
@@ -7346,11 +7346,11 @@ Wire Wire Line
 Wire Wire Line
 	4750 2150 4500 2150
 Text Label 4550 2050 0    30   ~ 0
-led1b
+led26b
 Text Label 4550 2100 0    30   ~ 0
-led1r
+led26r
 Text Label 4550 2150 0    30   ~ 0
-led1g
+led26g
 Wire Wire Line
 	4750 2200 4500 2200
 Wire Wire Line
@@ -7358,11 +7358,11 @@ Wire Wire Line
 Wire Wire Line
 	4750 2300 4500 2300
 Text Label 4550 2200 0    30   ~ 0
-led1b
+led27b
 Text Label 4550 2250 0    30   ~ 0
-led1r
+led27r
 Text Label 4550 2300 0    30   ~ 0
-led1g
+led27g
 Wire Wire Line
 	4750 2350 4500 2350
 Wire Wire Line
@@ -7370,11 +7370,11 @@ Wire Wire Line
 Wire Wire Line
 	4750 2450 4500 2450
 Text Label 4550 2350 0    30   ~ 0
-led1b
+led28b
 Text Label 4550 2400 0    30   ~ 0
-led1r
+led28r
 Text Label 4550 2450 0    30   ~ 0
-led1g
+led28g
 Wire Wire Line
 	4750 2500 4500 2500
 Wire Wire Line
@@ -7382,11 +7382,11 @@ Wire Wire Line
 Wire Wire Line
 	4750 2600 4500 2600
 Text Label 4550 2500 0    30   ~ 0
-led1b
+led29b
 Text Label 4550 2550 0    30   ~ 0
-led1r
+led29r
 Text Label 4550 2600 0    30   ~ 0
-led1g
+led29g
 Wire Wire Line
 	4750 2650 4500 2650
 Wire Wire Line
@@ -7394,11 +7394,11 @@ Wire Wire Line
 Wire Wire Line
 	4750 2750 4500 2750
 Text Label 4550 2650 0    30   ~ 0
-led1b
+led30b
 Text Label 4550 2700 0    30   ~ 0
-led1r
+led30r
 Text Label 4550 2750 0    30   ~ 0
-led1g
+led30g
 Wire Wire Line
 	4750 2800 4500 2800
 Wire Wire Line
@@ -7406,11 +7406,11 @@ Wire Wire Line
 Wire Wire Line
 	4750 2900 4500 2900
 Text Label 4550 2800 0    30   ~ 0
-led1b
+led31b
 Text Label 4550 2850 0    30   ~ 0
-led1r
+led31r
 Text Label 4550 2900 0    30   ~ 0
-led1g
+led31g
 Wire Wire Line
 	4750 2950 4500 2950
 Wire Wire Line
@@ -7418,11 +7418,11 @@ Wire Wire Line
 Wire Wire Line
 	4750 3050 4500 3050
 Text Label 4550 2950 0    30   ~ 0
-led1b
+led32b
 Text Label 4550 3000 0    30   ~ 0
-led1r
+led32r
 Text Label 4550 3050 0    30   ~ 0
-led1g
+led32g
 Wire Wire Line
 	3950 3300 4100 3300
 Connection ~ 4000 3300
@@ -7729,11 +7729,11 @@ Wire Wire Line
 Wire Wire Line
 	5300 2000 5050 2000
 Text Label 5100 1900 0    30   ~ 0
-led1b
+led33b
 Text Label 5100 1950 0    30   ~ 0
-led1r
+led33r
 Text Label 5100 2000 0    30   ~ 0
-led1g
+led33g
 Wire Wire Line
 	5300 2050 5050 2050
 Wire Wire Line
@@ -7741,11 +7741,11 @@ Wire Wire Line
 Wire Wire Line
 	5300 2150 5050 2150
 Text Label 5100 2050 0    30   ~ 0
-led1b
+led34b
 Text Label 5100 2100 0    30   ~ 0
-led1r
+led34r
 Text Label 5100 2150 0    30   ~ 0
-led1g
+led34g
 Wire Wire Line
 	5300 2200 5050 2200
 Wire Wire Line
@@ -7753,11 +7753,11 @@ Wire Wire Line
 Wire Wire Line
 	5300 2300 5050 2300
 Text Label 5100 2200 0    30   ~ 0
-led1b
+led35b
 Text Label 5100 2250 0    30   ~ 0
-led1r
+led35r
 Text Label 5100 2300 0    30   ~ 0
-led1g
+led35g
 Wire Wire Line
 	5300 2350 5050 2350
 Wire Wire Line
@@ -7765,11 +7765,11 @@ Wire Wire Line
 Wire Wire Line
 	5300 2450 5050 2450
 Text Label 5100 2350 0    30   ~ 0
-led1b
+led36b
 Text Label 5100 2400 0    30   ~ 0
-led1r
+led36r
 Text Label 5100 2450 0    30   ~ 0
-led1g
+led36g
 Wire Wire Line
 	5300 2500 5050 2500
 Wire Wire Line
@@ -7777,11 +7777,11 @@ Wire Wire Line
 Wire Wire Line
 	5300 2600 5050 2600
 Text Label 5100 2500 0    30   ~ 0
-led1b
+led37b
 Text Label 5100 2550 0    30   ~ 0
-led1r
+led37r
 Text Label 5100 2600 0    30   ~ 0
-led1g
+led37g
 Wire Wire Line
 	5300 2650 5050 2650
 Wire Wire Line
@@ -7789,11 +7789,11 @@ Wire Wire Line
 Wire Wire Line
 	5300 2750 5050 2750
 Text Label 5100 2650 0    30   ~ 0
-led1b
+led38b
 Text Label 5100 2700 0    30   ~ 0
-led1r
+led38r
 Text Label 5100 2750 0    30   ~ 0
-led1g
+led38g
 Wire Wire Line
 	5300 2800 5050 2800
 Wire Wire Line
@@ -7801,11 +7801,11 @@ Wire Wire Line
 Wire Wire Line
 	5300 2900 5050 2900
 Text Label 5100 2800 0    30   ~ 0
-led1b
+led39b
 Text Label 5100 2850 0    30   ~ 0
-led1r
+led39r
 Text Label 5100 2900 0    30   ~ 0
-led1g
+led39g
 Wire Wire Line
 	5300 2950 5050 2950
 Wire Wire Line
@@ -7813,11 +7813,11 @@ Wire Wire Line
 Wire Wire Line
 	5300 3050 5050 3050
 Text Label 5100 2950 0    30   ~ 0
-led1b
+led40b
 Text Label 5100 3000 0    30   ~ 0
-led1r
+led40r
 Text Label 5100 3050 0    30   ~ 0
-led1g
+led40g
 Wire Wire Line
 	6550 1900 6300 1900
 Wire Wire Line
@@ -7825,11 +7825,11 @@ Wire Wire Line
 Wire Wire Line
 	6550 2000 6300 2000
 Text Label 6350 1900 0    30   ~ 0
-led1b
+led41b
 Text Label 6350 1950 0    30   ~ 0
-led1r
+led41r
 Text Label 6350 2000 0    30   ~ 0
-led1g
+led41g
 Wire Wire Line
 	6550 2050 6300 2050
 Wire Wire Line
@@ -7837,11 +7837,11 @@ Wire Wire Line
 Wire Wire Line
 	6550 2150 6300 2150
 Text Label 6350 2050 0    30   ~ 0
-led1b
+led42b
 Text Label 6350 2100 0    30   ~ 0
-led1r
+led42r
 Text Label 6350 2150 0    30   ~ 0
-led1g
+led42g
 Wire Wire Line
 	6550 2200 6300 2200
 Wire Wire Line
@@ -7849,11 +7849,11 @@ Wire Wire Line
 Wire Wire Line
 	6550 2300 6300 2300
 Text Label 6350 2200 0    30   ~ 0
-led1b
+led43b
 Text Label 6350 2250 0    30   ~ 0
-led1r
+led43r
 Text Label 6350 2300 0    30   ~ 0
-led1g
+led43g
 Wire Wire Line
 	6550 2350 6300 2350
 Wire Wire Line
@@ -7861,11 +7861,11 @@ Wire Wire Line
 Wire Wire Line
 	6550 2450 6300 2450
 Text Label 6350 2350 0    30   ~ 0
-led1b
+led44b
 Text Label 6350 2400 0    30   ~ 0
-led1r
+led44r
 Text Label 6350 2450 0    30   ~ 0
-led1g
+led44g
 Wire Wire Line
 	6550 2500 6300 2500
 Wire Wire Line
@@ -7873,11 +7873,11 @@ Wire Wire Line
 Wire Wire Line
 	6550 2600 6300 2600
 Text Label 6350 2500 0    30   ~ 0
-led1b
+led45b
 Text Label 6350 2550 0    30   ~ 0
-led1r
+led45r
 Text Label 6350 2600 0    30   ~ 0
-led1g
+led45g
 Wire Wire Line
 	6550 2650 6300 2650
 Wire Wire Line
@@ -7885,11 +7885,11 @@ Wire Wire Line
 Wire Wire Line
 	6550 2750 6300 2750
 Text Label 6350 2650 0    30   ~ 0
-led1b
+led46b
 Text Label 6350 2700 0    30   ~ 0
-led1r
+led46r
 Text Label 6350 2750 0    30   ~ 0
-led1g
+led46g
 Wire Wire Line
 	6550 2800 6300 2800
 Wire Wire Line
@@ -7897,11 +7897,11 @@ Wire Wire Line
 Wire Wire Line
 	6550 2900 6300 2900
 Text Label 6350 2800 0    30   ~ 0
-led1b
+led47b
 Text Label 6350 2850 0    30   ~ 0
-led1r
+led47r
 Text Label 6350 2900 0    30   ~ 0
-led1g
+led47g
 Wire Wire Line
 	6550 2950 6300 2950
 Wire Wire Line
@@ -7909,11 +7909,11 @@ Wire Wire Line
 Wire Wire Line
 	6550 3050 6300 3050
 Text Label 6350 2950 0    30   ~ 0
-led1b
+led48b
 Text Label 6350 3000 0    30   ~ 0
-led1r
+led48r
 Text Label 6350 3050 0    30   ~ 0
-led1g
+led48g
 Wire Wire Line
 	5750 3300 5900 3300
 Connection ~ 5800 3300
@@ -7993,11 +7993,11 @@ Wire Wire Line
 Wire Wire Line
 	7100 2000 6850 2000
 Text Label 6900 1900 0    30   ~ 0
-led1b
+led49b
 Text Label 6900 1950 0    30   ~ 0
-led1r
+led49r
 Text Label 6900 2000 0    30   ~ 0
-led1g
+led49g
 Wire Wire Line
 	7100 2050 6850 2050
 Wire Wire Line
@@ -8005,11 +8005,11 @@ Wire Wire Line
 Wire Wire Line
 	7100 2150 6850 2150
 Text Label 6900 2050 0    30   ~ 0
-led1b
+led50b
 Text Label 6900 2100 0    30   ~ 0
-led1r
+led50r
 Text Label 6900 2150 0    30   ~ 0
-led1g
+led50g
 Wire Wire Line
 	7100 2200 6850 2200
 Wire Wire Line
@@ -8017,11 +8017,11 @@ Wire Wire Line
 Wire Wire Line
 	7100 2300 6850 2300
 Text Label 6900 2200 0    30   ~ 0
-led1b
+led51b
 Text Label 6900 2250 0    30   ~ 0
-led1r
+led51r
 Text Label 6900 2300 0    30   ~ 0
-led1g
+led51g
 Wire Wire Line
 	7100 2350 6850 2350
 Wire Wire Line
@@ -8029,11 +8029,11 @@ Wire Wire Line
 Wire Wire Line
 	7100 2450 6850 2450
 Text Label 6900 2350 0    30   ~ 0
-led1b
+led52b
 Text Label 6900 2400 0    30   ~ 0
-led1r
+led52r
 Text Label 6900 2450 0    30   ~ 0
-led1g
+led52g
 Wire Wire Line
 	7100 2500 6850 2500
 Wire Wire Line
@@ -8041,11 +8041,11 @@ Wire Wire Line
 Wire Wire Line
 	7100 2600 6850 2600
 Text Label 6900 2500 0    30   ~ 0
-led1b
+led53b
 Text Label 6900 2550 0    30   ~ 0
-led1r
+led53r
 Text Label 6900 2600 0    30   ~ 0
-led1g
+led53g
 Wire Wire Line
 	7100 2650 6850 2650
 Wire Wire Line
@@ -8053,11 +8053,11 @@ Wire Wire Line
 Wire Wire Line
 	7100 2750 6850 2750
 Text Label 6900 2650 0    30   ~ 0
-led1b
+led54b
 Text Label 6900 2700 0    30   ~ 0
-led1r
+led54r
 Text Label 6900 2750 0    30   ~ 0
-led1g
+led54g
 Wire Wire Line
 	7100 2800 6850 2800
 Wire Wire Line
@@ -8065,11 +8065,11 @@ Wire Wire Line
 Wire Wire Line
 	7100 2900 6850 2900
 Text Label 6900 2800 0    30   ~ 0
-led1b
+led55b
 Text Label 6900 2850 0    30   ~ 0
-led1r
+led55r
 Text Label 6900 2900 0    30   ~ 0
-led1g
+led55g
 Wire Wire Line
 	7100 2950 6850 2950
 Wire Wire Line
@@ -8077,11 +8077,11 @@ Wire Wire Line
 Wire Wire Line
 	7100 3050 6850 3050
 Text Label 6900 2950 0    30   ~ 0
-led1b
+led56b
 Text Label 6900 3000 0    30   ~ 0
-led1r
+led56r
 Text Label 6900 3050 0    30   ~ 0
-led1g
+led56g
 Wire Wire Line
 	8350 1900 8100 1900
 Wire Wire Line
@@ -8089,11 +8089,11 @@ Wire Wire Line
 Wire Wire Line
 	8350 2000 8100 2000
 Text Label 8150 1900 0    30   ~ 0
-led1b
+led57b
 Text Label 8150 1950 0    30   ~ 0
-led1r
+led57r
 Text Label 8150 2000 0    30   ~ 0
-led1g
+led57g
 Wire Wire Line
 	8350 2050 8100 2050
 Wire Wire Line
@@ -8101,11 +8101,11 @@ Wire Wire Line
 Wire Wire Line
 	8350 2150 8100 2150
 Text Label 8150 2050 0    30   ~ 0
-led1b
+led58b
 Text Label 8150 2100 0    30   ~ 0
-led1r
+led58r
 Text Label 8150 2150 0    30   ~ 0
-led1g
+led58g
 Wire Wire Line
 	8350 2200 8100 2200
 Wire Wire Line
@@ -8113,11 +8113,11 @@ Wire Wire Line
 Wire Wire Line
 	8350 2300 8100 2300
 Text Label 8150 2200 0    30   ~ 0
-led1b
+led59b
 Text Label 8150 2250 0    30   ~ 0
-led1r
+led59r
 Text Label 8150 2300 0    30   ~ 0
-led1g
+led59g
 Wire Wire Line
 	8350 2350 8100 2350
 Wire Wire Line
@@ -8125,11 +8125,11 @@ Wire Wire Line
 Wire Wire Line
 	8350 2450 8100 2450
 Text Label 8150 2350 0    30   ~ 0
-led1b
+led60b
 Text Label 8150 2400 0    30   ~ 0
-led1r
+led60r
 Text Label 8150 2450 0    30   ~ 0
-led1g
+led60g
 Wire Wire Line
 	8350 2500 8100 2500
 Wire Wire Line
@@ -8137,11 +8137,11 @@ Wire Wire Line
 Wire Wire Line
 	8350 2600 8100 2600
 Text Label 8150 2500 0    30   ~ 0
-led1b
+led61b
 Text Label 8150 2550 0    30   ~ 0
-led1r
+led61r
 Text Label 8150 2600 0    30   ~ 0
-led1g
+led61g
 Wire Wire Line
 	8350 2650 8100 2650
 Wire Wire Line
@@ -8149,11 +8149,11 @@ Wire Wire Line
 Wire Wire Line
 	8350 2750 8100 2750
 Text Label 8150 2650 0    30   ~ 0
-led1b
+led62b
 Text Label 8150 2700 0    30   ~ 0
-led1r
+led62r
 Text Label 8150 2750 0    30   ~ 0
-led1g
+led62g
 Wire Wire Line
 	8350 2800 8100 2800
 Wire Wire Line
@@ -8161,11 +8161,11 @@ Wire Wire Line
 Wire Wire Line
 	8350 2900 8100 2900
 Text Label 8150 2800 0    30   ~ 0
-led1b
+led63b
 Text Label 8150 2850 0    30   ~ 0
-led1r
+led63r
 Text Label 8150 2900 0    30   ~ 0
-led1g
+led63g
 Wire Wire Line
 	8350 2950 8100 2950
 Wire Wire Line
@@ -8173,11 +8173,11 @@ Wire Wire Line
 Wire Wire Line
 	8350 3050 8100 3050
 Text Label 8150 2950 0    30   ~ 0
-led1b
+led64b
 Text Label 8150 3000 0    30   ~ 0
-led1r
+led64r
 Text Label 8150 3050 0    30   ~ 0
-led1g
+led64g
 Wire Wire Line
 	7550 3300 7700 3300
 Connection ~ 7600 3300
@@ -8248,11 +8248,11 @@ Wire Wire Line
 Wire Wire Line
 	8900 2000 8650 2000
 Text Label 8700 1900 0    30   ~ 0
-led1b
+led65b
 Text Label 8700 1950 0    30   ~ 0
-led1r
+led65r
 Text Label 8700 2000 0    30   ~ 0
-led1g
+led65g
 Wire Wire Line
 	8900 2050 8650 2050
 Wire Wire Line
@@ -8260,11 +8260,11 @@ Wire Wire Line
 Wire Wire Line
 	8900 2150 8650 2150
 Text Label 8700 2050 0    30   ~ 0
-led1b
+led66b
 Text Label 8700 2100 0    30   ~ 0
-led1r
+led66r
 Text Label 8700 2150 0    30   ~ 0
-led1g
+led66g
 Wire Wire Line
 	8900 2200 8650 2200
 Wire Wire Line
@@ -8272,11 +8272,11 @@ Wire Wire Line
 Wire Wire Line
 	8900 2300 8650 2300
 Text Label 8700 2200 0    30   ~ 0
-led1b
+led67b
 Text Label 8700 2250 0    30   ~ 0
-led1r
+led67r
 Text Label 8700 2300 0    30   ~ 0
-led1g
+led67g
 Wire Wire Line
 	8900 2350 8650 2350
 Wire Wire Line
@@ -8284,11 +8284,11 @@ Wire Wire Line
 Wire Wire Line
 	8900 2450 8650 2450
 Text Label 8700 2350 0    30   ~ 0
-led1b
+led68b
 Text Label 8700 2400 0    30   ~ 0
-led1r
+led68r
 Text Label 8700 2450 0    30   ~ 0
-led1g
+led68g
 Wire Wire Line
 	8900 2500 8650 2500
 Wire Wire Line
@@ -8296,11 +8296,11 @@ Wire Wire Line
 Wire Wire Line
 	8900 2600 8650 2600
 Text Label 8700 2500 0    30   ~ 0
-led1b
+led69b
 Text Label 8700 2550 0    30   ~ 0
-led1r
+led69r
 Text Label 8700 2600 0    30   ~ 0
-led1g
+led69g
 Wire Wire Line
 	8900 2650 8650 2650
 Wire Wire Line
@@ -8308,11 +8308,11 @@ Wire Wire Line
 Wire Wire Line
 	8900 2750 8650 2750
 Text Label 8700 2650 0    30   ~ 0
-led1b
+led70b
 Text Label 8700 2700 0    30   ~ 0
-led1r
+led70r
 Text Label 8700 2750 0    30   ~ 0
-led1g
+led70g
 Wire Wire Line
 	8900 2800 8650 2800
 Wire Wire Line
@@ -8320,11 +8320,11 @@ Wire Wire Line
 Wire Wire Line
 	8900 2900 8650 2900
 Text Label 8700 2800 0    30   ~ 0
-led1b
+led71b
 Text Label 8700 2850 0    30   ~ 0
-led1r
+led71r
 Text Label 8700 2900 0    30   ~ 0
-led1g
+led71g
 Wire Wire Line
 	8900 2950 8650 2950
 Wire Wire Line
@@ -8332,11 +8332,11 @@ Wire Wire Line
 Wire Wire Line
 	8900 3050 8650 3050
 Text Label 8700 2950 0    30   ~ 0
-led1b
+led72b
 Text Label 8700 3000 0    30   ~ 0
-led1r
+led72r
 Text Label 8700 3050 0    30   ~ 0
-led1g
+led72g
 Wire Wire Line
 	10150 1900 9900 1900
 Wire Wire Line
@@ -8344,11 +8344,11 @@ Wire Wire Line
 Wire Wire Line
 	10150 2000 9900 2000
 Text Label 9950 1900 0    30   ~ 0
-led1b
+led73b
 Text Label 9950 1950 0    30   ~ 0
-led1r
+led73r
 Text Label 9950 2000 0    30   ~ 0
-led1g
+led73g
 Wire Wire Line
 	10150 2050 9900 2050
 Wire Wire Line
@@ -8356,11 +8356,11 @@ Wire Wire Line
 Wire Wire Line
 	10150 2150 9900 2150
 Text Label 9950 2050 0    30   ~ 0
-led1b
+led74b
 Text Label 9950 2100 0    30   ~ 0
-led1r
+led74r
 Text Label 9950 2150 0    30   ~ 0
-led1g
+led74g
 Wire Wire Line
 	10150 2200 9900 2200
 Wire Wire Line
@@ -8368,11 +8368,11 @@ Wire Wire Line
 Wire Wire Line
 	10150 2300 9900 2300
 Text Label 9950 2200 0    30   ~ 0
-led1b
+led75b
 Text Label 9950 2250 0    30   ~ 0
-led1r
+led75r
 Text Label 9950 2300 0    30   ~ 0
-led1g
+led75g
 Wire Wire Line
 	10150 2350 9900 2350
 Wire Wire Line
@@ -8380,11 +8380,11 @@ Wire Wire Line
 Wire Wire Line
 	10150 2450 9900 2450
 Text Label 9950 2350 0    30   ~ 0
-led1b
+led76b
 Text Label 9950 2400 0    30   ~ 0
-led1r
+led76r
 Text Label 9950 2450 0    30   ~ 0
-led1g
+led76g
 Wire Wire Line
 	10150 2500 9900 2500
 Wire Wire Line
@@ -8392,11 +8392,11 @@ Wire Wire Line
 Wire Wire Line
 	10150 2600 9900 2600
 Text Label 9950 2500 0    30   ~ 0
-led1b
+led77b
 Text Label 9950 2550 0    30   ~ 0
-led1r
+led77r
 Text Label 9950 2600 0    30   ~ 0
-led1g
+led77g
 Wire Wire Line
 	10150 2650 9900 2650
 Wire Wire Line
@@ -8404,11 +8404,11 @@ Wire Wire Line
 Wire Wire Line
 	10150 2750 9900 2750
 Text Label 9950 2650 0    30   ~ 0
-led1b
+led78b
 Text Label 9950 2700 0    30   ~ 0
-led1r
+led78r
 Text Label 9950 2750 0    30   ~ 0
-led1g
+led78g
 Wire Wire Line
 	10150 2800 9900 2800
 Wire Wire Line
@@ -8416,11 +8416,11 @@ Wire Wire Line
 Wire Wire Line
 	10150 2900 9900 2900
 Text Label 9950 2800 0    30   ~ 0
-led1b
+led79b
 Text Label 9950 2850 0    30   ~ 0
-led1r
+led79r
 Text Label 9950 2900 0    30   ~ 0
-led1g
+led79g
 Wire Wire Line
 	10150 2950 9900 2950
 Wire Wire Line
@@ -8428,11 +8428,11 @@ Wire Wire Line
 Wire Wire Line
 	10150 3050 9900 3050
 Text Label 9950 2950 0    30   ~ 0
-led1b
+led80b
 Text Label 9950 3000 0    30   ~ 0
-led1r
+led80r
 Text Label 9950 3050 0    30   ~ 0
-led1g
+led80g
 Wire Wire Line
 	9350 3300 9500 3300
 Connection ~ 9400 3300
@@ -8512,11 +8512,11 @@ Wire Wire Line
 Wire Wire Line
 	10700 2000 10450 2000
 Text Label 10500 1900 0    30   ~ 0
-led1b
+led81b
 Text Label 10500 1950 0    30   ~ 0
-led1r
+led81r
 Text Label 10500 2000 0    30   ~ 0
-led1g
+led81g
 Wire Wire Line
 	10700 2050 10450 2050
 Wire Wire Line
@@ -8524,11 +8524,11 @@ Wire Wire Line
 Wire Wire Line
 	10700 2150 10450 2150
 Text Label 10500 2050 0    30   ~ 0
-led1b
+led82b
 Text Label 10500 2100 0    30   ~ 0
-led1r
+led82r
 Text Label 10500 2150 0    30   ~ 0
-led1g
+led82g
 Wire Wire Line
 	10700 2200 10450 2200
 Wire Wire Line
@@ -8536,11 +8536,11 @@ Wire Wire Line
 Wire Wire Line
 	10700 2300 10450 2300
 Text Label 10500 2200 0    30   ~ 0
-led1b
+led83b
 Text Label 10500 2250 0    30   ~ 0
-led1r
+led83r
 Text Label 10500 2300 0    30   ~ 0
-led1g
+led83g
 Wire Wire Line
 	10700 2350 10450 2350
 Wire Wire Line
@@ -8548,11 +8548,11 @@ Wire Wire Line
 Wire Wire Line
 	10700 2450 10450 2450
 Text Label 10500 2350 0    30   ~ 0
-led1b
+led84b
 Text Label 10500 2400 0    30   ~ 0
-led1r
+led84r
 Text Label 10500 2450 0    30   ~ 0
-led1g
+led84g
 Wire Wire Line
 	10700 2500 10450 2500
 Wire Wire Line
@@ -8560,11 +8560,11 @@ Wire Wire Line
 Wire Wire Line
 	10700 2600 10450 2600
 Text Label 10500 2500 0    30   ~ 0
-led1b
+led85b
 Text Label 10500 2550 0    30   ~ 0
-led1r
+led85r
 Text Label 10500 2600 0    30   ~ 0
-led1g
+led85g
 Wire Wire Line
 	10700 2650 10450 2650
 Wire Wire Line
@@ -8572,11 +8572,11 @@ Wire Wire Line
 Wire Wire Line
 	10700 2750 10450 2750
 Text Label 10500 2650 0    30   ~ 0
-led1b
+led86b
 Text Label 10500 2700 0    30   ~ 0
-led1r
+led86r
 Text Label 10500 2750 0    30   ~ 0
-led1g
+led86g
 Wire Wire Line
 	10700 2800 10450 2800
 Wire Wire Line
@@ -8584,11 +8584,11 @@ Wire Wire Line
 Wire Wire Line
 	10700 2900 10450 2900
 Text Label 10500 2800 0    30   ~ 0
-led1b
+led87b
 Text Label 10500 2850 0    30   ~ 0
-led1r
+led87r
 Text Label 10500 2900 0    30   ~ 0
-led1g
+led87g
 Wire Wire Line
 	10700 2950 10450 2950
 Wire Wire Line
@@ -8596,11 +8596,11 @@ Wire Wire Line
 Wire Wire Line
 	10700 3050 10450 3050
 Text Label 10500 2950 0    30   ~ 0
-led1b
+led88b
 Text Label 10500 3000 0    30   ~ 0
-led1r
+led88r
 Text Label 10500 3050 0    30   ~ 0
-led1g
+led88g
 Wire Wire Line
 	11950 1900 11700 1900
 Wire Wire Line
@@ -8608,11 +8608,11 @@ Wire Wire Line
 Wire Wire Line
 	11950 2000 11700 2000
 Text Label 11750 1900 0    30   ~ 0
-led1b
+led89b
 Text Label 11750 1950 0    30   ~ 0
-led1r
+led89r
 Text Label 11750 2000 0    30   ~ 0
-led1g
+led89g
 Wire Wire Line
 	11950 2050 11700 2050
 Wire Wire Line
@@ -8620,11 +8620,11 @@ Wire Wire Line
 Wire Wire Line
 	11950 2150 11700 2150
 Text Label 11750 2050 0    30   ~ 0
-led1b
+led90b
 Text Label 11750 2100 0    30   ~ 0
-led1r
+led90r
 Text Label 11750 2150 0    30   ~ 0
-led1g
+led90g
 Wire Wire Line
 	11950 2200 11700 2200
 Wire Wire Line
@@ -8632,11 +8632,11 @@ Wire Wire Line
 Wire Wire Line
 	11950 2300 11700 2300
 Text Label 11750 2200 0    30   ~ 0
-led1b
+led91b
 Text Label 11750 2250 0    30   ~ 0
-led1r
+led91r
 Text Label 11750 2300 0    30   ~ 0
-led1g
+led91g
 Wire Wire Line
 	11950 2350 11700 2350
 Wire Wire Line
@@ -8644,11 +8644,11 @@ Wire Wire Line
 Wire Wire Line
 	11950 2450 11700 2450
 Text Label 11750 2350 0    30   ~ 0
-led1b
+led92b
 Text Label 11750 2400 0    30   ~ 0
-led1r
+led92r
 Text Label 11750 2450 0    30   ~ 0
-led1g
+led92g
 Wire Wire Line
 	11950 2500 11700 2500
 Wire Wire Line
@@ -8656,11 +8656,11 @@ Wire Wire Line
 Wire Wire Line
 	11950 2600 11700 2600
 Text Label 11750 2500 0    30   ~ 0
-led1b
+led93b
 Text Label 11750 2550 0    30   ~ 0
-led1r
+led93r
 Text Label 11750 2600 0    30   ~ 0
-led1g
+led93g
 Wire Wire Line
 	11950 2650 11700 2650
 Wire Wire Line
@@ -8668,11 +8668,11 @@ Wire Wire Line
 Wire Wire Line
 	11950 2750 11700 2750
 Text Label 11750 2650 0    30   ~ 0
-led1b
+led94b
 Text Label 11750 2700 0    30   ~ 0
-led1r
+led94r
 Text Label 11750 2750 0    30   ~ 0
-led1g
+led94g
 Wire Wire Line
 	11950 2800 11700 2800
 Wire Wire Line
@@ -8680,11 +8680,11 @@ Wire Wire Line
 Wire Wire Line
 	11950 2900 11700 2900
 Text Label 11750 2800 0    30   ~ 0
-led1b
+led95b
 Text Label 11750 2850 0    30   ~ 0
-led1r
+led95r
 Text Label 11750 2900 0    30   ~ 0
-led1g
+led95g
 Wire Wire Line
 	11950 2950 11700 2950
 Wire Wire Line
@@ -8692,11 +8692,11 @@ Wire Wire Line
 Wire Wire Line
 	11950 3050 11700 3050
 Text Label 11750 2950 0    30   ~ 0
-led1b
+led96b
 Text Label 11750 3000 0    30   ~ 0
-led1r
+led96r
 Text Label 11750 3050 0    30   ~ 0
-led1g
+led96g
 Wire Wire Line
 	11150 3300 11300 3300
 Connection ~ 11200 3300
@@ -8767,11 +8767,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 2000 12250 2000
 Text Label 12300 1900 0    30   ~ 0
-led1b
+led97b
 Text Label 12300 1950 0    30   ~ 0
-led1r
+led97r
 Text Label 12300 2000 0    30   ~ 0
-led1g
+led97g
 Wire Wire Line
 	12500 2050 12250 2050
 Wire Wire Line
@@ -8779,11 +8779,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 2150 12250 2150
 Text Label 12300 2050 0    30   ~ 0
-led1b
+led98b
 Text Label 12300 2100 0    30   ~ 0
-led1r
+led98r
 Text Label 12300 2150 0    30   ~ 0
-led1g
+led98g
 Wire Wire Line
 	12500 2200 12250 2200
 Wire Wire Line
@@ -8791,11 +8791,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 2300 12250 2300
 Text Label 12300 2200 0    30   ~ 0
-led1b
+led99b
 Text Label 12300 2250 0    30   ~ 0
-led1r
+led99r
 Text Label 12300 2300 0    30   ~ 0
-led1g
+led99g
 Wire Wire Line
 	12500 2350 12250 2350
 Wire Wire Line
@@ -8803,11 +8803,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 2450 12250 2450
 Text Label 12300 2350 0    30   ~ 0
-led1b
+led100b
 Text Label 12300 2400 0    30   ~ 0
-led1r
+led100r
 Text Label 12300 2450 0    30   ~ 0
-led1g
+led100g
 Wire Wire Line
 	12500 2500 12250 2500
 Wire Wire Line
@@ -8815,11 +8815,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 2600 12250 2600
 Text Label 12300 2500 0    30   ~ 0
-led1b
+led101b
 Text Label 12300 2550 0    30   ~ 0
-led1r
+led101r
 Text Label 12300 2600 0    30   ~ 0
-led1g
+led101g
 Wire Wire Line
 	12500 2650 12250 2650
 Wire Wire Line
@@ -8827,11 +8827,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 2750 12250 2750
 Text Label 12300 2650 0    30   ~ 0
-led1b
+led102b
 Text Label 12300 2700 0    30   ~ 0
-led1r
+led102r
 Text Label 12300 2750 0    30   ~ 0
-led1g
+led102g
 Wire Wire Line
 	12500 2800 12250 2800
 Wire Wire Line
@@ -8839,11 +8839,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 2900 12250 2900
 Text Label 12300 2800 0    30   ~ 0
-led1b
+led103b
 Text Label 12300 2850 0    30   ~ 0
-led1r
+led103r
 Text Label 12300 2900 0    30   ~ 0
-led1g
+led103g
 Wire Wire Line
 	12500 2950 12250 2950
 Wire Wire Line
@@ -8851,11 +8851,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 3050 12250 3050
 Text Label 12300 2950 0    30   ~ 0
-led1b
+led104b
 Text Label 12300 3000 0    30   ~ 0
-led1r
+led104r
 Text Label 12300 3050 0    30   ~ 0
-led1g
+led104g
 Wire Wire Line
 	13750 1900 13500 1900
 Wire Wire Line
@@ -8863,11 +8863,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 2000 13500 2000
 Text Label 13550 1900 0    30   ~ 0
-led1b
+led105b
 Text Label 13550 1950 0    30   ~ 0
-led1r
+led105r
 Text Label 13550 2000 0    30   ~ 0
-led1g
+led105g
 Wire Wire Line
 	13750 2050 13500 2050
 Wire Wire Line
@@ -8875,11 +8875,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 2150 13500 2150
 Text Label 13550 2050 0    30   ~ 0
-led1b
+led106b
 Text Label 13550 2100 0    30   ~ 0
-led1r
+led106r
 Text Label 13550 2150 0    30   ~ 0
-led1g
+led106g
 Wire Wire Line
 	13750 2200 13500 2200
 Wire Wire Line
@@ -8887,11 +8887,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 2300 13500 2300
 Text Label 13550 2200 0    30   ~ 0
-led1b
+led107b
 Text Label 13550 2250 0    30   ~ 0
-led1r
+led107r
 Text Label 13550 2300 0    30   ~ 0
-led1g
+led107g
 Wire Wire Line
 	13750 2350 13500 2350
 Wire Wire Line
@@ -8899,11 +8899,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 2450 13500 2450
 Text Label 13550 2350 0    30   ~ 0
-led1b
+led108b
 Text Label 13550 2400 0    30   ~ 0
-led1r
+led108r
 Text Label 13550 2450 0    30   ~ 0
-led1g
+led108g
 Wire Wire Line
 	13750 2500 13500 2500
 Wire Wire Line
@@ -8911,11 +8911,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 2600 13500 2600
 Text Label 13550 2500 0    30   ~ 0
-led1b
+led109b
 Text Label 13550 2550 0    30   ~ 0
-led1r
+led109r
 Text Label 13550 2600 0    30   ~ 0
-led1g
+led109g
 Wire Wire Line
 	13750 2650 13500 2650
 Wire Wire Line
@@ -8923,11 +8923,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 2750 13500 2750
 Text Label 13550 2650 0    30   ~ 0
-led1b
+led110b
 Text Label 13550 2700 0    30   ~ 0
-led1r
+led110r
 Text Label 13550 2750 0    30   ~ 0
-led1g
+led110g
 Wire Wire Line
 	13750 2800 13500 2800
 Wire Wire Line
@@ -8935,11 +8935,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 2900 13500 2900
 Text Label 13550 2800 0    30   ~ 0
-led1b
+led111b
 Text Label 13550 2850 0    30   ~ 0
-led1r
+led111r
 Text Label 13550 2900 0    30   ~ 0
-led1g
+led111g
 Wire Wire Line
 	13750 2950 13500 2950
 Wire Wire Line
@@ -8947,11 +8947,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 3050 13500 3050
 Text Label 13550 2950 0    30   ~ 0
-led1b
+led112b
 Text Label 13550 3000 0    30   ~ 0
-led1r
+led112r
 Text Label 13550 3050 0    30   ~ 0
-led1g
+led112g
 Wire Wire Line
 	12950 3300 13100 3300
 Connection ~ 13000 3300
@@ -9031,11 +9031,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 2000 14050 2000
 Text Label 14100 1900 0    30   ~ 0
-led1b
+led113b
 Text Label 14100 1950 0    30   ~ 0
-led1r
+led113r
 Text Label 14100 2000 0    30   ~ 0
-led1g
+led113g
 Wire Wire Line
 	14300 2050 14050 2050
 Wire Wire Line
@@ -9043,11 +9043,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 2150 14050 2150
 Text Label 14100 2050 0    30   ~ 0
-led1b
+led114b
 Text Label 14100 2100 0    30   ~ 0
-led1r
+led114r
 Text Label 14100 2150 0    30   ~ 0
-led1g
+led114g
 Wire Wire Line
 	14300 2200 14050 2200
 Wire Wire Line
@@ -9055,11 +9055,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 2300 14050 2300
 Text Label 14100 2200 0    30   ~ 0
-led1b
+led115b
 Text Label 14100 2250 0    30   ~ 0
-led1r
+led115r
 Text Label 14100 2300 0    30   ~ 0
-led1g
+led115g
 Wire Wire Line
 	14300 2350 14050 2350
 Wire Wire Line
@@ -9067,11 +9067,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 2450 14050 2450
 Text Label 14100 2350 0    30   ~ 0
-led1b
+led116b
 Text Label 14100 2400 0    30   ~ 0
-led1r
+led116r
 Text Label 14100 2450 0    30   ~ 0
-led1g
+led116g
 Wire Wire Line
 	14300 2500 14050 2500
 Wire Wire Line
@@ -9079,11 +9079,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 2600 14050 2600
 Text Label 14100 2500 0    30   ~ 0
-led1b
+led117b
 Text Label 14100 2550 0    30   ~ 0
-led1r
+led117r
 Text Label 14100 2600 0    30   ~ 0
-led1g
+led117g
 Wire Wire Line
 	14300 2650 14050 2650
 Wire Wire Line
@@ -9091,11 +9091,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 2750 14050 2750
 Text Label 14100 2650 0    30   ~ 0
-led1b
+led118b
 Text Label 14100 2700 0    30   ~ 0
-led1r
+led118r
 Text Label 14100 2750 0    30   ~ 0
-led1g
+led118g
 Wire Wire Line
 	14300 2800 14050 2800
 Wire Wire Line
@@ -9103,11 +9103,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 2900 14050 2900
 Text Label 14100 2800 0    30   ~ 0
-led1b
+led119b
 Text Label 14100 2850 0    30   ~ 0
-led1r
+led119r
 Text Label 14100 2900 0    30   ~ 0
-led1g
+led119g
 Wire Wire Line
 	14300 2950 14050 2950
 Wire Wire Line
@@ -9115,11 +9115,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 3050 14050 3050
 Text Label 14100 2950 0    30   ~ 0
-led1b
+led120b
 Text Label 14100 3000 0    30   ~ 0
-led1r
+led120r
 Text Label 14100 3050 0    30   ~ 0
-led1g
+led120g
 Wire Wire Line
 	15550 1900 15300 1900
 Wire Wire Line
@@ -9127,11 +9127,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 2000 15300 2000
 Text Label 15350 1900 0    30   ~ 0
-led1b
+led121b
 Text Label 15350 1950 0    30   ~ 0
-led1r
+led121r
 Text Label 15350 2000 0    30   ~ 0
-led1g
+led121g
 Wire Wire Line
 	15550 2050 15300 2050
 Wire Wire Line
@@ -9139,11 +9139,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 2150 15300 2150
 Text Label 15350 2050 0    30   ~ 0
-led1b
+led122b
 Text Label 15350 2100 0    30   ~ 0
-led1r
+led122r
 Text Label 15350 2150 0    30   ~ 0
-led1g
+led122g
 Wire Wire Line
 	15550 2200 15300 2200
 Wire Wire Line
@@ -9151,11 +9151,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 2300 15300 2300
 Text Label 15350 2200 0    30   ~ 0
-led1b
+led123b
 Text Label 15350 2250 0    30   ~ 0
-led1r
+led123r
 Text Label 15350 2300 0    30   ~ 0
-led1g
+led123g
 Wire Wire Line
 	15550 2350 15300 2350
 Wire Wire Line
@@ -9163,11 +9163,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 2450 15300 2450
 Text Label 15350 2350 0    30   ~ 0
-led1b
+led124b
 Text Label 15350 2400 0    30   ~ 0
-led1r
+led124r
 Text Label 15350 2450 0    30   ~ 0
-led1g
+led124g
 Wire Wire Line
 	15550 2500 15300 2500
 Wire Wire Line
@@ -9175,11 +9175,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 2600 15300 2600
 Text Label 15350 2500 0    30   ~ 0
-led1b
+led125b
 Text Label 15350 2550 0    30   ~ 0
-led1r
+led125r
 Text Label 15350 2600 0    30   ~ 0
-led1g
+led125g
 Wire Wire Line
 	15550 2650 15300 2650
 Wire Wire Line
@@ -9187,11 +9187,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 2750 15300 2750
 Text Label 15350 2650 0    30   ~ 0
-led1b
+led126b
 Text Label 15350 2700 0    30   ~ 0
-led1r
+led126r
 Text Label 15350 2750 0    30   ~ 0
-led1g
+led126g
 Wire Wire Line
 	15550 2800 15300 2800
 Wire Wire Line
@@ -9199,11 +9199,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 2900 15300 2900
 Text Label 15350 2800 0    30   ~ 0
-led1b
+led127b
 Text Label 15350 2850 0    30   ~ 0
-led1r
+led127r
 Text Label 15350 2900 0    30   ~ 0
-led1g
+led127g
 Wire Wire Line
 	15550 2950 15300 2950
 Wire Wire Line
@@ -9211,11 +9211,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 3050 15300 3050
 Text Label 15350 2950 0    30   ~ 0
-led1b
+led128b
 Text Label 15350 3000 0    30   ~ 0
-led1r
+led128r
 Text Label 15350 3050 0    30   ~ 0
-led1g
+led128g
 Wire Wire Line
 	14750 3300 14900 3300
 Connection ~ 14800 3300
@@ -9286,11 +9286,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 4500 12250 4500
 Text Label 12300 4400 0    30   ~ 0
-led1b
+led129b
 Text Label 12300 4450 0    30   ~ 0
-led1r
+led129r
 Text Label 12300 4500 0    30   ~ 0
-led1g
+led129g
 Wire Wire Line
 	12500 4550 12250 4550
 Wire Wire Line
@@ -9298,11 +9298,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 4650 12250 4650
 Text Label 12300 4550 0    30   ~ 0
-led1b
+led130b
 Text Label 12300 4600 0    30   ~ 0
-led1r
+led130r
 Text Label 12300 4650 0    30   ~ 0
-led1g
+led130g
 Wire Wire Line
 	12500 4700 12250 4700
 Wire Wire Line
@@ -9310,11 +9310,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 4800 12250 4800
 Text Label 12300 4700 0    30   ~ 0
-led1b
+led131b
 Text Label 12300 4750 0    30   ~ 0
-led1r
+led131r
 Text Label 12300 4800 0    30   ~ 0
-led1g
+led131g
 Wire Wire Line
 	12500 4850 12250 4850
 Wire Wire Line
@@ -9322,11 +9322,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 4950 12250 4950
 Text Label 12300 4850 0    30   ~ 0
-led1b
+led132b
 Text Label 12300 4900 0    30   ~ 0
-led1r
+led132r
 Text Label 12300 4950 0    30   ~ 0
-led1g
+led132g
 Wire Wire Line
 	12500 5000 12250 5000
 Wire Wire Line
@@ -9334,11 +9334,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 5100 12250 5100
 Text Label 12300 5000 0    30   ~ 0
-led1b
+led133b
 Text Label 12300 5050 0    30   ~ 0
-led1r
+led133r
 Text Label 12300 5100 0    30   ~ 0
-led1g
+led133g
 Wire Wire Line
 	12500 5150 12250 5150
 Wire Wire Line
@@ -9346,11 +9346,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 5250 12250 5250
 Text Label 12300 5150 0    30   ~ 0
-led1b
+led134b
 Text Label 12300 5200 0    30   ~ 0
-led1r
+led134r
 Text Label 12300 5250 0    30   ~ 0
-led1g
+led134g
 Wire Wire Line
 	12500 5300 12250 5300
 Wire Wire Line
@@ -9358,11 +9358,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 5400 12250 5400
 Text Label 12300 5300 0    30   ~ 0
-led1b
+led135b
 Text Label 12300 5350 0    30   ~ 0
-led1r
+led135r
 Text Label 12300 5400 0    30   ~ 0
-led1g
+led135g
 Wire Wire Line
 	12500 5450 12250 5450
 Wire Wire Line
@@ -9370,11 +9370,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 5550 12250 5550
 Text Label 12300 5450 0    30   ~ 0
-led1b
+led136b
 Text Label 12300 5500 0    30   ~ 0
-led1r
+led136r
 Text Label 12300 5550 0    30   ~ 0
-led1g
+led136g
 Wire Wire Line
 	13750 4400 13500 4400
 Wire Wire Line
@@ -9382,11 +9382,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 4500 13500 4500
 Text Label 13550 4400 0    30   ~ 0
-led1b
+led137b
 Text Label 13550 4450 0    30   ~ 0
-led1r
+led137r
 Text Label 13550 4500 0    30   ~ 0
-led1g
+led137g
 Wire Wire Line
 	13750 4550 13500 4550
 Wire Wire Line
@@ -9394,11 +9394,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 4650 13500 4650
 Text Label 13550 4550 0    30   ~ 0
-led1b
+led138b
 Text Label 13550 4600 0    30   ~ 0
-led1r
+led138r
 Text Label 13550 4650 0    30   ~ 0
-led1g
+led138g
 Wire Wire Line
 	13750 4700 13500 4700
 Wire Wire Line
@@ -9406,11 +9406,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 4800 13500 4800
 Text Label 13550 4700 0    30   ~ 0
-led1b
+led139b
 Text Label 13550 4750 0    30   ~ 0
-led1r
+led139r
 Text Label 13550 4800 0    30   ~ 0
-led1g
+led139g
 Wire Wire Line
 	13750 4850 13500 4850
 Wire Wire Line
@@ -9418,11 +9418,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 4950 13500 4950
 Text Label 13550 4850 0    30   ~ 0
-led1b
+led140b
 Text Label 13550 4900 0    30   ~ 0
-led1r
+led140r
 Text Label 13550 4950 0    30   ~ 0
-led1g
+led140g
 Wire Wire Line
 	13750 5000 13500 5000
 Wire Wire Line
@@ -9430,11 +9430,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 5100 13500 5100
 Text Label 13550 5000 0    30   ~ 0
-led1b
+led141b
 Text Label 13550 5050 0    30   ~ 0
-led1r
+led141r
 Text Label 13550 5100 0    30   ~ 0
-led1g
+led141g
 Wire Wire Line
 	13750 5150 13500 5150
 Wire Wire Line
@@ -9442,11 +9442,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 5250 13500 5250
 Text Label 13550 5150 0    30   ~ 0
-led1b
+led142b
 Text Label 13550 5200 0    30   ~ 0
-led1r
+led142r
 Text Label 13550 5250 0    30   ~ 0
-led1g
+led142g
 Wire Wire Line
 	13750 5300 13500 5300
 Wire Wire Line
@@ -9454,11 +9454,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 5400 13500 5400
 Text Label 13550 5300 0    30   ~ 0
-led1b
+led143b
 Text Label 13550 5350 0    30   ~ 0
-led1r
+led143r
 Text Label 13550 5400 0    30   ~ 0
-led1g
+led143g
 Wire Wire Line
 	13750 5450 13500 5450
 Wire Wire Line
@@ -9466,11 +9466,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 5550 13500 5550
 Text Label 13550 5450 0    30   ~ 0
-led1b
+led144b
 Text Label 13550 5500 0    30   ~ 0
-led1r
+led144r
 Text Label 13550 5550 0    30   ~ 0
-led1g
+led144g
 Wire Wire Line
 	12950 5800 13100 5800
 Connection ~ 13000 5800
@@ -9550,11 +9550,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 4500 14050 4500
 Text Label 14100 4400 0    30   ~ 0
-led1b
+led145b
 Text Label 14100 4450 0    30   ~ 0
-led1r
+led145r
 Text Label 14100 4500 0    30   ~ 0
-led1g
+led145g
 Wire Wire Line
 	14300 4550 14050 4550
 Wire Wire Line
@@ -9562,11 +9562,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 4650 14050 4650
 Text Label 14100 4550 0    30   ~ 0
-led1b
+led146b
 Text Label 14100 4600 0    30   ~ 0
-led1r
+led146r
 Text Label 14100 4650 0    30   ~ 0
-led1g
+led146g
 Wire Wire Line
 	14300 4700 14050 4700
 Wire Wire Line
@@ -9574,11 +9574,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 4800 14050 4800
 Text Label 14100 4700 0    30   ~ 0
-led1b
+led147b
 Text Label 14100 4750 0    30   ~ 0
-led1r
+led147r
 Text Label 14100 4800 0    30   ~ 0
-led1g
+led147g
 Wire Wire Line
 	14300 4850 14050 4850
 Wire Wire Line
@@ -9586,11 +9586,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 4950 14050 4950
 Text Label 14100 4850 0    30   ~ 0
-led1b
+led148b
 Text Label 14100 4900 0    30   ~ 0
-led1r
+led148r
 Text Label 14100 4950 0    30   ~ 0
-led1g
+led148g
 Wire Wire Line
 	14300 5000 14050 5000
 Wire Wire Line
@@ -9598,11 +9598,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 5100 14050 5100
 Text Label 14100 5000 0    30   ~ 0
-led1b
+led149b
 Text Label 14100 5050 0    30   ~ 0
-led1r
+led149r
 Text Label 14100 5100 0    30   ~ 0
-led1g
+led149g
 Wire Wire Line
 	14300 5150 14050 5150
 Wire Wire Line
@@ -9610,11 +9610,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 5250 14050 5250
 Text Label 14100 5150 0    30   ~ 0
-led1b
+led150b
 Text Label 14100 5200 0    30   ~ 0
-led1r
+led150r
 Text Label 14100 5250 0    30   ~ 0
-led1g
+led150g
 Wire Wire Line
 	14300 5300 14050 5300
 Wire Wire Line
@@ -9622,11 +9622,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 5400 14050 5400
 Text Label 14100 5300 0    30   ~ 0
-led1b
+led151b
 Text Label 14100 5350 0    30   ~ 0
-led1r
+led151r
 Text Label 14100 5400 0    30   ~ 0
-led1g
+led151g
 Wire Wire Line
 	14300 5450 14050 5450
 Wire Wire Line
@@ -9634,11 +9634,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 5550 14050 5550
 Text Label 14100 5450 0    30   ~ 0
-led1b
+led152b
 Text Label 14100 5500 0    30   ~ 0
-led1r
+led152r
 Text Label 14100 5550 0    30   ~ 0
-led1g
+led152g
 Wire Wire Line
 	15550 4400 15300 4400
 Wire Wire Line
@@ -9646,11 +9646,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 4500 15300 4500
 Text Label 15350 4400 0    30   ~ 0
-led1b
+led153b
 Text Label 15350 4450 0    30   ~ 0
-led1r
+led153r
 Text Label 15350 4500 0    30   ~ 0
-led1g
+led153g
 Wire Wire Line
 	15550 4550 15300 4550
 Wire Wire Line
@@ -9658,11 +9658,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 4650 15300 4650
 Text Label 15350 4550 0    30   ~ 0
-led1b
+led154b
 Text Label 15350 4600 0    30   ~ 0
-led1r
+led154r
 Text Label 15350 4650 0    30   ~ 0
-led1g
+led154g
 Wire Wire Line
 	15550 4700 15300 4700
 Wire Wire Line
@@ -9670,11 +9670,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 4800 15300 4800
 Text Label 15350 4700 0    30   ~ 0
-led1b
+led155b
 Text Label 15350 4750 0    30   ~ 0
-led1r
+led155r
 Text Label 15350 4800 0    30   ~ 0
-led1g
+led155g
 Wire Wire Line
 	15550 4850 15300 4850
 Wire Wire Line
@@ -9682,11 +9682,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 4950 15300 4950
 Text Label 15350 4850 0    30   ~ 0
-led1b
+led156b
 Text Label 15350 4900 0    30   ~ 0
-led1r
+led156r
 Text Label 15350 4950 0    30   ~ 0
-led1g
+led156g
 Wire Wire Line
 	15550 5000 15300 5000
 Wire Wire Line
@@ -9694,11 +9694,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 5100 15300 5100
 Text Label 15350 5000 0    30   ~ 0
-led1b
+led157b
 Text Label 15350 5050 0    30   ~ 0
-led1r
+led157r
 Text Label 15350 5100 0    30   ~ 0
-led1g
+led157g
 Wire Wire Line
 	15550 5150 15300 5150
 Wire Wire Line
@@ -9706,11 +9706,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 5250 15300 5250
 Text Label 15350 5150 0    30   ~ 0
-led1b
+led158b
 Text Label 15350 5200 0    30   ~ 0
-led1r
+led158r
 Text Label 15350 5250 0    30   ~ 0
-led1g
+led158g
 Wire Wire Line
 	15550 5300 15300 5300
 Wire Wire Line
@@ -9718,11 +9718,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 5400 15300 5400
 Text Label 15350 5300 0    30   ~ 0
-led1b
+led159b
 Text Label 15350 5350 0    30   ~ 0
-led1r
+led159r
 Text Label 15350 5400 0    30   ~ 0
-led1g
+led159g
 Wire Wire Line
 	15550 5450 15300 5450
 Wire Wire Line
@@ -9730,11 +9730,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 5550 15300 5550
 Text Label 15350 5450 0    30   ~ 0
-led1b
+led160b
 Text Label 15350 5500 0    30   ~ 0
-led1r
+led160r
 Text Label 15350 5550 0    30   ~ 0
-led1g
+led160g
 Wire Wire Line
 	14750 5800 14900 5800
 Connection ~ 14800 5800
@@ -9805,11 +9805,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 7000 12250 7000
 Text Label 12300 6900 0    30   ~ 0
-led1b
+led161b
 Text Label 12300 6950 0    30   ~ 0
-led1r
+led161r
 Text Label 12300 7000 0    30   ~ 0
-led1g
+led161g
 Wire Wire Line
 	12500 7050 12250 7050
 Wire Wire Line
@@ -9817,11 +9817,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 7150 12250 7150
 Text Label 12300 7050 0    30   ~ 0
-led1b
+led162b
 Text Label 12300 7100 0    30   ~ 0
-led1r
+led162r
 Text Label 12300 7150 0    30   ~ 0
-led1g
+led162g
 Wire Wire Line
 	12500 7200 12250 7200
 Wire Wire Line
@@ -9829,11 +9829,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 7300 12250 7300
 Text Label 12300 7200 0    30   ~ 0
-led1b
+led163b
 Text Label 12300 7250 0    30   ~ 0
-led1r
+led163r
 Text Label 12300 7300 0    30   ~ 0
-led1g
+led163g
 Wire Wire Line
 	12500 7350 12250 7350
 Wire Wire Line
@@ -9841,11 +9841,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 7450 12250 7450
 Text Label 12300 7350 0    30   ~ 0
-led1b
+led164b
 Text Label 12300 7400 0    30   ~ 0
-led1r
+led164r
 Text Label 12300 7450 0    30   ~ 0
-led1g
+led164g
 Wire Wire Line
 	12500 7500 12250 7500
 Wire Wire Line
@@ -9853,11 +9853,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 7600 12250 7600
 Text Label 12300 7500 0    30   ~ 0
-led1b
+led165b
 Text Label 12300 7550 0    30   ~ 0
-led1r
+led165r
 Text Label 12300 7600 0    30   ~ 0
-led1g
+led165g
 Wire Wire Line
 	12500 7650 12250 7650
 Wire Wire Line
@@ -9865,11 +9865,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 7750 12250 7750
 Text Label 12300 7650 0    30   ~ 0
-led1b
+led166b
 Text Label 12300 7700 0    30   ~ 0
-led1r
+led166r
 Text Label 12300 7750 0    30   ~ 0
-led1g
+led166g
 Wire Wire Line
 	12500 7800 12250 7800
 Wire Wire Line
@@ -9877,11 +9877,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 7900 12250 7900
 Text Label 12300 7800 0    30   ~ 0
-led1b
+led167b
 Text Label 12300 7850 0    30   ~ 0
-led1r
+led167r
 Text Label 12300 7900 0    30   ~ 0
-led1g
+led167g
 Wire Wire Line
 	12500 7950 12250 7950
 Wire Wire Line
@@ -9889,11 +9889,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 8050 12250 8050
 Text Label 12300 7950 0    30   ~ 0
-led1b
+led168b
 Text Label 12300 8000 0    30   ~ 0
-led1r
+led168r
 Text Label 12300 8050 0    30   ~ 0
-led1g
+led168g
 Wire Wire Line
 	13750 6900 13500 6900
 Wire Wire Line
@@ -9901,11 +9901,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 7000 13500 7000
 Text Label 13550 6900 0    30   ~ 0
-led1b
+led169b
 Text Label 13550 6950 0    30   ~ 0
-led1r
+led169r
 Text Label 13550 7000 0    30   ~ 0
-led1g
+led169g
 Wire Wire Line
 	13750 7050 13500 7050
 Wire Wire Line
@@ -9913,11 +9913,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 7150 13500 7150
 Text Label 13550 7050 0    30   ~ 0
-led1b
+led170b
 Text Label 13550 7100 0    30   ~ 0
-led1r
+led170r
 Text Label 13550 7150 0    30   ~ 0
-led1g
+led170g
 Wire Wire Line
 	13750 7200 13500 7200
 Wire Wire Line
@@ -9925,11 +9925,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 7300 13500 7300
 Text Label 13550 7200 0    30   ~ 0
-led1b
+led171b
 Text Label 13550 7250 0    30   ~ 0
-led1r
+led171r
 Text Label 13550 7300 0    30   ~ 0
-led1g
+led171g
 Wire Wire Line
 	13750 7350 13500 7350
 Wire Wire Line
@@ -9937,11 +9937,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 7450 13500 7450
 Text Label 13550 7350 0    30   ~ 0
-led1b
+led172b
 Text Label 13550 7400 0    30   ~ 0
-led1r
+led172r
 Text Label 13550 7450 0    30   ~ 0
-led1g
+led172g
 Wire Wire Line
 	13750 7500 13500 7500
 Wire Wire Line
@@ -9949,11 +9949,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 7600 13500 7600
 Text Label 13550 7500 0    30   ~ 0
-led1b
+led173b
 Text Label 13550 7550 0    30   ~ 0
-led1r
+led173r
 Text Label 13550 7600 0    30   ~ 0
-led1g
+led173g
 Wire Wire Line
 	13750 7650 13500 7650
 Wire Wire Line
@@ -9961,11 +9961,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 7750 13500 7750
 Text Label 13550 7650 0    30   ~ 0
-led1b
+led174b
 Text Label 13550 7700 0    30   ~ 0
-led1r
+led174r
 Text Label 13550 7750 0    30   ~ 0
-led1g
+led174g
 Wire Wire Line
 	13750 7800 13500 7800
 Wire Wire Line
@@ -9973,11 +9973,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 7900 13500 7900
 Text Label 13550 7800 0    30   ~ 0
-led1b
+led175b
 Text Label 13550 7850 0    30   ~ 0
-led1r
+led175r
 Text Label 13550 7900 0    30   ~ 0
-led1g
+led175g
 Wire Wire Line
 	13750 7950 13500 7950
 Wire Wire Line
@@ -9985,11 +9985,11 @@ Wire Wire Line
 Wire Wire Line
 	13750 8050 13500 8050
 Text Label 13550 7950 0    30   ~ 0
-led1b
+led176b
 Text Label 13550 8000 0    30   ~ 0
-led1r
+led176r
 Text Label 13550 8050 0    30   ~ 0
-led1g
+led176g
 Wire Wire Line
 	12950 8300 13100 8300
 Connection ~ 13000 8300
@@ -10069,11 +10069,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 7000 14050 7000
 Text Label 14100 6900 0    30   ~ 0
-led1b
+led177b
 Text Label 14100 6950 0    30   ~ 0
-led1r
+led177r
 Text Label 14100 7000 0    30   ~ 0
-led1g
+led177g
 Wire Wire Line
 	14300 7050 14050 7050
 Wire Wire Line
@@ -10081,11 +10081,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 7150 14050 7150
 Text Label 14100 7050 0    30   ~ 0
-led1b
+led178b
 Text Label 14100 7100 0    30   ~ 0
-led1r
+led178r
 Text Label 14100 7150 0    30   ~ 0
-led1g
+led178g
 Wire Wire Line
 	14300 7200 14050 7200
 Wire Wire Line
@@ -10093,11 +10093,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 7300 14050 7300
 Text Label 14100 7200 0    30   ~ 0
-led1b
+led179b
 Text Label 14100 7250 0    30   ~ 0
-led1r
+led179r
 Text Label 14100 7300 0    30   ~ 0
-led1g
+led179g
 Wire Wire Line
 	14300 7350 14050 7350
 Wire Wire Line
@@ -10105,11 +10105,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 7450 14050 7450
 Text Label 14100 7350 0    30   ~ 0
-led1b
+led180b
 Text Label 14100 7400 0    30   ~ 0
-led1r
+led180r
 Text Label 14100 7450 0    30   ~ 0
-led1g
+led180g
 Wire Wire Line
 	14300 7500 14050 7500
 Wire Wire Line
@@ -10117,11 +10117,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 7600 14050 7600
 Text Label 14100 7500 0    30   ~ 0
-led1b
+led181b
 Text Label 14100 7550 0    30   ~ 0
-led1r
+led181r
 Text Label 14100 7600 0    30   ~ 0
-led1g
+led181g
 Wire Wire Line
 	14300 7650 14050 7650
 Wire Wire Line
@@ -10129,11 +10129,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 7750 14050 7750
 Text Label 14100 7650 0    30   ~ 0
-led1b
+led182b
 Text Label 14100 7700 0    30   ~ 0
-led1r
+led182r
 Text Label 14100 7750 0    30   ~ 0
-led1g
+led182g
 Wire Wire Line
 	14300 7800 14050 7800
 Wire Wire Line
@@ -10141,11 +10141,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 7900 14050 7900
 Text Label 14100 7800 0    30   ~ 0
-led1b
+led183b
 Text Label 14100 7850 0    30   ~ 0
-led1r
+led183r
 Text Label 14100 7900 0    30   ~ 0
-led1g
+led183g
 Wire Wire Line
 	14300 7950 14050 7950
 Wire Wire Line
@@ -10153,11 +10153,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 8050 14050 8050
 Text Label 14100 7950 0    30   ~ 0
-led1b
+led184b
 Text Label 14100 8000 0    30   ~ 0
-led1r
+led184r
 Text Label 14100 8050 0    30   ~ 0
-led1g
+led184g
 Wire Wire Line
 	15550 6900 15300 6900
 Wire Wire Line
@@ -10165,11 +10165,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 7000 15300 7000
 Text Label 15350 6900 0    30   ~ 0
-led1b
+led185b
 Text Label 15350 6950 0    30   ~ 0
-led1r
+led185r
 Text Label 15350 7000 0    30   ~ 0
-led1g
+led185g
 Wire Wire Line
 	15550 7050 15300 7050
 Wire Wire Line
@@ -10177,11 +10177,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 7150 15300 7150
 Text Label 15350 7050 0    30   ~ 0
-led1b
+led186b
 Text Label 15350 7100 0    30   ~ 0
-led1r
+led186r
 Text Label 15350 7150 0    30   ~ 0
-led1g
+led186g
 Wire Wire Line
 	15550 7200 15300 7200
 Wire Wire Line
@@ -10189,11 +10189,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 7300 15300 7300
 Text Label 15350 7200 0    30   ~ 0
-led1b
+led187b
 Text Label 15350 7250 0    30   ~ 0
-led1r
+led187r
 Text Label 15350 7300 0    30   ~ 0
-led1g
+led187g
 Wire Wire Line
 	15550 7350 15300 7350
 Wire Wire Line
@@ -10201,11 +10201,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 7450 15300 7450
 Text Label 15350 7350 0    30   ~ 0
-led1b
+led188b
 Text Label 15350 7400 0    30   ~ 0
-led1r
+led188r
 Text Label 15350 7450 0    30   ~ 0
-led1g
+led188g
 Wire Wire Line
 	15550 7500 15300 7500
 Wire Wire Line
@@ -10213,11 +10213,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 7600 15300 7600
 Text Label 15350 7500 0    30   ~ 0
-led1b
+led189b
 Text Label 15350 7550 0    30   ~ 0
-led1r
+led189r
 Text Label 15350 7600 0    30   ~ 0
-led1g
+led189g
 Wire Wire Line
 	15550 7650 15300 7650
 Wire Wire Line
@@ -10225,11 +10225,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 7750 15300 7750
 Text Label 15350 7650 0    30   ~ 0
-led1b
+led190b
 Text Label 15350 7700 0    30   ~ 0
-led1r
+led190r
 Text Label 15350 7750 0    30   ~ 0
-led1g
+led190g
 Wire Wire Line
 	15550 7800 15300 7800
 Wire Wire Line
@@ -10237,11 +10237,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 7900 15300 7900
 Text Label 15350 7800 0    30   ~ 0
-led1b
+led191b
 Text Label 15350 7850 0    30   ~ 0
-led1r
+led191r
 Text Label 15350 7900 0    30   ~ 0
-led1g
+led191g
 Wire Wire Line
 	15550 7950 15300 7950
 Wire Wire Line
@@ -10249,11 +10249,11 @@ Wire Wire Line
 Wire Wire Line
 	15550 8050 15300 8050
 Text Label 15350 7950 0    30   ~ 0
-led1b
+led192b
 Text Label 15350 8000 0    30   ~ 0
-led1r
+led192r
 Text Label 15350 8050 0    30   ~ 0
-led1g
+led192g
 Wire Wire Line
 	14750 8300 14900 8300
 Connection ~ 14800 8300
