@@ -885,9 +885,159 @@ Wire Wire Line
 Wire Wire Line
 	5600 1600 5250 1600
 $Sheet
-S 8675 1675 1175 1975
+S 8675 1675 1175 1800
 U 5636686F
 F0 "LEDs" 60
 F1 "leds.sch" 60
+F2 "gsclk1" I L 8675 2075 60 
+F3 "lat1" I L 8675 1975 60 
+F4 "sclk1" I L 8675 1875 60 
+F5 "sin1" I L 8675 1775 60 
+F6 "sout1" O L 8675 2175 60 
+F7 "gsclk2" I L 8675 2675 60 
+F8 "lat2" I L 8675 2575 60 
+F9 "sclk2" I L 8675 2475 60 
+F10 "sin2" I L 8675 2375 60 
+F11 "sout2" O L 8675 2775 60 
+F12 "gsclk3" I L 8675 3275 60 
+F13 "lat3" I L 8675 3175 60 
+F14 "sclk3" I L 8675 3075 60 
+F15 "sin3" I L 8675 2975 60 
+F16 "sout3" O L 8675 3375 60 
+F17 "gsclk4" I R 9850 2075 60 
+F18 "lat4" I R 9850 1975 60 
+F19 "sclk4" I R 9850 1875 60 
+F20 "sin4" I R 9850 1775 60 
+F21 "sout4" O R 9850 2175 60 
+F22 "gsclk5" I R 9850 2675 60 
+F23 "lat5" I R 9850 2575 60 
+F24 "sclk5" I R 9850 2475 60 
+F25 "sin5" I R 9850 2375 60 
+F26 "sout5" O R 9850 2775 60 
+F27 "gsclk6" I R 9850 2975 60 
+F28 "lat6" I R 9850 3075 60 
+F29 "sclk6" I R 9850 3175 60 
+F30 "sin6" I R 9850 3275 60 
+F31 "sout6" O R 9850 3375 60 
 $EndSheet
+Wire Wire Line
+	8675 1775 8150 1775
+Wire Wire Line
+	8675 1875 8150 1875
+Wire Wire Line
+	8675 1975 8150 1975
+Wire Wire Line
+	8675 2075 8150 2075
+Wire Wire Line
+	8675 2175 8150 2175
+Wire Wire Line
+	8675 2375 8150 2375
+Wire Wire Line
+	8675 2475 8150 2475
+Wire Wire Line
+	8675 2575 8150 2575
+Wire Wire Line
+	8675 2675 8150 2675
+Wire Wire Line
+	8675 2775 8150 2775
+Wire Wire Line
+	8675 2975 8150 2975
+Wire Wire Line
+	8675 3075 8150 3075
+Wire Wire Line
+	8675 3175 8150 3175
+Wire Wire Line
+	8675 3275 8150 3275
+Wire Wire Line
+	8675 3375 8150 3375
+Wire Wire Line
+	10375 1775 9850 1775
+Wire Wire Line
+	10375 1875 9850 1875
+Wire Wire Line
+	10375 1975 9850 1975
+Wire Wire Line
+	10375 2075 9850 2075
+Wire Wire Line
+	10375 2175 9850 2175
+Wire Wire Line
+	10375 2375 9850 2375
+Wire Wire Line
+	10375 2475 9850 2475
+Wire Wire Line
+	10375 2575 9850 2575
+Wire Wire Line
+	10375 2675 9850 2675
+Wire Wire Line
+	10375 2775 9850 2775
+Wire Wire Line
+	10375 2975 9850 2975
+Wire Wire Line
+	10375 3075 9850 3075
+Wire Wire Line
+	10375 3175 9850 3175
+Wire Wire Line
+	10375 3275 9850 3275
+Wire Wire Line
+	10375 3375 9850 3375
+Text Label 8275 1775 0    60   ~ 0
+sin1
+Text Label 8275 2375 0    60   ~ 0
+sin2
+Text Label 8275 2975 0    60   ~ 0
+sin3
+Text Label 8275 1875 0    60   ~ 0
+sclk1
+Text Label 8275 2475 0    60   ~ 0
+sclk2
+Text Label 8275 3075 0    60   ~ 0
+sclk3
+Text Label 8275 1975 0    60   ~ 0
+lat1
+Text Label 8275 2575 0    60   ~ 0
+lat2
+Text Label 8275 3175 0    60   ~ 0
+lat3
+Text Label 8275 2075 0    60   ~ 0
+gsclk1
+Text Label 8275 2675 0    60   ~ 0
+gsclk2
+Text Label 8275 3275 0    60   ~ 0
+gsclk3
+Text Label 8275 2175 0    60   ~ 0
+sout1
+Text Label 8275 2775 0    60   ~ 0
+sout2
+Text Label 8275 3375 0    60   ~ 0
+sout3
+Text Label 10000 1775 0    60   ~ 0
+sin4
+Text Label 10000 2375 0    60   ~ 0
+sin5
+Text Label 10000 2975 0    60   ~ 0
+sin6
+Text Label 10000 1875 0    60   ~ 0
+sclk4
+Text Label 10000 2475 0    60   ~ 0
+sclk5
+Text Label 10000 3075 0    60   ~ 0
+sclk6
+Text Label 10000 1975 0    60   ~ 0
+lat4
+Text Label 10000 2575 0    60   ~ 0
+lat5
+Text Label 10000 3175 0    60   ~ 0
+lat6
+Text Label 10000 2075 0    60   ~ 0
+gsclk4
+Text Label 10000 2675 0    60   ~ 0
+gsclk5
+Text Label 10000 3275 0    60   ~ 0
+gsclk6
+Text Label 10000 2175 0    60   ~ 0
+sout4
+Text Label 10000 2775 0    60   ~ 0
+sout5
+Text Label 10000 3375 0    60   ~ 0
+sout6
 $EndSCHEMATC

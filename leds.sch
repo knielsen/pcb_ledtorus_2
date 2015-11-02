@@ -7948,13 +7948,13 @@ Wire Wire Line
 Wire Wire Line
 	5700 1550 5450 1550
 Text Label 5500 1550 0    60   ~ 0
-sin1
+sin2
 Text Label 5500 1450 0    60   ~ 0
-sclk1
+sclk2
 Text Label 5500 1350 0    60   ~ 0
-lat1
+lat2
 Text Label 5500 1250 0    60   ~ 0
-gsclk1
+gsclk2
 Wire Wire Line
 	5850 1650 5850 1250
 Wire Wire Line
@@ -7968,13 +7968,13 @@ Wire Wire Line
 Wire Wire Line
 	5750 1450 5750 1650
 Text HLabel 5450 1250 0    60   Input ~ 0
-gsclk1
+gsclk2
 Text HLabel 5450 1350 0    60   Input ~ 0
-lat1
+lat2
 Text HLabel 5450 1450 0    60   Input ~ 0
-sclk1
+sclk2
 Text HLabel 5450 1550 0    60   Input ~ 0
-sin1
+sin2
 $Comp
 L TLC5955 U?
 U 1 1 5639C85B
@@ -8212,7 +8212,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 1550 7500 1550
 Text Label 7300 1150 0    60   ~ 0
-sout1
+sout2
 Wire Wire Line
 	7250 1150 7700 1150
 Wire Wire Line
@@ -8224,7 +8224,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 1450 7550 1650
 Text HLabel 7250 1150 0    60   Output ~ 0
-sout1
+sout2
 Wire Wire Line
 	5900 1650 5900 1550
 Connection ~ 5850 1250
@@ -8467,13 +8467,13 @@ Wire Wire Line
 Wire Wire Line
 	9300 1550 9050 1550
 Text Label 9100 1550 0    60   ~ 0
-sin1
+sin3
 Text Label 9100 1450 0    60   ~ 0
-sclk1
+sclk3
 Text Label 9100 1350 0    60   ~ 0
-lat1
+lat3
 Text Label 9100 1250 0    60   ~ 0
-gsclk1
+gsclk3
 Wire Wire Line
 	9450 1650 9450 1250
 Wire Wire Line
@@ -8487,13 +8487,13 @@ Wire Wire Line
 Wire Wire Line
 	9350 1450 9350 1650
 Text HLabel 9050 1250 0    60   Input ~ 0
-gsclk1
+gsclk3
 Text HLabel 9050 1350 0    60   Input ~ 0
-lat1
+lat3
 Text HLabel 9050 1450 0    60   Input ~ 0
-sclk1
+sclk3
 Text HLabel 9050 1550 0    60   Input ~ 0
-sin1
+sin3
 $Comp
 L TLC5955 U?
 U 1 1 5639CC18
@@ -8731,7 +8731,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 1550 11100 1550
 Text Label 10900 1150 0    60   ~ 0
-sout1
+sout3
 Wire Wire Line
 	10850 1150 11300 1150
 Wire Wire Line
@@ -8743,7 +8743,7 @@ Wire Wire Line
 Wire Wire Line
 	11150 1450 11150 1650
 Text HLabel 10850 1150 0    60   Output ~ 0
-sout1
+sout3
 Wire Wire Line
 	9500 1650 9500 1550
 Connection ~ 9450 1250
@@ -8986,13 +8986,13 @@ Wire Wire Line
 Wire Wire Line
 	12900 1550 12650 1550
 Text Label 12700 1550 0    60   ~ 0
-sin1
+sin4
 Text Label 12700 1450 0    60   ~ 0
-sclk1
+sclk4
 Text Label 12700 1350 0    60   ~ 0
-lat1
+lat4
 Text Label 12700 1250 0    60   ~ 0
-gsclk1
+gsclk4
 Wire Wire Line
 	13050 1650 13050 1250
 Wire Wire Line
@@ -9006,13 +9006,13 @@ Wire Wire Line
 Wire Wire Line
 	12950 1450 12950 1650
 Text HLabel 12650 1250 0    60   Input ~ 0
-gsclk1
+gsclk4
 Text HLabel 12650 1350 0    60   Input ~ 0
-lat1
+lat4
 Text HLabel 12650 1450 0    60   Input ~ 0
-sclk1
+sclk4
 Text HLabel 12650 1550 0    60   Input ~ 0
-sin1
+sin4
 $Comp
 L TLC5955 U?
 U 1 1 5639CD21
@@ -9250,7 +9250,7 @@ Wire Wire Line
 Wire Wire Line
 	13100 1550 14700 1550
 Text Label 14500 1150 0    60   ~ 0
-sout1
+sout4
 Wire Wire Line
 	14450 1150 14900 1150
 Wire Wire Line
@@ -9262,7 +9262,7 @@ Wire Wire Line
 Wire Wire Line
 	14750 1450 14750 1650
 Text HLabel 14450 1150 0    60   Output ~ 0
-sout1
+sout4
 Wire Wire Line
 	13100 1650 13100 1550
 Connection ~ 13050 1250
@@ -9505,13 +9505,13 @@ Wire Wire Line
 Wire Wire Line
 	12900 4050 12650 4050
 Text Label 12700 4050 0    60   ~ 0
-sin1
+sin5
 Text Label 12700 3950 0    60   ~ 0
-sclk1
+sclk5
 Text Label 12700 3850 0    60   ~ 0
-lat1
+lat5
 Text Label 12700 3750 0    60   ~ 0
-gsclk1
+gsclk5
 Wire Wire Line
 	13050 4150 13050 3750
 Wire Wire Line
@@ -9525,13 +9525,13 @@ Wire Wire Line
 Wire Wire Line
 	12950 3950 12950 4150
 Text HLabel 12650 3750 0    60   Input ~ 0
-gsclk1
+gsclk5
 Text HLabel 12650 3850 0    60   Input ~ 0
-lat1
+lat5
 Text HLabel 12650 3950 0    60   Input ~ 0
-sclk1
+sclk5
 Text HLabel 12650 4050 0    60   Input ~ 0
-sin1
+sin5
 $Comp
 L TLC5955 U?
 U 1 1 5639D046
@@ -9769,7 +9769,7 @@ Wire Wire Line
 Wire Wire Line
 	13100 4050 14700 4050
 Text Label 14500 3650 0    60   ~ 0
-sout1
+sout5
 Wire Wire Line
 	14450 3650 14900 3650
 Wire Wire Line
@@ -9781,7 +9781,7 @@ Wire Wire Line
 Wire Wire Line
 	14750 3950 14750 4150
 Text HLabel 14450 3650 0    60   Output ~ 0
-sout1
+sout5
 Wire Wire Line
 	13100 4150 13100 4050
 Connection ~ 13050 3750
@@ -10024,13 +10024,13 @@ Wire Wire Line
 Wire Wire Line
 	12900 6550 12650 6550
 Text Label 12700 6550 0    60   ~ 0
-sin1
+sin6
 Text Label 12700 6450 0    60   ~ 0
-sclk1
+sclk6
 Text Label 12700 6350 0    60   ~ 0
-lat1
+lat6
 Text Label 12700 6250 0    60   ~ 0
-gsclk1
+gsclk6
 Wire Wire Line
 	13050 6650 13050 6250
 Wire Wire Line
@@ -10044,13 +10044,13 @@ Wire Wire Line
 Wire Wire Line
 	12950 6450 12950 6650
 Text HLabel 12650 6250 0    60   Input ~ 0
-gsclk1
+gsclk6
 Text HLabel 12650 6350 0    60   Input ~ 0
-lat1
+lat6
 Text HLabel 12650 6450 0    60   Input ~ 0
-sclk1
+sclk6
 Text HLabel 12650 6550 0    60   Input ~ 0
-sin1
+sin6
 $Comp
 L TLC5955 U?
 U 1 1 5639D387
@@ -10288,7 +10288,7 @@ Wire Wire Line
 Wire Wire Line
 	13100 6550 14700 6550
 Text Label 14500 6150 0    60   ~ 0
-sout1
+sout6
 Wire Wire Line
 	14450 6150 14900 6150
 Wire Wire Line
@@ -10300,7 +10300,7 @@ Wire Wire Line
 Wire Wire Line
 	14750 6450 14750 6650
 Text HLabel 14450 6150 0    60   Output ~ 0
-sout1
+sout6
 Wire Wire Line
 	13100 6650 13100 6550
 Connection ~ 13050 6250
