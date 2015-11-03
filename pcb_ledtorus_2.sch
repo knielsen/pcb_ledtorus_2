@@ -779,7 +779,7 @@ usb_dm
 Text Label 5200 2050 0    60   ~ 0
 user_led
 Text Label 5250 1900 0    60   ~ 0
-vusb
+usb_5v
 Text Label 5200 2150 0    60   ~ 0
 nrst
 Wire Wire Line
@@ -1113,4 +1113,19 @@ Text Label 2650 4200 0    30   ~ 0
 lat5
 Text Label 2650 4250 0    30   ~ 0
 lat6
+$Comp
+L R_Small R8
+U 1 1 5638A770
+P 1250 1900
+F 0 "R8" H 1280 1920 30  0000 L CNN
+F 1 "10k" V 1250 1850 30  0000 L CNN
+F 2 "" H 1250 1900 60  0000 C CNN
+F 3 "" H 1250 1900 60  0000 C CNN
+	1    1250 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1150 1900 975  1900
+Text Label 1000 1900 0    30   ~ 0
+usb_5v
 $EndSCHEMATC
