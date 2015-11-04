@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/knielsen/devel/pov3d/pcb_ledtorus_2/pcb_ledtorus_2.sch)
-    (date "Tue Nov  3 13:21:04 2015")
+    (date "Wed Nov  4 12:21:13 2015")
     (tool "Eeschema (2015-10-31 BZR 6288, Git e64c36a)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -357,7 +357,7 @@
       (tstamp 5636DFCC))
     (comp (ref X1)
       (value MA-505)
-      (footprint knielsenlib_old:2-SOJ)
+      (footprint knielsenlib:2-SOJ)
       (libsource (lib device) (part Crystal_Small))
       (sheetpath (names /Power/) (tstamps /5635F23B/))
       (tstamp 563C30B0))
@@ -1688,31 +1688,32 @@
       (sheetpath (names /LEDs/) (tstamps /5636686F/))
       (tstamp 5639D387)))
   (libparts
-    (libpart (lib knielsenlib) (part KNUSB)
-      (description "Micro USB connector, device end")
+    (libpart (lib conn) (part CONN_01X02)
       (footprints
-        (fp 10103594-0001LF))
+        (fp Pin_Header_Straight_1X02)
+        (fp Pin_Header_Angled_1X02)
+        (fp Socket_Strip_Straight_1X02)
+        (fp Socket_Strip_Angled_1X02))
       (fields
-        (field (name Reference) U)
-        (field (name Value) KNUSB))
+        (field (name Reference) P)
+        (field (name Value) CONN_01X02))
       (pins
-        (pin (num 1) (name VBUS) (type power_out))
-        (pin (num 2) (name D-) (type BiDi))
-        (pin (num 3) (name D+) (type BiDi))
-        (pin (num 4) (name ID) (type passive))
-        (pin (num 5) (name GND) (type power_in))
-        (pin (num 6) (name SHIELD) (type passive))))
-    (libpart (lib knielsenlib) (part LP38691)
-      (description "Low drop-out voltage regulator, 3-pin")
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))))
+    (libpart (lib device) (part C_Small)
+      (description "Unpolarized capacitor")
       (footprints
-        (fp PFM))
+        (fp C?)
+        (fp C_????_*)
+        (fp C_????)
+        (fp SMD*_c)
+        (fp Capacitor*))
       (fields
-        (field (name Reference) U)
-        (field (name Value) LP38691))
+        (field (name Reference) C)
+        (field (name Value) C_Small))
       (pins
-        (pin (num 1) (name Vout) (type power_out))
-        (pin (num 2) (name GND) (type power_in))
-        (pin (num 3) (name Vin) (type power_in))))
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib knielsenlib) (part MICRO-SD)
       (footprints
         (fp SD_502774))
@@ -1741,6 +1742,21 @@
         (pin (num 2) (name R) (type passive))
         (pin (num 3) (name R) (type passive))
         (pin (num 4) (name R) (type passive))))
+    (libpart (lib device) (part CP)
+      (description "Polarised capacitor")
+      (footprints
+        (fp CP*)
+        (fp Elko*)
+        (fp TantalC*)
+        (fp C*elec)
+        (fp c_elec*)
+        (fp SMD*_Pol))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) CP))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib knielsenlib) (part STM32F46X_LQFP176)
       (description "STM32F46X: Cortex M4 MCU in LQFP176 package")
       (footprints
@@ -1925,18 +1941,42 @@
         (pin (num 174) (name PI5) (type BiDi))
         (pin (num 175) (name PI6) (type BiDi))
         (pin (num 176) (name PI7) (type BiDi))))
-    (libpart (lib knielsenlib) (part SWITCH_4PIN)
-      (description "Switch with 4 pins")
+    (libpart (lib conn) (part CONN_01X12)
       (footprints
-        (fp SWITCH_FSMJSMA))
+        (fp Pin_Header_Straight_1X12)
+        (fp Pin_Header_Angled_1X12)
+        (fp Socket_Strip_Straight_1X12)
+        (fp Socket_Strip_Angled_1X12))
       (fields
-        (field (name Reference) B)
-        (field (name Value) SWITCH_4PIN))
+        (field (name Reference) P)
+        (field (name Value) CONN_01X12))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))
+        (pin (num 6) (name P6) (type passive))
+        (pin (num 7) (name P7) (type passive))
+        (pin (num 8) (name P8) (type passive))
+        (pin (num 9) (name P9) (type passive))
+        (pin (num 10) (name P10) (type passive))
+        (pin (num 11) (name P11) (type passive))
+        (pin (num 12) (name P12) (type passive))))
+    (libpart (lib device) (part C)
+      (description "Unpolarized capacitor")
+      (footprints
+        (fp C?)
+        (fp C_????_*)
+        (fp C_????)
+        (fp SMD*_c)
+        (fp Capacitor*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
       (pins
         (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))
-        (pin (num 3) (name ~) (type passive))
-        (pin (num 4) (name ~) (type passive))))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib knielsenlib) (part TLC5955)
       (description "TLC5955 48-channel LED-driver PWM (HTSSOP-56 package)")
       (footprints
@@ -2002,74 +2042,29 @@
         (pin (num 55) (name GSCLK) (type input))
         (pin (num 56) (name GND) (type power_in))
         (pin (num 57) (name "GND_(PowerPAD)") (type power_in))))
-    (libpart (lib knielsenlib) (part US4881_HALL)
+    (libpart (lib knielsenlib) (part LP38691)
+      (description "Low drop-out voltage regulator, 3-pin")
+      (footprints
+        (fp PFM))
       (fields
         (field (name Reference) U)
-        (field (name Value) US4881_HALL))
+        (field (name Value) LP38691))
       (pins
-        (pin (num 1) (name VCC) (type input))
-        (pin (num 2) (name GND) (type input))
-        (pin (num 3) (name OUT) (type input))))
-    (libpart (lib device) (part C)
-      (description "Unpolarized capacitor")
+        (pin (num 1) (name Vout) (type power_out))
+        (pin (num 2) (name GND) (type power_in))
+        (pin (num 3) (name Vin) (type power_in))))
+    (libpart (lib knielsenlib) (part SWITCH_4PIN)
+      (description "Switch with 4 pins")
       (footprints
-        (fp C?)
-        (fp C_????_*)
-        (fp C_????)
-        (fp SMD*_c)
-        (fp Capacitor*))
+        (fp SWITCH_FSMJSMA))
       (fields
-        (field (name Reference) C)
-        (field (name Value) C))
+        (field (name Reference) B)
+        (field (name Value) SWITCH_4PIN))
       (pins
         (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part CP)
-      (description "Polarised capacitor")
-      (footprints
-        (fp CP*)
-        (fp Elko*)
-        (fp TantalC*)
-        (fp C*elec)
-        (fp c_elec*)
-        (fp SMD*_Pol))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) CP))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part C_Small)
-      (description "Unpolarized capacitor")
-      (footprints
-        (fp C?)
-        (fp C_????_*)
-        (fp C_????)
-        (fp SMD*_c)
-        (fp Capacitor*))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C_Small))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part Crystal_Small)
-      (description "Two pin crystal")
-      (footprints
-        (fp Crystal_))
-      (fields
-        (field (name Reference) Y)
-        (field (name Value) Crystal_Small))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
-    (libpart (lib device) (part INDUCTOR)
-      (fields
-        (field (name Reference) L)
-        (field (name Value) INDUCTOR))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))
+        (pin (num 4) (name ~) (type passive))))
     (libpart (lib device) (part JUMPER3)
       (fields
         (field (name Reference) JP)
@@ -2078,55 +2073,6 @@
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))
         (pin (num 3) (name 3) (type passive))))
-    (libpart (lib device) (part LED)
-      (footprints
-        (fp LED-3MM)
-        (fp LED-5MM)
-        (fp LED-10MM)
-        (fp LED-0603)
-        (fp LED-0805)
-        (fp LED-1206)
-        (fp LEDV))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) LED))
-      (pins
-        (pin (num 1) (name K) (type passive))
-        (pin (num 2) (name A) (type passive))))
-    (libpart (lib device) (part R)
-      (description Resistor)
-      (footprints
-        (fp R_*)
-        (fp Resistor_*))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part R_Small)
-      (description Resistor)
-      (footprints
-        (fp Resistor_*)
-        (fp R_*))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R_Small))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib conn) (part CONN_01X02)
-      (footprints
-        (fp Pin_Header_Straight_1X02)
-        (fp Pin_Header_Angled_1X02)
-        (fp Socket_Strip_Straight_1X02)
-        (fp Socket_Strip_Angled_1X02))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X02))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))))
     (libpart (lib conn) (part CONN_01X06)
       (footprints
         (fp Pin_Header_Straight_1X06)
@@ -2143,28 +2089,6 @@
         (pin (num 4) (name P4) (type passive))
         (pin (num 5) (name P5) (type passive))
         (pin (num 6) (name P6) (type passive))))
-    (libpart (lib conn) (part CONN_01X12)
-      (footprints
-        (fp Pin_Header_Straight_1X12)
-        (fp Pin_Header_Angled_1X12)
-        (fp Socket_Strip_Straight_1X12)
-        (fp Socket_Strip_Angled_1X12))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X12))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive))
-        (pin (num 4) (name P4) (type passive))
-        (pin (num 5) (name P5) (type passive))
-        (pin (num 6) (name P6) (type passive))
-        (pin (num 7) (name P7) (type passive))
-        (pin (num 8) (name P8) (type passive))
-        (pin (num 9) (name P9) (type passive))
-        (pin (num 10) (name P10) (type passive))
-        (pin (num 11) (name P11) (type passive))
-        (pin (num 12) (name P12) (type passive))))
     (libpart (lib conn) (part CONN_02X04)
       (footprints
         (fp Pin_Header_Straight_2X04)
@@ -2182,7 +2106,83 @@
         (pin (num 5) (name P5) (type passive))
         (pin (num 6) (name P6) (type passive))
         (pin (num 7) (name P7) (type passive))
-        (pin (num 8) (name P8) (type passive)))))
+        (pin (num 8) (name P8) (type passive))))
+    (libpart (lib device) (part R_Small)
+      (description Resistor)
+      (footprints
+        (fp Resistor_*)
+        (fp R_*))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R_Small))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part Crystal_Small)
+      (description "Two pin crystal")
+      (footprints
+        (fp Crystal_))
+      (fields
+        (field (name Reference) Y)
+        (field (name Value) Crystal_Small))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistor)
+      (footprints
+        (fp R_*)
+        (fp Resistor_*))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib knielsenlib) (part KNUSB)
+      (description "Micro USB connector, device end")
+      (footprints
+        (fp 10103594-0001LF))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) KNUSB))
+      (pins
+        (pin (num 1) (name VBUS) (type power_out))
+        (pin (num 2) (name D-) (type BiDi))
+        (pin (num 3) (name D+) (type BiDi))
+        (pin (num 4) (name ID) (type passive))
+        (pin (num 5) (name GND) (type power_in))
+        (pin (num 6) (name SHIELD) (type passive))))
+    (libpart (lib device) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name K) (type passive))
+        (pin (num 2) (name A) (type passive))))
+    (libpart (lib knielsenlib) (part US4881_HALL)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) US4881_HALL))
+      (pins
+        (pin (num 1) (name VCC) (type input))
+        (pin (num 2) (name GND) (type input))
+        (pin (num 3) (name OUT) (type input))))
+    (libpart (lib device) (part INDUCTOR)
+      (fields
+        (field (name Reference) L)
+        (field (name Value) INDUCTOR))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive)))))
   (libraries
     (library (logical knielsenlib)
       (uri /home/knielsen/devel/kicad/library/knielsenlib.lib))
