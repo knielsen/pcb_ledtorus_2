@@ -7406,11 +7406,11 @@ Wire Wire Line
 Wire Wire Line
 	4750 2900 4500 2900
 Text Label 4550 2800 0    30   ~ 0
-led31b
+led33b
 Text Label 4550 2850 0    30   ~ 0
-led31r
+led33r
 Text Label 4550 2900 0    30   ~ 0
-led31g
+led33g
 Wire Wire Line
 	4750 2950 4500 2950
 Wire Wire Line
@@ -7729,11 +7729,11 @@ Wire Wire Line
 Wire Wire Line
 	5300 2000 5050 2000
 Text Label 5100 1900 0    30   ~ 0
-led33b
+led31b
 Text Label 5100 1950 0    30   ~ 0
-led33r
+led31r
 Text Label 5100 2000 0    30   ~ 0
-led33g
+led31g
 Wire Wire Line
 	5300 2050 5050 2050
 Wire Wire Line
