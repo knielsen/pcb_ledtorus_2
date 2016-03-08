@@ -8,8 +8,8 @@ use Math::Trig;
 my $n_layers = 16;
 my $n_leds = 14;
 my $pcb_angle = 37.5;
-my $extra = -27.48;
-my $l_pix = 5.5;
+my $l_pix = 4.0;
+my $extra = -27.48*$l_pix/5.5;
 my $h_pix = $l_pix;
 
 $pcb_angle = $pcb_angle*(pi/180);
@@ -44,10 +44,10 @@ open F, "<", "pcb_ledtorus_2.kicad_pcb"
 my $x = <F>;
 close F;
 
-$x =~ s!\(at 148.5011 105.0036\)
+$x =~ s!\(at [-.0-9]+ [-.0-9]+ 90\)
     \(descr "RGB led, 0603"\)
     \(path /5636686F/([A-Z0-9]+)\)
-    \(fp_text reference LD([0-9][0-9]?[0-9]?)!(at $led_pos->{"LD$2"}[0] $led_pos->{"LD$2"}[1])
+    \(fp_text reference LD([0-9][0-9]?[0-9]?)!(at $led_pos->{"LD$2"}[0] $led_pos->{"LD$2"}[1] 90)
     (descr "RGB led, 0603")
     (path /5636686F/$1)
     (fp_text reference LD$2!gs;

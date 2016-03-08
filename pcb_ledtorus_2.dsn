@@ -1,0 +1,3582 @@
+(pcb /home/knielsen/devel/pov3d/pcb_ledtorus_2/pcb_ledtorus_2.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2015-12-18 BZR 6383, Git 02d9bbb)-product")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer In1.Cu
+      (type power)
+      (property
+        (index 1)
+      )
+    )
+    (layer In2.Cu
+      (type power)
+      (property
+        (index 2)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 3)
+      )
+    )
+    (boundary
+      (path pcb 0  50723.6 -158402  50524.8 -152803  50524.8 -147197  50723.6 -141598
+            51120.6 -136015  51715.1 -130460  52505.9 -124944  53491.5 -119478
+            54669.9 -114073  56038.7 -108739  57595.2 -103489  59336.3 -98330.7
+            61258.5 -93276  63357.9 -88334.7  65630.4 -83516.5  68071.5 -78831.1
+            70676.2 -74287.9  73439.3 -69895.9  76355.4 -65663.9  79418.6 -61600.4
+            82622.8 -57713.4  85961.6 -54010.8  89428.2 -50500  210572 -50500
+            214038 -54010.8  217377 -57713.4  220581 -61600.4  223645 -65663.9
+            226561 -69895.9  229324 -74287.9  231929 -78831.1  234370 -83516.5
+            236642 -88334.7  238742 -93276  240664 -98330.7  242405 -103489
+            243961 -108739  245330 -114073  246508 -119478  247494 -124944
+            248285 -130460  248879 -136015  249276 -141598  249475 -147197
+            249475 -152803  249276 -158402  248879 -163985  248285 -169540
+            247494 -175056  246508 -180522  245330 -185927  243961 -191261
+            242405 -196511  240664 -201669  238742 -206724  236642 -211665
+            234370 -216484  231929 -221169  229324 -225712  226561 -230104
+            223645 -234336  220581 -238400  217377 -242287  214038 -245989
+            210572 -249500  89428.2 -249500  85961.6 -245989  82622.8 -242287
+            79418.6 -238400  76355.4 -234336  73439.3 -230104  70676.2 -225712
+            68071.5 -221169  65630.4 -216484  63357.9 -211665  61258.5 -206724
+            59336.3 -201669  57595.2 -196511  56038.7 -191261  54669.9 -185927
+            53491.5 -180522  52505.9 -175056  51715.1 -169540  51120.6 -163985
+            50723.6 -158402  50723.6 -158402)
+    )
+    (plane GND (polygon In2.Cu 0  250000 -250000  50000 -250000  50000 -50000  250000 -50000
+            250000 -250000))
+    (plane +5V (polygon In1.Cu 0  250000 -250000  150000 -250000  150000 -50000  250000 -50000
+            250000 -250000))
+    (via "Via[0-3]_635:304.8_um")
+    (rule
+      (width 203.2)
+      (clearance 203.3)
+      (clearance 203.3 (type default_smd))
+      (clearance 50.8 (type smd_smd))
+    )
+  )
+  (placement
+    (component knielsenlib:TLC5955DCA
+      (place U6 174350 -113838 back 180 (PN TLC5955))
+      (place U4 168200 -70300 back 180 (PN TLC5955))
+      (place U5 199000 -70300 back 180 (PN TLC5955))
+      (place U7 209350 -113862 back 180 (PN TLC5955))
+      (place U8 175250 -140962 back 180 (PN TLC5955))
+      (place U9 209850 -140962 back 180 (PN TLC5955))
+      (place U10 175250 -159262 back 180 (PN TLC5955))
+      (place U11 207250 -159262 back 180 (PN TLC5955))
+      (place U12 175250 -186262 back 180 (PN TLC5955))
+      (place U13 207250 -186262 back 180 (PN TLC5955))
+      (place U14 161250 -222262 back 180 (PN TLC5955))
+      (place U15 201250 -222262 back 180 (PN TLC5955))
+    )
+    (component "knielsenlib:TO-252-3"
+      (place U3 127286 -215221 back 180 (PN LP38691))
+    )
+    (component knielsenlib:RGB_0603
+      (place LD35 199734 -109344 front 90 (PN RGB_LED_SMALL))
+      (place LD1 151467 -82239.5 front 90 (PN RGB_LED_SMALL))
+      (place LD2 174979 -82239.5 front 90 (PN RGB_LED_SMALL))
+      (place LD3 186142 -82239.5 front 90 (PN RGB_LED_SMALL))
+      (place LD4 195267 -82239.5 front 90 (PN RGB_LED_SMALL))
+      (place LD5 203408 -82239.5 front 90 (PN RGB_LED_SMALL))
+      (place LD6 210961 -82239.5 front 90 (PN RGB_LED_SMALL))
+      (place LD7 218121 -82239.5 front 90 (PN RGB_LED_SMALL))
+      (place LD8 225002 -82239.5 front 90 (PN RGB_LED_SMALL))
+      (place LD9 231674 -82239.5 front 90 (PN RGB_LED_SMALL))
+      (place LD10 162654 -91274.2 front 90 (PN RGB_LED_SMALL))
+      (place LD11 176859 -91274.2 front 90 (PN RGB_LED_SMALL))
+      (place LD12 186650 -91274.2 front 90 (PN RGB_LED_SMALL))
+      (place LD13 195006 -91274.2 front 90 (PN RGB_LED_SMALL))
+      (place LD14 202615 -91274.2 front 90 (PN RGB_LED_SMALL))
+      (place LD15 209763 -91274.2 front 90 (PN RGB_LED_SMALL))
+      (place LD16 216599 -91274.2 front 90 (PN RGB_LED_SMALL))
+      (place LD17 223210 -91274.2 front 90 (PN RGB_LED_SMALL))
+      (place LD18 229653 -91274.2 front 90 (PN RGB_LED_SMALL))
+      (place LD19 235964 -91274.2 front 90 (PN RGB_LED_SMALL))
+      (place LD20 166608 -100309 front 90 (PN RGB_LED_SMALL))
+      (place LD21 177868 -100309 front 90 (PN RGB_LED_SMALL))
+      (place LD22 186578 -100309 front 90 (PN RGB_LED_SMALL))
+      (place LD23 194269 -100309 front 90 (PN RGB_LED_SMALL))
+      (place LD24 201401 -100309 front 90 (PN RGB_LED_SMALL))
+      (place LD25 208180 -100309 front 90 (PN RGB_LED_SMALL))
+      (place LD26 214716 -100309 front 90 (PN RGB_LED_SMALL))
+      (place LD27 221077 -100309 front 90 (PN RGB_LED_SMALL))
+      (place LD28 227306 -100309 front 90 (PN RGB_LED_SMALL))
+      (place LD29 233433 -100309 front 90 (PN RGB_LED_SMALL))
+      (place LD30 239479 -100309 front 90 (PN RGB_LED_SMALL))
+      (place LD31 168689 -109344 front 90 (PN RGB_LED_SMALL))
+      (place LD32 178100 -109344 front 90 (PN RGB_LED_SMALL))
+      (place LD33 185922 -109344 front 90 (PN RGB_LED_SMALL))
+      (place LD34 193031 -109344 front 90 (PN RGB_LED_SMALL))
+      (place LD36 206177 -109344 front 90 (PN RGB_LED_SMALL))
+      (place LD37 212439 -109344 front 90 (PN RGB_LED_SMALL))
+      (place LD38 218571 -109344 front 90 (PN RGB_LED_SMALL))
+      (place LD39 224604 -109344 front 90 (PN RGB_LED_SMALL))
+      (place LD40 230561 -109344 front 90 (PN RGB_LED_SMALL))
+      (place LD41 236457 -109344 front 90 (PN RGB_LED_SMALL))
+      (place LD42 242305 -109344 front 90 (PN RGB_LED_SMALL))
+      (place LD43 169506 -118378 front 90 (PN RGB_LED_SMALL))
+      (place LD44 177573 -118378 front 90 (PN RGB_LED_SMALL))
+      (place LD45 184650 -118378 front 90 (PN RGB_LED_SMALL))
+      (place LD46 191248 -118378 front 90 (PN RGB_LED_SMALL))
+      (place LD47 197568 -118378 front 90 (PN RGB_LED_SMALL))
+      (place LD48 203708 -118378 front 90 (PN RGB_LED_SMALL))
+      (place LD49 209723 -118378 front 90 (PN RGB_LED_SMALL))
+      (place LD50 215648 -118378 front 90 (PN RGB_LED_SMALL))
+      (place LD51 221505 -118378 front 90 (PN RGB_LED_SMALL))
+      (place LD52 227310 -118378 front 90 (PN RGB_LED_SMALL))
+      (place LD53 233073 -118378 front 90 (PN RGB_LED_SMALL))
+      (place LD54 238802 -118378 front 90 (PN RGB_LED_SMALL))
+      (place LD55 244505 -118378 front 90 (PN RGB_LED_SMALL))
+      (place LD56 176244 -127413 front 90 (PN RGB_LED_SMALL))
+      (place LD57 182689 -127413 front 90 (PN RGB_LED_SMALL))
+      (place LD58 188844 -127413 front 90 (PN RGB_LED_SMALL))
+      (place LD59 194829 -127413 front 90 (PN RGB_LED_SMALL))
+      (place LD60 200705 -127413 front 90 (PN RGB_LED_SMALL))
+      (place LD61 206505 -127413 front 90 (PN RGB_LED_SMALL))
+      (place LD62 212250 -127413 front 90 (PN RGB_LED_SMALL))
+      (place LD63 217955 -127413 front 90 (PN RGB_LED_SMALL))
+      (place LD64 223629 -127413 front 90 (PN RGB_LED_SMALL))
+      (place LD65 229278 -127413 front 90 (PN RGB_LED_SMALL))
+      (place LD66 234908 -127413 front 90 (PN RGB_LED_SMALL))
+      (place LD67 240521 -127413 front 90 (PN RGB_LED_SMALL))
+      (place LD68 246122 -127413 front 90 (PN RGB_LED_SMALL))
+      (place LD69 173978 -136448 front 90 (PN RGB_LED_SMALL))
+      (place LD70 179904 -136448 front 90 (PN RGB_LED_SMALL))
+      (place LD71 185694 -136448 front 90 (PN RGB_LED_SMALL))
+      (place LD72 191405 -136448 front 90 (PN RGB_LED_SMALL))
+      (place LD73 197066 -136448 front 90 (PN RGB_LED_SMALL))
+      (place LD74 202692 -136448 front 90 (PN RGB_LED_SMALL))
+      (place LD75 208295 -136448 front 90 (PN RGB_LED_SMALL))
+      (place LD76 213880 -136448 front 90 (PN RGB_LED_SMALL))
+      (place LD77 219451 -136448 front 90 (PN RGB_LED_SMALL))
+      (place LD78 225011 -136448 front 90 (PN RGB_LED_SMALL))
+      (place LD79 230564 -136448 front 90 (PN RGB_LED_SMALL))
+      (place LD80 236109 -136448 front 90 (PN RGB_LED_SMALL))
+      (place LD81 241650 -136448 front 90 (PN RGB_LED_SMALL))
+      (place LD82 247185 -136448 front 90 (PN RGB_LED_SMALL))
+      (place LD83 176033 -145483 front 90 (PN RGB_LED_SMALL))
+      (place LD84 181575 -145483 front 90 (PN RGB_LED_SMALL))
+      (place LD85 187105 -145483 front 90 (PN RGB_LED_SMALL))
+      (place LD86 192628 -145483 front 90 (PN RGB_LED_SMALL))
+      (place LD87 198145 -145483 front 90 (PN RGB_LED_SMALL))
+      (place LD88 203658 -145483 front 90 (PN RGB_LED_SMALL))
+      (place LD89 209170 -145483 front 90 (PN RGB_LED_SMALL))
+      (place LD90 214679 -145483 front 90 (PN RGB_LED_SMALL))
+      (place LD91 220187 -145483 front 90 (PN RGB_LED_SMALL))
+      (place LD92 225693 -145483 front 90 (PN RGB_LED_SMALL))
+      (place LD93 231199 -145483 front 90 (PN RGB_LED_SMALL))
+      (place LD94 236704 -145483 front 90 (PN RGB_LED_SMALL))
+      (place LD95 242208 -145483 front 90 (PN RGB_LED_SMALL))
+      (place LD96 247712 -145483 front 90 (PN RGB_LED_SMALL))
+      (place LD97 176033 -154517 front 90 (PN RGB_LED_SMALL))
+      (place LD98 181575 -154517 front 90 (PN RGB_LED_SMALL))
+      (place LD99 187105 -154517 front 90 (PN RGB_LED_SMALL))
+      (place LD100 192628 -154517 front 90 (PN RGB_LED_SMALL))
+      (place LD101 198145 -154517 front 90 (PN RGB_LED_SMALL))
+      (place LD102 203658 -154517 front 90 (PN RGB_LED_SMALL))
+      (place LD103 209170 -154517 front 90 (PN RGB_LED_SMALL))
+      (place LD104 214679 -154517 front 90 (PN RGB_LED_SMALL))
+      (place LD105 220187 -154517 front 90 (PN RGB_LED_SMALL))
+      (place LD106 225693 -154517 front 90 (PN RGB_LED_SMALL))
+      (place LD107 231199 -154517 front 90 (PN RGB_LED_SMALL))
+      (place LD108 236704 -154517 front 90 (PN RGB_LED_SMALL))
+      (place LD109 242208 -154517 front 90 (PN RGB_LED_SMALL))
+      (place LD110 247712 -154517 front 90 (PN RGB_LED_SMALL))
+      (place LD111 173978 -163552 front 90 (PN RGB_LED_SMALL))
+      (place LD112 179904 -163552 front 90 (PN RGB_LED_SMALL))
+      (place LD113 185694 -163552 front 90 (PN RGB_LED_SMALL))
+      (place LD114 191405 -163552 front 90 (PN RGB_LED_SMALL))
+      (place LD115 197066 -163552 front 90 (PN RGB_LED_SMALL))
+      (place LD116 202692 -163552 front 90 (PN RGB_LED_SMALL))
+      (place LD117 208295 -163552 front 90 (PN RGB_LED_SMALL))
+      (place LD118 213880 -163552 front 90 (PN RGB_LED_SMALL))
+      (place LD119 219451 -163552 front 90 (PN RGB_LED_SMALL))
+      (place LD120 225011 -163552 front 90 (PN RGB_LED_SMALL))
+      (place LD121 230564 -163552 front 90 (PN RGB_LED_SMALL))
+      (place LD122 236109 -163552 front 90 (PN RGB_LED_SMALL))
+      (place LD123 241650 -163552 front 90 (PN RGB_LED_SMALL))
+      (place LD124 247185 -163552 front 90 (PN RGB_LED_SMALL))
+      (place LD125 176244 -172587 front 90 (PN RGB_LED_SMALL))
+      (place LD126 182689 -172587 front 90 (PN RGB_LED_SMALL))
+      (place LD127 188844 -172587 front 90 (PN RGB_LED_SMALL))
+      (place LD128 194829 -172587 front 90 (PN RGB_LED_SMALL))
+      (place LD129 200705 -172587 front 90 (PN RGB_LED_SMALL))
+      (place LD130 206505 -172587 front 90 (PN RGB_LED_SMALL))
+      (place LD131 212250 -172587 front 90 (PN RGB_LED_SMALL))
+      (place LD132 217955 -172587 front 90 (PN RGB_LED_SMALL))
+      (place LD133 223629 -172587 front 90 (PN RGB_LED_SMALL))
+      (place LD134 229278 -172587 front 90 (PN RGB_LED_SMALL))
+      (place LD135 234908 -172587 front 90 (PN RGB_LED_SMALL))
+      (place LD136 240521 -172587 front 90 (PN RGB_LED_SMALL))
+      (place LD137 246122 -172587 front 90 (PN RGB_LED_SMALL))
+      (place LD138 169506 -181622 front 90 (PN RGB_LED_SMALL))
+      (place LD139 177573 -181622 front 90 (PN RGB_LED_SMALL))
+      (place LD140 184650 -181622 front 90 (PN RGB_LED_SMALL))
+      (place LD141 191248 -181622 front 90 (PN RGB_LED_SMALL))
+      (place LD142 197568 -181622 front 90 (PN RGB_LED_SMALL))
+      (place LD143 203708 -181622 front 90 (PN RGB_LED_SMALL))
+      (place LD144 209723 -181622 front 90 (PN RGB_LED_SMALL))
+      (place LD145 215648 -181622 front 90 (PN RGB_LED_SMALL))
+      (place LD146 221505 -181622 front 90 (PN RGB_LED_SMALL))
+      (place LD147 227310 -181622 front 90 (PN RGB_LED_SMALL))
+      (place LD148 233073 -181622 front 90 (PN RGB_LED_SMALL))
+      (place LD149 238802 -181622 front 90 (PN RGB_LED_SMALL))
+      (place LD150 244505 -181622 front 90 (PN RGB_LED_SMALL))
+      (place LD151 168689 -190656 front 90 (PN RGB_LED_SMALL))
+      (place LD152 178100 -190656 front 90 (PN RGB_LED_SMALL))
+      (place LD153 185922 -190656 front 90 (PN RGB_LED_SMALL))
+      (place LD154 193031 -190656 front 90 (PN RGB_LED_SMALL))
+      (place LD155 199734 -190656 front 90 (PN RGB_LED_SMALL))
+      (place LD156 206177 -190656 front 90 (PN RGB_LED_SMALL))
+      (place LD157 212439 -190656 front 90 (PN RGB_LED_SMALL))
+      (place LD158 218571 -190656 front 90 (PN RGB_LED_SMALL))
+      (place LD159 224604 -190656 front 90 (PN RGB_LED_SMALL))
+      (place LD160 230561 -190656 front 90 (PN RGB_LED_SMALL))
+      (place LD161 236457 -190656 front 90 (PN RGB_LED_SMALL))
+      (place LD162 242305 -190656 front 90 (PN RGB_LED_SMALL))
+      (place LD163 166608 -199691 front 90 (PN RGB_LED_SMALL))
+      (place LD164 177868 -199691 front 90 (PN RGB_LED_SMALL))
+      (place LD165 186578 -199691 front 90 (PN RGB_LED_SMALL))
+      (place LD166 194269 -199691 front 90 (PN RGB_LED_SMALL))
+      (place LD167 201401 -199691 front 90 (PN RGB_LED_SMALL))
+      (place LD168 208180 -199691 front 90 (PN RGB_LED_SMALL))
+      (place LD169 214716 -199691 front 90 (PN RGB_LED_SMALL))
+      (place LD170 221077 -199691 front 90 (PN RGB_LED_SMALL))
+      (place LD171 227306 -199691 front 90 (PN RGB_LED_SMALL))
+      (place LD172 233433 -199691 front 90 (PN RGB_LED_SMALL))
+      (place LD173 239479 -199691 front 90 (PN RGB_LED_SMALL))
+      (place LD174 162654 -208726 front 90 (PN RGB_LED_SMALL))
+      (place LD175 176859 -208726 front 90 (PN RGB_LED_SMALL))
+      (place LD176 186650 -208726 front 90 (PN RGB_LED_SMALL))
+      (place LD177 195006 -208726 front 90 (PN RGB_LED_SMALL))
+      (place LD178 202615 -208726 front 90 (PN RGB_LED_SMALL))
+      (place LD179 209763 -208726 front 90 (PN RGB_LED_SMALL))
+      (place LD180 216599 -208726 front 90 (PN RGB_LED_SMALL))
+      (place LD181 223210 -208726 front 90 (PN RGB_LED_SMALL))
+      (place LD182 229653 -208726 front 90 (PN RGB_LED_SMALL))
+      (place LD183 235964 -208726 front 90 (PN RGB_LED_SMALL))
+      (place LD184 151467 -217761 front 90 (PN RGB_LED_SMALL))
+      (place LD185 174979 -217761 front 90 (PN RGB_LED_SMALL))
+      (place LD186 186142 -217761 front 90 (PN RGB_LED_SMALL))
+      (place LD187 195267 -217761 front 90 (PN RGB_LED_SMALL))
+      (place LD188 203408 -217761 front 90 (PN RGB_LED_SMALL))
+      (place LD189 210961 -217761 front 90 (PN RGB_LED_SMALL))
+      (place LD190 218121 -217761 front 90 (PN RGB_LED_SMALL))
+      (place LD191 225002 -217761 front 90 (PN RGB_LED_SMALL))
+      (place LD192 231674 -217761 front 90 (PN RGB_LED_SMALL))
+    )
+    (component knielsenlib:SWITCH_FSMJSMA
+      (place B1 152500 -179049 back 180 (PN SWITCH_4PIN))
+    )
+    (component w_smd_cap:c_0805
+      (place C1 148501 -105004 front 0 (PN 100n))
+      (place C2 148501 -105004 front 0 (PN 100n))
+      (place C3 148501 -105004 front 0 (PN 4.7n))
+      (place C4 148501 -105004 front 0 (PN 100n))
+      (place C5 148501 -105004 front 0 (PN 100n))
+      (place C6 148501 -105004 front 0 (PN 100n))
+      (place C7 148501 -105004 front 0 (PN 100n))
+      (place C8 148501 -105004 front 0 (PN 100n))
+      (place C9 148501 -105004 front 0 (PN 100n))
+      (place C10 148501 -105004 front 0 (PN 100n))
+      (place C11 148501 -105004 front 0 (PN 100n))
+      (place C12 148501 -105004 front 0 (PN 100n))
+      (place C13 148501 -105004 front 0 (PN 100n))
+      (place C14 148501 -105004 front 0 (PN 100n))
+      (place C15 148501 -105004 front 0 (PN 100n))
+      (place C16 148501 -105004 front 0 (PN 100n))
+      (place C17 148501 -105004 front 0 (PN 100n))
+      (place C18 148501 -105004 front 0 (PN 100n))
+      (place C19 148501 -105004 front 0 (PN 100n))
+      (place C20 148501 -105004 front 0 (PN 4.7u))
+      (place C21 148501 -105004 front 0 (PN 10n))
+      (place C22 148501 -105004 front 0 (PN 1u))
+      (place C23 148501 -105004 front 0 (PN 2.2u))
+      (place C24 148501 -105004 front 0 (PN 2.2u))
+      (place C25 148501 -105004 front 0 (PN 100n))
+      (place C26 148501 -105004 front 0 (PN 2.2u))
+      (place C27 148501 -105004 front 0 (PN 2.2u))
+      (place C28 148501 -105004 front 0 (PN 2.2u))
+      (place C29 148501 -105004 front 0 (PN 100n))
+      (place C30 148501 -105004 front 0 (PN 22p))
+      (place C31 148501 -105004 front 0 (PN 22p))
+      (place C34 148501 -105004 front 0 (PN 100n))
+      (place C35 148501 -105004 front 0 (PN 100n))
+      (place C36 165700 -118548 back 90 (PN 100n))
+      (place C37 148501 -105004 front 0 (PN 100n))
+      (place C38 148501 -105004 front 0 (PN 100n))
+      (place C39 148501 -105004 front 0 (PN 100n))
+      (place C40 148501 -105004 front 0 (PN 100n))
+      (place C41 148501 -105004 front 0 (PN 100n))
+      (place C42 148501 -105004 front 0 (PN 100n))
+      (place C43 148501 -105004 front 0 (PN 100n))
+      (place C44 148501 -105004 front 0 (PN 100n))
+      (place C45 148501 -105004 front 0 (PN 100n))
+      (place R1 148501 -105004 front 0 (PN 47k))
+      (place R2 148501 -105004 front 0 (PN 10k))
+      (place R3 148501 -105004 front 0 (PN 22k))
+      (place R4 148501 -105004 front 0 (PN 10k))
+      (place R5 148501 -105004 front 0 (PN 47k))
+      (place R6 148501 -105004 front 0 (PN 1k))
+      (place R7 148501 -105004 front 0 (PN 1k))
+      (place R8 148501 -105004 front 0 (PN 10k))
+      (place R9 148501 -105004 front 0 (PN 10k))
+      (place R10 148501 -105004 front 0 (PN 510))
+      (place R11 148501 -105004 front 0 (PN 10k))
+    )
+    (component w_smd_cap:c_elec_6.3x5.8
+      (place C32 134751 -200500 back 180 (PN 100u))
+      (place C33 134751 -192500 back 180 (PN 50u))
+    )
+    (component w_smd_leds:Led_0805
+      (place D1 148501 -105004 front 0 (PN "SML-211UTT86"))
+      (place D2 148501 -105004 front 0 (PN "SML-211YTT86"))
+    )
+    (component w_pin_strip:pin_strip_3
+      (place JP1 115460 -201000 back 180 (PN JUMPER3))
+    )
+    (component w_pin_strip:pin_socket_4x2
+      (place P1 138730 -239230 back 90 (PN CONN_02X04))
+    )
+    (component w_pin_strip:pin_strip_6
+      (place P2 115850 -238500 back 180 (PN CONN_6))
+    )
+    (component knielsenlib:SD_502774
+      (place P3 115800 -103800 front 180 (PN "MICRO-SD"))
+    )
+    (component "w_pin_strip:pin_strip_2-90"
+      (place P4 126500 -231000 back 270 (PN CONN_2))
+    )
+    (component "knielsenlib:10103594-0001LF"
+      (place P5 98725.4 -247500 front 0 (PN KNUSB))
+    )
+    (component "w_pin_strip:pin_strip_12-90"
+      (place P6 60000 -143930 back 270 (PN CONN_12))
+    )
+    (component "w_smd_lqfp:LQFP-176"
+      (place U1 127000 -148500 back 270 (PN STM32F46X_LQFP176))
+    )
+    (component "knielsenlib:2-SOJ"
+      (place X1 104500 -144450 back 270 (PN "MA-505"))
+    )
+  )
+  (library
+    (image knielsenlib:TLC5955DCA
+      (outline (path signal 150  -5800 -2250  -5819.58 -2373.61  -5876.39 -2485.11  -5964.89 -2573.61
+            -6076.39 -2630.42  -6200 -2650  -6323.61 -2630.42  -6435.11 -2573.61
+            -6523.61 -2485.11  -6580.42 -2373.61  -6600 -2250  -6580.42 -2126.39
+            -6523.61 -2014.89  -6435.11 -1926.39  -6323.61 -1869.58  -6200 -1850
+            -6076.39 -1869.58  -5964.89 -1926.39  -5876.39 -2014.89  -5819.58 -2126.39))
+      (outline (path signal 150  -7000 3050  7000 3050))
+      (outline (path signal 150  7000 3050  7000 -3050))
+      (outline (path signal 150  7000 -3050  -7000 -3050))
+      (outline (path signal 150  -7000 -3050  -7000 3050))
+      (pin Rect[T]Pad_250x1825_um 1 -6750 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 2 -6250 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 3 -5750 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 4 -5250 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 5 -4750 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 6 -4250 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 7 -3750 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 8 -3250 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 9 -2750 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 10 -2250 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 11 -1750 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 12 -1250 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 13 -750 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 14 -250 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 15 250 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 16 750 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 17 1250 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 18 1750 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 19 2250 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 20 2750 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 21 3250 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 22 3750 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 23 4250 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 24 4750 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 25 5250 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 26 5750 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 27 6250 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 28 6750 -3737.5)
+      (pin Oval[T]Pad_250x1825_um 29 6750 3737.5)
+      (pin Oval[T]Pad_250x1825_um 30 6250 3737.5)
+      (pin Oval[T]Pad_250x1825_um 31 5750 3737.5)
+      (pin Oval[T]Pad_250x1825_um 32 5250 3737.5)
+      (pin Oval[T]Pad_250x1825_um 33 4750 3737.5)
+      (pin Oval[T]Pad_250x1825_um 34 4250 3737.5)
+      (pin Oval[T]Pad_250x1825_um 35 3750 3737.5)
+      (pin Oval[T]Pad_250x1825_um 36 3250 3737.5)
+      (pin Oval[T]Pad_250x1825_um 37 2750 3737.5)
+      (pin Oval[T]Pad_250x1825_um 38 2250 3737.5)
+      (pin Oval[T]Pad_250x1825_um 39 1750 3737.5)
+      (pin Oval[T]Pad_250x1825_um 40 1250 3737.5)
+      (pin Oval[T]Pad_250x1825_um 41 750 3737.5)
+      (pin Oval[T]Pad_250x1825_um 42 250 3737.5)
+      (pin Oval[T]Pad_250x1825_um 43 -250 3737.5)
+      (pin Oval[T]Pad_250x1825_um 44 -750 3737.5)
+      (pin Oval[T]Pad_250x1825_um 45 -1250 3737.5)
+      (pin Oval[T]Pad_250x1825_um 46 -1750 3737.5)
+      (pin Oval[T]Pad_250x1825_um 47 -2250 3737.5)
+      (pin Oval[T]Pad_250x1825_um 48 -2750 3737.5)
+      (pin Oval[T]Pad_250x1825_um 49 -3250 3737.5)
+      (pin Oval[T]Pad_250x1825_um 50 -3750 3737.5)
+      (pin Oval[T]Pad_250x1825_um 51 -4250 3737.5)
+      (pin Oval[T]Pad_250x1825_um 52 -4750 3737.5)
+      (pin Oval[T]Pad_250x1825_um 53 -5250 3737.5)
+      (pin Oval[T]Pad_250x1825_um 54 -5750 3737.5)
+      (pin Oval[T]Pad_250x1825_um 55 -6250 3737.5)
+      (pin Oval[T]Pad_250x1825_um 56 -6750 3737.5)
+      (pin Rect[T]Pad_4700x3610_um 57 0 0)
+    )
+    (image "knielsenlib:TO-252-3"
+      (pin Rect[T]Pad_1300.48x1699.26_um 1 -2286 -3220.72)
+      (pin Rect[T]Pad_1300.48x1699.26_um 3 2286 -3220.72)
+      (pin Rect[T]Pad_5499.1x5699.76_um 2 0 3220.72)
+    )
+    (image knielsenlib:RGB_0603
+      (outline (path signal 150  1750 100  1750 -100))
+      (outline (path signal 150  -800 550  -800 750))
+      (outline (path signal 150  -800 -250  -800 250))
+      (outline (path signal 150  -800 -750  -800 -550))
+      (outline (path signal 150  800 -550  800 -750))
+      (outline (path signal 150  800 250  800 -250))
+      (outline (path signal 150  800 750  800 550))
+      (outline (path signal 150  -800 750  800 750))
+      (outline (path signal 150  800 -750  -800 -750))
+      (pin Rect[T]Pad_1050x575_um 4 875 462.5)
+      (pin Rect[T]Pad_1050x575_um 1 875 -462.5)
+      (pin Rect[T]Pad_1050x575_um 2 -875 -462.5)
+      (pin Rect[T]Pad_1050x575_um 3 -875 462.5)
+    )
+    (image knielsenlib:SWITCH_FSMJSMA
+      (pin Rect[T]Pad_1399.54x2100.58_um 1 2250.44 4549.14)
+      (pin Rect[T]Pad_1399.54x2100.58_um 2 2250.44 -4549.14)
+      (pin Rect[T]Pad_1399.54x2100.58_um 3 -2250.44 4549.14)
+      (pin Rect[T]Pad_1399.54x2100.58_um 4 -2250.44 -4549.14)
+    )
+    (image w_smd_cap:c_0805
+      (outline (path signal 127  635 635  635 -635))
+      (outline (path signal 127  -635 635  -635 -609.6))
+      (outline (path signal 127  -1016 635  1016 635))
+      (outline (path signal 127  1016 635  1016 -635))
+      (outline (path signal 127  1016 -635  -1016 -635))
+      (outline (path signal 127  -1016 -635  -1016 635))
+      (pin Rect[T]Pad_1300.48x1498.6_um 1 952.5 0)
+      (pin Rect[T]Pad_1300.48x1498.6_um 2 -952.5 0)
+    )
+    (image w_smd_cap:c_elec_6.3x5.8
+      (outline (path signal 127  -2921 762  -2921 -762))
+      (outline (path signal 127  -2794 -1143  -2794 1143))
+      (outline (path signal 127  -2667 1397  -2667 -1397))
+      (outline (path signal 127  -2540 -1651  -2540 1651))
+      (outline (path signal 127  -2413 1778  -2413 -1778))
+      (outline (path signal 127  3048 0  2898.82 -941.884  2465.88 -1791.57  1791.57 -2465.88
+            941.884 -2898.82  0 -3048  -941.884 -2898.82  -1791.57 -2465.88
+            -2465.88 -1791.57  -2898.82 -941.884  -3048 0  -2898.82 941.884
+            -2465.88 1791.57  -1791.57 2465.88  -941.884 2898.82  0 3048
+            941.884 2898.82  1791.57 2465.88  2465.88 1791.57  2898.82 941.884))
+      (outline (path signal 127  -3302 3302  -3302 -3302))
+      (outline (path signal 127  -3302 -3302  2540 -3302))
+      (outline (path signal 127  2540 -3302  3302 -2540))
+      (outline (path signal 127  3302 -2540  3302 2540))
+      (outline (path signal 127  3302 2540  2540 3302))
+      (outline (path signal 127  2540 3302  -3302 3302))
+      (outline (path signal 127  2159 0  1397 0))
+      (outline (path signal 127  1778 381  1778 -381))
+      (pin Rect[T]Pad_3599.18x1600.2_um 1 2750.82 0)
+      (pin Rect[T]Pad_3599.18x1600.2_um 2 -2750.82 0)
+    )
+    (image w_smd_leds:Led_0805
+      (outline (path signal 127  200.66 0  -99.06 299.72))
+      (outline (path signal 127  -99.06 299.72  -99.06 -299.72))
+      (outline (path signal 127  -99.06 -299.72  200.66 0))
+      (outline (path signal 127  99.06 -99.06  99.06 99.06))
+      (outline (path signal 127  0 200.66  0 -200.66))
+      (outline (path signal 127  299.72 -800.1  299.72 800.1))
+      (outline (path signal 127  -299.72 800.1  -299.72 -800.1))
+      (outline (path signal 127  -1000.76 800.1  1000.76 800.1))
+      (outline (path signal 127  1000.76 800.1  1000.76 -800.1))
+      (outline (path signal 127  1000.76 -800.1  -1000.76 -800.1))
+      (outline (path signal 127  -1000.76 -800.1  -1000.76 800.1))
+      (pin Rect[T]Pad_1198.88x1198.88_um 1 -1049.02 0)
+      (pin Rect[T]Pad_1198.88x1198.88_um 2 1049.02 0)
+    )
+    (image w_pin_strip:pin_strip_3
+      (outline (path signal 304.8  -1270 -1270  -1270 1270))
+      (outline (path signal 304.8  -3810 1270  3810 1270))
+      (outline (path signal 304.8  3810 1270  3810 -1270))
+      (outline (path signal 304.8  3810 -1270  -3810 -1270))
+      (outline (path signal 304.8  -3810 -1270  -3810 1270))
+      (pin Rect[A]Pad_1524x2199.64_um 1 -2540 0)
+      (pin Oval[A]Pad_1524x2199.64_um 2 0 0)
+      (pin Oval[A]Pad_1524x2199.64_um 3 2540 0)
+    )
+    (image w_pin_strip:pin_socket_4x2
+      (outline (path signal 304.8  -5080 2540  5080 2540))
+      (outline (path signal 304.8  5080 2540  5080 -2540))
+      (outline (path signal 304.8  5080 -2540  -5080 -2540))
+      (outline (path signal 304.8  -5080 0  -2540 0))
+      (outline (path signal 304.8  -2540 0  -2540 -2540))
+      (outline (path signal 304.8  -5080 2540  -5080 -2540))
+      (pin "Rect[A][0,-248.92]Pad_1524x1998.98_um" 1 -3810 -1270)
+      (pin Oval[A][0,248.92]Pad_1524x1998.98_um 2 -3810 1270)
+      (pin "Oval[A][0,-248.92]Pad_1524x1998.98_um" 3 -1270 -1270)
+      (pin Oval[A][0,248.92]Pad_1524x1998.98_um 4 -1270 1270)
+      (pin "Oval[A][0,-248.92]Pad_1524x1998.98_um" 5 1270 -1270)
+      (pin Oval[A][0,248.92]Pad_1524x1998.98_um 6 1270 1270)
+      (pin "Oval[A][0,-248.92]Pad_1524x1998.98_um" 7 3810 -1270)
+      (pin Oval[A][0,248.92]Pad_1524x1998.98_um 8 3810 1270)
+    )
+    (image w_pin_strip:pin_strip_6
+      (outline (path signal 304.8  -5080 1270  -5080 -1270))
+      (outline (path signal 304.8  -7620 -1270  -7620 1270))
+      (outline (path signal 304.8  -7620 1270  7620 1270))
+      (outline (path signal 304.8  7620 1270  7620 -1270))
+      (outline (path signal 304.8  7620 -1270  -7620 -1270))
+      (pin Rect[A]Pad_1524x2199.64_um 1 -6350 0)
+      (pin Oval[A]Pad_1524x2199.64_um 2 -3810 0)
+      (pin Oval[A]Pad_1524x2199.64_um 3 -1270 0)
+      (pin Oval[A]Pad_1524x2199.64_um 4 1270 0)
+      (pin Oval[A]Pad_1524x2199.64_um 5 3810 0)
+      (pin Oval[A]Pad_1524x2199.64_um 6 6350 0)
+    )
+    (image knielsenlib:SD_502774
+      (outline (path signal 99.06  7599.68 8600.44  -7599.68 8600.44))
+      (outline (path signal 99.06  -7599.68 8600.44  -7599.68 -8001))
+      (outline (path signal 99.06  -7599.68 -8001  7399.02 -8001))
+      (outline (path signal 99.06  7399.02 -8001  7599.68 -8001))
+      (outline (path signal 99.06  7599.68 -8001  7599.68 8600.44))
+      (pin Rect[T]Pad_800.1x1678.94_um 1 2900.68 -7160.26)
+      (pin Rect[T]Pad_800.1x1678.94_um 2 1800.86 -7160.26)
+      (pin Rect[T]Pad_800.1x1678.94_um 3 701.04 -7160.26)
+      (pin Rect[T]Pad_800.1x1678.94_um 4 -398.78 -7160.26)
+      (pin Rect[T]Pad_800.1x1678.94_um 5 -1501.14 -7160.26)
+      (pin Rect[T]Pad_800.1x1678.94_um 6 -2600.96 -7160.26)
+      (pin Rect[T]Pad_800.1x1678.94_um 7 -3700.78 -7160.26)
+      (pin Rect[T]Pad_800.1x1678.94_um 8 -4800.6 -7160.26)
+      (pin Rect[T]Pad_1600.2x1501.14_um 11 -6210.3 -7249.16)
+      (pin Rect[T]Pad_1699.26x1501.14_um 11@1 6449.06 -7249.16)
+      (pin Rect[T]Pad_1501.14x1699.26_um 11@2 -6748.78 7599.68)
+      (pin Rect[T]Pad_1501.14x1699.26_um 11@3 6748.78 7599.68)
+      (pin Rect[T]Pad_1290.32x1300.48_um 9 -6855.46 -5600.7)
+      (pin Rect[T]Pad_1290.32x1399.54_um 10 -6855.46 1800.86)
+    )
+    (image "w_pin_strip:pin_strip_2-90"
+      (outline (path signal 304.8  0 -3810  -2540 -1270))
+      (outline (path signal 304.8  0 -3810  0 -1270))
+      (outline (path signal 304.8  0 -1270  -2540 -3810))
+      (outline (path signal 304.8  -2540 -3810  2540 -3810))
+      (outline (path signal 304.8  2540 -3810  2540 -1270))
+      (outline (path signal 304.8  2540 -1270  -2540 -1270))
+      (outline (path signal 304.8  -1270 0  -1270 -10160))
+      (outline (path signal 304.8  1270 0  1270 -10160))
+      (outline (path signal 304.8  -2540 -3810  -2540 -1270))
+      (pin Rect[A]Pad_1524x2199.64_um 1 -1270 0)
+      (pin Oval[A]Pad_1524x2199.64_um 2 1270 0)
+    )
+    (image "knielsenlib:10103594-0001LF"
+      (outline (path signal 50.8  4099.56 -1699.26  4099.56 4000.5))
+      (outline (path signal 50.8  4099.56 4000.5  -4099.56 4000.5))
+      (outline (path signal 50.8  -4099.56 4000.5  -4099.56 -1699.26))
+      (outline (path signal 50.8  -4099.56 -1699.26  4099.56 -1699.26))
+      (pin Rect[T]Pad_398.78x1750.06_um 1 -1300.48 2824.48)
+      (pin Rect[T]Pad_398.78x1750.06_um 2 -650.24 2824.48)
+      (pin Rect[T]Pad_398.78x1750.06_um 3 0 2824.48)
+      (pin Rect[T]Pad_398.78x1750.06_um 4 650.24 2824.48)
+      (pin Rect[T]Pad_398.78x1750.06_um 5 1300.48 2824.48)
+      (pin Rect[T]Pad_1424.94x2499.36_um 6 -962.66 -248.92)
+      (pin Rect[T]Pad_1424.94x2499.36_um 6@1 962.66 -248.92)
+      (pin "Rect[T][-474.98,0]Pad_1998.98x1399.54_um" 6@2 -2425.7 3030.22)
+      (pin Rect[T][474.98,0]Pad_1998.98x1399.54_um 6@3 2425.7 3030.22)
+      (pin Rect[T][0,149.86]Pad_1300.48x2451.1_um 6@4 -2725.42 0)
+      (pin Rect[T]Pad_1826.26x701.04_um 6@5 -2987.04 1699.26)
+      (pin Rect[T]Pad_1826.26x701.04_um 6@6 2987.04 1699.26)
+      (pin Rect[T][0,149.86]Pad_1300.48x2451.1_um 6@7 2725.42 0)
+    )
+    (image "w_pin_strip:pin_strip_12-90"
+      (outline (path signal 304.8  -15240 -1270  15240 -1270))
+      (outline (path signal 304.8  15240 -1270  15240 -3810))
+      (outline (path signal 304.8  15240 -3810  -15240 -3810))
+      (outline (path signal 304.8  13970 0  13970 -10160))
+      (outline (path signal 304.8  11430 0  11430 -10160))
+      (outline (path signal 304.8  -12700 -3810  -15240 -1270))
+      (outline (path signal 304.8  -15240 -3810  -12700 -1270))
+      (outline (path signal 304.8  8890 0  8890 -10160))
+      (outline (path signal 304.8  6350 0  6350 -10160))
+      (outline (path signal 304.8  3810 0  3810 -10160))
+      (outline (path signal 304.8  1270 0  1270 -10160))
+      (outline (path signal 304.8  -12700 -1270  -12700 -3810))
+      (outline (path signal 304.8  -13970 0  -13970 -10160))
+      (outline (path signal 304.8  -1270 0  -1270 -10160))
+      (outline (path signal 304.8  -3810 0  -3810 -10160))
+      (outline (path signal 304.8  -6350 0  -6350 -10160))
+      (outline (path signal 304.8  -8890 -10160  -8890 0))
+      (outline (path signal 304.8  -11430 0  -11430 -10160))
+      (outline (path signal 304.8  -15240 -3810  -15240 -1270))
+      (pin Rect[A]Pad_1524x2199.64_um 1 -13970 0)
+      (pin Oval[A]Pad_1524x2199.64_um 2 -11430 0)
+      (pin Oval[A]Pad_1524x2199.64_um 3 -8890 0)
+      (pin Oval[A]Pad_1524x2199.64_um 4 -6350 0)
+      (pin Oval[A]Pad_1524x2199.64_um 5 -3810 0)
+      (pin Oval[A]Pad_1524x2199.64_um 6 -1270 0)
+      (pin Oval[A]Pad_1524x2199.64_um 7 1270 0)
+      (pin Oval[A]Pad_1524x2199.64_um 8 3810 0)
+      (pin Oval[A]Pad_1524x2199.64_um 9 6350 0)
+      (pin Oval[A]Pad_1524x2199.64_um 10 8890 0)
+      (pin Oval[A]Pad_1524x2199.64_um 11 11430 0)
+      (pin Oval[A]Pad_1524x2199.64_um 12 13970 0)
+    )
+    (image "w_smd_lqfp:LQFP-176"
+      (outline (path signal 149.86  -11999 -11501.1  -11999 11501.1))
+      (outline (path signal 149.86  11501.1 -11999  -11501.1 -11999))
+      (outline (path signal 149.86  11999 11501.1  11999 -11501.1))
+      (outline (path signal 149.86  -11501.1 11999  11501.1 11999))
+      (outline (path signal 149.86  -12799.1 -12702.5  -12700 -12801.6))
+      (outline (path signal 149.86  -12499.3 -12801.6  -12799.1 -12501.9))
+      (outline (path signal 149.86  -12799.1 -12301.2  -12298.7 -12801.6))
+      (outline (path signal 149.86  -12098 -12801.6  -12799.1 -12100.6))
+      (outline (path signal 149.86  -12799.1 -11902.4  -11899.9 -12801.6))
+      (outline (path signal 149.86  -11699.2 -12801.6  -12799.1 -11701.8))
+      (outline (path signal 149.86  -12799.1 -11501.1  -11498.6 -12801.6))
+      (outline (path signal 149.86  -11297.9 -12801.6  -12799.1 -11300.5))
+      (outline (path signal 149.86  -11099.8 -12801.6  -12799.1 -12801.6))
+      (outline (path signal 149.86  -12799.1 -12801.6  -12799.1 -11102.3))
+      (outline (path signal 149.86  -12799.1 -11102.3  -11099.8 -12801.6))
+      (outline (path signal 149.86  12799.1 -11099.8  12799.1 -12799.1))
+      (outline (path signal 149.86  12799.1 -12799.1  11099.8 -12799.1))
+      (outline (path signal 149.86  11102.3 12799.1  12801.6 12799.1))
+      (outline (path signal 149.86  12801.6 12799.1  12801.6 11099.8))
+      (outline (path signal 149.86  -12799.1 11099.8  -12799.1 12799.1))
+      (outline (path signal 149.86  -12799.1 12799.1  -11099.8 12799.1))
+      (outline (path signal 149.86  -10335.2 -10901.7  -10362.8 -11076  -10442.9 -11233.2
+            -10567.7 -11357.9  -10724.9 -11438  -10899.1 -11465.6  -11073.4 -11438
+            -11230.6 -11357.9  -11355.4 -11233.2  -11435.5 -11076  -11463.1 -10901.7
+            -11435.5 -10727.4  -11355.4 -10570.2  -11230.6 -10445.4  -11073.4 -10365.3
+            -10899.1 -10337.7  -10724.9 -10365.3  -10567.7 -10445.4  -10442.9 -10570.2
+            -10362.8 -10727.4))
+      (outline (path signal 149.86  -11498.6 -12001.5  -11999 -11501.1))
+      (outline (path signal 149.86  -11999 11498.6  -11498.6 11999))
+      (outline (path signal 149.86  11498.6 11999  11999 11498.6))
+      (outline (path signal 149.86  11999 -11498.6  11498.6 -11999))
+      (pin Rect[T]Pad_289.56x1346.2_um 4 -9245.6 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 5 -8747.76 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 6 -8247.38 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 7 -7747 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 8 -7249.16 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 1 -10749.3 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 2 -10248.9 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 3 -9748.52 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 17 -2748.28 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 18 -2247.9 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 19 -1750.06 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 20 -1249.68 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 21 -749.3 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 22 -246.38 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 23 251.46 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 24 749.3 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 33 5250.18 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 34 5750.56 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 35 6248.4 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 36 6748.78 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 37 7249.16 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 38 7749.54 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 39 8249.92 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 40 8747.76 -12748.3)
+      (pin Rect[T]Pad_1346.2x289.56_um 49 12748.3 -8747.76)
+      (pin Rect[T]Pad_1346.2x289.56_um 50 12748.3 -8249.92)
+      (pin Rect[T]Pad_1346.2x289.56_um 51 12748.3 -7749.54)
+      (pin Rect[T]Pad_1346.2x289.56_um 52 12748.3 -7249.16)
+      (pin Rect[T]Pad_1346.2x289.56_um 53 12748.3 -6748.78)
+      (pin Rect[T]Pad_1346.2x289.56_um 54 12748.3 -6248.4)
+      (pin Rect[T]Pad_1346.2x289.56_um 55 12748.3 -5748.02)
+      (pin Rect[T]Pad_1346.2x289.56_um 56 12748.3 -5247.64)
+      (pin Rect[T]Pad_289.56x1346.2_um 9 -6748.78 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 10 -6248.4 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 11 -5745.48 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 25 1249.68 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 26 1750.06 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 27 2247.9 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 41 9248.14 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 42 9748.52 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 43 10248.9 -12748.3)
+      (pin Rect[T]Pad_1346.2x289.56_um 57 12748.3 -4749.8)
+      (pin Rect[T]Pad_1346.2x289.56_um 58 12748.3 -4249.42)
+      (pin Rect[T]Pad_1346.2x289.56_um 59 12748.3 -3749.04)
+      (pin Rect[T]Pad_289.56x1346.2_um 12 -5250.18 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 13 -4749.8 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 14 -4246.88 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 15 -3746.5 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 16 -3248.66 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 28 2748.28 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 29 3251.2 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 30 3751.58 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 31 4251.96 -12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 32 4749.8 -12748.3)
+      (pin Rect[T]Pad_289.56x1348.74_um 44 10749.3 -12748.3)
+      (pin Rect[T]Pad_1346.2x289.56_um 45 12748.3 -10749.3)
+      (pin Rect[T]Pad_1346.2x289.56_um 46 12748.3 -10248.9)
+      (pin Rect[T]Pad_1346.2x289.56_um 47 12748.3 -9748.52)
+      (pin Rect[T]Pad_1346.2x289.56_um 48 12748.3 -9248.14)
+      (pin Rect[T]Pad_1346.2x289.56_um 60 12748.3 -3248.66)
+      (pin Rect[T]Pad_1346.2x289.56_um 61 12748.3 -2748.28)
+      (pin Rect[T]Pad_1346.2x289.56_um 62 12748.3 -2247.9)
+      (pin Rect[T]Pad_1346.2x289.56_um 63 12748.3 -1747.52)
+      (pin Rect[T]Pad_1346.2x289.56_um 64 12748.3 -1249.68)
+      (pin Rect[T]Pad_1346.2x289.56_um 65 12748.3 -749.3)
+      (pin Rect[T]Pad_1346.2x289.56_um 66 12748.3 -248.92)
+      (pin Rect[T]Pad_1346.2x289.56_um 67 12748.3 248.92)
+      (pin Rect[T]Pad_1346.2x289.56_um 68 12748.3 749.3)
+      (pin Rect[T]Pad_1346.2x289.56_um 69 12748.3 1249.68)
+      (pin Rect[T]Pad_1346.2x289.56_um 70 12748.3 1747.52)
+      (pin Rect[T]Pad_1346.2x289.56_um 71 12748.3 2247.9)
+      (pin Rect[T]Pad_1346.2x289.56_um 72 12748.3 2748.28)
+      (pin Rect[T]Pad_1346.2x289.56_um 73 12748.3 3248.66)
+      (pin Rect[T]Pad_1346.2x289.56_um 74 12748.3 3749.04)
+      (pin Rect[T]Pad_1346.2x289.56_um 75 12748.3 4249.42)
+      (pin Rect[T]Pad_1346.2x289.56_um 76 12748.3 4749.8)
+      (pin Rect[T]Pad_1346.2x289.56_um 77 12748.3 5247.64)
+      (pin Rect[T]Pad_1346.2x289.56_um 78 12748.3 5748.02)
+      (pin Rect[T]Pad_1346.2x289.56_um 79 12748.3 6248.4)
+      (pin Rect[T]Pad_1346.2x289.56_um 80 12748.3 6748.78)
+      (pin Rect[T]Pad_1346.2x289.56_um 81 12748.3 7249.16)
+      (pin Rect[T]Pad_1346.2x289.56_um 82 12748.3 7749.54)
+      (pin Rect[T]Pad_1346.2x289.56_um 83 12748.3 8249.92)
+      (pin Rect[T]Pad_1346.2x289.56_um 84 12748.3 8747.76)
+      (pin Rect[T]Pad_1346.2x289.56_um 85 12748.3 9248.14)
+      (pin Rect[T]Pad_1346.2x289.56_um 86 12748.3 9748.52)
+      (pin Rect[T]Pad_1346.2x289.56_um 87 12748.3 10248.9)
+      (pin Rect[T]Pad_1346.2x289.56_um 88 12748.3 10749.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 89 10749.3 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 90 10248.9 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 91 9748.52 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 92 9248.14 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 93 8747.76 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 94 8249.92 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 95 7749.54 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 96 7249.16 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 97 6748.78 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 98 6248.4 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 99 5748.02 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 100 5247.64 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 101 4749.8 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 102 4249.42 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 103 3749.04 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 104 3248.66 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 105 2748.28 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 106 2247.9 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 107 1747.52 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 108 1249.68 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 109 749.3 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 110 248.92 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 111 -248.92 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 112 -749.3 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 113 -1249.68 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 114 -1747.52 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 115 -2247.9 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 116 -2748.28 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 117 -3248.66 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 118 -3749.04 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 119 -4249.42 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 120 -4749.8 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 121 -5247.64 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 122 -5748.02 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 123 -6248.4 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 124 -6748.78 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 125 -7249.16 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 126 -7749.54 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 127 -8249.92 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 128 -8747.76 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 129 -9248.14 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 130 -9748.52 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 131 -10248.9 12748.3)
+      (pin Rect[T]Pad_289.56x1346.2_um 132 -10749.3 12748.3)
+      (pin Rect[T]Pad_1346.2x289.56_um 133 -12748.3 10749.3)
+      (pin Rect[T]Pad_1346.2x289.56_um 134 -12748.3 10248.9)
+      (pin Rect[T]Pad_1346.2x289.56_um 135 -12748.3 9748.52)
+      (pin Rect[T]Pad_1346.2x289.56_um 136 -12748.3 9248.14)
+      (pin Rect[T]Pad_1346.2x289.56_um 137 -12748.3 8747.76)
+      (pin Rect[T]Pad_1346.2x289.56_um 138 -12748.3 8249.92)
+      (pin Rect[T]Pad_1346.2x289.56_um 139 -12748.3 7749.54)
+      (pin Rect[T]Pad_1346.2x289.56_um 140 -12748.3 7249.16)
+      (pin Rect[T]Pad_1346.2x289.56_um 141 -12748.3 6748.78)
+      (pin Rect[T]Pad_1346.2x289.56_um 142 -12748.3 6248.4)
+      (pin Rect[T]Pad_1346.2x289.56_um 143 -12748.3 5748.02)
+      (pin Rect[T]Pad_1346.2x289.56_um 144 -12748.3 5247.64)
+      (pin Rect[T]Pad_1346.2x289.56_um 145 -12750.8 4749.8)
+      (pin Rect[T]Pad_1346.2x289.56_um 146 -12750.8 4249.42)
+      (pin Rect[T]Pad_1346.2x289.56_um 147 -12750.8 3749.04)
+      (pin Rect[T]Pad_1346.2x289.56_um 148 -12750.8 3251.2)
+      (pin Rect[T]Pad_1346.2x289.56_um 149 -12750.8 2750.82)
+      (pin Rect[T]Pad_1346.2x289.56_um 150 -12750.8 2250.44)
+      (pin Rect[T]Pad_1346.2x289.56_um 151 -12750.8 1750.06)
+      (pin Rect[T]Pad_1346.2x289.56_um 152 -12750.8 1249.68)
+      (pin Rect[T]Pad_1346.2x289.56_um 153 -12750.8 749.3)
+      (pin Rect[T]Pad_1346.2x289.56_um 154 -12750.8 248.92)
+      (pin Rect[T]Pad_1346.2x289.56_um 155 -12750.8 -248.92)
+      (pin Rect[T]Pad_1346.2x289.56_um 156 -12750.8 -749.3)
+      (pin Rect[T]Pad_1346.2x289.56_um 157 -12750.8 -1249.68)
+      (pin Rect[T]Pad_1346.2x289.56_um 158 -12750.8 -1750.06)
+      (pin Rect[T]Pad_1346.2x289.56_um 159 -12750.8 -2250.44)
+      (pin Rect[T]Pad_1346.2x289.56_um 160 -12750.8 -2750.82)
+      (pin Rect[T]Pad_1346.2x289.56_um 161 -12750.8 -3251.2)
+      (pin Rect[T]Pad_1346.2x289.56_um 162 -12750.8 -3749.04)
+      (pin Rect[T]Pad_1346.2x289.56_um 163 -12750.8 -4249.42)
+      (pin Rect[T]Pad_1346.2x289.56_um 164 -12750.8 -4749.8)
+      (pin Rect[T]Pad_1346.2x289.56_um 165 -12750.8 -5250.18)
+      (pin Rect[T]Pad_1346.2x289.56_um 166 -12750.8 -5750.56)
+      (pin Rect[T]Pad_1346.2x289.56_um 167 -12750.8 -6250.94)
+      (pin Rect[T]Pad_1346.2x289.56_um 168 -12750.8 -6748.78)
+      (pin Rect[T]Pad_1346.2x289.56_um 169 -12750.8 -7249.16)
+      (pin Rect[T]Pad_1346.2x289.56_um 170 -12750.8 -7749.54)
+      (pin Rect[T]Pad_1346.2x289.56_um 171 -12750.8 -8249.92)
+      (pin Rect[T]Pad_1346.2x289.56_um 172 -12750.8 -8750.3)
+      (pin Rect[T]Pad_1346.2x289.56_um 173 -12750.8 -9250.68)
+      (pin Rect[T]Pad_1346.2x289.56_um 174 -12750.8 -9751.06)
+      (pin Rect[T]Pad_1346.2x289.56_um 175 -12750.8 -10248.9)
+      (pin Rect[T]Pad_1346.2x289.56_um 176 -12750.8 -10749.3)
+    )
+    (image "knielsenlib:2-SOJ"
+      (pin Rect[T]Pad_4099.56x5600.7_um 1 -5549.9 0)
+      (pin Rect[T]Pad_4099.56x5600.7_um 2 5549.9 0)
+    )
+    (padstack Oval[A]Pad_1524x2199.64_um
+      (shape (path F.Cu 1524  0 -337.82  0 337.82))
+      (shape (path In1.Cu 1524  0 -337.82  0 337.82))
+      (shape (path In2.Cu 1524  0 -337.82  0 337.82))
+      (shape (path B.Cu 1524  0 -337.82  0 337.82))
+      (attach off)
+    )
+    (padstack "Oval[A][0,-248.92]Pad_1524x1998.98_um"
+      (shape (path F.Cu 1524  0 -486.41  0 -11.43))
+      (shape (path In1.Cu 1524  0 -486.41  0 -11.43))
+      (shape (path In2.Cu 1524  0 -486.41  0 -11.43))
+      (shape (path B.Cu 1524  0 -486.41  0 -11.43))
+      (attach off)
+    )
+    (padstack Oval[A][0,248.92]Pad_1524x1998.98_um
+      (shape (path F.Cu 1524  0 11.43  0 486.41))
+      (shape (path In1.Cu 1524  0 11.43  0 486.41))
+      (shape (path In2.Cu 1524  0 11.43  0 486.41))
+      (shape (path B.Cu 1524  0 11.43  0 486.41))
+      (attach off)
+    )
+    (padstack Oval[T]Pad_250x1825_um
+      (shape (path F.Cu 250  0 -787.5  0 787.5))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_250x1825_um
+      (shape (rect F.Cu -125 -912.5 125 912.5))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_289.56x1346.2_um
+      (shape (rect F.Cu -144.78 -673.1 144.78 673.1))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_289.56x1348.74_um
+      (shape (rect F.Cu -144.78 -674.37 144.78 674.37))
+      (attach off)
+    )
+    (padstack "Rect[T][-474.98,0]Pad_1998.98x1399.54_um"
+      (shape (rect F.Cu -1474.47 -699.77 524.51 699.77))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_3599.18x1600.2_um
+      (shape (rect F.Cu -1799.59 -800.1 1799.59 800.1))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_398.78x1750.06_um
+      (shape (rect F.Cu -199.39 -875.03 199.39 875.03))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_4099.56x5600.7_um
+      (shape (rect F.Cu -2049.78 -2800.35 2049.78 2800.35))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_4700x3610_um
+      (shape (rect F.Cu -2350 -1805 2350 1805))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_5499.1x5699.76_um
+      (shape (rect F.Cu -2749.55 -2849.88 2749.55 2849.88))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_800.1x1678.94_um
+      (shape (rect F.Cu -400.05 -839.47 400.05 839.47))
+      (attach off)
+    )
+    (padstack Rect[T][474.98,0]Pad_1998.98x1399.54_um
+      (shape (rect F.Cu -524.51 -699.77 1474.47 699.77))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1050x575_um
+      (shape (rect F.Cu -525 -287.5 525 287.5))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1198.88x1198.88_um
+      (shape (rect F.Cu -599.44 -599.44 599.44 599.44))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1290.32x1300.48_um
+      (shape (rect F.Cu -645.16 -650.24 645.16 650.24))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1290.32x1399.54_um
+      (shape (rect F.Cu -645.16 -699.77 645.16 699.77))
+      (attach off)
+    )
+    (padstack Rect[T][0,149.86]Pad_1300.48x2451.1_um
+      (shape (rect F.Cu -650.24 -1075.69 650.24 1375.41))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1300.48x1498.6_um
+      (shape (rect F.Cu -650.24 -749.3 650.24 749.3))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1300.48x1699.26_um
+      (shape (rect F.Cu -650.24 -849.63 650.24 849.63))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1346.2x289.56_um
+      (shape (rect F.Cu -673.1 -144.78 673.1 144.78))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1399.54x2100.58_um
+      (shape (rect F.Cu -699.77 -1050.29 699.77 1050.29))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1424.94x2499.36_um
+      (shape (rect F.Cu -712.47 -1249.68 712.47 1249.68))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1501.14x1699.26_um
+      (shape (rect F.Cu -750.57 -849.63 750.57 849.63))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1524x2199.64_um
+      (shape (rect F.Cu -762 -1099.82 762 1099.82))
+      (shape (rect In1.Cu -762 -1099.82 762 1099.82))
+      (shape (rect In2.Cu -762 -1099.82 762 1099.82))
+      (shape (rect B.Cu -762 -1099.82 762 1099.82))
+      (attach off)
+    )
+    (padstack "Rect[A][0,-248.92]Pad_1524x1998.98_um"
+      (shape (rect F.Cu -762 -1248.41 762 750.57))
+      (shape (rect In1.Cu -762 -1248.41 762 750.57))
+      (shape (rect In2.Cu -762 -1248.41 762 750.57))
+      (shape (rect B.Cu -762 -1248.41 762 750.57))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1600.2x1501.14_um
+      (shape (rect F.Cu -800.1 -750.57 800.1 750.57))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1699.26x1501.14_um
+      (shape (rect F.Cu -849.63 -750.57 849.63 750.57))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1826.26x701.04_um
+      (shape (rect F.Cu -913.13 -350.52 913.13 350.52))
+      (attach off)
+    )
+    (padstack "Via[0-3]_635:304.8_um"
+      (shape (circle F.Cu 635))
+      (shape (circle In1.Cu 635))
+      (shape (circle In2.Cu 635))
+      (shape (circle B.Cu 635))
+      (attach off)
+    )
+  )
+  (network
+    (net /Power/nrst
+      (pins B1-1 B1-2 C29-1 P2-5 U1-31)
+    )
+    (net GND
+      (pins U6-29 U6-56 U6-57 U3-2 B1-3 B1-4 C1-2 C2-2 C3-1 C4-1 C5-1 C6-1 C7-1 C8-1
+        C9-1 C10-1 C11-1 C12-1 C13-1 C14-1 C15-1 C16-1 C17-1 C18-1 C19-1 C20-1 C21-1
+        C22-1 C23-2 C24-2 C25-2 C26-2 C27-2 C28-2 C29-2 C30-2 C31-2 C32-2 C33-2 C34-2
+        C35-2 C36-2 C37-2 C38-2 C39-2 C40-2 C41-2 C42-2 C43-2 C44-2 C45-2 D1-1 D2-1
+        P1-1 P2-3 P3-6 P3-9 P4-2 P5-5 P6-1 P6-12 R4-2 R9-1 R10-1 U1-22 U1-37 U1-14
+        U1-61 U1-71 U1-95 U1-103 U1-109 U1-117 U1-130 U1-135 U1-148 U1-158 U4-29 U4-56
+        U4-57 U5-29 U5-56 U5-57 U7-29 U7-56 U7-57 U8-29 U8-56 U8-57 U9-29 U9-56 U9-57
+        U10-29 U10-56 U10-57 U11-29 U11-56 U11-57 U12-29 U12-56 U12-57 U13-29 U13-56
+        U13-57 U14-29 U14-56 U14-57 U15-29 U15-56 U15-57)
+    )
+    (net +3V3
+      (pins U6-54 U3-1 C1-1 C2-1 C5-2 C6-2 C7-2 C8-2 C9-2 C10-2 C11-2 C12-2 C13-2
+        C14-2 C15-2 C16-2 C17-2 C18-2 C19-2 C20-2 C21-2 C22-2 C24-1 C25-1 C34-1 C35-1
+        C36-1 C37-1 C38-1 C39-1 C40-1 C41-1 C42-1 C43-1 C44-1 C45-1 P1-2 P2-1 P3-4
+        P6-2 P6-11 R1-2 R2-1 R5-2 R6-1 R11-1 U1-6 U1-23 U1-36 U1-38 U1-39 U1-49 U1-15
+        U1-62 U1-72 U1-82 U1-96 U1-99 U1-118 U1-131 U1-136 U1-149 U1-159 U1-172 U4-54
+        U5-54 U7-54 U8-54 U9-54 U10-54 U11-54 U12-54 U13-54 U14-54 U15-54)
+    )
+    (net /hall
+      (pins C3-2 R2-2 U1-47)
+    )
+    (net /bat_sense
+      (pins C4-2 R3-2 R4-1 U1-32)
+    )
+    (net +5V
+      (pins U3-3 LD35-1 C23-1 C32-1 C33-1 JP1-2 LD1-1 LD2-1 LD3-1 LD4-1 LD5-1 LD6-1
+        LD7-1 LD8-1 LD9-1 LD10-1 LD11-1 LD12-1 LD13-1 LD14-1 LD15-1 LD16-1 LD17-1
+        LD18-1 LD19-1 LD20-1 LD21-1 LD22-1 LD23-1 LD24-1 LD25-1 LD26-1 LD27-1 LD28-1
+        LD29-1 LD30-1 LD31-1 LD32-1 LD33-1 LD34-1 LD36-1 LD37-1 LD38-1 LD39-1 LD40-1
+        LD41-1 LD42-1 LD43-1 LD44-1 LD45-1 LD46-1 LD47-1 LD48-1 LD49-1 LD50-1 LD51-1
+        LD52-1 LD53-1 LD54-1 LD55-1 LD56-1 LD57-1 LD58-1 LD59-1 LD60-1 LD61-1 LD62-1
+        LD63-1 LD64-1 LD65-1 LD66-1 LD67-1 LD68-1 LD69-1 LD70-1 LD71-1 LD72-1 LD73-1
+        LD74-1 LD75-1 LD76-1 LD77-1 LD78-1 LD79-1 LD80-1 LD81-1 LD82-1 LD83-1 LD84-1
+        LD85-1 LD86-1 LD87-1 LD88-1 LD89-1 LD90-1 LD91-1 LD92-1 LD93-1 LD94-1 LD95-1
+        LD96-1 LD97-1 LD98-1 LD99-1 LD100-1 LD101-1 LD102-1 LD103-1 LD104-1 LD105-1
+        LD106-1 LD107-1 LD108-1 LD109-1 LD110-1 LD111-1 LD112-1 LD113-1 LD114-1 LD115-1
+        LD116-1 LD117-1 LD118-1 LD119-1 LD120-1 LD121-1 LD122-1 LD123-1 LD124-1 LD125-1
+        LD126-1 LD127-1 LD128-1 LD129-1 LD130-1 LD131-1 LD132-1 LD133-1 LD134-1 LD135-1
+        LD136-1 LD137-1 LD138-1 LD139-1 LD140-1 LD141-1 LD142-1 LD143-1 LD144-1 LD145-1
+        LD146-1 LD147-1 LD148-1 LD149-1 LD150-1 LD151-1 LD152-1 LD153-1 LD154-1 LD155-1
+        LD156-1 LD157-1 LD158-1 LD159-1 LD160-1 LD161-1 LD162-1 LD163-1 LD164-1 LD165-1
+        LD166-1 LD167-1 LD168-1 LD169-1 LD170-1 LD171-1 LD172-1 LD173-1 LD174-1 LD175-1
+        LD176-1 LD177-1 LD178-1 LD179-1 LD180-1 LD181-1 LD182-1 LD183-1 LD184-1 LD185-1
+        LD186-1 LD187-1 LD188-1 LD189-1 LD190-1 LD191-1 LD192-1 R3-1)
+    )
+    (net /Power/vdd12dsi
+      (pins C26-1 U1-100 U1-106)
+    )
+    (net /Power/vcap1
+      (pins C27-1 U1-81)
+    )
+    (net /Power/vcap2
+      (pins C28-1 U1-129)
+    )
+    (net /Power/osc_in
+      (pins C30-1 U1-29 X1-1)
+    )
+    (net /Power/osc_out
+      (pins C31-1 U1-30 X1-2)
+    )
+    (net "Net-(D1-Pad2)"
+      (pins D1-2 R6-2)
+    )
+    (net "Net-(D2-Pad2)"
+      (pins D2-2 R7-2)
+    )
+    (net /Power/vusb
+      (pins JP1-1 P5-1 R8-2)
+    )
+    (net /Power/bat_vcc
+      (pins JP1-3 P4-1)
+    )
+    (net /LEDs/led1b
+      (pins LD1-4 U4-4)
+    )
+    (net /LEDs/led1r
+      (pins LD1-2 U4-5)
+    )
+    (net /LEDs/led1g
+      (pins LD1-3 U4-6)
+    )
+    (net /LEDs/led2b
+      (pins LD2-4 U4-7)
+    )
+    (net /LEDs/led2r
+      (pins LD2-2 U4-8)
+    )
+    (net /LEDs/led2g
+      (pins LD2-3 U4-9)
+    )
+    (net /LEDs/led3b
+      (pins LD3-4 U4-10)
+    )
+    (net /LEDs/led3r
+      (pins LD3-2 U4-11)
+    )
+    (net /LEDs/led3g
+      (pins LD3-3 U4-12)
+    )
+    (net /LEDs/led4b
+      (pins LD4-4 U4-13)
+    )
+    (net /LEDs/led4r
+      (pins LD4-2 U4-14)
+    )
+    (net /LEDs/led4g
+      (pins LD4-3 U4-15)
+    )
+    (net /LEDs/led5b
+      (pins LD5-4 U4-16)
+    )
+    (net /LEDs/led5r
+      (pins LD5-2 U4-17)
+    )
+    (net /LEDs/led5g
+      (pins LD5-3 U4-18)
+    )
+    (net /LEDs/led6b
+      (pins LD6-4 U4-19)
+    )
+    (net /LEDs/led6r
+      (pins LD6-2 U4-20)
+    )
+    (net /LEDs/led6g
+      (pins LD6-3 U4-21)
+    )
+    (net /LEDs/led7b
+      (pins LD7-4 U4-22)
+    )
+    (net /LEDs/led7r
+      (pins LD7-2 U4-23)
+    )
+    (net /LEDs/led7g
+      (pins LD7-3 U4-24)
+    )
+    (net /LEDs/led8b
+      (pins LD8-4 U4-25)
+    )
+    (net /LEDs/led8r
+      (pins LD8-2 U4-26)
+    )
+    (net /LEDs/led8g
+      (pins LD8-3 U4-27)
+    )
+    (net /LEDs/led9b
+      (pins LD9-4 U4-53)
+    )
+    (net /LEDs/led9r
+      (pins LD9-2 U4-52)
+    )
+    (net /LEDs/led9g
+      (pins LD9-3 U4-51)
+    )
+    (net /LEDs/led10b
+      (pins LD10-4 U4-50)
+    )
+    (net /LEDs/led10r
+      (pins LD10-2 U4-49)
+    )
+    (net /LEDs/led10g
+      (pins LD10-3 U4-48)
+    )
+    (net /LEDs/led11b
+      (pins LD11-4 U4-47)
+    )
+    (net /LEDs/led11r
+      (pins LD11-2 U4-46)
+    )
+    (net /LEDs/led11g
+      (pins LD11-3 U4-45)
+    )
+    (net /LEDs/led12b
+      (pins LD12-4 U4-44)
+    )
+    (net /LEDs/led12r
+      (pins LD12-2 U4-43)
+    )
+    (net /LEDs/led12g
+      (pins LD12-3 U4-42)
+    )
+    (net /LEDs/led13b
+      (pins LD13-4 U4-41)
+    )
+    (net /LEDs/led13r
+      (pins LD13-2 U4-40)
+    )
+    (net /LEDs/led13g
+      (pins LD13-3 U4-39)
+    )
+    (net /LEDs/led14b
+      (pins LD14-4 U4-38)
+    )
+    (net /LEDs/led14r
+      (pins LD14-2 U4-37)
+    )
+    (net /LEDs/led14g
+      (pins LD14-3 U4-36)
+    )
+    (net /LEDs/led15b
+      (pins LD15-4 U4-35)
+    )
+    (net /LEDs/led15r
+      (pins LD15-2 U4-34)
+    )
+    (net /LEDs/led15g
+      (pins LD15-3 U4-33)
+    )
+    (net /LEDs/led16b
+      (pins LD16-4 U4-32)
+    )
+    (net /LEDs/led16r
+      (pins LD16-2 U4-31)
+    )
+    (net /LEDs/led16g
+      (pins LD16-3 U4-30)
+    )
+    (net /LEDs/led17b
+      (pins LD17-4 U5-4)
+    )
+    (net /LEDs/led17r
+      (pins LD17-2 U5-5)
+    )
+    (net /LEDs/led17g
+      (pins LD17-3 U5-6)
+    )
+    (net /LEDs/led18b
+      (pins LD18-4 U5-7)
+    )
+    (net /LEDs/led18r
+      (pins LD18-2 U5-8)
+    )
+    (net /LEDs/led18g
+      (pins LD18-3 U5-9)
+    )
+    (net /LEDs/led19b
+      (pins LD19-4 U5-10)
+    )
+    (net /LEDs/led19r
+      (pins LD19-2 U5-11)
+    )
+    (net /LEDs/led19g
+      (pins LD19-3 U5-12)
+    )
+    (net /LEDs/led20b
+      (pins LD20-4 U5-13)
+    )
+    (net /LEDs/led20r
+      (pins LD20-2 U5-14)
+    )
+    (net /LEDs/led20g
+      (pins LD20-3 U5-15)
+    )
+    (net /LEDs/led21b
+      (pins LD21-4 U5-16)
+    )
+    (net /LEDs/led21r
+      (pins LD21-2 U5-17)
+    )
+    (net /LEDs/led21g
+      (pins LD21-3 U5-18)
+    )
+    (net /LEDs/led22b
+      (pins LD22-4 U5-19)
+    )
+    (net /LEDs/led22r
+      (pins LD22-2 U5-20)
+    )
+    (net /LEDs/led22g
+      (pins LD22-3 U5-21)
+    )
+    (net /LEDs/led23b
+      (pins LD23-4 U5-22)
+    )
+    (net /LEDs/led23r
+      (pins LD23-2 U5-23)
+    )
+    (net /LEDs/led23g
+      (pins LD23-3 U5-24)
+    )
+    (net /LEDs/led24b
+      (pins LD24-4 U5-25)
+    )
+    (net /LEDs/led24r
+      (pins LD24-2 U5-26)
+    )
+    (net /LEDs/led24g
+      (pins LD24-3 U5-27)
+    )
+    (net /LEDs/led25b
+      (pins LD25-4 U5-53)
+    )
+    (net /LEDs/led25r
+      (pins LD25-2 U5-52)
+    )
+    (net /LEDs/led25g
+      (pins LD25-3 U5-51)
+    )
+    (net /LEDs/led26b
+      (pins LD26-4 U5-50)
+    )
+    (net /LEDs/led26r
+      (pins LD26-2 U5-49)
+    )
+    (net /LEDs/led26g
+      (pins LD26-3 U5-48)
+    )
+    (net /LEDs/led27b
+      (pins LD27-4 U5-47)
+    )
+    (net /LEDs/led27r
+      (pins LD27-2 U5-46)
+    )
+    (net /LEDs/led27g
+      (pins LD27-3 U5-45)
+    )
+    (net /LEDs/led28b
+      (pins LD28-4 U5-44)
+    )
+    (net /LEDs/led28r
+      (pins LD28-2 U5-43)
+    )
+    (net /LEDs/led28g
+      (pins LD28-3 U5-42)
+    )
+    (net /LEDs/led29b
+      (pins LD29-4 U5-41)
+    )
+    (net /LEDs/led29r
+      (pins LD29-2 U5-40)
+    )
+    (net /LEDs/led29g
+      (pins LD29-3 U5-39)
+    )
+    (net /LEDs/led30b
+      (pins LD30-4 U5-38)
+    )
+    (net /LEDs/led30r
+      (pins LD30-2 U5-37)
+    )
+    (net /LEDs/led30g
+      (pins LD30-3 U5-36)
+    )
+    (net /LEDs/led31b
+      (pins U6-4 LD31-4)
+    )
+    (net /LEDs/led31r
+      (pins U6-5 LD31-2)
+    )
+    (net /LEDs/led31g
+      (pins U6-6 LD31-3)
+    )
+    (net /LEDs/led32b
+      (pins LD32-4 U5-32)
+    )
+    (net /LEDs/led32r
+      (pins LD32-2 U5-31)
+    )
+    (net /LEDs/led32g
+      (pins LD32-3 U5-30)
+    )
+    (net /LEDs/led33b
+      (pins LD33-4 U5-35)
+    )
+    (net /LEDs/led33r
+      (pins LD33-2 U5-34)
+    )
+    (net /LEDs/led33g
+      (pins LD33-3 U5-33)
+    )
+    (net /LEDs/led34b
+      (pins U6-7 LD34-4)
+    )
+    (net /LEDs/led34r
+      (pins U6-8 LD34-2)
+    )
+    (net /LEDs/led34g
+      (pins U6-9 LD34-3)
+    )
+    (net /LEDs/led35b
+      (pins U6-10 LD35-4)
+    )
+    (net /LEDs/led35r
+      (pins U6-11 LD35-2)
+    )
+    (net /LEDs/led35g
+      (pins U6-12 LD35-3)
+    )
+    (net /LEDs/led36b
+      (pins U6-13 LD36-4)
+    )
+    (net /LEDs/led36r
+      (pins U6-14 LD36-2)
+    )
+    (net /LEDs/led36g
+      (pins U6-15 LD36-3)
+    )
+    (net /LEDs/led37b
+      (pins U6-16 LD37-4)
+    )
+    (net /LEDs/led37r
+      (pins U6-17 LD37-2)
+    )
+    (net /LEDs/led37g
+      (pins U6-18 LD37-3)
+    )
+    (net /LEDs/led38b
+      (pins U6-19 LD38-4)
+    )
+    (net /LEDs/led38r
+      (pins U6-20 LD38-2)
+    )
+    (net /LEDs/led38g
+      (pins U6-21 LD38-3)
+    )
+    (net /LEDs/led39b
+      (pins U6-22 LD39-4)
+    )
+    (net /LEDs/led39r
+      (pins U6-23 LD39-2)
+    )
+    (net /LEDs/led39g
+      (pins U6-24 LD39-3)
+    )
+    (net /LEDs/led40b
+      (pins U6-25 LD40-4)
+    )
+    (net /LEDs/led40r
+      (pins U6-26 LD40-2)
+    )
+    (net /LEDs/led40g
+      (pins U6-27 LD40-3)
+    )
+    (net /LEDs/led41b
+      (pins U6-53 LD41-4)
+    )
+    (net /LEDs/led41r
+      (pins U6-52 LD41-2)
+    )
+    (net /LEDs/led41g
+      (pins U6-51 LD41-3)
+    )
+    (net /LEDs/led42b
+      (pins U6-50 LD42-4)
+    )
+    (net /LEDs/led42r
+      (pins U6-49 LD42-2)
+    )
+    (net /LEDs/led42g
+      (pins U6-48 LD42-3)
+    )
+    (net /LEDs/led43b
+      (pins U6-47 LD43-4)
+    )
+    (net /LEDs/led43r
+      (pins U6-46 LD43-2)
+    )
+    (net /LEDs/led43g
+      (pins U6-45 LD43-3)
+    )
+    (net /LEDs/led44b
+      (pins U6-44 LD44-4)
+    )
+    (net /LEDs/led44r
+      (pins U6-43 LD44-2)
+    )
+    (net /LEDs/led44g
+      (pins U6-42 LD44-3)
+    )
+    (net /LEDs/led45b
+      (pins U6-41 LD45-4)
+    )
+    (net /LEDs/led45r
+      (pins U6-40 LD45-2)
+    )
+    (net /LEDs/led45g
+      (pins U6-39 LD45-3)
+    )
+    (net /LEDs/led46b
+      (pins U6-38 LD46-4)
+    )
+    (net /LEDs/led46r
+      (pins U6-37 LD46-2)
+    )
+    (net /LEDs/led46g
+      (pins U6-36 LD46-3)
+    )
+    (net /LEDs/led47b
+      (pins U6-35 LD47-4)
+    )
+    (net /LEDs/led47r
+      (pins U6-34 LD47-2)
+    )
+    (net /LEDs/led47g
+      (pins U6-33 LD47-3)
+    )
+    (net /LEDs/led48b
+      (pins U6-32 LD48-4)
+    )
+    (net /LEDs/led48r
+      (pins U6-31 LD48-2)
+    )
+    (net /LEDs/led48g
+      (pins U6-30 LD48-3)
+    )
+    (net /LEDs/led49b
+      (pins LD49-4 U7-4)
+    )
+    (net /LEDs/led49r
+      (pins LD49-2 U7-5)
+    )
+    (net /LEDs/led49g
+      (pins LD49-3 U7-6)
+    )
+    (net /LEDs/led50b
+      (pins LD50-4 U7-7)
+    )
+    (net /LEDs/led50r
+      (pins LD50-2 U7-8)
+    )
+    (net /LEDs/led50g
+      (pins LD50-3 U7-9)
+    )
+    (net /LEDs/led51b
+      (pins LD51-4 U7-10)
+    )
+    (net /LEDs/led51r
+      (pins LD51-2 U7-11)
+    )
+    (net /LEDs/led51g
+      (pins LD51-3 U7-12)
+    )
+    (net /LEDs/led52b
+      (pins LD52-4 U7-13)
+    )
+    (net /LEDs/led52r
+      (pins LD52-2 U7-14)
+    )
+    (net /LEDs/led52g
+      (pins LD52-3 U7-15)
+    )
+    (net /LEDs/led53b
+      (pins LD53-4 U7-16)
+    )
+    (net /LEDs/led53r
+      (pins LD53-2 U7-17)
+    )
+    (net /LEDs/led53g
+      (pins LD53-3 U7-18)
+    )
+    (net /LEDs/led54b
+      (pins LD54-4 U7-19)
+    )
+    (net /LEDs/led54r
+      (pins LD54-2 U7-20)
+    )
+    (net /LEDs/led54g
+      (pins LD54-3 U7-21)
+    )
+    (net /LEDs/led55b
+      (pins LD55-4 U7-22)
+    )
+    (net /LEDs/led55r
+      (pins LD55-2 U7-23)
+    )
+    (net /LEDs/led55g
+      (pins LD55-3 U7-24)
+    )
+    (net /LEDs/led56b
+      (pins LD56-4 U7-25)
+    )
+    (net /LEDs/led56r
+      (pins LD56-2 U7-26)
+    )
+    (net /LEDs/led56g
+      (pins LD56-3 U7-27)
+    )
+    (net /LEDs/led57b
+      (pins LD57-4 U7-53)
+    )
+    (net /LEDs/led57r
+      (pins LD57-2 U7-52)
+    )
+    (net /LEDs/led57g
+      (pins LD57-3 U7-51)
+    )
+    (net /LEDs/led58b
+      (pins LD58-4 U7-50)
+    )
+    (net /LEDs/led58r
+      (pins LD58-2 U7-49)
+    )
+    (net /LEDs/led58g
+      (pins LD58-3 U7-48)
+    )
+    (net /LEDs/led59b
+      (pins LD59-4 U7-47)
+    )
+    (net /LEDs/led59r
+      (pins LD59-2 U7-46)
+    )
+    (net /LEDs/led59g
+      (pins LD59-3 U7-45)
+    )
+    (net /LEDs/led60b
+      (pins LD60-4 U7-44)
+    )
+    (net /LEDs/led60r
+      (pins LD60-2 U7-43)
+    )
+    (net /LEDs/led60g
+      (pins LD60-3 U7-42)
+    )
+    (net /LEDs/led61b
+      (pins LD61-4 U7-41)
+    )
+    (net /LEDs/led61r
+      (pins LD61-2 U7-40)
+    )
+    (net /LEDs/led61g
+      (pins LD61-3 U7-39)
+    )
+    (net /LEDs/led62b
+      (pins LD62-4 U7-38)
+    )
+    (net /LEDs/led62r
+      (pins LD62-2 U7-37)
+    )
+    (net /LEDs/led62g
+      (pins LD62-3 U7-36)
+    )
+    (net /LEDs/led63b
+      (pins LD63-4 U7-35)
+    )
+    (net /LEDs/led63r
+      (pins LD63-2 U7-34)
+    )
+    (net /LEDs/led63g
+      (pins LD63-3 U7-33)
+    )
+    (net /LEDs/led64b
+      (pins LD64-4 U7-32)
+    )
+    (net /LEDs/led64r
+      (pins LD64-2 U7-31)
+    )
+    (net /LEDs/led64g
+      (pins LD64-3 U7-30)
+    )
+    (net /LEDs/led65b
+      (pins LD65-4 U8-4)
+    )
+    (net /LEDs/led65r
+      (pins LD65-2 U8-5)
+    )
+    (net /LEDs/led65g
+      (pins LD65-3 U8-6)
+    )
+    (net /LEDs/led66b
+      (pins LD66-4 U8-7)
+    )
+    (net /LEDs/led66r
+      (pins LD66-2 U8-8)
+    )
+    (net /LEDs/led66g
+      (pins LD66-3 U8-9)
+    )
+    (net /LEDs/led67b
+      (pins LD67-4 U8-10)
+    )
+    (net /LEDs/led67r
+      (pins LD67-2 U8-11)
+    )
+    (net /LEDs/led67g
+      (pins LD67-3 U8-12)
+    )
+    (net /LEDs/led68b
+      (pins LD68-4 U8-13)
+    )
+    (net /LEDs/led68r
+      (pins LD68-2 U8-14)
+    )
+    (net /LEDs/led68g
+      (pins LD68-3 U8-15)
+    )
+    (net /LEDs/led69b
+      (pins LD69-4 U8-16)
+    )
+    (net /LEDs/led69r
+      (pins LD69-2 U8-17)
+    )
+    (net /LEDs/led69g
+      (pins LD69-3 U8-18)
+    )
+    (net /LEDs/led70b
+      (pins LD70-4 U8-19)
+    )
+    (net /LEDs/led70r
+      (pins LD70-2 U8-20)
+    )
+    (net /LEDs/led70g
+      (pins LD70-3 U8-21)
+    )
+    (net /LEDs/led71b
+      (pins LD71-4 U8-22)
+    )
+    (net /LEDs/led71r
+      (pins LD71-2 U8-23)
+    )
+    (net /LEDs/led71g
+      (pins LD71-3 U8-24)
+    )
+    (net /LEDs/led72b
+      (pins LD72-4 U8-25)
+    )
+    (net /LEDs/led72r
+      (pins LD72-2 U8-26)
+    )
+    (net /LEDs/led72g
+      (pins LD72-3 U8-27)
+    )
+    (net /LEDs/led73b
+      (pins LD73-4 U8-53)
+    )
+    (net /LEDs/led73r
+      (pins LD73-2 U8-52)
+    )
+    (net /LEDs/led73g
+      (pins LD73-3 U8-51)
+    )
+    (net /LEDs/led74b
+      (pins LD74-4 U8-50)
+    )
+    (net /LEDs/led74r
+      (pins LD74-2 U8-49)
+    )
+    (net /LEDs/led74g
+      (pins LD74-3 U8-48)
+    )
+    (net /LEDs/led75b
+      (pins LD75-4 U8-47)
+    )
+    (net /LEDs/led75r
+      (pins LD75-2 U8-46)
+    )
+    (net /LEDs/led75g
+      (pins LD75-3 U8-45)
+    )
+    (net /LEDs/led76b
+      (pins LD76-4 U8-44)
+    )
+    (net /LEDs/led76r
+      (pins LD76-2 U8-43)
+    )
+    (net /LEDs/led76g
+      (pins LD76-3 U8-42)
+    )
+    (net /LEDs/led77b
+      (pins LD77-4 U8-41)
+    )
+    (net /LEDs/led77r
+      (pins LD77-2 U8-40)
+    )
+    (net /LEDs/led77g
+      (pins LD77-3 U8-39)
+    )
+    (net /LEDs/led78b
+      (pins LD78-4 U8-38)
+    )
+    (net /LEDs/led78r
+      (pins LD78-2 U8-37)
+    )
+    (net /LEDs/led78g
+      (pins LD78-3 U8-36)
+    )
+    (net /LEDs/led79b
+      (pins LD79-4 U8-35)
+    )
+    (net /LEDs/led79r
+      (pins LD79-2 U8-34)
+    )
+    (net /LEDs/led79g
+      (pins LD79-3 U8-33)
+    )
+    (net /LEDs/led80b
+      (pins LD80-4 U8-32)
+    )
+    (net /LEDs/led80r
+      (pins LD80-2 U8-31)
+    )
+    (net /LEDs/led80g
+      (pins LD80-3 U8-30)
+    )
+    (net /LEDs/led81b
+      (pins LD81-4 U9-4)
+    )
+    (net /LEDs/led81r
+      (pins LD81-2 U9-5)
+    )
+    (net /LEDs/led81g
+      (pins LD81-3 U9-6)
+    )
+    (net /LEDs/led82b
+      (pins LD82-4 U9-7)
+    )
+    (net /LEDs/led82r
+      (pins LD82-2 U9-8)
+    )
+    (net /LEDs/led82g
+      (pins LD82-3 U9-9)
+    )
+    (net /LEDs/led83b
+      (pins LD83-4 U9-10)
+    )
+    (net /LEDs/led83r
+      (pins LD83-2 U9-11)
+    )
+    (net /LEDs/led83g
+      (pins LD83-3 U9-12)
+    )
+    (net /LEDs/led84b
+      (pins LD84-4 U9-13)
+    )
+    (net /LEDs/led84r
+      (pins LD84-2 U9-14)
+    )
+    (net /LEDs/led84g
+      (pins LD84-3 U9-15)
+    )
+    (net /LEDs/led85b
+      (pins LD85-4 U9-16)
+    )
+    (net /LEDs/led85r
+      (pins LD85-2 U9-17)
+    )
+    (net /LEDs/led85g
+      (pins LD85-3 U9-18)
+    )
+    (net /LEDs/led86b
+      (pins LD86-4 U9-19)
+    )
+    (net /LEDs/led86r
+      (pins LD86-2 U9-20)
+    )
+    (net /LEDs/led86g
+      (pins LD86-3 U9-21)
+    )
+    (net /LEDs/led87b
+      (pins LD87-4 U9-22)
+    )
+    (net /LEDs/led87r
+      (pins LD87-2 U9-23)
+    )
+    (net /LEDs/led87g
+      (pins LD87-3 U9-24)
+    )
+    (net /LEDs/led88b
+      (pins LD88-4 U9-25)
+    )
+    (net /LEDs/led88r
+      (pins LD88-2 U9-26)
+    )
+    (net /LEDs/led88g
+      (pins LD88-3 U9-27)
+    )
+    (net /LEDs/led89b
+      (pins LD89-4 U9-53)
+    )
+    (net /LEDs/led89r
+      (pins LD89-2 U9-52)
+    )
+    (net /LEDs/led89g
+      (pins LD89-3 U9-51)
+    )
+    (net /LEDs/led90b
+      (pins LD90-4 U9-50)
+    )
+    (net /LEDs/led90r
+      (pins LD90-2 U9-49)
+    )
+    (net /LEDs/led90g
+      (pins LD90-3 U9-48)
+    )
+    (net /LEDs/led91b
+      (pins LD91-4 U9-47)
+    )
+    (net /LEDs/led91r
+      (pins LD91-2 U9-46)
+    )
+    (net /LEDs/led91g
+      (pins LD91-3 U9-45)
+    )
+    (net /LEDs/led92b
+      (pins LD92-4 U9-44)
+    )
+    (net /LEDs/led92r
+      (pins LD92-2 U9-43)
+    )
+    (net /LEDs/led92g
+      (pins LD92-3 U9-42)
+    )
+    (net /LEDs/led93b
+      (pins LD93-4 U9-41)
+    )
+    (net /LEDs/led93r
+      (pins LD93-2 U9-40)
+    )
+    (net /LEDs/led93g
+      (pins LD93-3 U9-39)
+    )
+    (net /LEDs/led94b
+      (pins LD94-4 U9-38)
+    )
+    (net /LEDs/led94r
+      (pins LD94-2 U9-37)
+    )
+    (net /LEDs/led94g
+      (pins LD94-3 U9-36)
+    )
+    (net /LEDs/led95b
+      (pins LD95-4 U9-35)
+    )
+    (net /LEDs/led95r
+      (pins LD95-2 U9-34)
+    )
+    (net /LEDs/led95g
+      (pins LD95-3 U9-33)
+    )
+    (net /LEDs/led96b
+      (pins LD96-4 U9-32)
+    )
+    (net /LEDs/led96r
+      (pins LD96-2 U9-31)
+    )
+    (net /LEDs/led96g
+      (pins LD96-3 U9-30)
+    )
+    (net /LEDs/led97b
+      (pins LD97-4 U10-4)
+    )
+    (net /LEDs/led97r
+      (pins LD97-2 U10-5)
+    )
+    (net /LEDs/led97g
+      (pins LD97-3 U10-6)
+    )
+    (net /LEDs/led98b
+      (pins LD98-4 U10-7)
+    )
+    (net /LEDs/led98r
+      (pins LD98-2 U10-8)
+    )
+    (net /LEDs/led98g
+      (pins LD98-3 U10-9)
+    )
+    (net /LEDs/led99b
+      (pins LD99-4 U10-10)
+    )
+    (net /LEDs/led99r
+      (pins LD99-2 U10-11)
+    )
+    (net /LEDs/led99g
+      (pins LD99-3 U10-12)
+    )
+    (net /LEDs/led100b
+      (pins LD100-4 U10-13)
+    )
+    (net /LEDs/led100r
+      (pins LD100-2 U10-14)
+    )
+    (net /LEDs/led100g
+      (pins LD100-3 U10-15)
+    )
+    (net /LEDs/led101b
+      (pins LD101-4 U10-16)
+    )
+    (net /LEDs/led101r
+      (pins LD101-2 U10-17)
+    )
+    (net /LEDs/led101g
+      (pins LD101-3 U10-18)
+    )
+    (net /LEDs/led102b
+      (pins LD102-4 U10-19)
+    )
+    (net /LEDs/led102r
+      (pins LD102-2 U10-20)
+    )
+    (net /LEDs/led102g
+      (pins LD102-3 U10-21)
+    )
+    (net /LEDs/led103b
+      (pins LD103-4 U10-22)
+    )
+    (net /LEDs/led103r
+      (pins LD103-2 U10-23)
+    )
+    (net /LEDs/led103g
+      (pins LD103-3 U10-24)
+    )
+    (net /LEDs/led104b
+      (pins LD104-4 U10-25)
+    )
+    (net /LEDs/led104r
+      (pins LD104-2 U10-26)
+    )
+    (net /LEDs/led104g
+      (pins LD104-3 U10-27)
+    )
+    (net /LEDs/led105b
+      (pins LD105-4 U10-53)
+    )
+    (net /LEDs/led105r
+      (pins LD105-2 U10-52)
+    )
+    (net /LEDs/led105g
+      (pins LD105-3 U10-51)
+    )
+    (net /LEDs/led106b
+      (pins LD106-4 U10-50)
+    )
+    (net /LEDs/led106r
+      (pins LD106-2 U10-49)
+    )
+    (net /LEDs/led106g
+      (pins LD106-3 U10-48)
+    )
+    (net /LEDs/led107b
+      (pins LD107-4 U10-47)
+    )
+    (net /LEDs/led107r
+      (pins LD107-2 U10-46)
+    )
+    (net /LEDs/led107g
+      (pins LD107-3 U10-45)
+    )
+    (net /LEDs/led108b
+      (pins LD108-4 U10-44)
+    )
+    (net /LEDs/led108r
+      (pins LD108-2 U10-43)
+    )
+    (net /LEDs/led108g
+      (pins LD108-3 U10-42)
+    )
+    (net /LEDs/led109b
+      (pins LD109-4 U10-41)
+    )
+    (net /LEDs/led109r
+      (pins LD109-2 U10-40)
+    )
+    (net /LEDs/led109g
+      (pins LD109-3 U10-39)
+    )
+    (net /LEDs/led110b
+      (pins LD110-4 U10-38)
+    )
+    (net /LEDs/led110r
+      (pins LD110-2 U10-37)
+    )
+    (net /LEDs/led110g
+      (pins LD110-3 U10-36)
+    )
+    (net /LEDs/led111b
+      (pins LD111-4 U10-35)
+    )
+    (net /LEDs/led111r
+      (pins LD111-2 U10-34)
+    )
+    (net /LEDs/led111g
+      (pins LD111-3 U10-33)
+    )
+    (net /LEDs/led112b
+      (pins LD112-4 U10-32)
+    )
+    (net /LEDs/led112r
+      (pins LD112-2 U10-31)
+    )
+    (net /LEDs/led112g
+      (pins LD112-3 U10-30)
+    )
+    (net /LEDs/led113b
+      (pins LD113-4 U11-4)
+    )
+    (net /LEDs/led113r
+      (pins LD113-2 U11-5)
+    )
+    (net /LEDs/led113g
+      (pins LD113-3 U11-6)
+    )
+    (net /LEDs/led114b
+      (pins LD114-4 U11-7)
+    )
+    (net /LEDs/led114r
+      (pins LD114-2 U11-8)
+    )
+    (net /LEDs/led114g
+      (pins LD114-3 U11-9)
+    )
+    (net /LEDs/led115b
+      (pins LD115-4 U11-10)
+    )
+    (net /LEDs/led115r
+      (pins LD115-2 U11-11)
+    )
+    (net /LEDs/led115g
+      (pins LD115-3 U11-12)
+    )
+    (net /LEDs/led116b
+      (pins LD116-4 U11-13)
+    )
+    (net /LEDs/led116r
+      (pins LD116-2 U11-14)
+    )
+    (net /LEDs/led116g
+      (pins LD116-3 U11-15)
+    )
+    (net /LEDs/led117b
+      (pins LD117-4 U11-16)
+    )
+    (net /LEDs/led117r
+      (pins LD117-2 U11-17)
+    )
+    (net /LEDs/led117g
+      (pins LD117-3 U11-18)
+    )
+    (net /LEDs/led118b
+      (pins LD118-4 U11-19)
+    )
+    (net /LEDs/led118r
+      (pins LD118-2 U11-20)
+    )
+    (net /LEDs/led118g
+      (pins LD118-3 U11-21)
+    )
+    (net /LEDs/led119b
+      (pins LD119-4 U11-22)
+    )
+    (net /LEDs/led119r
+      (pins LD119-2 U11-23)
+    )
+    (net /LEDs/led119g
+      (pins LD119-3 U11-24)
+    )
+    (net /LEDs/led120b
+      (pins LD120-4 U11-25)
+    )
+    (net /LEDs/led120r
+      (pins LD120-2 U11-26)
+    )
+    (net /LEDs/led120g
+      (pins LD120-3 U11-27)
+    )
+    (net /LEDs/led121b
+      (pins LD121-4 U11-53)
+    )
+    (net /LEDs/led121r
+      (pins LD121-2 U11-52)
+    )
+    (net /LEDs/led121g
+      (pins LD121-3 U11-51)
+    )
+    (net /LEDs/led122b
+      (pins LD122-4 U11-50)
+    )
+    (net /LEDs/led122r
+      (pins LD122-2 U11-49)
+    )
+    (net /LEDs/led122g
+      (pins LD122-3 U11-48)
+    )
+    (net /LEDs/led123b
+      (pins LD123-4 U11-47)
+    )
+    (net /LEDs/led123r
+      (pins LD123-2 U11-46)
+    )
+    (net /LEDs/led123g
+      (pins LD123-3 U11-45)
+    )
+    (net /LEDs/led124b
+      (pins LD124-4 U11-44)
+    )
+    (net /LEDs/led124r
+      (pins LD124-2 U11-43)
+    )
+    (net /LEDs/led124g
+      (pins LD124-3 U11-42)
+    )
+    (net /LEDs/led125b
+      (pins LD125-4 U11-41)
+    )
+    (net /LEDs/led125r
+      (pins LD125-2 U11-40)
+    )
+    (net /LEDs/led125g
+      (pins LD125-3 U11-39)
+    )
+    (net /LEDs/led126b
+      (pins LD126-4 U11-38)
+    )
+    (net /LEDs/led126r
+      (pins LD126-2 U11-37)
+    )
+    (net /LEDs/led126g
+      (pins LD126-3 U11-36)
+    )
+    (net /LEDs/led127b
+      (pins LD127-4 U11-35)
+    )
+    (net /LEDs/led127r
+      (pins LD127-2 U11-34)
+    )
+    (net /LEDs/led127g
+      (pins LD127-3 U11-33)
+    )
+    (net /LEDs/led128b
+      (pins LD128-4 U11-32)
+    )
+    (net /LEDs/led128r
+      (pins LD128-2 U11-31)
+    )
+    (net /LEDs/led128g
+      (pins LD128-3 U11-30)
+    )
+    (net /LEDs/led129b
+      (pins LD129-4 U12-4)
+    )
+    (net /LEDs/led129r
+      (pins LD129-2 U12-5)
+    )
+    (net /LEDs/led129g
+      (pins LD129-3 U12-6)
+    )
+    (net /LEDs/led130b
+      (pins LD130-4 U12-7)
+    )
+    (net /LEDs/led130r
+      (pins LD130-2 U12-8)
+    )
+    (net /LEDs/led130g
+      (pins LD130-3 U12-9)
+    )
+    (net /LEDs/led131b
+      (pins LD131-4 U12-10)
+    )
+    (net /LEDs/led131r
+      (pins LD131-2 U12-11)
+    )
+    (net /LEDs/led131g
+      (pins LD131-3 U12-12)
+    )
+    (net /LEDs/led132b
+      (pins LD132-4 U12-13)
+    )
+    (net /LEDs/led132r
+      (pins LD132-2 U12-14)
+    )
+    (net /LEDs/led132g
+      (pins LD132-3 U12-15)
+    )
+    (net /LEDs/led133b
+      (pins LD133-4 U12-16)
+    )
+    (net /LEDs/led133r
+      (pins LD133-2 U12-17)
+    )
+    (net /LEDs/led133g
+      (pins LD133-3 U12-18)
+    )
+    (net /LEDs/led134b
+      (pins LD134-4 U12-19)
+    )
+    (net /LEDs/led134r
+      (pins LD134-2 U12-20)
+    )
+    (net /LEDs/led134g
+      (pins LD134-3 U12-21)
+    )
+    (net /LEDs/led135b
+      (pins LD135-4 U12-22)
+    )
+    (net /LEDs/led135r
+      (pins LD135-2 U12-23)
+    )
+    (net /LEDs/led135g
+      (pins LD135-3 U12-24)
+    )
+    (net /LEDs/led136b
+      (pins LD136-4 U12-25)
+    )
+    (net /LEDs/led136r
+      (pins LD136-2 U12-26)
+    )
+    (net /LEDs/led136g
+      (pins LD136-3 U12-27)
+    )
+    (net /LEDs/led137b
+      (pins LD137-4 U12-53)
+    )
+    (net /LEDs/led137r
+      (pins LD137-2 U12-52)
+    )
+    (net /LEDs/led137g
+      (pins LD137-3 U12-51)
+    )
+    (net /LEDs/led138b
+      (pins LD138-4 U12-50)
+    )
+    (net /LEDs/led138r
+      (pins LD138-2 U12-49)
+    )
+    (net /LEDs/led138g
+      (pins LD138-3 U12-48)
+    )
+    (net /LEDs/led139b
+      (pins LD139-4 U12-47)
+    )
+    (net /LEDs/led139r
+      (pins LD139-2 U12-46)
+    )
+    (net /LEDs/led139g
+      (pins LD139-3 U12-45)
+    )
+    (net /LEDs/led140b
+      (pins LD140-4 U12-44)
+    )
+    (net /LEDs/led140r
+      (pins LD140-2 U12-43)
+    )
+    (net /LEDs/led140g
+      (pins LD140-3 U12-42)
+    )
+    (net /LEDs/led141b
+      (pins LD141-4 U12-41)
+    )
+    (net /LEDs/led141r
+      (pins LD141-2 U12-40)
+    )
+    (net /LEDs/led141g
+      (pins LD141-3 U12-39)
+    )
+    (net /LEDs/led142b
+      (pins LD142-4 U12-38)
+    )
+    (net /LEDs/led142r
+      (pins LD142-2 U12-37)
+    )
+    (net /LEDs/led142g
+      (pins LD142-3 U12-36)
+    )
+    (net /LEDs/led143b
+      (pins LD143-4 U12-35)
+    )
+    (net /LEDs/led143r
+      (pins LD143-2 U12-34)
+    )
+    (net /LEDs/led143g
+      (pins LD143-3 U12-33)
+    )
+    (net /LEDs/led144b
+      (pins LD144-4 U12-32)
+    )
+    (net /LEDs/led144r
+      (pins LD144-2 U12-31)
+    )
+    (net /LEDs/led144g
+      (pins LD144-3 U12-30)
+    )
+    (net /LEDs/led145b
+      (pins LD145-4 U13-4)
+    )
+    (net /LEDs/led145r
+      (pins LD145-2 U13-5)
+    )
+    (net /LEDs/led145g
+      (pins LD145-3 U13-6)
+    )
+    (net /LEDs/led146b
+      (pins LD146-4 U13-7)
+    )
+    (net /LEDs/led146r
+      (pins LD146-2 U13-8)
+    )
+    (net /LEDs/led146g
+      (pins LD146-3 U13-9)
+    )
+    (net /LEDs/led147b
+      (pins LD147-4 U13-10)
+    )
+    (net /LEDs/led147r
+      (pins LD147-2 U13-11)
+    )
+    (net /LEDs/led147g
+      (pins LD147-3 U13-12)
+    )
+    (net /LEDs/led148b
+      (pins LD148-4 U13-13)
+    )
+    (net /LEDs/led148r
+      (pins LD148-2 U13-14)
+    )
+    (net /LEDs/led148g
+      (pins LD148-3 U13-15)
+    )
+    (net /LEDs/led149b
+      (pins LD149-4 U13-16)
+    )
+    (net /LEDs/led149r
+      (pins LD149-2 U13-17)
+    )
+    (net /LEDs/led149g
+      (pins LD149-3 U13-18)
+    )
+    (net /LEDs/led150b
+      (pins LD150-4 U13-19)
+    )
+    (net /LEDs/led150r
+      (pins LD150-2 U13-20)
+    )
+    (net /LEDs/led150g
+      (pins LD150-3 U13-21)
+    )
+    (net /LEDs/led151b
+      (pins LD151-4 U13-22)
+    )
+    (net /LEDs/led151r
+      (pins LD151-2 U13-23)
+    )
+    (net /LEDs/led151g
+      (pins LD151-3 U13-24)
+    )
+    (net /LEDs/led152b
+      (pins LD152-4 U13-25)
+    )
+    (net /LEDs/led152r
+      (pins LD152-2 U13-26)
+    )
+    (net /LEDs/led152g
+      (pins LD152-3 U13-27)
+    )
+    (net /LEDs/led153b
+      (pins LD153-4 U13-53)
+    )
+    (net /LEDs/led153r
+      (pins LD153-2 U13-52)
+    )
+    (net /LEDs/led153g
+      (pins LD153-3 U13-51)
+    )
+    (net /LEDs/led154b
+      (pins LD154-4 U13-50)
+    )
+    (net /LEDs/led154r
+      (pins LD154-2 U13-49)
+    )
+    (net /LEDs/led154g
+      (pins LD154-3 U13-48)
+    )
+    (net /LEDs/led155b
+      (pins LD155-4 U13-47)
+    )
+    (net /LEDs/led155r
+      (pins LD155-2 U13-46)
+    )
+    (net /LEDs/led155g
+      (pins LD155-3 U13-45)
+    )
+    (net /LEDs/led156b
+      (pins LD156-4 U13-44)
+    )
+    (net /LEDs/led156r
+      (pins LD156-2 U13-43)
+    )
+    (net /LEDs/led156g
+      (pins LD156-3 U13-42)
+    )
+    (net /LEDs/led157b
+      (pins LD157-4 U13-41)
+    )
+    (net /LEDs/led157r
+      (pins LD157-2 U13-40)
+    )
+    (net /LEDs/led157g
+      (pins LD157-3 U13-39)
+    )
+    (net /LEDs/led158b
+      (pins LD158-4 U13-38)
+    )
+    (net /LEDs/led158r
+      (pins LD158-2 U13-37)
+    )
+    (net /LEDs/led158g
+      (pins LD158-3 U13-36)
+    )
+    (net /LEDs/led159b
+      (pins LD159-4 U13-35)
+    )
+    (net /LEDs/led159r
+      (pins LD159-2 U13-34)
+    )
+    (net /LEDs/led159g
+      (pins LD159-3 U13-33)
+    )
+    (net /LEDs/led160b
+      (pins LD160-4 U13-32)
+    )
+    (net /LEDs/led160r
+      (pins LD160-2 U13-31)
+    )
+    (net /LEDs/led160g
+      (pins LD160-3 U13-30)
+    )
+    (net /LEDs/led161b
+      (pins LD161-4 U14-4)
+    )
+    (net /LEDs/led161r
+      (pins LD161-2 U14-5)
+    )
+    (net /LEDs/led161g
+      (pins LD161-3 U14-6)
+    )
+    (net /LEDs/led162b
+      (pins LD162-4 U14-7)
+    )
+    (net /LEDs/led162r
+      (pins LD162-2 U14-8)
+    )
+    (net /LEDs/led162g
+      (pins LD162-3 U14-9)
+    )
+    (net /LEDs/led163b
+      (pins LD163-4 U14-10)
+    )
+    (net /LEDs/led163r
+      (pins LD163-2 U14-11)
+    )
+    (net /LEDs/led163g
+      (pins LD163-3 U14-12)
+    )
+    (net /LEDs/led164b
+      (pins LD164-4 U14-13)
+    )
+    (net /LEDs/led164r
+      (pins LD164-2 U14-14)
+    )
+    (net /LEDs/led164g
+      (pins LD164-3 U14-15)
+    )
+    (net /LEDs/led165b
+      (pins LD165-4 U14-16)
+    )
+    (net /LEDs/led165r
+      (pins LD165-2 U14-17)
+    )
+    (net /LEDs/led165g
+      (pins LD165-3 U14-18)
+    )
+    (net /LEDs/led166b
+      (pins LD166-4 U14-19)
+    )
+    (net /LEDs/led166r
+      (pins LD166-2 U14-20)
+    )
+    (net /LEDs/led166g
+      (pins LD166-3 U14-21)
+    )
+    (net /LEDs/led167b
+      (pins LD167-4 U14-22)
+    )
+    (net /LEDs/led167r
+      (pins LD167-2 U14-23)
+    )
+    (net /LEDs/led167g
+      (pins LD167-3 U14-24)
+    )
+    (net /LEDs/led168b
+      (pins LD168-4 U14-25)
+    )
+    (net /LEDs/led168r
+      (pins LD168-2 U14-26)
+    )
+    (net /LEDs/led168g
+      (pins LD168-3 U14-27)
+    )
+    (net /LEDs/led169b
+      (pins LD169-4 U14-53)
+    )
+    (net /LEDs/led169r
+      (pins LD169-2 U14-52)
+    )
+    (net /LEDs/led169g
+      (pins LD169-3 U14-51)
+    )
+    (net /LEDs/led170b
+      (pins LD170-4 U14-50)
+    )
+    (net /LEDs/led170r
+      (pins LD170-2 U14-49)
+    )
+    (net /LEDs/led170g
+      (pins LD170-3 U14-48)
+    )
+    (net /LEDs/led171b
+      (pins LD171-4 U14-47)
+    )
+    (net /LEDs/led171r
+      (pins LD171-2 U14-46)
+    )
+    (net /LEDs/led171g
+      (pins LD171-3 U14-45)
+    )
+    (net /LEDs/led172b
+      (pins LD172-4 U14-44)
+    )
+    (net /LEDs/led172r
+      (pins LD172-2 U14-43)
+    )
+    (net /LEDs/led172g
+      (pins LD172-3 U14-42)
+    )
+    (net /LEDs/led173b
+      (pins LD173-4 U14-41)
+    )
+    (net /LEDs/led173r
+      (pins LD173-2 U14-40)
+    )
+    (net /LEDs/led173g
+      (pins LD173-3 U14-39)
+    )
+    (net /LEDs/led174b
+      (pins LD174-4 U14-38)
+    )
+    (net /LEDs/led174r
+      (pins LD174-2 U14-37)
+    )
+    (net /LEDs/led174g
+      (pins LD174-3 U14-36)
+    )
+    (net /LEDs/led175b
+      (pins LD175-4 U14-35)
+    )
+    (net /LEDs/led175r
+      (pins LD175-2 U14-34)
+    )
+    (net /LEDs/led175g
+      (pins LD175-3 U14-33)
+    )
+    (net /LEDs/led176b
+      (pins LD176-4 U14-32)
+    )
+    (net /LEDs/led176r
+      (pins LD176-2 U14-31)
+    )
+    (net /LEDs/led176g
+      (pins LD176-3 U14-30)
+    )
+    (net /LEDs/led177b
+      (pins LD177-4 U15-4)
+    )
+    (net /LEDs/led177r
+      (pins LD177-2 U15-5)
+    )
+    (net /LEDs/led177g
+      (pins LD177-3 U15-6)
+    )
+    (net /LEDs/led178b
+      (pins LD178-4 U15-7)
+    )
+    (net /LEDs/led178r
+      (pins LD178-2 U15-8)
+    )
+    (net /LEDs/led178g
+      (pins LD178-3 U15-9)
+    )
+    (net /LEDs/led179b
+      (pins LD179-4 U15-10)
+    )
+    (net /LEDs/led179r
+      (pins LD179-2 U15-11)
+    )
+    (net /LEDs/led179g
+      (pins LD179-3 U15-12)
+    )
+    (net /LEDs/led180b
+      (pins LD180-4 U15-13)
+    )
+    (net /LEDs/led180r
+      (pins LD180-2 U15-14)
+    )
+    (net /LEDs/led180g
+      (pins LD180-3 U15-15)
+    )
+    (net /LEDs/led181b
+      (pins LD181-4 U15-16)
+    )
+    (net /LEDs/led181r
+      (pins LD181-2 U15-17)
+    )
+    (net /LEDs/led181g
+      (pins LD181-3 U15-18)
+    )
+    (net /LEDs/led182b
+      (pins LD182-4 U15-19)
+    )
+    (net /LEDs/led182r
+      (pins LD182-2 U15-20)
+    )
+    (net /LEDs/led182g
+      (pins LD182-3 U15-21)
+    )
+    (net /LEDs/led183b
+      (pins LD183-4 U15-22)
+    )
+    (net /LEDs/led183r
+      (pins LD183-2 U15-23)
+    )
+    (net /LEDs/led183g
+      (pins LD183-3 U15-24)
+    )
+    (net /LEDs/led184b
+      (pins LD184-4 U15-25)
+    )
+    (net /LEDs/led184r
+      (pins LD184-2 U15-26)
+    )
+    (net /LEDs/led184g
+      (pins LD184-3 U15-27)
+    )
+    (net /LEDs/led185b
+      (pins LD185-4 U15-53)
+    )
+    (net /LEDs/led185r
+      (pins LD185-2 U15-52)
+    )
+    (net /LEDs/led185g
+      (pins LD185-3 U15-51)
+    )
+    (net /LEDs/led186b
+      (pins LD186-4 U15-50)
+    )
+    (net /LEDs/led186r
+      (pins LD186-2 U15-49)
+    )
+    (net /LEDs/led186g
+      (pins LD186-3 U15-48)
+    )
+    (net /LEDs/led187b
+      (pins LD187-4 U15-47)
+    )
+    (net /LEDs/led187r
+      (pins LD187-2 U15-46)
+    )
+    (net /LEDs/led187g
+      (pins LD187-3 U15-45)
+    )
+    (net /LEDs/led188b
+      (pins LD188-4 U15-44)
+    )
+    (net /LEDs/led188r
+      (pins LD188-2 U15-43)
+    )
+    (net /LEDs/led188g
+      (pins LD188-3 U15-42)
+    )
+    (net /LEDs/led189b
+      (pins LD189-4 U15-41)
+    )
+    (net /LEDs/led189r
+      (pins LD189-2 U15-40)
+    )
+    (net /LEDs/led189g
+      (pins LD189-3 U15-39)
+    )
+    (net /LEDs/led190b
+      (pins LD190-4 U15-38)
+    )
+    (net /LEDs/led190r
+      (pins LD190-2 U15-37)
+    )
+    (net /LEDs/led190g
+      (pins LD190-3 U15-36)
+    )
+    (net /LEDs/led191b
+      (pins LD191-4 U15-35)
+    )
+    (net /LEDs/led191r
+      (pins LD191-2 U15-34)
+    )
+    (net /LEDs/led191g
+      (pins LD191-3 U15-33)
+    )
+    (net /LEDs/led192b
+      (pins LD192-4 U15-32)
+    )
+    (net /LEDs/led192r
+      (pins LD192-2 U15-31)
+    )
+    (net /LEDs/led192g
+      (pins LD192-3 U15-30)
+    )
+    (net /nrf_ce
+      (pins P1-3 U1-34)
+    )
+    (net /nrf_cs
+      (pins P1-4 R5-1 U1-33)
+    )
+    (net /nrf_ck
+      (pins P1-5 U1-123)
+    )
+    (net /nrf_mosi
+      (pins P1-6 U1-164)
+    )
+    (net /nrf_miso
+      (pins P1-7 U1-165)
+    )
+    (net /nrf_irq
+      (pins P1-8 U1-35)
+    )
+    (net /swclk
+      (pins P2-2 U1-137)
+    )
+    (net /swdio
+      (pins P2-4 U1-128)
+    )
+    (net "Net-(P2-Pad6)"
+      (pins P2-6)
+    )
+    (net /sd_d2
+      (pins P3-1 U1-139)
+    )
+    (net /sd_d3
+      (pins P3-2 R1-1 U1-140)
+    )
+    (net /sd_cmd
+      (pins P3-3 U1-144)
+    )
+    (net /sd_ck
+      (pins P3-5 U1-141)
+    )
+    (net /sd_d0
+      (pins P3-7 U1-121)
+    )
+    (net /sd_d1
+      (pins P3-8 U1-122)
+    )
+    (net "Net-(P3-Pad11)"
+      (pins P3-11 P3-11@1 P3-11@2 P3-11@3)
+    )
+    (net /sd_cd
+      (pins P3-10 U1-138)
+    )
+    (net /Power/usb_dm
+      (pins P5-2 U1-126)
+    )
+    (net /Power/usb_dp
+      (pins P5-3 U1-127)
+    )
+    (net /Power/usb_id
+      (pins P5-4 U1-125)
+    )
+    (net "Net-(L1-Pad2)"
+      (pins P5-6 P5-6@1 P5-6@2 P5-6@3 P5-6@4 P5-6@5 P5-6@6 P5-6@7)
+    )
+    (net "Net-(P6-Pad3)"
+      (pins P6-3)
+    )
+    (net "Net-(P6-Pad4)"
+      (pins P6-4)
+    )
+    (net /usart3_tx
+      (pins P6-5 U1-79)
+    )
+    (net /usart3_rx
+      (pins P6-6 U1-80)
+    )
+    (net "Net-(P6-Pad7)"
+      (pins P6-7)
+    )
+    (net "Net-(P6-Pad8)"
+      (pins P6-8)
+    )
+    (net "Net-(P6-Pad9)"
+      (pins P6-9)
+    )
+    (net "Net-(P6-Pad10)"
+      (pins P6-10)
+    )
+    (net /Power/user_led
+      (pins R7-1 U1-8)
+    )
+    (net /vusb
+      (pins R8-1 U1-124)
+    )
+    (net /Power/bypass
+      (pins R9-2 U1-48)
+    )
+    (net /Power/boot0
+      (pins R10-2 U1-166)
+    )
+    (net /Power/pdr_on
+      (pins R11-2 U1-171)
+    )
+    (net "Net-(U1-Pad4)"
+      (pins U1-4)
+    )
+    (net "Net-(U1-Pad5)"
+      (pins U1-5)
+    )
+    (net "Net-(U1-Pad7)"
+      (pins U1-7)
+    )
+    (net "Net-(U1-Pad1)"
+      (pins U1-1)
+    )
+    (net "Net-(U1-Pad2)"
+      (pins U1-2)
+    )
+    (net "Net-(U1-Pad3)"
+      (pins U1-3)
+    )
+    (net "Net-(U1-Pad17)"
+      (pins U1-17)
+    )
+    (net "Net-(U1-Pad18)"
+      (pins U1-18)
+    )
+    (net "Net-(U1-Pad19)"
+      (pins U1-19)
+    )
+    (net "Net-(U1-Pad20)"
+      (pins U1-20)
+    )
+    (net "Net-(U1-Pad21)"
+      (pins U1-21)
+    )
+    (net "Net-(U1-Pad24)"
+      (pins U1-24)
+    )
+    (net /LEDs/gsclk3
+      (pins U1-40 U8-55 U9-55)
+    )
+    (net /LEDs/lat1
+      (pins U1-50 U4-3 U5-3)
+    )
+    (net /LEDs/sclk1
+      (pins U1-51 U4-2 U5-2)
+    )
+    (net /LEDs/sout1
+      (pins U1-52 U5-28)
+    )
+    (net /LEDs/sin1
+      (pins U1-53 U4-1)
+    )
+    (net "Net-(U1-Pad54)"
+      (pins U1-54)
+    )
+    (net /LEDs/lat3
+      (pins U1-55 U8-3 U9-3)
+    )
+    (net "Net-(U1-Pad56)"
+      (pins U1-56)
+    )
+    (net "Net-(U1-Pad9)"
+      (pins U1-9)
+    )
+    (net "Net-(U1-Pad10)"
+      (pins U1-10)
+    )
+    (net "Net-(U1-Pad11)"
+      (pins U1-11)
+    )
+    (net "Net-(U1-Pad25)"
+      (pins U1-25)
+    )
+    (net "Net-(U1-Pad26)"
+      (pins U1-26)
+    )
+    (net "Net-(U1-Pad27)"
+      (pins U1-27)
+    )
+    (net /LEDs/gsclk2
+      (pins U6-55 U1-41 U7-55)
+    )
+    (net /LEDs/gsclk1
+      (pins U1-42 U4-55 U5-55)
+    )
+    (net "Net-(U1-Pad43)"
+      (pins U1-43)
+    )
+    (net "Net-(U1-Pad57)"
+      (pins U1-57)
+    )
+    (net "Net-(U1-Pad58)"
+      (pins U1-58)
+    )
+    (net /LEDs/sin5
+      (pins U1-59 U12-1)
+    )
+    (net "Net-(U1-Pad12)"
+      (pins U1-12)
+    )
+    (net "Net-(U1-Pad13)"
+      (pins U1-13)
+    )
+    (net "Net-(U1-Pad16)"
+      (pins U1-16)
+    )
+    (net "Net-(U1-Pad28)"
+      (pins U1-28)
+    )
+    (net /LEDs/lat4
+      (pins U1-44 U10-3 U11-3)
+    )
+    (net /LEDs/lat5
+      (pins U1-45 U12-3 U13-3)
+    )
+    (net /LEDs/lat6
+      (pins U1-46 U14-3 U15-3)
+    )
+    (net "Net-(U1-Pad60)"
+      (pins U1-60)
+    )
+    (net "Net-(U1-Pad63)"
+      (pins U1-63)
+    )
+    (net "Net-(U1-Pad64)"
+      (pins U1-64)
+    )
+    (net "Net-(U1-Pad65)"
+      (pins U1-65)
+    )
+    (net "Net-(U1-Pad66)"
+      (pins U1-66)
+    )
+    (net "Net-(U1-Pad67)"
+      (pins U1-67)
+    )
+    (net "Net-(U1-Pad68)"
+      (pins U1-68)
+    )
+    (net "Net-(U1-Pad69)"
+      (pins U1-69)
+    )
+    (net "Net-(U1-Pad70)"
+      (pins U1-70)
+    )
+    (net "Net-(U1-Pad73)"
+      (pins U1-73)
+    )
+    (net "Net-(U1-Pad74)"
+      (pins U1-74)
+    )
+    (net /LEDs/sclk4
+      (pins U1-75 U10-2 U11-2)
+    )
+    (net /LEDs/sout4
+      (pins U1-76 U11-28)
+    )
+    (net /LEDs/sin4
+      (pins U1-77 U10-1)
+    )
+    (net "Net-(U1-Pad78)"
+      (pins U1-78)
+    )
+    (net /LEDs/sclk5
+      (pins U1-83 U12-2 U13-2)
+    )
+    (net /LEDs/sout5
+      (pins U1-84 U13-28)
+    )
+    (net "Net-(U1-Pad85)"
+      (pins U1-85)
+    )
+    (net /LEDs/sclk2
+      (pins U6-2 U1-86 U7-2)
+    )
+    (net /LEDs/sout2
+      (pins U1-87 U7-28)
+    )
+    (net /LEDs/sin2
+      (pins U6-1 U1-88)
+    )
+    (net "Net-(U1-Pad89)"
+      (pins U1-89)
+    )
+    (net "Net-(U1-Pad90)"
+      (pins U1-90)
+    )
+    (net "Net-(U1-Pad91)"
+      (pins U1-91)
+    )
+    (net "Net-(U1-Pad92)"
+      (pins U1-92)
+    )
+    (net /LEDs/gsclk4
+      (pins U1-93 U10-55 U11-55)
+    )
+    (net /LEDs/gsclk5
+      (pins U1-94 U12-55 U13-55)
+    )
+    (net /LEDs/gsclk6
+      (pins U1-97 U14-55 U15-55)
+    )
+    (net "Net-(U1-Pad98)"
+      (pins U1-98)
+    )
+    (net "Net-(U1-Pad101)"
+      (pins U1-101)
+    )
+    (net "Net-(U1-Pad102)"
+      (pins U1-102)
+    )
+    (net "Net-(U1-Pad104)"
+      (pins U1-104)
+    )
+    (net "Net-(U1-Pad105)"
+      (pins U1-105)
+    )
+    (net "Net-(U1-Pad107)"
+      (pins U1-107)
+    )
+    (net "Net-(U1-Pad108)"
+      (pins U1-108)
+    )
+    (net "Net-(U1-Pad110)"
+      (pins U1-110)
+    )
+    (net "Net-(U1-Pad111)"
+      (pins U1-111)
+    )
+    (net "Net-(U1-Pad112)"
+      (pins U1-112)
+    )
+    (net "Net-(U1-Pad113)"
+      (pins U1-113)
+    )
+    (net "Net-(U1-Pad114)"
+      (pins U1-114)
+    )
+    (net "Net-(U1-Pad115)"
+      (pins U1-115)
+    )
+    (net "Net-(U1-Pad116)"
+      (pins U1-116)
+    )
+    (net /LEDs/lat2
+      (pins U6-3 U1-119 U7-3)
+    )
+    (net "Net-(U1-Pad120)"
+      (pins U1-120)
+    )
+    (net "Net-(U1-Pad132)"
+      (pins U1-132)
+    )
+    (net "Net-(U1-Pad133)"
+      (pins U1-133)
+    )
+    (net "Net-(U1-Pad134)"
+      (pins U1-134)
+    )
+    (net "Net-(U1-Pad142)"
+      (pins U1-142)
+    )
+    (net "Net-(U1-Pad143)"
+      (pins U1-143)
+    )
+    (net "Net-(U1-Pad145)"
+      (pins U1-145)
+    )
+    (net "Net-(U1-Pad146)"
+      (pins U1-146)
+    )
+    (net "Net-(U1-Pad147)"
+      (pins U1-147)
+    )
+    (net "Net-(U1-Pad150)"
+      (pins U1-150)
+    )
+    (net "Net-(U1-Pad151)"
+      (pins U1-151)
+    )
+    (net "Net-(U1-Pad152)"
+      (pins U1-152)
+    )
+    (net "Net-(U1-Pad153)"
+      (pins U1-153)
+    )
+    (net "Net-(U1-Pad154)"
+      (pins U1-154)
+    )
+    (net /LEDs/sout6
+      (pins U1-155 U15-28)
+    )
+    (net /LEDs/sclk6
+      (pins U1-156 U14-2 U15-2)
+    )
+    (net /LEDs/sin6
+      (pins U1-157 U14-1)
+    )
+    (net "Net-(U1-Pad160)"
+      (pins U1-160)
+    )
+    (net /LEDs/sclk3
+      (pins U1-161 U8-2 U9-2)
+    )
+    (net /LEDs/sout3
+      (pins U1-162 U9-28)
+    )
+    (net /LEDs/sin3
+      (pins U1-163 U8-1)
+    )
+    (net "Net-(U1-Pad167)"
+      (pins U1-167)
+    )
+    (net "Net-(U1-Pad168)"
+      (pins U1-168)
+    )
+    (net "Net-(U1-Pad169)"
+      (pins U1-169)
+    )
+    (net "Net-(U1-Pad170)"
+      (pins U1-170)
+    )
+    (net "Net-(U1-Pad173)"
+      (pins U1-173)
+    )
+    (net "Net-(U1-Pad174)"
+      (pins U1-174)
+    )
+    (net "Net-(U1-Pad175)"
+      (pins U1-175)
+    )
+    (net "Net-(U1-Pad176)"
+      (pins U1-176)
+    )
+    (net "Net-(U4-Pad28)"
+      (pins U4-28 U5-1)
+    )
+    (net "Net-(U6-Pad28)"
+      (pins U6-28 U7-1)
+    )
+    (net "Net-(U8-Pad28)"
+      (pins U8-28 U9-1)
+    )
+    (net "Net-(U10-Pad28)"
+      (pins U10-28 U11-1)
+    )
+    (net "Net-(U12-Pad28)"
+      (pins U12-28 U13-1)
+    )
+    (net "Net-(U14-Pad28)"
+      (pins U14-28 U15-1)
+    )
+    (class kicad_default "" +3V3 +5V /LEDs/gsclk1 /LEDs/gsclk2 /LEDs/gsclk3
+      /LEDs/gsclk4 /LEDs/gsclk5 /LEDs/gsclk6 /LEDs/lat1 /LEDs/lat2 /LEDs/lat3
+      /LEDs/lat4 /LEDs/lat5 /LEDs/lat6 /LEDs/led100b /LEDs/led100g /LEDs/led100r
+      /LEDs/led101b /LEDs/led101g /LEDs/led101r /LEDs/led102b /LEDs/led102g
+      /LEDs/led102r /LEDs/led103b /LEDs/led103g /LEDs/led103r /LEDs/led104b
+      /LEDs/led104g /LEDs/led104r /LEDs/led105b /LEDs/led105g /LEDs/led105r
+      /LEDs/led106b /LEDs/led106g /LEDs/led106r /LEDs/led107b /LEDs/led107g
+      /LEDs/led107r /LEDs/led108b /LEDs/led108g /LEDs/led108r /LEDs/led109b
+      /LEDs/led109g /LEDs/led109r /LEDs/led10b /LEDs/led10g /LEDs/led10r /LEDs/led110b
+      /LEDs/led110g /LEDs/led110r /LEDs/led111b /LEDs/led111g /LEDs/led111r
+      /LEDs/led112b /LEDs/led112g /LEDs/led112r /LEDs/led113b /LEDs/led113g
+      /LEDs/led113r /LEDs/led114b /LEDs/led114g /LEDs/led114r /LEDs/led115b
+      /LEDs/led115g /LEDs/led115r /LEDs/led116b /LEDs/led116g /LEDs/led116r
+      /LEDs/led117b /LEDs/led117g /LEDs/led117r /LEDs/led118b /LEDs/led118g
+      /LEDs/led118r /LEDs/led119b /LEDs/led119g /LEDs/led119r /LEDs/led11b
+      /LEDs/led11g /LEDs/led11r /LEDs/led120b /LEDs/led120g /LEDs/led120r
+      /LEDs/led121b /LEDs/led121g /LEDs/led121r /LEDs/led122b /LEDs/led122g
+      /LEDs/led122r /LEDs/led123b /LEDs/led123g /LEDs/led123r /LEDs/led124b
+      /LEDs/led124g /LEDs/led124r /LEDs/led125b /LEDs/led125g /LEDs/led125r
+      /LEDs/led126b /LEDs/led126g /LEDs/led126r /LEDs/led127b /LEDs/led127g
+      /LEDs/led127r /LEDs/led128b /LEDs/led128g /LEDs/led128r /LEDs/led129b
+      /LEDs/led129g /LEDs/led129r /LEDs/led12b /LEDs/led12g /LEDs/led12r /LEDs/led130b
+      /LEDs/led130g /LEDs/led130r /LEDs/led131b /LEDs/led131g /LEDs/led131r
+      /LEDs/led132b /LEDs/led132g /LEDs/led132r /LEDs/led133b /LEDs/led133g
+      /LEDs/led133r /LEDs/led134b /LEDs/led134g /LEDs/led134r /LEDs/led135b
+      /LEDs/led135g /LEDs/led135r /LEDs/led136b /LEDs/led136g /LEDs/led136r
+      /LEDs/led137b /LEDs/led137g /LEDs/led137r /LEDs/led138b /LEDs/led138g
+      /LEDs/led138r /LEDs/led139b /LEDs/led139g /LEDs/led139r /LEDs/led13b
+      /LEDs/led13g /LEDs/led13r /LEDs/led140b /LEDs/led140g /LEDs/led140r
+      /LEDs/led141b /LEDs/led141g /LEDs/led141r /LEDs/led142b /LEDs/led142g
+      /LEDs/led142r /LEDs/led143b /LEDs/led143g /LEDs/led143r /LEDs/led144b
+      /LEDs/led144g /LEDs/led144r /LEDs/led145b /LEDs/led145g /LEDs/led145r
+      /LEDs/led146b /LEDs/led146g /LEDs/led146r /LEDs/led147b /LEDs/led147g
+      /LEDs/led147r /LEDs/led148b /LEDs/led148g /LEDs/led148r /LEDs/led149b
+      /LEDs/led149g /LEDs/led149r /LEDs/led14b /LEDs/led14g /LEDs/led14r /LEDs/led150b
+      /LEDs/led150g /LEDs/led150r /LEDs/led151b /LEDs/led151g /LEDs/led151r
+      /LEDs/led152b /LEDs/led152g /LEDs/led152r /LEDs/led153b /LEDs/led153g
+      /LEDs/led153r /LEDs/led154b /LEDs/led154g /LEDs/led154r /LEDs/led155b
+      /LEDs/led155g /LEDs/led155r /LEDs/led156b /LEDs/led156g /LEDs/led156r
+      /LEDs/led157b /LEDs/led157g /LEDs/led157r /LEDs/led158b /LEDs/led158g
+      /LEDs/led158r /LEDs/led159b /LEDs/led159g /LEDs/led159r /LEDs/led15b
+      /LEDs/led15g /LEDs/led15r /LEDs/led160b /LEDs/led160g /LEDs/led160r
+      /LEDs/led161b /LEDs/led161g /LEDs/led161r /LEDs/led162b /LEDs/led162g
+      /LEDs/led162r /LEDs/led163b /LEDs/led163g /LEDs/led163r /LEDs/led164b
+      /LEDs/led164g /LEDs/led164r /LEDs/led165b /LEDs/led165g /LEDs/led165r
+      /LEDs/led166b /LEDs/led166g /LEDs/led166r /LEDs/led167b /LEDs/led167g
+      /LEDs/led167r /LEDs/led168b /LEDs/led168g /LEDs/led168r /LEDs/led169b
+      /LEDs/led169g /LEDs/led169r /LEDs/led16b /LEDs/led16g /LEDs/led16r /LEDs/led170b
+      /LEDs/led170g /LEDs/led170r /LEDs/led171b /LEDs/led171g /LEDs/led171r
+      /LEDs/led172b /LEDs/led172g /LEDs/led172r /LEDs/led173b /LEDs/led173g
+      /LEDs/led173r /LEDs/led174b /LEDs/led174g /LEDs/led174r /LEDs/led175b
+      /LEDs/led175g /LEDs/led175r /LEDs/led176b /LEDs/led176g /LEDs/led176r
+      /LEDs/led177b /LEDs/led177g /LEDs/led177r /LEDs/led178b /LEDs/led178g
+      /LEDs/led178r /LEDs/led179b /LEDs/led179g /LEDs/led179r /LEDs/led17b
+      /LEDs/led17g /LEDs/led17r /LEDs/led180b /LEDs/led180g /LEDs/led180r
+      /LEDs/led181b /LEDs/led181g /LEDs/led181r /LEDs/led182b /LEDs/led182g
+      /LEDs/led182r /LEDs/led183b /LEDs/led183g /LEDs/led183r /LEDs/led184b
+      /LEDs/led184g /LEDs/led184r /LEDs/led185b /LEDs/led185g /LEDs/led185r
+      /LEDs/led186b /LEDs/led186g /LEDs/led186r /LEDs/led187b /LEDs/led187g
+      /LEDs/led187r /LEDs/led188b /LEDs/led188g /LEDs/led188r /LEDs/led189b
+      /LEDs/led189g /LEDs/led189r /LEDs/led18b /LEDs/led18g /LEDs/led18r /LEDs/led190b
+      /LEDs/led190g /LEDs/led190r /LEDs/led191b /LEDs/led191g /LEDs/led191r
+      /LEDs/led192b /LEDs/led192g /LEDs/led192r /LEDs/led19b /LEDs/led19g
+      /LEDs/led19r /LEDs/led1b /LEDs/led1g /LEDs/led1r /LEDs/led20b /LEDs/led20g
+      /LEDs/led20r /LEDs/led21b /LEDs/led21g /LEDs/led21r /LEDs/led22b /LEDs/led22g
+      /LEDs/led22r /LEDs/led23b /LEDs/led23g /LEDs/led23r /LEDs/led24b /LEDs/led24g
+      /LEDs/led24r /LEDs/led25b /LEDs/led25g /LEDs/led25r /LEDs/led26b /LEDs/led26g
+      /LEDs/led26r /LEDs/led27b /LEDs/led27g /LEDs/led27r /LEDs/led28b /LEDs/led28g
+      /LEDs/led28r /LEDs/led29b /LEDs/led29g /LEDs/led29r /LEDs/led2b /LEDs/led2g
+      /LEDs/led2r /LEDs/led30b /LEDs/led30g /LEDs/led30r /LEDs/led31b /LEDs/led31g
+      /LEDs/led31r /LEDs/led32b /LEDs/led32g /LEDs/led32r /LEDs/led33b /LEDs/led33g
+      /LEDs/led33r /LEDs/led34b /LEDs/led34g /LEDs/led34r /LEDs/led35b /LEDs/led35g
+      /LEDs/led35r /LEDs/led36b /LEDs/led36g /LEDs/led36r /LEDs/led37b /LEDs/led37g
+      /LEDs/led37r /LEDs/led38b /LEDs/led38g /LEDs/led38r /LEDs/led39b /LEDs/led39g
+      /LEDs/led39r /LEDs/led3b /LEDs/led3g /LEDs/led3r /LEDs/led40b /LEDs/led40g
+      /LEDs/led40r /LEDs/led41b /LEDs/led41g /LEDs/led41r /LEDs/led42b /LEDs/led42g
+      /LEDs/led42r /LEDs/led43b /LEDs/led43g /LEDs/led43r /LEDs/led44b /LEDs/led44g
+      /LEDs/led44r /LEDs/led45b /LEDs/led45g /LEDs/led45r /LEDs/led46b /LEDs/led46g
+      /LEDs/led46r /LEDs/led47b /LEDs/led47g /LEDs/led47r /LEDs/led48b /LEDs/led48g
+      /LEDs/led48r /LEDs/led49b /LEDs/led49g /LEDs/led49r /LEDs/led4b /LEDs/led4g
+      /LEDs/led4r /LEDs/led50b /LEDs/led50g /LEDs/led50r /LEDs/led51b /LEDs/led51g
+      /LEDs/led51r /LEDs/led52b /LEDs/led52g /LEDs/led52r /LEDs/led53b /LEDs/led53g
+      /LEDs/led53r /LEDs/led54b /LEDs/led54g /LEDs/led54r /LEDs/led55b /LEDs/led55g
+      /LEDs/led55r /LEDs/led56b /LEDs/led56g /LEDs/led56r /LEDs/led57b /LEDs/led57g
+      /LEDs/led57r /LEDs/led58b /LEDs/led58g /LEDs/led58r /LEDs/led59b /LEDs/led59g
+      /LEDs/led59r /LEDs/led5b /LEDs/led5g /LEDs/led5r /LEDs/led60b /LEDs/led60g
+      /LEDs/led60r /LEDs/led61b /LEDs/led61g /LEDs/led61r /LEDs/led62b /LEDs/led62g
+      /LEDs/led62r /LEDs/led63b /LEDs/led63g /LEDs/led63r /LEDs/led64b /LEDs/led64g
+      /LEDs/led64r /LEDs/led65b /LEDs/led65g /LEDs/led65r /LEDs/led66b /LEDs/led66g
+      /LEDs/led66r /LEDs/led67b /LEDs/led67g /LEDs/led67r /LEDs/led68b /LEDs/led68g
+      /LEDs/led68r /LEDs/led69b /LEDs/led69g /LEDs/led69r /LEDs/led6b /LEDs/led6g
+      /LEDs/led6r /LEDs/led70b /LEDs/led70g /LEDs/led70r /LEDs/led71b /LEDs/led71g
+      /LEDs/led71r /LEDs/led72b /LEDs/led72g /LEDs/led72r /LEDs/led73b /LEDs/led73g
+      /LEDs/led73r /LEDs/led74b /LEDs/led74g /LEDs/led74r /LEDs/led75b /LEDs/led75g
+      /LEDs/led75r /LEDs/led76b /LEDs/led76g /LEDs/led76r /LEDs/led77b /LEDs/led77g
+      /LEDs/led77r /LEDs/led78b /LEDs/led78g /LEDs/led78r /LEDs/led79b /LEDs/led79g
+      /LEDs/led79r /LEDs/led7b /LEDs/led7g /LEDs/led7r /LEDs/led80b /LEDs/led80g
+      /LEDs/led80r /LEDs/led81b /LEDs/led81g /LEDs/led81r /LEDs/led82b /LEDs/led82g
+      /LEDs/led82r /LEDs/led83b /LEDs/led83g /LEDs/led83r /LEDs/led84b /LEDs/led84g
+      /LEDs/led84r /LEDs/led85b /LEDs/led85g /LEDs/led85r /LEDs/led86b /LEDs/led86g
+      /LEDs/led86r /LEDs/led87b /LEDs/led87g /LEDs/led87r /LEDs/led88b /LEDs/led88g
+      /LEDs/led88r /LEDs/led89b /LEDs/led89g /LEDs/led89r /LEDs/led8b /LEDs/led8g
+      /LEDs/led8r /LEDs/led90b /LEDs/led90g /LEDs/led90r /LEDs/led91b /LEDs/led91g
+      /LEDs/led91r /LEDs/led92b /LEDs/led92g /LEDs/led92r /LEDs/led93b /LEDs/led93g
+      /LEDs/led93r /LEDs/led94b /LEDs/led94g /LEDs/led94r /LEDs/led95b /LEDs/led95g
+      /LEDs/led95r /LEDs/led96b /LEDs/led96g /LEDs/led96r /LEDs/led97b /LEDs/led97g
+      /LEDs/led97r /LEDs/led98b /LEDs/led98g /LEDs/led98r /LEDs/led99b /LEDs/led99g
+      /LEDs/led99r /LEDs/led9b /LEDs/led9g /LEDs/led9r /LEDs/sclk1 /LEDs/sclk2
+      /LEDs/sclk3 /LEDs/sclk4 /LEDs/sclk5 /LEDs/sclk6 /LEDs/sin1 /LEDs/sin2
+      /LEDs/sin3 /LEDs/sin4 /LEDs/sin5 /LEDs/sin6 /LEDs/sout1 /LEDs/sout2
+      /LEDs/sout3 /LEDs/sout4 /LEDs/sout5 /LEDs/sout6 /Power/bat_vcc /Power/boot0
+      /Power/bypass /Power/nrst /Power/osc_in /Power/osc_out /Power/pdr_on
+      /Power/usb_dm /Power/usb_dp /Power/usb_id /Power/user_led /Power/vcap1
+      /Power/vcap2 /Power/vdd12dsi /Power/vusb /bat_sense /hall /nrf_ce /nrf_ck
+      /nrf_cs /nrf_irq /nrf_miso /nrf_mosi /sd_cd /sd_ck /sd_cmd /sd_d0 /sd_d1
+      /sd_d2 /sd_d3 /swclk /swdio /usart3_rx /usart3_tx /vusb GND "Net-(D1-Pad2)"
+      "Net-(D2-Pad2)" "Net-(L1-Pad2)" "Net-(P2-Pad6)" "Net-(P3-Pad11)" "Net-(P6-Pad10)"
+      "Net-(P6-Pad3)" "Net-(P6-Pad4)" "Net-(P6-Pad7)" "Net-(P6-Pad8)" "Net-(P6-Pad9)"
+      "Net-(U1-Pad1)" "Net-(U1-Pad10)" "Net-(U1-Pad101)" "Net-(U1-Pad102)"
+      "Net-(U1-Pad104)" "Net-(U1-Pad105)" "Net-(U1-Pad107)" "Net-(U1-Pad108)"
+      "Net-(U1-Pad11)" "Net-(U1-Pad110)" "Net-(U1-Pad111)" "Net-(U1-Pad112)"
+      "Net-(U1-Pad113)" "Net-(U1-Pad114)" "Net-(U1-Pad115)" "Net-(U1-Pad116)"
+      "Net-(U1-Pad12)" "Net-(U1-Pad120)" "Net-(U1-Pad13)" "Net-(U1-Pad132)"
+      "Net-(U1-Pad133)" "Net-(U1-Pad134)" "Net-(U1-Pad142)" "Net-(U1-Pad143)"
+      "Net-(U1-Pad145)" "Net-(U1-Pad146)" "Net-(U1-Pad147)" "Net-(U1-Pad150)"
+      "Net-(U1-Pad151)" "Net-(U1-Pad152)" "Net-(U1-Pad153)" "Net-(U1-Pad154)"
+      "Net-(U1-Pad16)" "Net-(U1-Pad160)" "Net-(U1-Pad167)" "Net-(U1-Pad168)"
+      "Net-(U1-Pad169)" "Net-(U1-Pad17)" "Net-(U1-Pad170)" "Net-(U1-Pad173)"
+      "Net-(U1-Pad174)" "Net-(U1-Pad175)" "Net-(U1-Pad176)" "Net-(U1-Pad18)"
+      "Net-(U1-Pad19)" "Net-(U1-Pad2)" "Net-(U1-Pad20)" "Net-(U1-Pad21)" "Net-(U1-Pad24)"
+      "Net-(U1-Pad25)" "Net-(U1-Pad26)" "Net-(U1-Pad27)" "Net-(U1-Pad28)"
+      "Net-(U1-Pad3)" "Net-(U1-Pad4)" "Net-(U1-Pad43)" "Net-(U1-Pad5)" "Net-(U1-Pad54)"
+      "Net-(U1-Pad56)" "Net-(U1-Pad57)" "Net-(U1-Pad58)" "Net-(U1-Pad60)"
+      "Net-(U1-Pad63)" "Net-(U1-Pad64)" "Net-(U1-Pad65)" "Net-(U1-Pad66)"
+      "Net-(U1-Pad67)" "Net-(U1-Pad68)" "Net-(U1-Pad69)" "Net-(U1-Pad7)" "Net-(U1-Pad70)"
+      "Net-(U1-Pad73)" "Net-(U1-Pad74)" "Net-(U1-Pad78)" "Net-(U1-Pad85)"
+      "Net-(U1-Pad89)" "Net-(U1-Pad9)" "Net-(U1-Pad90)" "Net-(U1-Pad91)" "Net-(U1-Pad92)"
+      "Net-(U1-Pad98)" "Net-(U10-Pad28)" "Net-(U12-Pad28)" "Net-(U14-Pad28)"
+      "Net-(U4-Pad28)" "Net-(U6-Pad28)" "Net-(U8-Pad28)"
+      (circuit
+        (use_via Via[0-3]_635:304.8_um)
+      )
+      (rule
+        (width 203.2)
+        (clearance 203.3)
+      )
+    )
+    (class Inner
+      (circuit
+        (use_via Via[0-3]_635:304.8_um)
+      )
+      (rule
+        (width 254)
+        (clearance 203.3)
+      )
+    )
+    (class Tight
+      (circuit
+        (use_via Via[0-3]_635:304.8_um)
+      )
+      (rule
+        (width 152.4)
+        (clearance 152.5)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 203.2  175442 -81364.5  175636 -81364.5  175900 -81100)(net +5V)(type protect))
+    (wire (path F.Cu 203.2  168500 -107200  168500 -108195  168227 -108469)(net /LEDs/led31b)(type protect))
+    (wire (path B.Cu 203.2  169100 -110100  169100 -107800  168500 -107200)(net /LEDs/led31b)(type protect))
+    (wire (path F.Cu 203.2  169744 -109389  169744 -107265)(net /LEDs/led31r)(type protect))
+    (wire (path B.Cu 203.2  169600 -107121  169469 -106990  169151 -106672)(net /LEDs/led31r)(type protect))
+    (wire (path B.Cu 203.2  169600 -110100  169600 -107121)(net /LEDs/led31r)(type protect))
+    (wire (path F.Cu 203.2  169152 -110219  169152 -109981)(net /LEDs/led31r)(type protect))
+    (wire (path F.Cu 203.2  169744 -107265  169469 -106990  169151 -106672)(net /LEDs/led31r)(type protect))
+    (wire (path F.Cu 203.2  169152 -109981  169744 -109389)(net /LEDs/led31r)(type protect))
+    (wire (path F.Cu 203.2  168988 -105884  169437 -105884)(net /LEDs/led31g)(type protect))
+    (wire (path F.Cu 203.2  168116 -105884  168988 -105884)(net /LEDs/led31g)(type protect))
+    (wire (path F.Cu 203.2  166400 -108155  166400 -107600)(net /LEDs/led31g)(type protect))
+    (wire (path F.Cu 203.2  168227 -109981  166400 -108155)(net /LEDs/led31g)(type protect))
+    (wire (path B.Cu 203.2  170100 -106547  169755 -106202  169437 -105884)(net /LEDs/led31g)(type protect))
+    (wire (path F.Cu 203.2  168227 -110219  168227 -109981)(net /LEDs/led31g)(type protect))
+    (wire (path F.Cu 203.2  166400 -107600  168116 -105884)(net /LEDs/led31g)(type protect))
+    (wire (path B.Cu 203.2  170100 -110100  170100 -106547)(net /LEDs/led31g)(type protect))
+    (wire (path F.Cu 203.2  218600 -134300  218917 -134617)(net /LEDs/led86b)(type protect))
+    (wire (path B.Cu 203.2  213709 -134500  218400 -134500  218600 -134300)(net /LEDs/led86b)(type protect))
+    (wire (path B.Cu 203.2  212100 -137225  212100 -136109  213709 -134500)(net /LEDs/led86b)(type protect))
+    (wire (path B.Cu 203.2  218021 -135100  220404 -137483)(net /LEDs/led86r)(type protect))
+    (wire (path B.Cu 203.2  212600 -137225  212600 -136184)(net /LEDs/led86r)(type protect))
+    (wire (path B.Cu 203.2  220404 -137483  220721 -137800)(net /LEDs/led86r)(type protect))
+    (wire (path B.Cu 203.2  213684 -135100  218021 -135100)(net /LEDs/led86r)(type protect))
+    (wire (path B.Cu 203.2  212600 -136184  213684 -135100)(net /LEDs/led86r)(type protect))
+    (wire (path F.Cu 203.2  220221 -138300  219900 -138300)(net /LEDs/led86r)(type protect))
+    (wire (path F.Cu 203.2  220721 -137800  220221 -138300)(net /LEDs/led86r)(type protect))
+    (wire (path B.Cu 203.2  213369 -135990  216861 -135990)(net /LEDs/led86g)(type protect))
+    (wire (path B.Cu 203.2  213100 -136259  213369 -135990)(net /LEDs/led86g)(type protect))
+    (wire (path B.Cu 203.2  213100 -137225  213100 -136259)(net /LEDs/led86g)(type protect))
+    (wire (path B.Cu 203.2  216861 -135990  217310 -135990)(net /LEDs/led86g)(type protect))
+    (wire (path F.Cu 203.2  217310 -136439  217310 -135990)(net /LEDs/led86g)(type protect))
+    (wire (path F.Cu 203.2  217310 -137210  217310 -136439)(net /LEDs/led86g)(type protect))
+    (wire (path F.Cu 203.2  218900 -138200  218300 -138200  217310 -137210)(net /LEDs/led86g)(type protect))
+    (wire (path F.Cu 203.2  237900 -138200  240500 -135600)(net /LEDs/led87b)(type protect))
+    (wire (path F.Cu 203.2  235163 -138200  237900 -138200)(net /LEDs/led87b)(type protect))
+    (wire (path F.Cu 203.2  232450 -138000  234963 -138000  235163 -138200)(net /LEDs/led87b)(type protect))
+    (wire (path F.Cu 203.2  228000 -142900  228000 -141710  231410 -138300  232150 -138300
+            232450 -138000)(net /LEDs/led87b)(type protect))
+    (wire (path B.Cu 203.2  213600 -139500  217000 -142900  228000 -142900)(net /LEDs/led87b)(type protect))
+    (wire (path B.Cu 203.2  213600 -137225  213600 -139500)(net /LEDs/led87b)(type protect))
+    (wire (path F.Cu 203.2  234626 -138813  234826 -139013)(net /LEDs/led87r)(type protect))
+    (wire (path F.Cu 203.2  241800 -138600  242247 -138153)(net /LEDs/led87r)(type protect))
+    (wire (path F.Cu 203.2  238937 -139013  239350 -138600)(net /LEDs/led87r)(type protect))
+    (wire (path F.Cu 203.2  234826 -139013  238937 -139013)(net /LEDs/led87r)(type protect))
+    (wire (path F.Cu 203.2  232149 -139651  232987 -138813  234626 -138813)(net /LEDs/led87r)(type protect))
+    (wire (path F.Cu 203.2  232149 -140651  232149 -139651)(net /LEDs/led87r)(type protect))
+    (wire (path F.Cu 203.2  228800 -142200  230600 -142200)(net /LEDs/led87r)(type protect))
+    (wire (path F.Cu 203.2  239350 -138600  241800 -138600)(net /LEDs/led87r)(type protect))
+    (wire (path F.Cu 203.2  230600 -142200  232149 -140651)(net /LEDs/led87r)(type protect))
+    (wire (path B.Cu 203.2  214100 -139300  217000 -142200  228800 -142200)(net /LEDs/led87r)(type protect))
+    (wire (path B.Cu 203.2  214100 -138341  214100 -139300)(net /LEDs/led87r)(type protect))
+    (wire (path B.Cu 203.2  214100 -137225  214100 -138341)(net /LEDs/led87r)(type protect))
+    (wire (path F.Cu 203.2  232619 -138406  230778 -140248)(net /LEDs/led87g)(type protect))
+    (wire (path F.Cu 203.2  238768 -138606  234995 -138606)(net /LEDs/led87g)(type protect))
+    (wire (path F.Cu 203.2  234795 -138406  232619 -138406)(net /LEDs/led87g)(type protect))
+    (wire (path F.Cu 203.2  234995 -138606  234795 -138406)(net /LEDs/led87g)(type protect))
+    (wire (path F.Cu 203.2  240595 -137305  240070 -137305)(net /LEDs/led87g)(type protect))
+    (wire (path F.Cu 203.2  230778 -140687  230778 -141136)(net /LEDs/led87g)(type protect))
+    (wire (path F.Cu 203.2  230778 -140248  230778 -140687)(net /LEDs/led87g)(type protect))
+    (wire (path F.Cu 203.2  240070 -137305  238768 -138606)(net /LEDs/led87g)(type protect))
+    (wire (path B.Cu 203.2  230360 -141554  230460 -141454)(net /LEDs/led87g)(type protect))
+    (wire (path B.Cu 203.2  214600 -138490  217664 -141554)(net /LEDs/led87g)(type protect))
+    (wire (path B.Cu 203.2  214600 -137225  214600 -138490)(net /LEDs/led87g)(type protect))
+    (wire (path B.Cu 203.2  230460 -141454  230778 -141136)(net /LEDs/led87g)(type protect))
+    (wire (path B.Cu 203.2  217664 -141554  230360 -141554)(net /LEDs/led87g)(type protect))
+    (wire (path F.Cu 203.2  232768 -140338  232768 -140787)(net /LEDs/led88b)(type protect))
+    (wire (path F.Cu 203.2  234658 -139419  234458 -139219)(net /LEDs/led88b)(type protect))
+    (wire (path F.Cu 203.2  232768 -139703  232768 -140338)(net /LEDs/led88b)(type protect))
+    (wire (path F.Cu 203.2  233252 -139219  232768 -139703)(net /LEDs/led88b)(type protect))
+    (wire (path F.Cu 203.2  245900 -135600  242294 -139206)(net /LEDs/led88b)(type protect))
+    (wire (path F.Cu 203.2  246100 -135600  245900 -135600)(net /LEDs/led88b)(type protect))
+    (wire (path F.Cu 203.2  239105 -139419  234658 -139419)(net /LEDs/led88b)(type protect))
+    (wire (path F.Cu 203.2  242294 -139206  239318 -139206)(net /LEDs/led88b)(type protect))
+    (wire (path F.Cu 203.2  234458 -139219  233252 -139219)(net /LEDs/led88b)(type protect))
+    (wire (path F.Cu 203.2  239318 -139206  239105 -139419)(net /LEDs/led88b)(type protect))
+    (wire (path B.Cu 203.2  232319 -140787  232768 -140787)(net /LEDs/led88b)(type protect))
+    (wire (path B.Cu 203.2  217198 -140514  232046 -140514)(net /LEDs/led88b)(type protect))
+    (wire (path B.Cu 203.2  215100 -138415  217198 -140514)(net /LEDs/led88b)(type protect))
+    (wire (path B.Cu 203.2  215100 -137225  215100 -138415)(net /LEDs/led88b)(type protect))
+    (wire (path B.Cu 203.2  232046 -140514  232319 -140787)(net /LEDs/led88b)(type protect))
+    (wire (path F.Cu 203.2  247600 -138400  245326 -140674)(net /LEDs/led88r)(type protect))
+    (wire (path F.Cu 203.2  234048 -140674  233599 -140674)(net /LEDs/led88r)(type protect))
+    (wire (path B.Cu 203.2  233281 -140356  233599 -140674)(net /LEDs/led88r)(type protect))
+    (wire (path B.Cu 203.2  215600 -138341  217367 -140107)(net /LEDs/led88r)(type protect))
+    (wire (path B.Cu 203.2  233033 -140107  233281 -140356)(net /LEDs/led88r)(type protect))
+    (wire (path B.Cu 203.2  217367 -140107  233033 -140107)(net /LEDs/led88r)(type protect))
+    (wire (path F.Cu 203.2  245326 -140674  234048 -140674)(net /LEDs/led88r)(type protect))
+    (wire (path B.Cu 203.2  215600 -137225  215600 -138341)(net /LEDs/led88r)(type protect))
+    (wire (path F.Cu 203.2  244958 -139842  238857 -139842)(net /LEDs/led88g)(type protect))
+    (wire (path F.Cu 203.2  234017 -140159  233700 -139842)(net /LEDs/led88g)(type protect))
+    (wire (path F.Cu 203.2  238540 -140159  234017 -140159)(net /LEDs/led88g)(type protect))
+    (wire (path F.Cu 203.2  246600 -138200  244958 -139842)(net /LEDs/led88g)(type protect))
+    (wire (path F.Cu 203.2  238857 -139842  238540 -140159)(net /LEDs/led88g)(type protect))
+    (wire (path B.Cu 203.2  233383 -139524  233700 -139842)(net /LEDs/led88g)(type protect))
+    (wire (path B.Cu 203.2  216100 -137225  216100 -138266  217252 -139418)(net /LEDs/led88g)(type protect))
+    (wire (path B.Cu 203.2  233276 -139418  233383 -139524)(net /LEDs/led88g)(type protect))
+    (wire (path B.Cu 203.2  217252 -139418  233276 -139418)(net /LEDs/led88g)(type protect))
+    (wire (path F.Cu 203.2  240100 -144200  240522 -143778  245929 -143778  246759 -144608
+            247250 -144608)(net /LEDs/led96b)(type protect))
+    (wire (path B.Cu 203.2  218184 -148900  235400 -148900  240100 -144200)(net /LEDs/led96b)(type protect))
+    (wire (path B.Cu 203.2  215100 -144700  215100 -145816  218184 -148900)(net /LEDs/led96b)(type protect))
+    (wire (path F.Cu 203.2  234337 -148066  234019 -147748)(net /LEDs/led96r)(type protect))
+    (wire (path F.Cu 203.2  247195 -148066  234337 -148066)(net /LEDs/led96r)(type protect))
+    (wire (path F.Cu 203.2  248175 -146358  248175 -147086)(net /LEDs/led96r)(type protect))
+    (wire (path B.Cu 203.2  233570 -147748  234019 -147748)(net /LEDs/led96r)(type protect))
+    (wire (path B.Cu 203.2  215600 -145741  217607 -147748)(net /LEDs/led96r)(type protect))
+    (wire (path F.Cu 203.2  248175 -147086  247195 -148066)(net /LEDs/led96r)(type protect))
+    (wire (path B.Cu 203.2  215600 -144700  215600 -145741)(net /LEDs/led96r)(type protect))
+    (wire (path B.Cu 203.2  217607 -147748  233570 -147748)(net /LEDs/led96r)(type protect))
+    (wire (path F.Cu 203.2  247250 -146358  246759 -146358  245666 -147450  234601 -147450
+            233287 -146136  232969 -146453)(net /LEDs/led96g)(type protect))
+    (wire (path B.Cu 203.2  232520 -146453  232969 -146453)(net /LEDs/led96g)(type protect))
+    (wire (path B.Cu 203.2  216887 -146453  232520 -146453)(net /LEDs/led96g)(type protect))
+    (wire (path B.Cu 203.2  216100 -144700  216100 -145666  216887 -146453)(net /LEDs/led96g)(type protect))
+    (wire (path B.Cu 203.2  169000 -144700  169000 -143584  169102 -143483  203498 -143483)(net /LEDs/gsclk3)(type protect))
+    (wire (path B.Cu 203.2  203600 -143584  203600 -144700)(net /LEDs/gsclk3)(type protect))
+    (wire (path B.Cu 203.2  203498 -143483  203600 -143584)(net /LEDs/gsclk3)(type protect))
+    (wire (path B.Cu 203.2  174609 -131000  198991 -131000  204100 -136109  204100 -137225)(net /LEDs/lat3)(type protect))
+    (wire (path B.Cu 203.2  169500 -137225  169500 -136109  174609 -131000)(net /LEDs/lat3)(type protect))
+    (wire (path B.Cu 203.2  168100 -117575  168100 -116680  168422 -116358  202973 -116358
+            203100 -116484  203100 -117600)(net /LEDs/gsclk2)(type protect))
+    (wire (path B.Cu 203.2  168100 -110100  168100 -110995  168447 -111342  202998 -111342
+            203100 -111241  203100 -110125)(net /LEDs/sclk2)(type protect))
+    (wire (path B.Cu 203.2  168600 -110100  168600 -108221)(net /LEDs/lat2)(type protect))
+    (wire (path B.Cu 203.2  197191 -102600  203600 -109009  203600 -110125)(net /LEDs/lat2)(type protect))
+    (wire (path B.Cu 203.2  170400 -102600  197191 -102600)(net /LEDs/lat2)(type protect))
+    (wire (path B.Cu 203.2  167878 -105122  170400 -102600)(net /LEDs/lat2)(type protect))
+    (wire (path B.Cu 203.2  167878 -107499  167878 -105122)(net /LEDs/lat2)(type protect))
+    (wire (path B.Cu 203.2  168600 -108221  167878 -107499)(net /LEDs/lat2)(type protect))
+    (wire (path B.Cu 203.2  169000 -137225  169000 -138341)(net /LEDs/sclk3)(type protect))
+    (wire (path B.Cu 203.2  203600 -138341  203600 -137225)(net /LEDs/sclk3)(type protect))
+    (wire (path B.Cu 203.2  169000 -138341  169102 -138442  203498 -138442  203600 -138341)(net /LEDs/sclk3)(type protect))
+    (wire (path B.Cu 203.2  181100 -110100  202575 -110100  202600 -110125)(net "Net-(U6-Pad28)")(type protect))
+    (wire (path B.Cu 203.2  182000 -137225  203100 -137225)(net "Net-(U8-Pad28)")(type protect))
+    (via "Via[0-3]_635:304.8_um"  175900 -81100 (net +5V)(type protect))
+    (via "Via[0-3]_635:304.8_um"  168500 -107200 (net /LEDs/led31b)(type protect))
+    (via "Via[0-3]_635:304.8_um"  169151 -106672 (net /LEDs/led31r)(type protect))
+    (via "Via[0-3]_635:304.8_um"  169437 -105884 (net /LEDs/led31g)(type protect))
+    (via "Via[0-3]_635:304.8_um"  218600 -134300 (net /LEDs/led86b)(type protect))
+    (via "Via[0-3]_635:304.8_um"  220721 -137800 (net /LEDs/led86r)(type protect))
+    (via "Via[0-3]_635:304.8_um"  217310 -135990 (net /LEDs/led86g)(type protect))
+    (via "Via[0-3]_635:304.8_um"  228000 -142900 (net /LEDs/led87b)(type protect))
+    (via "Via[0-3]_635:304.8_um"  228800 -142200 (net /LEDs/led87r)(type protect))
+    (via "Via[0-3]_635:304.8_um"  230778 -141136 (net /LEDs/led87g)(type protect))
+    (via "Via[0-3]_635:304.8_um"  232768 -140787 (net /LEDs/led88b)(type protect))
+    (via "Via[0-3]_635:304.8_um"  233599 -140674 (net /LEDs/led88r)(type protect))
+    (via "Via[0-3]_635:304.8_um"  233700 -139842 (net /LEDs/led88g)(type protect))
+    (via "Via[0-3]_635:304.8_um"  240100 -144200 (net /LEDs/led96b)(type protect))
+    (via "Via[0-3]_635:304.8_um"  234019 -147748 (net /LEDs/led96r)(type protect))
+    (via "Via[0-3]_635:304.8_um"  232969 -146453 (net /LEDs/led96g)(type protect))
+  )
+)

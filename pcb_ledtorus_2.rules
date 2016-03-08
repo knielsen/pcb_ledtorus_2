@@ -1,0 +1,219 @@
+
+(rules PCB pcb_ledtorus_2
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 10)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule In1.Cu
+      (active off)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule In2.Cu
+      (active off)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+  )
+  (rule
+    (width 203.2)
+    (clear 203.4)
+    (clear 101.6 (type smd_to_turn_gap))
+    (clear 50.8 (type smd_smd))
+    (clear 152.6 (type Tight_Tight))
+  )
+  (padstack "Via[0-3]_635:304.8_um"
+    (shape
+      (circle F.Cu 635.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 635.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 635.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 635.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_635:304.8_um" "Via[0-3]_635:304.8_um" default
+  )
+  (via 
+    "Via[0-3]_635:304.8_um-kicad_default" "Via[0-3]_635:304.8_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_635:304.8_um-Inner" "Via[0-3]_635:304.8_um" Inner
+  )
+  (via 
+    "Via[0-3]_635:304.8_um-Tight" "Via[0-3]_635:304.8_um" Tight
+  )
+  (via_rule
+    default "Via[0-3]_635:304.8_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_635:304.8_um-kicad_default"
+  )
+  (via_rule
+    Inner "Via[0-3]_635:304.8_um-Inner"
+  )
+  (via_rule
+    Tight "Via[0-3]_635:304.8_um-Tight"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 203.2)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND +5V /Power/nrst +3V3 /hall "/bat_sense" /Power/vdd12dsi /Power/vcap1
+    /Power/vcap2 "/Power/osc_in" "/Power/osc_out" "Net-(D1-Pad2)" "Net-(D2-Pad2)" /Power/vusb "/Power/bat_vcc" /LEDs/led1b
+    /LEDs/led1r /LEDs/led1g /LEDs/led2b /LEDs/led2r /LEDs/led2g /LEDs/led3b /LEDs/led3r /LEDs/led3g
+    /LEDs/led4b /LEDs/led4r /LEDs/led4g /LEDs/led5b /LEDs/led5r /LEDs/led5g /LEDs/led6b /LEDs/led6r
+    /LEDs/led6g /LEDs/led7b /LEDs/led7r /LEDs/led7g /LEDs/led8b /LEDs/led8r /LEDs/led8g /LEDs/led9b
+    /LEDs/led9r /LEDs/led9g /LEDs/led10b /LEDs/led10r /LEDs/led10g /LEDs/led11b /LEDs/led11r /LEDs/led11g
+    /LEDs/led12b /LEDs/led12r /LEDs/led12g /LEDs/led13b /LEDs/led13r /LEDs/led13g /LEDs/led14b /LEDs/led14r
+    /LEDs/led14g /LEDs/led15b /LEDs/led15r /LEDs/led15g /LEDs/led16b /LEDs/led16r /LEDs/led16g /LEDs/led17b
+    /LEDs/led17r /LEDs/led17g /LEDs/led18b /LEDs/led18r /LEDs/led18g /LEDs/led19b /LEDs/led19r /LEDs/led19g
+    /LEDs/led20b /LEDs/led20r /LEDs/led20g /LEDs/led21b /LEDs/led21r /LEDs/led21g /LEDs/led22b /LEDs/led22r
+    /LEDs/led22g /LEDs/led23b /LEDs/led23r /LEDs/led23g /LEDs/led24b /LEDs/led24r /LEDs/led24g /LEDs/led25b
+    /LEDs/led25r /LEDs/led25g /LEDs/led26b /LEDs/led26r /LEDs/led26g /LEDs/led27b /LEDs/led27r /LEDs/led27g
+    /LEDs/led28b /LEDs/led28r /LEDs/led28g /LEDs/led29b /LEDs/led29r /LEDs/led29g /LEDs/led30b /LEDs/led30r
+    /LEDs/led30g /LEDs/led31b /LEDs/led31r /LEDs/led31g /LEDs/led32b /LEDs/led32r /LEDs/led32g /LEDs/led33b
+    /LEDs/led33r /LEDs/led33g /LEDs/led34b /LEDs/led34r /LEDs/led34g /LEDs/led35b /LEDs/led35r /LEDs/led35g
+    /LEDs/led36b /LEDs/led36r /LEDs/led36g /LEDs/led37b /LEDs/led37r /LEDs/led37g /LEDs/led38b /LEDs/led38r
+    /LEDs/led38g /LEDs/led39b /LEDs/led39r /LEDs/led39g /LEDs/led40b /LEDs/led40r /LEDs/led40g /LEDs/led41b
+    /LEDs/led41r /LEDs/led41g /LEDs/led42b /LEDs/led42r /LEDs/led42g /LEDs/led43b /LEDs/led43r /LEDs/led43g
+    /LEDs/led44b /LEDs/led44r /LEDs/led44g /LEDs/led45b /LEDs/led45r /LEDs/led45g /LEDs/led46b /LEDs/led46r
+    /LEDs/led46g /LEDs/led47b /LEDs/led47r /LEDs/led47g /LEDs/led48b /LEDs/led48r /LEDs/led48g /LEDs/led49b
+    /LEDs/led49r /LEDs/led49g /LEDs/led50b /LEDs/led50r /LEDs/led50g /LEDs/led51b /LEDs/led51r /LEDs/led51g
+    /LEDs/led52b /LEDs/led52r /LEDs/led52g /LEDs/led53b /LEDs/led53r /LEDs/led53g /LEDs/led54b /LEDs/led54r
+    /LEDs/led54g /LEDs/led55b /LEDs/led55r /LEDs/led55g /LEDs/led56b /LEDs/led56r /LEDs/led56g /LEDs/led57b
+    /LEDs/led57r /LEDs/led57g /LEDs/led58b /LEDs/led58r /LEDs/led58g /LEDs/led59b /LEDs/led59r /LEDs/led59g
+    /LEDs/led60b /LEDs/led60r /LEDs/led60g /LEDs/led61b /LEDs/led61r /LEDs/led61g /LEDs/led62b /LEDs/led62r
+    /LEDs/led62g /LEDs/led63b /LEDs/led63r /LEDs/led63g /LEDs/led64b /LEDs/led64r /LEDs/led64g /LEDs/led65b
+    /LEDs/led65r /LEDs/led65g /LEDs/led66b /LEDs/led66r /LEDs/led66g /LEDs/led67b /LEDs/led67r /LEDs/led67g
+    /LEDs/led68b /LEDs/led68r /LEDs/led68g /LEDs/led69b /LEDs/led69r /LEDs/led69g /LEDs/led70b /LEDs/led70r
+    /LEDs/led70g /LEDs/led71b /LEDs/led71r /LEDs/led71g /LEDs/led72b /LEDs/led72r /LEDs/led72g /LEDs/led73b
+    /LEDs/led73r /LEDs/led73g /LEDs/led74b /LEDs/led74r /LEDs/led74g /LEDs/led75b /LEDs/led75r /LEDs/led75g
+    /LEDs/led76b /LEDs/led76r /LEDs/led76g /LEDs/led77b /LEDs/led77r /LEDs/led77g /LEDs/led78b /LEDs/led78r
+    /LEDs/led78g /LEDs/led79b /LEDs/led79r /LEDs/led79g /LEDs/led80b /LEDs/led80r /LEDs/led80g /LEDs/led81b
+    /LEDs/led81r /LEDs/led81g /LEDs/led82b /LEDs/led82r /LEDs/led82g /LEDs/led83b /LEDs/led83r /LEDs/led83g
+    /LEDs/led84b /LEDs/led84r /LEDs/led84g /LEDs/led85b /LEDs/led85r /LEDs/led85g /LEDs/led86b /LEDs/led86r
+    /LEDs/led86g /LEDs/led87b /LEDs/led87r /LEDs/led87g /LEDs/led88b /LEDs/led88r /LEDs/led88g /LEDs/led89b
+    /LEDs/led89r /LEDs/led89g /LEDs/led90b /LEDs/led90r /LEDs/led90g /LEDs/led91b /LEDs/led91r /LEDs/led91g
+    /LEDs/led92b /LEDs/led92r /LEDs/led92g /LEDs/led93b /LEDs/led93r /LEDs/led93g /LEDs/led94b /LEDs/led94r
+    /LEDs/led94g /LEDs/led95b /LEDs/led95r /LEDs/led95g /LEDs/led96b /LEDs/led96r /LEDs/led96g /LEDs/led97b
+    /LEDs/led97r /LEDs/led97g /LEDs/led98b /LEDs/led98r /LEDs/led98g /LEDs/led99b /LEDs/led99r /LEDs/led99g
+    /LEDs/led100b /LEDs/led100r /LEDs/led100g /LEDs/led101b /LEDs/led101r /LEDs/led101g /LEDs/led102b /LEDs/led102r
+    /LEDs/led102g /LEDs/led103b /LEDs/led103r /LEDs/led103g /LEDs/led104b /LEDs/led104r /LEDs/led104g /LEDs/led105b
+    /LEDs/led105r /LEDs/led105g /LEDs/led106b /LEDs/led106r /LEDs/led106g /LEDs/led107b /LEDs/led107r /LEDs/led107g
+    /LEDs/led108b /LEDs/led108r /LEDs/led108g /LEDs/led109b /LEDs/led109r /LEDs/led109g /LEDs/led110b /LEDs/led110r
+    /LEDs/led110g /LEDs/led111b /LEDs/led111r /LEDs/led111g /LEDs/led112b /LEDs/led112r /LEDs/led112g /LEDs/led113b
+    /LEDs/led113r /LEDs/led113g /LEDs/led114b /LEDs/led114r /LEDs/led114g /LEDs/led115b /LEDs/led115r /LEDs/led115g
+    /LEDs/led116b /LEDs/led116r /LEDs/led116g /LEDs/led117b /LEDs/led117r /LEDs/led117g /LEDs/led118b /LEDs/led118r
+    /LEDs/led118g /LEDs/led119b /LEDs/led119r /LEDs/led119g /LEDs/led120b /LEDs/led120r /LEDs/led120g /LEDs/led121b
+    /LEDs/led121r /LEDs/led121g /LEDs/led122b /LEDs/led122r /LEDs/led122g /LEDs/led123b /LEDs/led123r /LEDs/led123g
+    /LEDs/led124b /LEDs/led124r /LEDs/led124g /LEDs/led125b /LEDs/led125r /LEDs/led125g /LEDs/led126b /LEDs/led126r
+    /LEDs/led126g /LEDs/led127b /LEDs/led127r /LEDs/led127g /LEDs/led128b /LEDs/led128r /LEDs/led128g /LEDs/led129b
+    /LEDs/led129r /LEDs/led129g /LEDs/led130b /LEDs/led130r /LEDs/led130g /LEDs/led131b /LEDs/led131r /LEDs/led131g
+    /LEDs/led132b /LEDs/led132r /LEDs/led132g /LEDs/led133b /LEDs/led133r /LEDs/led133g /LEDs/led134b /LEDs/led134r
+    /LEDs/led134g /LEDs/led135b /LEDs/led135r /LEDs/led135g /LEDs/led136b /LEDs/led136r /LEDs/led136g /LEDs/led137b
+    /LEDs/led137r /LEDs/led137g /LEDs/led138b /LEDs/led138r /LEDs/led138g /LEDs/led139b /LEDs/led139r /LEDs/led139g
+    /LEDs/led140b /LEDs/led140r /LEDs/led140g /LEDs/led141b /LEDs/led141r /LEDs/led141g /LEDs/led142b /LEDs/led142r
+    /LEDs/led142g /LEDs/led143b /LEDs/led143r /LEDs/led143g /LEDs/led144b /LEDs/led144r /LEDs/led144g /LEDs/led145b
+    /LEDs/led145r /LEDs/led145g /LEDs/led146b /LEDs/led146r /LEDs/led146g /LEDs/led147b /LEDs/led147r /LEDs/led147g
+    /LEDs/led148b /LEDs/led148r /LEDs/led148g /LEDs/led149b /LEDs/led149r /LEDs/led149g /LEDs/led150b /LEDs/led150r
+    /LEDs/led150g /LEDs/led151b /LEDs/led151r /LEDs/led151g /LEDs/led152b /LEDs/led152r /LEDs/led152g /LEDs/led153b
+    /LEDs/led153r /LEDs/led153g /LEDs/led154b /LEDs/led154r /LEDs/led154g /LEDs/led155b /LEDs/led155r /LEDs/led155g
+    /LEDs/led156b /LEDs/led156r /LEDs/led156g /LEDs/led157b /LEDs/led157r /LEDs/led157g /LEDs/led158b /LEDs/led158r
+    /LEDs/led158g /LEDs/led159b /LEDs/led159r /LEDs/led159g /LEDs/led160b /LEDs/led160r /LEDs/led160g /LEDs/led161b
+    /LEDs/led161r /LEDs/led161g /LEDs/led162b /LEDs/led162r /LEDs/led162g /LEDs/led163b /LEDs/led163r /LEDs/led163g
+    /LEDs/led164b /LEDs/led164r /LEDs/led164g /LEDs/led165b /LEDs/led165r /LEDs/led165g /LEDs/led166b /LEDs/led166r
+    /LEDs/led166g /LEDs/led167b /LEDs/led167r /LEDs/led167g /LEDs/led168b /LEDs/led168r /LEDs/led168g /LEDs/led169b
+    /LEDs/led169r /LEDs/led169g /LEDs/led170b /LEDs/led170r /LEDs/led170g /LEDs/led171b /LEDs/led171r /LEDs/led171g
+    /LEDs/led172b /LEDs/led172r /LEDs/led172g /LEDs/led173b /LEDs/led173r /LEDs/led173g /LEDs/led174b /LEDs/led174r
+    /LEDs/led174g /LEDs/led175b /LEDs/led175r /LEDs/led175g /LEDs/led176b /LEDs/led176r /LEDs/led176g /LEDs/led177b
+    /LEDs/led177r /LEDs/led177g /LEDs/led178b /LEDs/led178r /LEDs/led178g /LEDs/led179b /LEDs/led179r /LEDs/led179g
+    /LEDs/led180b /LEDs/led180r /LEDs/led180g /LEDs/led181b /LEDs/led181r /LEDs/led181g /LEDs/led182b /LEDs/led182r
+    /LEDs/led182g /LEDs/led183b /LEDs/led183r /LEDs/led183g /LEDs/led184b /LEDs/led184r /LEDs/led184g /LEDs/led185b
+    /LEDs/led185r /LEDs/led185g /LEDs/led186b /LEDs/led186r /LEDs/led186g /LEDs/led187b /LEDs/led187r /LEDs/led187g
+    /LEDs/led188b /LEDs/led188r /LEDs/led188g /LEDs/led189b /LEDs/led189r /LEDs/led189g /LEDs/led190b /LEDs/led190r
+    /LEDs/led190g /LEDs/led191b /LEDs/led191r /LEDs/led191g /LEDs/led192b /LEDs/led192r /LEDs/led192g "/nrf_ce"
+    "/nrf_cs" "/nrf_ck" "/nrf_mosi" "/nrf_miso" "/nrf_irq" /swclk /swdio "Net-(P2-Pad6)"
+    "/sd_d2" "/sd_d3" "/sd_cmd" "/sd_ck" "/sd_d0" "/sd_d1" "Net-(P3-Pad11)" "/sd_cd"
+    "/Power/usb_dm" "/Power/usb_dp" "/Power/usb_id" "Net-(L1-Pad2)" "Net-(P6-Pad3)" "Net-(P6-Pad4)" "/usart3_tx" "/usart3_rx"
+    "Net-(P6-Pad7)" "Net-(P6-Pad8)" "Net-(P6-Pad9)" "Net-(P6-Pad10)" "/Power/user_led" /vusb /Power/bypass /Power/boot0
+    "/Power/pdr_on" "Net-(U1-Pad4)" "Net-(U1-Pad5)" "Net-(U1-Pad7)" "Net-(U1-Pad1)" "Net-(U1-Pad2)" "Net-(U1-Pad3)" "Net-(U1-Pad17)"
+    "Net-(U1-Pad18)" "Net-(U1-Pad19)" "Net-(U1-Pad20)" "Net-(U1-Pad21)" "Net-(U1-Pad24)" /LEDs/gsclk3 /LEDs/lat1 /LEDs/sclk1
+    /LEDs/sout1 /LEDs/sin1 "Net-(U1-Pad54)" /LEDs/lat3 "Net-(U1-Pad56)" "Net-(U1-Pad9)" "Net-(U1-Pad10)" "Net-(U1-Pad11)"
+    "Net-(U1-Pad25)" "Net-(U1-Pad26)" "Net-(U1-Pad27)" /LEDs/gsclk2 /LEDs/gsclk1 "Net-(U1-Pad43)" "Net-(U1-Pad57)" "Net-(U1-Pad58)"
+    /LEDs/sin5 "Net-(U1-Pad12)" "Net-(U1-Pad13)" "Net-(U1-Pad16)" "Net-(U1-Pad28)" /LEDs/lat4 /LEDs/lat5 /LEDs/lat6
+    "Net-(U1-Pad60)" "Net-(U1-Pad63)" "Net-(U1-Pad64)" "Net-(U1-Pad65)" "Net-(U1-Pad66)" "Net-(U1-Pad67)" "Net-(U1-Pad68)" "Net-(U1-Pad69)"
+    "Net-(U1-Pad70)" "Net-(U1-Pad73)" "Net-(U1-Pad74)" /LEDs/sclk4 /LEDs/sout4 /LEDs/sin4 "Net-(U1-Pad78)" /LEDs/sclk5
+    /LEDs/sout5 "Net-(U1-Pad85)" /LEDs/sclk2 /LEDs/sout2 /LEDs/sin2 "Net-(U1-Pad89)" "Net-(U1-Pad90)" "Net-(U1-Pad91)"
+    "Net-(U1-Pad92)" /LEDs/gsclk4 /LEDs/gsclk5 /LEDs/gsclk6 "Net-(U1-Pad98)" "Net-(U1-Pad101)" "Net-(U1-Pad102)" "Net-(U1-Pad104)"
+    "Net-(U1-Pad105)" "Net-(U1-Pad107)" "Net-(U1-Pad108)" "Net-(U1-Pad110)" "Net-(U1-Pad111)" "Net-(U1-Pad112)" "Net-(U1-Pad113)" "Net-(U1-Pad114)"
+    "Net-(U1-Pad115)" "Net-(U1-Pad116)" /LEDs/lat2 "Net-(U1-Pad120)" "Net-(U1-Pad132)" "Net-(U1-Pad133)" "Net-(U1-Pad134)" "Net-(U1-Pad142)"
+    "Net-(U1-Pad143)" "Net-(U1-Pad145)" "Net-(U1-Pad146)" "Net-(U1-Pad147)" "Net-(U1-Pad150)" "Net-(U1-Pad151)" "Net-(U1-Pad152)" "Net-(U1-Pad153)"
+    "Net-(U1-Pad154)" /LEDs/sout6 /LEDs/sclk6 /LEDs/sin6 "Net-(U1-Pad160)" /LEDs/sclk3 /LEDs/sout3 /LEDs/sin3
+    "Net-(U1-Pad167)" "Net-(U1-Pad168)" "Net-(U1-Pad169)" "Net-(U1-Pad170)" "Net-(U1-Pad173)" "Net-(U1-Pad174)" "Net-(U1-Pad175)" "Net-(U1-Pad176)"
+    "Net-(U4-Pad28)" "Net-(U6-Pad28)" "Net-(U8-Pad28)" "Net-(U10-Pad28)" "Net-(U12-Pad28)" "Net-(U14-Pad28)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 203.2)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Inner
+    (clearance_class Inner)
+    (via_rule Inner)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Tight
+    (clearance_class Tight)
+    (via_rule Tight)
+    (rule
+      (width 152.4)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

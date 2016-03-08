@@ -7,7 +7,7 @@ use Math::Trig;
 
 my $ox = 150;
 my $oy = 150;
-my $r = 99.5;
+my $r = 74.5;
 
 my $angle = 37.5/180*pi;
 my $y_stretch = 1/cos($angle);
