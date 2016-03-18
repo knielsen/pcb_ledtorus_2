@@ -1098,20 +1098,20 @@ F 3 "" H 6000 4750 60  0000 C CNN
 	1    6000 4750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2600 2850
-NoConn ~ 2600 2800
+NoConn ~ 2600 4250
+NoConn ~ 2600 4200
 NoConn ~ 2600 2750
 Wire Wire Line
 	2600 4150 2900 4150
 Wire Wire Line
-	2600 4200 2900 4200
+	2600 2800 2900 2800
 Wire Wire Line
-	2600 4250 2900 4250
+	2600 2850 2900 2850
 Text Label 2650 4150 0    30   ~ 0
 lat1
-Text Label 2650 4200 0    30   ~ 0
+Text Label 2650 2850 0    30   ~ 0
 lat5
-Text Label 2650 4250 0    30   ~ 0
+Text Label 2650 2800 0    30   ~ 0
 lat6
 $Comp
 L R_Small R8

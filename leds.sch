@@ -9157,40 +9157,40 @@ led138r
 Text Label 15350 2750 0    30   ~ 0
 led138g
 Wire Wire Line
-	15550 2500 15300 2500
-Wire Wire Line
-	15550 2550 15300 2550
-Wire Wire Line
-	14300 2450 14050 2450
-Text Label 15350 2500 0    30   ~ 0
-led126b
-Text Label 15350 2550 0    30   ~ 0
-led126r
-Text Label 15350 2600 0    30   ~ 0
-led126g
-Wire Wire Line
 	15550 2350 15300 2350
 Wire Wire Line
 	15550 2400 15300 2400
 Wire Wire Line
-	14300 2600 14050 2600
+	14300 2450 14050 2450
 Text Label 15350 2350 0    30   ~ 0
-led125b
+led126b
 Text Label 15350 2400 0    30   ~ 0
-led125r
+led126r
 Text Label 15350 2450 0    30   ~ 0
-led125g
+led126g
 Wire Wire Line
 	15550 2200 15300 2200
 Wire Wire Line
 	15550 2250 15300 2250
 Wire Wire Line
-	14300 2750 14050 2750
+	14300 2600 14050 2600
 Text Label 15350 2200 0    30   ~ 0
-led127b
+led125b
 Text Label 15350 2250 0    30   ~ 0
-led127r
+led125r
 Text Label 15350 2300 0    30   ~ 0
+led125g
+Wire Wire Line
+	15550 2500 15300 2500
+Wire Wire Line
+	15550 2550 15300 2550
+Wire Wire Line
+	14300 2750 14050 2750
+Text Label 15350 2500 0    30   ~ 0
+led127b
+Text Label 15350 2550 0    30   ~ 0
+led127r
+Text Label 15350 2600 0    30   ~ 0
 led127g
 Wire Wire Line
 	15550 2050 15300 2050
