@@ -573,9 +573,9 @@ Wire Wire Line
 Wire Wire Line
 	1650 1650 1350 1650
 Wire Wire Line
-	1650 1700 1350 1700
+	2900 1600 2600 1600
 Wire Wire Line
-	1650 1750 1350 1750
+	2900 1650 2600 1650
 Wire Wire Line
 	1650 1800 1350 1800
 Wire Wire Line
@@ -601,9 +601,9 @@ Wire Wire Line
 Wire Wire Line
 	1650 2450 1350 2450
 Wire Wire Line
-	1650 2550 1350 2550
+	1650 3900 1350 3900
 Wire Wire Line
-	1650 2600 1350 2600
+	1650 4750 1350 4750
 Wire Wire Line
 	1650 2700 1350 2700
 Wire Wire Line
@@ -621,9 +621,9 @@ Wire Wire Line
 Wire Wire Line
 	1650 2250 1350 2250
 Wire Wire Line
-	2600 1600 2900 1600
+	1350 1700 1650 1700
 Wire Wire Line
-	2600 1650 2900 1650
+	1350 1750 1650 1750
 Wire Wire Line
 	2600 1700 2900 1700
 Wire Wire Line
@@ -642,32 +642,32 @@ Wire Wire Line
 	2600 2200 2900 2200
 Wire Wire Line
 	2600 2400 2900 2400
-Text Label 1425 1450 0    30   ~ 0
+Text Label 1425 1550 0    30   ~ 0
 gsclk3
 Text Label 1425 1500 0    30   ~ 0
 gsclk2
-Text Label 1425 1550 0    30   ~ 0
+Text Label 1425 1450 0    30   ~ 0
 gsclk1
 Text Label 1425 1600 0    30   ~ 0
 hall
-Text Label 1425 1700 0    30   ~ 0
-sclk1
-Text Label 1425 1750 0    30   ~ 0
-sout1
-Text Label 1425 1800 0    30   ~ 0
-sin1
-Text Label 2650 1600 0    30   ~ 0
+Text Label 2675 1600 0    30   ~ 0
+sclk2
+Text Label 2675 1650 0    30   ~ 0
+sout2
+Text Label 2675 1700 0    30   ~ 0
+sin2
+Text Label 1400 1700 0    30   ~ 0
 sclk3
-Text Label 2650 1650 0    30   ~ 0
+Text Label 1400 1750 0    30   ~ 0
 sout3
-Text Label 2650 1700 0    30   ~ 0
+Text Label 1400 1800 0    30   ~ 0
 sin3
 Text Label 2650 2150 0    30   ~ 0
-sout2
+sout5
 Text Label 2650 2200 0    30   ~ 0
-sin2
+sin5
 Text Label 2650 2100 0    30   ~ 0
-sclk2
+sclk5
 Text Label 1425 2800 0    30   ~ 0
 sd_d2
 Text Label 1425 2850 0    30   ~ 0
@@ -704,9 +704,9 @@ Text Label 1425 2400 0    30   ~ 0
 nrf_ce
 Text Label 1425 2450 0    30   ~ 0
 nrf_irq
-Text Label 1425 2550 0    30   ~ 0
-lat3
-Text Label 1425 2600 0    30   ~ 0
+Text Label 1425 3900 0    30   ~ 0
+lat4
+Text Label 1425 4750 0    30   ~ 0
 lat2
 Text Label 1425 2950 0    30   ~ 0
 user_led
@@ -719,7 +719,7 @@ usart3_tx
 Text Label 2650 2000 0    30   ~ 0
 usart3_rx
 Text Label 1425 1650 0    30   ~ 0
-lat1
+lat3
 NoConn ~ 2600 1550
 NoConn ~ 2600 2050
 Wire Wire Line
@@ -753,19 +753,19 @@ sout4
 Text Label 1425 3850 0    30   ~ 0
 sin4
 Text Label 1425 4600 0    30   ~ 0
-sout6
+sout1
 Text Label 1425 4650 0    30   ~ 0
-sclk6
+sclk1
 Text Label 1425 4700 0    30   ~ 0
-sin6
+sin1
 Wire Wire Line
 	2600 3700 2900 3700
 Text Label 2650 3700 0    30   ~ 0
-sin5
+sin6
 Text Label 2650 4300 0    30   ~ 0
-sclk5
+sclk6
 Text Label 2650 4350 0    30   ~ 0
-sout5
+sout6
 Wire Wire Line
 	2600 4300 2900 4300
 Wire Wire Line
@@ -999,7 +999,7 @@ NoConn ~ 2600 3750
 NoConn ~ 2600 3800
 NoConn ~ 2600 3850
 NoConn ~ 2600 3900
-NoConn ~ 1650 3900
+NoConn ~ 1650 2550
 NoConn ~ 1650 4000
 NoConn ~ 1650 4050
 NoConn ~ 1650 4100
@@ -1030,7 +1030,7 @@ NoConn ~ 1650 5200
 NoConn ~ 1650 5250
 NoConn ~ 1650 5300
 NoConn ~ 1650 5350
-NoConn ~ 1650 4750
+NoConn ~ 1650 2600
 NoConn ~ 2600 3050
 $Comp
 L GND #PWR012
@@ -1108,7 +1108,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 4250 2900 4250
 Text Label 2650 4150 0    30   ~ 0
-lat4
+lat1
 Text Label 2650 4200 0    30   ~ 0
 lat5
 Text Label 2650 4250 0    30   ~ 0
