@@ -7356,7 +7356,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 1950 1450 1950
 Wire Wire Line
-	4750 2300 4500 2300
+	4750 2600 4500 2600
 Text Label 1500 1900 0    30   ~ 0
 led27b
 Text Label 1500 1950 0    30   ~ 0
@@ -8047,28 +8047,28 @@ led53r
 Text Label 2750 2150 0    30   ~ 0
 led53g
 Wire Wire Line
-	4750 1900 4500 1900
+	4750 2800 4500 2800
 Wire Wire Line
-	4750 1950 4500 1950
+	4750 2850 4500 2850
 Wire Wire Line
-	4750 2000 4500 2000
-Text Label 4550 1900 0    30   ~ 0
+	4750 2900 4500 2900
+Text Label 4550 2800 0    30   ~ 0
 led54b
-Text Label 4550 1950 0    30   ~ 0
+Text Label 4550 2850 0    30   ~ 0
 led54r
-Text Label 4550 2000 0    30   ~ 0
+Text Label 4550 2900 0    30   ~ 0
 led54g
 Wire Wire Line
-	4750 2050 4500 2050
+	4750 2950 4500 2950
 Wire Wire Line
-	4750 2100 4500 2100
+	4750 3000 4500 3000
 Wire Wire Line
 	7100 2900 6850 2900
-Text Label 4550 2050 0    30   ~ 0
+Text Label 4550 2950 0    30   ~ 0
 led55b
-Text Label 4550 2100 0    30   ~ 0
+Text Label 4550 3000 0    30   ~ 0
 led55r
-Text Label 4550 2150 0    30   ~ 0
+Text Label 4550 3050 0    30   ~ 0
 led55g
 Wire Wire Line
 	10700 2350 10450 2350
@@ -8087,7 +8087,7 @@ Wire Wire Line
 Wire Wire Line
 	10700 2550 10450 2550
 Wire Wire Line
-	4750 2600 4500 2600
+	4750 2300 4500 2300
 Text Label 10500 2500 0    30   ~ 0
 led57b
 Text Label 10500 2550 0    30   ~ 0
@@ -8266,28 +8266,28 @@ led66r
 Text Label 2750 2450 0    30   ~ 0
 led66g
 Wire Wire Line
-	4750 2200 4500 2200
+	4750 2500 4500 2500
 Wire Wire Line
-	4750 2250 4500 2250
+	4750 2550 4500 2550
 Wire Wire Line
 	10700 2450 10450 2450
-Text Label 4550 2200 0    30   ~ 0
+Text Label 4550 2500 0    30   ~ 0
 led67b
-Text Label 4550 2250 0    30   ~ 0
+Text Label 4550 2550 0    30   ~ 0
 led67r
-Text Label 4550 2300 0    30   ~ 0
+Text Label 4550 2600 0    30   ~ 0
 led67g
 Wire Wire Line
-	4750 2350 4500 2350
+	4750 2650 4500 2650
 Wire Wire Line
-	4750 2400 4500 2400
+	4750 2700 4500 2700
 Wire Wire Line
 	8900 2450 8650 2450
-Text Label 4550 2350 0    30   ~ 0
+Text Label 4550 2650 0    30   ~ 0
 led68b
-Text Label 4550 2400 0    30   ~ 0
+Text Label 4550 2700 0    30   ~ 0
 led68r
-Text Label 4550 2450 0    30   ~ 0
+Text Label 4550 2750 0    30   ~ 0
 led68g
 Wire Wire Line
 	8900 2800 8650 2800
@@ -8390,7 +8390,7 @@ Wire Wire Line
 Wire Wire Line
 	10150 3000 9900 3000
 Wire Wire Line
-	4750 2900 4500 2900
+	4750 2000 4500 2000
 Text Label 9950 2950 0    30   ~ 0
 led77b
 Text Label 9950 3000 0    30   ~ 0
@@ -8506,28 +8506,28 @@ F 3 "" H 11200 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 2500 4500 2500
+	4750 2200 4500 2200
 Wire Wire Line
-	4750 2550 4500 2550
+	4750 2250 4500 2250
 Wire Wire Line
 	10700 2000 10450 2000
-Text Label 4550 2500 0    30   ~ 0
+Text Label 4550 2200 0    30   ~ 0
 led81b
-Text Label 4550 2550 0    30   ~ 0
+Text Label 4550 2250 0    30   ~ 0
 led81r
-Text Label 4550 2600 0    30   ~ 0
+Text Label 4550 2300 0    30   ~ 0
 led81g
 Wire Wire Line
-	4750 2650 4500 2650
+	4750 2350 4500 2350
 Wire Wire Line
-	4750 2700 4500 2700
+	4750 2400 4500 2400
 Wire Wire Line
 	10700 2150 10450 2150
-Text Label 4550 2650 0    30   ~ 0
+Text Label 4550 2350 0    30   ~ 0
 led82b
-Text Label 4550 2700 0    30   ~ 0
+Text Label 4550 2400 0    30   ~ 0
 led82r
-Text Label 4550 2750 0    30   ~ 0
+Text Label 4550 2450 0    30   ~ 0
 led82g
 Wire Wire Line
 	8900 2050 8650 2050
@@ -8674,28 +8674,28 @@ led94r
 Text Label 2750 3050 0    30   ~ 0
 led94g
 Wire Wire Line
-	4750 2800 4500 2800
+	4750 1900 4500 1900
 Wire Wire Line
-	4750 2850 4500 2850
+	4750 1950 4500 1950
 Wire Wire Line
 	11950 2300 11700 2300
-Text Label 4550 2800 0    30   ~ 0
+Text Label 4550 1900 0    30   ~ 0
 led95b
-Text Label 4550 2850 0    30   ~ 0
+Text Label 4550 1950 0    30   ~ 0
 led95r
-Text Label 4550 2900 0    30   ~ 0
+Text Label 4550 2000 0    30   ~ 0
 led95g
 Wire Wire Line
-	4750 2950 4500 2950
+	4750 2050 4500 2050
 Wire Wire Line
-	4750 3000 4500 3000
+	4750 2100 4500 2100
 Wire Wire Line
 	11950 3050 11700 3050
-Text Label 4550 2950 0    30   ~ 0
+Text Label 4550 2050 0    30   ~ 0
 led96b
-Text Label 4550 3000 0    30   ~ 0
+Text Label 4550 2100 0    30   ~ 0
 led96r
-Text Label 4550 3050 0    30   ~ 0
+Text Label 4550 2150 0    30   ~ 0
 led96g
 Wire Wire Line
 	11150 3300 11300 3300
