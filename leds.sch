@@ -10063,53 +10063,29 @@ F 3 "" H 14800 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14300 6900 14050 6900
+	14300 7800 14050 7800
 Wire Wire Line
-	14300 6950 14050 6950
+	14300 7850 14050 7850
 Wire Wire Line
-	14300 7000 14050 7000
-Text Label 14100 6900 0    30   ~ 0
+	14300 7900 14050 7900
+Text Label 14100 7800 0    30   ~ 0
 led149b
-Text Label 14100 6950 0    30   ~ 0
+Text Label 14100 7850 0    30   ~ 0
 led149r
-Text Label 14100 7000 0    30   ~ 0
+Text Label 14100 7900 0    30   ~ 0
 led149g
 Wire Wire Line
-	14300 7050 14050 7050
+	14300 7950 14050 7950
 Wire Wire Line
-	14300 7100 14050 7100
+	14300 8000 14050 8000
 Wire Wire Line
 	14300 7150 14050 7150
-Text Label 14100 7050 0    30   ~ 0
+Text Label 14100 7950 0    30   ~ 0
 led150b
-Text Label 14100 7100 0    30   ~ 0
+Text Label 14100 8000 0    30   ~ 0
 led150r
-Text Label 14100 7150 0    30   ~ 0
+Text Label 14100 8050 0    30   ~ 0
 led150g
-Wire Wire Line
-	14300 7200 14050 7200
-Wire Wire Line
-	14300 7250 14050 7250
-Wire Wire Line
-	14300 7300 14050 7300
-Text Label 14100 7200 0    30   ~ 0
-led136b
-Text Label 14100 7250 0    30   ~ 0
-led136r
-Text Label 14100 7300 0    30   ~ 0
-led136g
-Wire Wire Line
-	14300 7350 14050 7350
-Wire Wire Line
-	14300 7400 14050 7400
-Wire Wire Line
-	14300 7450 14050 7450
-Text Label 14100 7350 0    30   ~ 0
-led137b
-Text Label 14100 7400 0    30   ~ 0
-led137r
-Text Label 14100 7450 0    30   ~ 0
-led137g
 Wire Wire Line
 	14300 7500 14050 7500
 Wire Wire Line
@@ -10117,46 +10093,70 @@ Wire Wire Line
 Wire Wire Line
 	14300 7600 14050 7600
 Text Label 14100 7500 0    30   ~ 0
-led123b
+led136b
 Text Label 14100 7550 0    30   ~ 0
-led123r
+led136r
 Text Label 14100 7600 0    30   ~ 0
-led123g
+led136g
 Wire Wire Line
 	14300 7650 14050 7650
 Wire Wire Line
 	14300 7700 14050 7700
 Wire Wire Line
-	14300 7750 14050 7750
+	14300 7450 14050 7450
 Text Label 14100 7650 0    30   ~ 0
-led124b
+led137b
 Text Label 14100 7700 0    30   ~ 0
-led124r
+led137r
 Text Label 14100 7750 0    30   ~ 0
+led137g
+Wire Wire Line
+	14300 7200 14050 7200
+Wire Wire Line
+	14300 7250 14050 7250
+Wire Wire Line
+	14300 7300 14050 7300
+Text Label 14100 7200 0    30   ~ 0
+led123b
+Text Label 14100 7250 0    30   ~ 0
+led123r
+Text Label 14100 7300 0    30   ~ 0
+led123g
+Wire Wire Line
+	14300 7350 14050 7350
+Wire Wire Line
+	14300 7400 14050 7400
+Wire Wire Line
+	14300 7750 14050 7750
+Text Label 14100 7350 0    30   ~ 0
+led124b
+Text Label 14100 7400 0    30   ~ 0
+led124r
+Text Label 14100 7450 0    30   ~ 0
 led124g
 Wire Wire Line
-	14300 7800 14050 7800
+	14300 6900 14050 6900
 Wire Wire Line
-	14300 7850 14050 7850
+	14300 6950 14050 6950
 Wire Wire Line
-	14300 7900 14050 7900
-Text Label 14100 7800 0    30   ~ 0
+	14300 7000 14050 7000
+Text Label 14100 6900 0    30   ~ 0
 led109b
-Text Label 14100 7850 0    30   ~ 0
+Text Label 14100 6950 0    30   ~ 0
 led109r
-Text Label 14100 7900 0    30   ~ 0
+Text Label 14100 7000 0    30   ~ 0
 led109g
 Wire Wire Line
-	14300 7950 14050 7950
+	14300 7050 14050 7050
 Wire Wire Line
-	14300 8000 14050 8000
+	14300 7100 14050 7100
 Wire Wire Line
 	14300 8050 14050 8050
-Text Label 14100 7950 0    30   ~ 0
+Text Label 14100 7050 0    30   ~ 0
 led110b
-Text Label 14100 8000 0    30   ~ 0
+Text Label 14100 7100 0    30   ~ 0
 led110r
-Text Label 14100 8050 0    30   ~ 0
+Text Label 14100 7150 0    30   ~ 0
 led110g
 Wire Wire Line
 	15550 6900 15300 6900
