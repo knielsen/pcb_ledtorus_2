@@ -259,7 +259,6 @@ Text Label 7650 4400 0    60   ~ 0
 swclk
 Text Label 7650 4600 0    60   ~ 0
 swdio
-NoConn ~ 7900 4800
 Text Label 7650 4700 0    60   ~ 0
 nrst
 Text Notes 5925 4075 0    120  ~ 24
@@ -312,10 +311,6 @@ F 3 "" H 9700 4850 60  0000 C CNN
 	1    9700 4850
 	1    0    0    -1  
 $EndComp
-Text Label 9200 4700 0    60   ~ 0
-usart3_tx
-Text Label 9200 4800 0    60   ~ 0
-usart3_rx
 $Comp
 L +3.3V #PWR08
 U 1 1 56362250
@@ -430,10 +425,6 @@ Wire Wire Line
 	1650 6650 1100 6650
 Wire Wire Line
 	8900 4300 9500 4300
-Wire Wire Line
-	9500 4700 9150 4700
-Wire Wire Line
-	9150 4800 9500 4800
 Wire Wire Line
 	9000 5300 9500 5300
 Wire Wire Line
@@ -720,7 +711,6 @@ Text Label 2650 2000 0    30   ~ 0
 usart3_rx
 Text Label 1425 1650 0    30   ~ 0
 lat3
-NoConn ~ 2600 1550
 NoConn ~ 2600 2050
 Wire Wire Line
 	2600 2900 2900 2900
@@ -1128,4 +1118,48 @@ Wire Wire Line
 	1150 1900 975  1900
 Text Label 1000 1900 0    30   ~ 0
 usb_5v
+Text Label 7850 5175 2    60   ~ 0
+usart3_tx
+Text Label 7850 5275 2    60   ~ 0
+usart3_rx
+Wire Wire Line
+	7550 5175 7900 5175
+Wire Wire Line
+	7900 5275 7550 5275
+$Comp
+L CONN_01X03 P7
+U 1 1 56F289B7
+P 8100 5275
+F 0 "P7" H 8177 5313 50  0000 L CNN
+F 1 "CONN_01X03" H 8177 5221 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 8100 5275 50  0001 C CNN
+F 3 "" H 8100 5275 50  0000 C CNN
+	1    8100 5275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 5375 7750 5375
+Wire Wire Line
+	7750 5375 7750 5450
+$Comp
+L GND #PWR018
+U 1 1 56F28DDB
+P 7750 5450
+F 0 "#PWR018" H 7750 5200 50  0001 C CNN
+F 1 "GND" H 7758 5276 50  0000 C CNN
+F 2 "" H 7750 5450 50  0000 C CNN
+F 3 "" H 7750 5450 50  0000 C CNN
+	1    7750 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1550 2900 1550
+Text Label 2650 1550 0    30   ~ 0
+swo
+Wire Wire Line
+	7900 4800 7650 4800
+Text Label 7650 4800 0    60   ~ 0
+swo
+NoConn ~ 9500 4700
+NoConn ~ 9500 4800
 $EndSCHEMATC
