@@ -6980,29 +6980,29 @@ led1r
 Text Label 6900 2150 0    30   ~ 0
 led1g
 Wire Wire Line
-	7100 2950 6850 2950
-Wire Wire Line
-	7100 3000 6850 3000
-Wire Wire Line
-	1700 2150 1450 2150
-Text Label 6900 2950 0    30   ~ 0
-led2b
-Text Label 6900 3000 0    30   ~ 0
-led2r
-Text Label 6900 3050 0    30   ~ 0
-led2g
-Wire Wire Line
 	7100 2800 6850 2800
 Wire Wire Line
 	7100 2850 6850 2850
 Wire Wire Line
-	1700 2300 1450 2300
+	1700 2150 1450 2150
 Text Label 6900 2800 0    30   ~ 0
-led3b
+led2b
 Text Label 6900 2850 0    30   ~ 0
+led2r
+Text Label 6900 3050 0    30   ~ 0
+led3g
+Wire Wire Line
+	7100 2950 6850 2950
+Wire Wire Line
+	7100 3000 6850 3000
+Wire Wire Line
+	1700 2300 1450 2300
+Text Label 6900 2950 0    30   ~ 0
+led3b
+Text Label 6900 3000 0    30   ~ 0
 led3r
 Text Label 6900 2900 0    30   ~ 0
-led3g
+led2g
 Wire Wire Line
 	1700 2200 1450 2200
 Wire Wire Line

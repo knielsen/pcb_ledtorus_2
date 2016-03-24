@@ -132,8 +132,6 @@ $EndComp
 NoConn ~ 4550 5350
 Text Label 4250 5250 0    60   ~ 0
 sd_cd
-Text Label 4250 5150 0    60   ~ 0
-gnd
 Text Label 4250 4950 0    60   ~ 0
 sd_d0
 Text Label 4250 4750 0    60   ~ 0
