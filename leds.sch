@@ -8071,40 +8071,40 @@ led55r
 Text Label 4550 3050 0    30   ~ 0
 led55g
 Wire Wire Line
+	10700 2200 10450 2200
+Wire Wire Line
+	10700 2250 10450 2250
+Wire Wire Line
+	7100 3050 6850 3050
+Text Label 10500 2200 0    30   ~ 0
+led56b
+Text Label 10500 2250 0    30   ~ 0
+led56r
+Text Label 10500 2300 0    30   ~ 0
+led56g
+Wire Wire Line
 	10700 2350 10450 2350
 Wire Wire Line
 	10700 2400 10450 2400
 Wire Wire Line
-	7100 3050 6850 3050
+	4750 2300 4500 2300
 Text Label 10500 2350 0    30   ~ 0
-led56b
+led57b
 Text Label 10500 2400 0    30   ~ 0
-led56r
+led57r
 Text Label 10500 2450 0    30   ~ 0
-led56g
+led57g
 Wire Wire Line
 	10700 2500 10450 2500
 Wire Wire Line
 	10700 2550 10450 2550
 Wire Wire Line
-	4750 2300 4500 2300
-Text Label 10500 2500 0    30   ~ 0
-led57b
-Text Label 10500 2550 0    30   ~ 0
-led57r
-Text Label 10500 2600 0    30   ~ 0
-led57g
-Wire Wire Line
-	10700 2200 10450 2200
-Wire Wire Line
-	10700 2250 10450 2250
-Wire Wire Line
 	8350 2150 8100 2150
-Text Label 10500 2200 0    30   ~ 0
+Text Label 10500 2500 0    30   ~ 0
 led58b
-Text Label 10500 2250 0    30   ~ 0
+Text Label 10500 2550 0    30   ~ 0
 led58r
-Text Label 10500 2300 0    30   ~ 0
+Text Label 10500 2600 0    30   ~ 0
 led58g
 Wire Wire Line
 	10700 2050 10450 2050
