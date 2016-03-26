@@ -8422,16 +8422,16 @@ led79r
 Text Label 2750 2600 0    30   ~ 0
 led79g
 Wire Wire Line
-	2950 2650 2700 2650
+	2950 2800 2700 2800
 Wire Wire Line
-	2950 2700 2700 2700
+	2950 2850 2700 2850
 Wire Wire Line
 	10150 3050 9900 3050
-Text Label 2750 2650 0    30   ~ 0
+Text Label 2750 2800 0    30   ~ 0
 led80b
-Text Label 2750 2700 0    30   ~ 0
+Text Label 2750 2850 0    30   ~ 0
 led80r
-Text Label 2750 2750 0    30   ~ 0
+Text Label 2750 2900 0    30   ~ 0
 led80g
 Wire Wire Line
 	9350 3300 9500 3300
@@ -8650,16 +8650,16 @@ led92r
 Text Label 9950 2750 0    30   ~ 0
 led92g
 Wire Wire Line
-	2950 2800 2700 2800
+	2950 2650 2700 2650
 Wire Wire Line
-	2950 2850 2700 2850
+	2950 2700 2700 2700
 Wire Wire Line
 	11950 2000 11700 2000
-Text Label 2750 2800 0    30   ~ 0
+Text Label 2750 2650 0    30   ~ 0
 led93b
-Text Label 2750 2850 0    30   ~ 0
+Text Label 2750 2700 0    30   ~ 0
 led93r
-Text Label 2750 2900 0    30   ~ 0
+Text Label 2750 2750 0    30   ~ 0
 led93g
 Wire Wire Line
 	2950 2950 2700 2950
@@ -9799,16 +9799,16 @@ F 3 "" H 13000 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12500 7800 12250 7800
+	12500 7650 12250 7650
 Wire Wire Line
-	12500 7850 12250 7850
+	12500 7700 12250 7700
 Wire Wire Line
 	12500 7900 12250 7900
-Text Label 12300 7800 0    30   ~ 0
+Text Label 12300 7650 0    30   ~ 0
 led107b
-Text Label 12300 7850 0    30   ~ 0
+Text Label 12300 7700 0    30   ~ 0
 led107r
-Text Label 12300 7900 0    30   ~ 0
+Text Label 12300 7750 0    30   ~ 0
 led107g
 Wire Wire Line
 	12500 7950 12250 7950
@@ -9835,16 +9835,16 @@ led121r
 Text Label 12300 7600 0    30   ~ 0
 led121g
 Wire Wire Line
-	12500 7650 12250 7650
+	12500 7800 12250 7800
 Wire Wire Line
-	12500 7700 12250 7700
+	12500 7850 12250 7850
 Wire Wire Line
 	12500 7450 12250 7450
-Text Label 12300 7650 0    30   ~ 0
+Text Label 12300 7800 0    30   ~ 0
 led122b
-Text Label 12300 7700 0    30   ~ 0
+Text Label 12300 7850 0    30   ~ 0
 led122r
-Text Label 12300 7750 0    30   ~ 0
+Text Label 12300 7900 0    30   ~ 0
 led122g
 Wire Wire Line
 	12500 7200 12250 7200
