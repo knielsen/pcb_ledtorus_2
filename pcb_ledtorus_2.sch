@@ -545,7 +545,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 2900 1350 2900
 Wire Wire Line
-	1650 2950 1350 2950
+	1650 3250 1350 3250
 Wire Wire Line
 	1650 2200 1650 2250
 Wire Wire Line
@@ -638,7 +638,7 @@ Text Label 1425 3900 0    30   ~ 0
 lat4
 Text Label 1425 4750 0    30   ~ 0
 lat2
-Text Label 1425 2950 0    30   ~ 0
+Text Label 1425 3250 0    30   ~ 0
 user_led
 Text Label 1425 2300 0    30   ~ 0
 bat_sense
@@ -886,7 +886,7 @@ NoConn ~ 1650 3000
 NoConn ~ 1650 3050
 NoConn ~ 1650 3150
 NoConn ~ 1650 3200
-NoConn ~ 1650 3250
+NoConn ~ 1650 2950
 NoConn ~ 1650 3300
 NoConn ~ 1650 3350
 NoConn ~ 1650 3400
