@@ -1048,14 +1048,6 @@ F 3 "" H 7750 5450 50  0000 C CNN
 	1    7750 5450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2600 1550 2900 1550
-Text Label 2650 1550 0    30   ~ 0
-swo
-Wire Wire Line
-	7900 4800 7650 4800
-Text Label 7650 4800 0    60   ~ 0
-swo
 $Comp
 L CONN_02X09 P6
 U 1 1 56F7FEF0
@@ -1216,4 +1208,6 @@ Text Label 9850 5075 0    60   ~ 0
 pb8
 Text Label 9850 5175 0    60   ~ 0
 pb9
+NoConn ~ 7900 4800
+NoConn ~ 2600 1550
 $EndSCHEMATC
