@@ -3,9 +3,9 @@
   (general
     (links 1086)
     (no_connects 0)
-    (area 72.7784 75.424999 225.000001 224.80148)
+    (area 75.443603 75.424999 224.556397 224.575001)
     (thickness 0.8)
-    (drawings 115)
+    (drawings 118)
     (tracks 11911)
     (zones 0)
     (modules 280)
@@ -1610,12 +1610,12 @@
     (uvia_drill 0.127)
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56EA73B1)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F999C9) (tstamp 56EA73B1)
     (at 114.06 166.66)
     (descr "SMT capacitor, 0603")
     (path /5635F23B/563640FE)
-    (fp_text reference C13 (at 0 0.635) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C13 (at 0.14 1.34) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_text value 100n (at 0 -0.635) (layer B.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
@@ -1637,15 +1637,15 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56EA73CA)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F9A360) (tstamp 56EA73CA)
     (at 90.98 154.35 270)
     (descr "SMT capacitor, 0603")
     (path /5635F23B/5636DFA7)
-    (fp_text reference C18 (at 0 0.635 270) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C18 (at 2.05 -0.02 360) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.127)) (justify mirror))
     )
-    (fp_text value 100n (at 0 -0.635 270) (layer B.SilkS) hide
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text value 100n (at -0.05 1.48 270) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.5588 -0.4064) (end 0.5588 0.4064) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.5588 0.381) (end -0.5588 -0.4064) (layer B.SilkS) (width 0.127))
@@ -1664,12 +1664,12 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56EA738E)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F9A1A8) (tstamp 56EA738E)
     (at 102.02 136.58 180)
     (descr "SMT capacitor, 0603")
     (path /5635F23B/56364EBF)
-    (fp_text reference C6 (at 0 0.635 180) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C6 (at 0 1.38 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_text value 100n (at 0 -0.635 180) (layer B.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
@@ -1691,12 +1691,12 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56EA7393)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F9A197) (tstamp 56EA7393)
     (at 106.1 136.62 180)
     (descr "SMT capacitor, 0603")
     (path /5635F23B/56364EC5)
-    (fp_text reference C7 (at 0 0.635 180) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C7 (at -2.2 -0.08 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_text value 100n (at 0 -0.635 180) (layer B.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
@@ -1760,14 +1760,14 @@
     (pad 1 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers))
   )
 
-  (module knielsenlib:TO-252-3 (layer B.Cu) (tedit 51E3F979) (tstamp 5638B92E)
+  (module knielsenlib:TO-252-3 (layer B.Cu) (tedit 56F99C12) (tstamp 5638B92E)
     (at 108 182.75 270)
     (descr "TO-252-3 (also PFM) package")
     (path /5635F23B/5636DFE3)
     (fp_text reference U3 (at 0 7.69874 270) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (fp_text value LP38691 (at 0 -5.99948 270) (layer B.SilkS)
+    (fp_text value LP38691 (at 0 -5.99948 270) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (pad 1 smd rect (at -2.286 -3.22072 270) (size 1.30048 1.69926) (layers B.Cu B.Paste B.Mask)
@@ -1787,7 +1787,7 @@
     (at 186.17049 120.431767 90)
     (descr "RGB led, 0603")
     (path /5636686F/56376478)
-    (fp_text reference LD35 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD35 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -1821,13 +1821,13 @@
     )
   )
 
-  (module knielsenlib:SWITCH_FSMJSMA (layer B.Cu) (tedit 51EA6550) (tstamp 5638B0C1)
+  (module knielsenlib:SWITCH_FSMJSMA (layer B.Cu) (tedit 56F9A551) (tstamp 5638B0C1)
     (at 134.75 127.75 90)
     (path /5635F23B/5636DF56)
-    (fp_text reference B1 (at 0 -6.90118 90) (layer B.SilkS) hide
-      (effects (font (size 0.7493 0.7493) (thickness 0.14986)) (justify mirror))
+    (fp_text reference B1 (at -4.05 0.25 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value SWITCH_4PIN (at 0 6.70052 90) (layer B.SilkS)
+    (fp_text value SWITCH_4PIN (at 0 6.70052 90) (layer B.SilkS) hide
       (effects (font (size 0.7493 0.7493) (thickness 0.14986)) (justify mirror))
     )
     (pad 1 smd rect (at 2.25044 4.54914 90) (size 1.39954 2.10058) (layers B.Cu B.Paste B.Mask)
@@ -1845,15 +1845,15 @@
     )
   )
 
-  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 49047394) (tstamp 5638B0D3)
+  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 56F99B39) (tstamp 5638B0D3)
     (at 96.4525 205)
     (descr "SMT capacitor, 0805")
     (path /563622C5)
-    (fp_text reference C3 (at 0 0.9906) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference C3 (at -2.5525 0) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 4.7n (at 0 -0.9906) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 4.7n (at -0.0525 1.6) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -1872,15 +1872,15 @@
     )
   )
 
-  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 49047394) (tstamp 5638B139)
+  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 56F9A42D) (tstamp 5638B139)
     (at 88.92 141.44 90)
     (descr "SMT capacitor, 0805")
     (path /5635F23B/5636DFB7)
-    (fp_text reference C20 (at 0 0.9906 90) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference C20 (at 0.84 -2.12 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 4.7u (at 0 -0.9906 90) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 4.7u (at -0.96 -2.22 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -1899,15 +1899,15 @@
     )
   )
 
-  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 49047394) (tstamp 5638B13F)
+  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 56F9A208) (tstamp 5638B13F)
     (at 117.17 136.07)
     (descr "SMT capacitor, 0805")
     (path /5635F23B/563686B6)
-    (fp_text reference C21 (at 0 0.9906) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference C21 (at -0.57 -1.57) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 10n (at 0 -0.9906) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 10n (at 2.93 1.03) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -1926,15 +1926,15 @@
     )
   )
 
-  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 49047394) (tstamp 5638B145)
+  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 56F9A1F1) (tstamp 5638B145)
     (at 119.69 133.9)
     (descr "SMT capacitor, 0805")
     (path /5635F23B/56368737)
-    (fp_text reference C22 (at 0 0.9906) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference C22 (at 0 -1.6) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 1u (at 0 -0.9906) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 1u (at 2.51 0) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -1953,15 +1953,15 @@
     )
   )
 
-  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 49047394) (tstamp 5638B14B)
+  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 56F99C32) (tstamp 5638B14B)
     (at 110.25 188.25)
     (descr "SMT capacitor, 0805")
     (path /5635F23B/5636E003)
-    (fp_text reference C23 (at 0 0.9906) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference C23 (at 0 1.65) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 2.2u (at 0 -0.9906) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 2.2u (at 0 -1.55) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -1980,15 +1980,15 @@
     )
   )
 
-  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 49047394) (tstamp 5638B151)
+  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 56F99A42) (tstamp 5638B151)
     (at 109.75 177.5)
     (descr "SMT capacitor, 0805")
     (path /5635F23B/5636DFFC)
-    (fp_text reference C24 (at 0 0.9906) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference C24 (at -0.75 1.6) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 2.2u (at 0 -0.9906) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 2.2u (at 0.85 -1.6) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -2007,15 +2007,15 @@
     )
   )
 
-  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 49047394) (tstamp 5638B15D)
+  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 56F9998C) (tstamp 5638B15D)
     (at 109.71 167.63 90)
     (descr "SMT capacitor, 0805")
     (path /5635F23B/56366493)
-    (fp_text reference C26 (at 0 0.9906 90) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference C26 (at -2.77 -0.01 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 2.2u (at 0 -0.9906 90) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 2.2u (at -0.07 -1.51 90) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -2034,15 +2034,15 @@
     )
   )
 
-  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 49047394) (tstamp 5638B163)
+  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 56F9A2F1) (tstamp 5638B163)
     (at 122.38 157.64 180)
     (descr "SMT capacitor, 0805")
     (path /5635F23B/5636DF26)
-    (fp_text reference C27 (at 0 0.9906 180) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference C27 (at -3.32 0.14 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 2.2u (at 0 -0.9906 180) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 2.2u (at -0.02 1.34 180) (layer B.SilkS)
+      (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -2061,15 +2061,15 @@
     )
   )
 
-  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 49047394) (tstamp 5638B169)
+  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 56F9993D) (tstamp 5638B169)
     (at 97.33 167.64 90)
     (descr "SMT capacitor, 0805")
     (path /5635F23B/5636DF1F)
-    (fp_text reference C28 (at 0 0.9906 90) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference C28 (at 0 1.67 90) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 2.2u (at 0 -0.9906 90) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 2.2u (at -2.66 -0.03 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -2088,15 +2088,15 @@
     )
   )
 
-  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 49047394) (tstamp 5638B175)
+  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 56F9A182) (tstamp 5638B175)
     (at 107.54 134.54)
     (descr "SMT capacitor, 0805")
     (path /5635F23B/5636DF7D)
-    (fp_text reference C30 (at 0 0.9906) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference C30 (at 0.36 -1.94) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 22p (at 0 -0.9906) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 22p (at -2.74 -0.64) (layer B.SilkS)
+      (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -2115,15 +2115,15 @@
     )
   )
 
-  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 49047394) (tstamp 5638B17B)
+  (module w_smd_cap:c_0805 (layer B.Cu) (tedit 56F9A15D) (tstamp 5638B17B)
     (at 111.45 134.55 180)
     (descr "SMT capacitor, 0805")
     (path /5635F23B/5636DF76)
-    (fp_text reference C31 (at 0 0.9906 180) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference C31 (at 0 1.95 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 22p (at 0 -0.9906 180) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 22p (at -2.65 0.65 180) (layer B.SilkS)
+      (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -2142,15 +2142,15 @@
     )
   )
 
-  (module w_smd_cap:c_elec_6.3x5.8 (layer B.Cu) (tedit 49F5C09D) (tstamp 5638B181)
+  (module w_smd_cap:c_elec_6.3x5.8 (layer B.Cu) (tedit 56F99AE7) (tstamp 5638B181)
     (at 107.5 201.75)
     (descr "SMT capacitor, aluminium electrolytic, 6.3x5.8")
     (path /5636686F/56394117)
-    (fp_text reference C32 (at 0 3.937) (layer B.SilkS)
-      (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
+    (fp_text reference C32 (at 4.7 -2.25) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 100u (at 0 -3.81) (layer B.SilkS) hide
-      (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
+    (fp_text value 100u (at 4.9 2.25) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start -2.921 0.762) (end -2.921 -0.762) (layer B.SilkS) (width 0.127))
     (fp_line (start -2.794 -1.143) (end -2.794 1.143) (layer B.SilkS) (width 0.127))
@@ -2177,15 +2177,15 @@
     )
   )
 
-  (module w_smd_cap:c_elec_6.3x5.8 (layer B.Cu) (tedit 49F5C09D) (tstamp 5638B187)
+  (module w_smd_cap:c_elec_6.3x5.8 (layer B.Cu) (tedit 56F99AC7) (tstamp 5638B187)
     (at 107.5 194)
     (descr "SMT capacitor, aluminium electrolytic, 6.3x5.8")
     (path /5636686F/56396CE0)
-    (fp_text reference C33 (at 0 3.937) (layer B.SilkS)
-      (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
+    (fp_text reference C33 (at -4.6 -2.7) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 50u (at 0 -3.81) (layer B.SilkS) hide
-      (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
+    (fp_text value 50u (at -4.5 2.6) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start -2.921 0.762) (end -2.921 -0.762) (layer B.SilkS) (width 0.127))
     (fp_line (start -2.794 -1.143) (end -2.794 1.143) (layer B.SilkS) (width 0.127))
@@ -2212,13 +2212,13 @@
     )
   )
 
-  (module w_pin_strip:pin_strip_3 (layer F.Cu) (tedit 4B90E017) (tstamp 5638B1E2)
+  (module w_pin_strip:pin_strip_3 (layer F.Cu) (tedit 56F9A4E0) (tstamp 5638B1E2)
     (at 110.46 208.5)
     (descr "Pin strip 3pin")
     (tags "CONN DEV")
     (path /5635F23B/5636E068)
-    (fp_text reference JP1 (at 0 -2.159) (layer F.SilkS)
-      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    (fp_text reference JP1 (at 0 -2.159) (layer B.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify mirror))
     )
     (fp_text value JUMPER3 (at 0.254 -3.556) (layer F.SilkS) hide
       (effects (font (size 1.016 0.889) (thickness 0.2032)))
@@ -2241,11 +2241,11 @@
     )
   )
 
-  (module knielsenlib:RGB_0603 (layer F.Cu) (tedit 54BA3EF3) (tstamp 5638B1EA)
+  (module knielsenlib:RGB_0603 (layer F.Cu) (tedit 56F99F60) (tstamp 5638B1EA)
     (at 151.06657 100.719611 90)
     (descr "RGB led, 0603")
     (path /5636686F/56366DA7)
-    (fp_text reference LD1 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD1 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -2279,11 +2279,11 @@
     )
   )
 
-  (module knielsenlib:RGB_0603 (layer F.Cu) (tedit 54BA3EF3) (tstamp 5638B1F2)
+  (module knielsenlib:RGB_0603 (layer F.Cu) (tedit 56F99F67) (tstamp 5638B1F2)
     (at 168.166673 100.719611 90)
     (descr "RGB led, 0603")
     (path /5636686F/563755C1)
-    (fp_text reference LD2 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD2 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -2321,7 +2321,7 @@
     (at 176.285328 100.719611 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375628)
-    (fp_text reference LD3 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD3 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -2359,7 +2359,7 @@
     (at 182.921253 100.719611 90)
     (descr "RGB led, 0603")
     (path /5636686F/5637563B)
-    (fp_text reference LD4 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD4 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -2397,7 +2397,7 @@
     (at 188.84198 100.719611 90)
     (descr "RGB led, 0603")
     (path /5636686F/563757D6)
-    (fp_text reference LD5 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD5 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -2435,7 +2435,7 @@
     (at 194.334973 100.719611 90)
     (descr "RGB led, 0603")
     (path /5636686F/563757E9)
-    (fp_text reference LD6 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD6 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -2473,7 +2473,7 @@
     (at 199.542712 100.719611 90)
     (descr "RGB led, 0603")
     (path /5636686F/563757FC)
-    (fp_text reference LD7 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD7 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -2511,7 +2511,7 @@
     (at 204.546959 100.719611 90)
     (descr "RGB led, 0603")
     (path /5636686F/5637580F)
-    (fp_text reference LD8 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD8 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -2549,7 +2549,7 @@
     (at 209.399168 100.719611 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375B5A)
-    (fp_text reference LD9 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD9 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -2587,7 +2587,7 @@
     (at 159.202603 107.29033 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375B6D)
-    (fp_text reference LD10 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD10 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -2625,7 +2625,7 @@
     (at 169.534031 107.29033 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375B80)
-    (fp_text reference LD11 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD11 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -2663,7 +2663,7 @@
     (at 176.654621 107.29033 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375B93)
-    (fp_text reference LD12 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD12 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -2701,7 +2701,7 @@
     (at 182.731625 107.29033 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375BA6)
-    (fp_text reference LD13 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD13 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -2739,7 +2739,7 @@
     (at 188.265516 107.29033 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375BB9)
-    (fp_text reference LD14 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD14 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -2777,7 +2777,7 @@
     (at 193.46424 107.29033 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375BCC)
-    (fp_text reference LD15 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD15 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -2815,7 +2815,7 @@
     (at 198.43584 107.29033 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375BDF)
-    (fp_text reference LD16 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD16 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -2853,7 +2853,7 @@
     (at 203.243977 107.29033 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375E0A)
-    (fp_text reference LD17 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD17 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -2891,7 +2891,7 @@
     (at 207.929367 107.29033 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375E1D)
-    (fp_text reference LD18 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD18 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -2929,7 +2929,7 @@
     (at 212.519613 107.29033 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375E30)
-    (fp_text reference LD19 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD19 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -2967,7 +2967,7 @@
     (at 162.078475 113.861048 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375E43)
-    (fp_text reference LD20 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD20 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3005,7 +3005,7 @@
     (at 170.267709 113.861048 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375E56)
-    (fp_text reference LD21 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD21 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3043,7 +3043,7 @@
     (at 176.602076 113.861048 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375E69)
-    (fp_text reference LD22 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD22 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3081,7 +3081,7 @@
     (at 182.195666 113.861048 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375E7C)
-    (fp_text reference LD23 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD23 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3119,7 +3119,7 @@
     (at 187.382501 113.861048 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375E8F)
-    (fp_text reference LD24 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD24 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3157,7 +3157,7 @@
     (at 192.312431 113.861048 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375EA2)
-    (fp_text reference LD25 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD25 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3195,7 +3195,7 @@
     (at 197.066254 113.861048 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375EB5)
-    (fp_text reference LD26 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD26 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3233,7 +3233,7 @@
     (at 201.692579 113.861048 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375EC8)
-    (fp_text reference LD27 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD27 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3271,7 +3271,7 @@
     (at 206.222888 113.861048 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375EDB)
-    (fp_text reference LD28 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD28 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3309,7 +3309,7 @@
     (at 210.678692 113.861048 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375EEE)
-    (fp_text reference LD29 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD29 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3347,7 +3347,7 @@
     (at 215.075296 113.861048 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375F01)
-    (fp_text reference LD30 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD30 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3385,7 +3385,7 @@
     (at 163.592002 120.431767 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375F14)
-    (fp_text reference LD31 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD31 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3423,7 +3423,7 @@
     (at 170.43607 120.431767 90)
     (descr "RGB led, 0603")
     (path /5636686F/56375F27)
-    (fp_text reference LD32 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD32 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3461,7 +3461,7 @@
     (at 176.125149 120.431767 90)
     (descr "RGB led, 0603")
     (path /5636686F/56376452)
-    (fp_text reference LD33 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD33 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3499,7 +3499,7 @@
     (at 181.295589 120.431767 90)
     (descr "RGB led, 0603")
     (path /5636686F/56376465)
-    (fp_text reference LD34 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD34 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3537,7 +3537,7 @@
     (at 190.85578 120.431767 90)
     (descr "RGB led, 0603")
     (path /5636686F/5637648B)
-    (fp_text reference LD36 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD36 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3575,7 +3575,7 @@
     (at 195.410189 120.431767 90)
     (descr "RGB led, 0603")
     (path /5636686F/5637649E)
-    (fp_text reference LD37 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD37 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3613,7 +3613,7 @@
     (at 199.869587 120.431767 90)
     (descr "RGB led, 0603")
     (path /5636686F/563764B1)
-    (fp_text reference LD38 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD38 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3651,7 +3651,7 @@
     (at 204.257406 120.431767 90)
     (descr "RGB led, 0603")
     (path /5636686F/563764C4)
-    (fp_text reference LD39 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD39 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3689,7 +3689,7 @@
     (at 208.589731 120.431767 90)
     (descr "RGB led, 0603")
     (path /5636686F/563764D7)
-    (fp_text reference LD40 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD40 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3727,7 +3727,7 @@
     (at 212.878033 120.431767 90)
     (descr "RGB led, 0603")
     (path /5636686F/563764EA)
-    (fp_text reference LD41 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD41 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3765,7 +3765,7 @@
     (at 217.130749 120.431767 90)
     (descr "RGB led, 0603")
     (path /5636686F/563764FD)
-    (fp_text reference LD42 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD42 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3803,7 +3803,7 @@
     (at 164.186148 127.002485 90)
     (descr "RGB led, 0603")
     (path /5636686F/56376510)
-    (fp_text reference LD43 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD43 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3841,7 +3841,7 @@
     (at 170.05336 127.002485 90)
     (descr "RGB led, 0603")
     (path /5636686F/56376523)
-    (fp_text reference LD44 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD44 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3879,7 +3879,7 @@
     (at 175.199756 127.002485 90)
     (descr "RGB led, 0603")
     (path /5636686F/56376536)
-    (fp_text reference LD45 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD45 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3917,7 +3917,7 @@
     (at 179.998636 127.002485 90)
     (descr "RGB led, 0603")
     (path /5636686F/56376549)
-    (fp_text reference LD46 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD46 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3955,7 +3955,7 @@
     (at 184.594922 127.002485 90)
     (descr "RGB led, 0603")
     (path /5636686F/5637655C)
-    (fp_text reference LD47 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD47 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -3993,7 +3993,7 @@
     (at 189.060198 127.002485 90)
     (descr "RGB led, 0603")
     (path /5636686F/5637656F)
-    (fp_text reference LD48 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD48 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4031,7 +4031,7 @@
     (at 193.434888 127.002485 90)
     (descr "RGB led, 0603")
     (path /5636686F/56376582)
-    (fp_text reference LD49 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD49 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4069,7 +4069,7 @@
     (at 197.7439 127.002485 90)
     (descr "RGB led, 0603")
     (path /5636686F/56376595)
-    (fp_text reference LD50 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD50 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4107,7 +4107,7 @@
     (at 202.003562 127.002485 90)
     (descr "RGB led, 0603")
     (path /5636686F/563765A8)
-    (fp_text reference LD51 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD51 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4145,7 +4145,7 @@
     (at 206.225091 127.002485 90)
     (descr "RGB led, 0603")
     (path /5636686F/563765BB)
-    (fp_text reference LD52 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD52 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4183,7 +4183,7 @@
     (at 210.416482 127.002485 90)
     (descr "RGB led, 0603")
     (path /5636686F/563765CE)
-    (fp_text reference LD53 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD53 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4221,7 +4221,7 @@
     (at 214.583603 127.002485 90)
     (descr "RGB led, 0603")
     (path /5636686F/563765E1)
-    (fp_text reference LD54 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD54 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4259,7 +4259,7 @@
     (at 218.730868 127.002485 90)
     (descr "RGB led, 0603")
     (path /5636686F/563765F4)
-    (fp_text reference LD55 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD55 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4297,7 +4297,7 @@
     (at 169.086457 133.573204 90)
     (descr "RGB led, 0603")
     (path /5636686F/56376607)
-    (fp_text reference LD56 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD56 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4335,7 +4335,7 @@
     (at 173.773584 133.573204 90)
     (descr "RGB led, 0603")
     (path /5636686F/5637661A)
-    (fp_text reference LD57 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD57 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4373,7 +4373,7 @@
     (at 178.250199 133.573204 90)
     (descr "RGB led, 0603")
     (path /5636686F/5637662D)
-    (fp_text reference LD58 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD58 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4411,7 +4411,7 @@
     (at 182.603132 133.573204 90)
     (descr "RGB led, 0603")
     (path /5636686F/56376640)
-    (fp_text reference LD59 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD59 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4449,7 +4449,7 @@
     (at 186.876207 133.573204 90)
     (descr "RGB led, 0603")
     (path /5636686F/56376653)
-    (fp_text reference LD60 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD60 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4487,7 +4487,7 @@
     (at 191.094344 133.573204 90)
     (descr "RGB led, 0603")
     (path /5636686F/56376666)
-    (fp_text reference LD61 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD61 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4525,7 +4525,7 @@
     (at 195.272901 133.573204 90)
     (descr "RGB led, 0603")
     (path /5636686F/56376679)
-    (fp_text reference LD62 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD62 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4563,7 +4563,7 @@
     (at 199.421919 133.573204 90)
     (descr "RGB led, 0603")
     (path /5636686F/5637668C)
-    (fp_text reference LD63 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD63 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4601,7 +4601,7 @@
     (at 203.548263 133.573204 90)
     (descr "RGB led, 0603")
     (path /5636686F/5637669F)
-    (fp_text reference LD64 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD64 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4639,7 +4639,7 @@
     (at 207.656803 133.573204 90)
     (descr "RGB led, 0603")
     (path /5636686F/563777D6)
-    (fp_text reference LD65 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD65 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4677,7 +4677,7 @@
     (at 211.751092 133.573204 90)
     (descr "RGB led, 0603")
     (path /5636686F/563777E9)
-    (fp_text reference LD66 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD66 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4715,7 +4715,7 @@
     (at 215.83379 133.573204 90)
     (descr "RGB led, 0603")
     (path /5636686F/563777FC)
-    (fp_text reference LD67 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD67 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4753,7 +4753,7 @@
     (at 219.906926 133.573204 90)
     (descr "RGB led, 0603")
     (path /5636686F/5637780F)
-    (fp_text reference LD68 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD68 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4791,7 +4791,7 @@
     (at 167.438457 140.143922 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377822)
-    (fp_text reference LD69 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD69 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4829,7 +4829,7 @@
     (at 171.748338 140.143922 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377835)
-    (fp_text reference LD70 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD70 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4867,7 +4867,7 @@
     (at 175.959212 140.143922 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377848)
-    (fp_text reference LD71 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD71 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4905,7 +4905,7 @@
     (at 180.112641 140.143922 90)
     (descr "RGB led, 0603")
     (path /5636686F/5637785B)
-    (fp_text reference LD72 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD72 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4943,7 +4943,7 @@
     (at 184.229543 140.143922 90)
     (descr "RGB led, 0603")
     (path /5636686F/5637786E)
-    (fp_text reference LD73 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD73 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -4981,7 +4981,7 @@
     (at 188.321691 140.143922 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377881)
-    (fp_text reference LD74 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD74 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5019,7 +5019,7 @@
     (at 192.396256 140.143922 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377894)
-    (fp_text reference LD75 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD75 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5057,7 +5057,7 @@
     (at 196.457862 140.143922 90)
     (descr "RGB led, 0603")
     (path /5636686F/563778A7)
-    (fp_text reference LD76 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD76 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5095,7 +5095,7 @@
     (at 200.509637 140.143922 90)
     (descr "RGB led, 0603")
     (path /5636686F/563778BA)
-    (fp_text reference LD77 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD77 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5133,7 +5133,7 @@
     (at 204.55377 140.143922 90)
     (descr "RGB led, 0603")
     (path /5636686F/563778CD)
-    (fp_text reference LD78 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD78 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5171,7 +5171,7 @@
     (at 208.591845 140.143922 90)
     (descr "RGB led, 0603")
     (path /5636686F/563778E0)
-    (fp_text reference LD79 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD79 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5209,7 +5209,7 @@
     (at 212.625033 140.143922 90)
     (descr "RGB led, 0603")
     (path /5636686F/563778F3)
-    (fp_text reference LD80 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD80 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5247,7 +5247,7 @@
     (at 216.654221 140.143922 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377906)
-    (fp_text reference LD81 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD81 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5285,7 +5285,7 @@
     (at 220.680094 140.143922 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377919)
-    (fp_text reference LD82 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD82 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5323,7 +5323,7 @@
     (at 168.932735 146.714641 90)
     (descr "RGB led, 0603")
     (path /5636686F/5637792C)
-    (fp_text reference LD83 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD83 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5361,7 +5361,7 @@
     (at 172.963861 146.714641 90)
     (descr "RGB led, 0603")
     (path /5636686F/5637793F)
-    (fp_text reference LD84 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD84 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5399,7 +5399,7 @@
     (at 176.985725 146.714641 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377952)
-    (fp_text reference LD85 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD85 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5437,7 +5437,7 @@
     (at 181.001932 146.714641 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377965)
-    (fp_text reference LD86 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD86 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5475,7 +5475,7 @@
     (at 185.014429 146.714641 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377978)
-    (fp_text reference LD87 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD87 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5513,7 +5513,7 @@
     (at 189.024361 146.714641 90)
     (descr "RGB led, 0603")
     (path /5636686F/5637798B)
-    (fp_text reference LD88 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD88 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5551,7 +5551,7 @@
     (at 193.032443 146.714641 90)
     (descr "RGB led, 0603")
     (path /5636686F/5637799E)
-    (fp_text reference LD89 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD89 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5589,7 +5589,7 @@
     (at 197.03915 146.714641 90)
     (descr "RGB led, 0603")
     (path /5636686F/563779B1)
-    (fp_text reference LD90 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD90 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5627,7 +5627,7 @@
     (at 201.044805 146.714641 90)
     (descr "RGB led, 0603")
     (path /5636686F/563779C4)
-    (fp_text reference LD91 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD91 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5665,7 +5665,7 @@
     (at 205.049637 146.714641 90)
     (descr "RGB led, 0603")
     (path /5636686F/563779D7)
-    (fp_text reference LD92 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD92 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5703,7 +5703,7 @@
     (at 209.053814 146.714641 90)
     (descr "RGB led, 0603")
     (path /5636686F/563779EA)
-    (fp_text reference LD93 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD93 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5741,7 +5741,7 @@
     (at 213.057461 146.714641 90)
     (descr "RGB led, 0603")
     (path /5636686F/563779FD)
-    (fp_text reference LD94 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD94 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5779,7 +5779,7 @@
     (at 217.060673 146.714641 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377A10)
-    (fp_text reference LD95 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD95 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5817,7 +5817,7 @@
     (at 221.063523 146.714641 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377A23)
-    (fp_text reference LD96 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD96 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5855,7 +5855,7 @@
     (at 168.932735 153.285359 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377A36)
-    (fp_text reference LD97 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD97 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5893,7 +5893,7 @@
     (at 172.963861 153.285359 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377A49)
-    (fp_text reference LD98 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD98 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5931,7 +5931,7 @@
     (at 176.985725 153.285359 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377A5C)
-    (fp_text reference LD99 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD99 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -5969,7 +5969,7 @@
     (at 181.001932 153.285359 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377A6F)
-    (fp_text reference LD100 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD100 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6007,7 +6007,7 @@
     (at 185.014429 153.285359 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377A82)
-    (fp_text reference LD101 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD101 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6045,7 +6045,7 @@
     (at 189.024361 153.285359 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377A95)
-    (fp_text reference LD102 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD102 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6083,7 +6083,7 @@
     (at 193.032443 153.285359 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377AA8)
-    (fp_text reference LD103 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD103 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6121,7 +6121,7 @@
     (at 197.03915 153.285359 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377ABB)
-    (fp_text reference LD104 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD104 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6159,7 +6159,7 @@
     (at 201.044805 153.285359 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377ACE)
-    (fp_text reference LD105 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD105 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6197,7 +6197,7 @@
     (at 205.049637 153.285359 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377AE1)
-    (fp_text reference LD106 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD106 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6235,7 +6235,7 @@
     (at 209.053814 153.285359 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377AF4)
-    (fp_text reference LD107 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD107 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6273,7 +6273,7 @@
     (at 213.057461 153.285359 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377B07)
-    (fp_text reference LD108 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD108 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6311,7 +6311,7 @@
     (at 217.060673 153.285359 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377B1A)
-    (fp_text reference LD109 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD109 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6349,7 +6349,7 @@
     (at 221.063523 153.285359 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377B2D)
-    (fp_text reference LD110 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD110 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6387,7 +6387,7 @@
     (at 167.438457 159.856078 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377B40)
-    (fp_text reference LD111 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD111 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6425,7 +6425,7 @@
     (at 171.748338 159.856078 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377B53)
-    (fp_text reference LD112 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD112 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6463,7 +6463,7 @@
     (at 175.959212 159.856078 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377B66)
-    (fp_text reference LD113 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD113 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6501,7 +6501,7 @@
     (at 180.112641 159.856078 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377B79)
-    (fp_text reference LD114 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD114 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6539,7 +6539,7 @@
     (at 184.229543 159.856078 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377B8C)
-    (fp_text reference LD115 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD115 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6577,7 +6577,7 @@
     (at 188.321691 159.856078 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377B9F)
-    (fp_text reference LD116 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD116 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6615,7 +6615,7 @@
     (at 192.396256 159.856078 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377BB2)
-    (fp_text reference LD117 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD117 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6653,7 +6653,7 @@
     (at 196.457862 159.856078 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377BC5)
-    (fp_text reference LD118 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD118 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6691,7 +6691,7 @@
     (at 200.509637 159.856078 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377BD8)
-    (fp_text reference LD119 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD119 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6729,7 +6729,7 @@
     (at 204.55377 159.856078 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377BEB)
-    (fp_text reference LD120 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD120 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6767,7 +6767,7 @@
     (at 208.591845 159.856078 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377BFE)
-    (fp_text reference LD121 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD121 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6805,7 +6805,7 @@
     (at 212.625033 159.856078 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377C11)
-    (fp_text reference LD122 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD122 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6843,7 +6843,7 @@
     (at 216.654221 159.856078 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377C24)
-    (fp_text reference LD123 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD123 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6881,7 +6881,7 @@
     (at 220.680094 159.856078 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377C37)
-    (fp_text reference LD124 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD124 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6919,7 +6919,7 @@
     (at 169.086457 166.426796 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377C4A)
-    (fp_text reference LD125 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD125 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6957,7 +6957,7 @@
     (at 173.773584 166.426796 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377C5D)
-    (fp_text reference LD126 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD126 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -6995,7 +6995,7 @@
     (at 178.250199 166.426796 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377C70)
-    (fp_text reference LD127 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD127 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7033,7 +7033,7 @@
     (at 182.603132 166.426796 90)
     (descr "RGB led, 0603")
     (path /5636686F/56377C83)
-    (fp_text reference LD128 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD128 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7071,7 +7071,7 @@
     (at 186.876207 166.426796 90)
     (descr "RGB led, 0603")
     (path /5636686F/563788BA)
-    (fp_text reference LD129 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD129 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7109,7 +7109,7 @@
     (at 191.094344 166.426796 90)
     (descr "RGB led, 0603")
     (path /5636686F/563788CD)
-    (fp_text reference LD130 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD130 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7147,7 +7147,7 @@
     (at 195.272901 166.426796 90)
     (descr "RGB led, 0603")
     (path /5636686F/563788E0)
-    (fp_text reference LD131 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD131 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7185,7 +7185,7 @@
     (at 199.421919 166.426796 90)
     (descr "RGB led, 0603")
     (path /5636686F/563788F3)
-    (fp_text reference LD132 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD132 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7223,7 +7223,7 @@
     (at 203.548263 166.426796 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378906)
-    (fp_text reference LD133 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD133 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7261,7 +7261,7 @@
     (at 207.656803 166.426796 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378919)
-    (fp_text reference LD134 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD134 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7299,7 +7299,7 @@
     (at 211.751092 166.426796 90)
     (descr "RGB led, 0603")
     (path /5636686F/5637892C)
-    (fp_text reference LD135 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD135 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7337,7 +7337,7 @@
     (at 215.83379 166.426796 90)
     (descr "RGB led, 0603")
     (path /5636686F/5637893F)
-    (fp_text reference LD136 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD136 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7375,7 +7375,7 @@
     (at 219.906926 166.426796 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378952)
-    (fp_text reference LD137 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD137 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7413,7 +7413,7 @@
     (at 164.186148 172.997515 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378965)
-    (fp_text reference LD138 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD138 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7451,7 +7451,7 @@
     (at 170.05336 172.997515 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378978)
-    (fp_text reference LD139 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD139 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7489,7 +7489,7 @@
     (at 175.199756 172.997515 90)
     (descr "RGB led, 0603")
     (path /5636686F/5637898B)
-    (fp_text reference LD140 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD140 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7527,7 +7527,7 @@
     (at 179.998636 172.997515 90)
     (descr "RGB led, 0603")
     (path /5636686F/5637899E)
-    (fp_text reference LD141 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD141 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7565,7 +7565,7 @@
     (at 184.594922 172.997515 90)
     (descr "RGB led, 0603")
     (path /5636686F/563789B1)
-    (fp_text reference LD142 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD142 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7603,7 +7603,7 @@
     (at 189.060198 172.997515 90)
     (descr "RGB led, 0603")
     (path /5636686F/563789C4)
-    (fp_text reference LD143 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD143 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7641,7 +7641,7 @@
     (at 193.434888 172.997515 90)
     (descr "RGB led, 0603")
     (path /5636686F/563789D7)
-    (fp_text reference LD144 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD144 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7679,7 +7679,7 @@
     (at 197.7439 172.997515 90)
     (descr "RGB led, 0603")
     (path /5636686F/563789EA)
-    (fp_text reference LD145 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD145 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7717,7 +7717,7 @@
     (at 202.003562 172.997515 90)
     (descr "RGB led, 0603")
     (path /5636686F/563789FD)
-    (fp_text reference LD146 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD146 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7755,7 +7755,7 @@
     (at 206.225091 172.997515 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378A10)
-    (fp_text reference LD147 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD147 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7793,7 +7793,7 @@
     (at 210.416482 172.997515 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378A23)
-    (fp_text reference LD148 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD148 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7831,7 +7831,7 @@
     (at 214.583603 172.997515 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378A36)
-    (fp_text reference LD149 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD149 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7869,7 +7869,7 @@
     (at 218.730868 172.997515 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378A49)
-    (fp_text reference LD150 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD150 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7907,7 +7907,7 @@
     (at 163.592002 179.568233 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378A5C)
-    (fp_text reference LD151 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD151 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7945,7 +7945,7 @@
     (at 170.43607 179.568233 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378A6F)
-    (fp_text reference LD152 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD152 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -7983,7 +7983,7 @@
     (at 176.125149 179.568233 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378A82)
-    (fp_text reference LD153 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD153 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8021,7 +8021,7 @@
     (at 181.295589 179.568233 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378A95)
-    (fp_text reference LD154 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD154 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8059,7 +8059,7 @@
     (at 186.17049 179.568233 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378AA8)
-    (fp_text reference LD155 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD155 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8097,7 +8097,7 @@
     (at 190.85578 179.568233 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378ABB)
-    (fp_text reference LD156 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD156 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8135,7 +8135,7 @@
     (at 195.410189 179.568233 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378ACE)
-    (fp_text reference LD157 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD157 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8173,7 +8173,7 @@
     (at 199.869587 179.568233 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378AE1)
-    (fp_text reference LD158 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD158 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8211,7 +8211,7 @@
     (at 204.257406 179.568233 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378AF4)
-    (fp_text reference LD159 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD159 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8249,7 +8249,7 @@
     (at 208.589731 179.568233 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378B07)
-    (fp_text reference LD160 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD160 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8287,7 +8287,7 @@
     (at 212.878033 179.568233 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378B1A)
-    (fp_text reference LD161 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD161 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8325,7 +8325,7 @@
     (at 217.130749 179.568233 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378B2D)
-    (fp_text reference LD162 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD162 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8363,7 +8363,7 @@
     (at 162.078475 186.138952 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378B40)
-    (fp_text reference LD163 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD163 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8401,7 +8401,7 @@
     (at 170.267709 186.138952 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378B53)
-    (fp_text reference LD164 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD164 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8439,7 +8439,7 @@
     (at 176.602076 186.138952 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378B66)
-    (fp_text reference LD165 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD165 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8477,7 +8477,7 @@
     (at 182.195666 186.138952 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378B79)
-    (fp_text reference LD166 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD166 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8515,7 +8515,7 @@
     (at 187.382501 186.138952 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378B8C)
-    (fp_text reference LD167 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD167 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8553,7 +8553,7 @@
     (at 192.312431 186.138952 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378B9F)
-    (fp_text reference LD168 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD168 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8591,7 +8591,7 @@
     (at 197.066254 186.138952 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378BB2)
-    (fp_text reference LD169 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD169 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8629,7 +8629,7 @@
     (at 201.692579 186.138952 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378BC5)
-    (fp_text reference LD170 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD170 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8667,7 +8667,7 @@
     (at 206.222888 186.138952 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378BD8)
-    (fp_text reference LD171 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD171 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8705,7 +8705,7 @@
     (at 210.678692 186.138952 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378BEB)
-    (fp_text reference LD172 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD172 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8743,7 +8743,7 @@
     (at 215.075296 186.138952 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378BFE)
-    (fp_text reference LD173 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD173 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8781,7 +8781,7 @@
     (at 159.202603 192.70967 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378C11)
-    (fp_text reference LD174 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD174 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8819,7 +8819,7 @@
     (at 169.534031 192.70967 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378C24)
-    (fp_text reference LD175 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD175 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8857,7 +8857,7 @@
     (at 176.654621 192.70967 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378C37)
-    (fp_text reference LD176 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD176 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8895,7 +8895,7 @@
     (at 182.731625 192.70967 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378C4A)
-    (fp_text reference LD177 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD177 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8933,7 +8933,7 @@
     (at 188.265516 192.70967 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378C5D)
-    (fp_text reference LD178 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD178 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -8971,7 +8971,7 @@
     (at 193.46424 192.70967 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378C70)
-    (fp_text reference LD179 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD179 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -9009,7 +9009,7 @@
     (at 198.43584 192.70967 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378C83)
-    (fp_text reference LD180 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD180 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -9047,7 +9047,7 @@
     (at 203.243977 192.70967 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378C96)
-    (fp_text reference LD181 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD181 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -9085,7 +9085,7 @@
     (at 207.929367 192.70967 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378CA9)
-    (fp_text reference LD182 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD182 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -9123,7 +9123,7 @@
     (at 212.519613 192.70967 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378CBC)
-    (fp_text reference LD183 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD183 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -9161,7 +9161,7 @@
     (at 151.06657 199.280389 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378CCF)
-    (fp_text reference LD184 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD184 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -9199,7 +9199,7 @@
     (at 168.166673 199.280389 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378CE2)
-    (fp_text reference LD185 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD185 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -9237,7 +9237,7 @@
     (at 176.285328 199.280389 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378CF5)
-    (fp_text reference LD186 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD186 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -9275,7 +9275,7 @@
     (at 182.921253 199.280389 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378D08)
-    (fp_text reference LD187 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD187 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -9313,7 +9313,7 @@
     (at 188.84198 199.280389 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378D1B)
-    (fp_text reference LD188 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD188 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -9351,7 +9351,7 @@
     (at 194.334973 199.280389 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378D2E)
-    (fp_text reference LD189 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD189 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -9389,7 +9389,7 @@
     (at 199.542712 199.280389 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378D41)
-    (fp_text reference LD190 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD190 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -9427,7 +9427,7 @@
     (at 204.546959 199.280389 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378D54)
-    (fp_text reference LD191 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD191 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -9465,7 +9465,7 @@
     (at 209.399168 199.280389 90)
     (descr "RGB led, 0603")
     (path /5636686F/56378D67)
-    (fp_text reference LD192 (at 0 -1.15 90) (layer F.SilkS)
+    (fp_text reference LD192 (at 0 -1.15 90) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_text value RGB_LED_SMALL (at 0 1.15 90) (layer F.SilkS) hide
@@ -9504,7 +9504,7 @@
     (descr "Pin socket 4x2pin")
     (tags "CONN DEV")
     (path /56362A21)
-    (fp_text reference P1 (at 0 3.81 180) (layer B.SilkS)
+    (fp_text reference P1 (at 0 -3.87 180) (layer B.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify mirror))
     )
     (fp_text value CONN_02X04 (at 0 5.08 180) (layer B.SilkS) hide
@@ -9652,11 +9652,11 @@
     )
   )
 
-  (module knielsenlib:10103594-0001LF (layer F.Cu) (tedit 56F3D7C9) (tstamp 5638B821)
+  (module knielsenlib:10103594-0001LF (layer F.Cu) (tedit 56F9A50F) (tstamp 5638B821)
     (at 77.67552 150 270)
     (path /5635F23B/5636E082)
-    (fp_text reference P5 (at 0 -5.4991 270) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+    (fp_text reference P5 (at 0 -5.4991 270) (layer B.SilkS)
+      (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value KNUSB (at 0 3.50012 270) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -9698,15 +9698,15 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 49047384) (tstamp 5638B837)
+  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 56F9987A) (tstamp 5638B837)
     (at 85.61 159.42 90)
     (descr "SMT resistor, 0805")
     (path /563621D3)
-    (fp_text reference R1 (at 0 0.9906 90) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference R1 (at 0.01 1.65 90) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 47k (at 0 -0.9906 90) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 47k (at 0.01 -1.54 90) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -9725,15 +9725,15 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 49047384) (tstamp 5638B83D)
+  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 56F99B15) (tstamp 5638B83D)
     (at 96.5 202.5)
     (descr "SMT resistor, 0805")
     (path /563622B8)
-    (fp_text reference R2 (at 0 0.9906) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference R2 (at -2.7 0.1) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 10k (at 0 -0.9906) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 10k (at 0 -1.5) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -9752,15 +9752,15 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 49047384) (tstamp 5638B843)
+  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 56F99CE1) (tstamp 5638B843)
     (at 115.24 191.88 270)
     (descr "SMT resistor, 0805")
     (path /563621EB)
-    (fp_text reference R3 (at 0 0.9906 270) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference R3 (at 2.52 -0.16 360) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 22k (at 0 -0.9906 270) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 22k (at 0 1.54 270) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -9779,15 +9779,15 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 49047384) (tstamp 5638B849)
+  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 56F99CEF) (tstamp 5638B849)
     (at 117.61 191.89 90)
     (descr "SMT resistor, 0805")
     (path /563621F2)
-    (fp_text reference R4 (at 0 0.9906 90) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference R4 (at -2.51 -0.01 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 10k (at 0 -0.9906 90) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 10k (at 2.39 -0.01 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -9806,15 +9806,15 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 49047384) (tstamp 5638B84F)
+  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 56F9A690) (tstamp 5638B84F)
     (at 146.94 160.01 90)
     (descr "SMT resistor, 0805")
     (path /563621AA)
-    (fp_text reference R5 (at 0 0.9906 90) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference R5 (at 2.41 -0.04 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 47k (at 0 -0.9906 90) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 47k (at -2.59 0.06 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -9833,15 +9833,15 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 49047384) (tstamp 5638B855)
+  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 56F99D3F) (tstamp 5638B855)
     (at 116.75 183.25 270)
     (descr "SMT resistor, 0805")
     (path /5635F23B/5636E034)
-    (fp_text reference R6 (at 0 0.9906 270) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference R6 (at -0.05 1.55 270) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 1k (at 0 -0.9906 270) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 1k (at 2.25 -0.05 360) (layer B.SilkS)
+      (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -9860,15 +9860,15 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 49047384) (tstamp 5638B85B)
+  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 56F9A0ED) (tstamp 5638B85B)
     (at 108.5 122 180)
     (descr "SMT resistor, 0805")
     (path /5635F23B/5636E02D)
-    (fp_text reference R7 (at 0 0.9906 180) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference R7 (at 0 -1.6 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 1k (at 0 -0.9906 180) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 1k (at -2.5 0 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -9887,15 +9887,15 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 49047384) (tstamp 5638B861)
+  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 56F99A74) (tstamp 5638B861)
     (at 99.27 175.06 90)
     (descr "SMT resistor, 0805")
     (path /5638A770)
-    (fp_text reference R8 (at 0 0.9906 90) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference R8 (at 0 1.63 90) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 10k (at 0 -0.9906 90) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 10k (at 0 -1.57 90) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -9914,15 +9914,15 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 49047384) (tstamp 5638B867)
+  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 56F9A270) (tstamp 5638B867)
     (at 125.64 141.69 270)
     (descr "SMT resistor, 0805")
     (path /5635F23B/563881BA)
-    (fp_text reference R9 (at 0 0.9906 270) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference R9 (at -2.39 0.04 360) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 10k (at 0 -0.9906 270) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 10k (at 2.51 0.04 360) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -9941,15 +9941,15 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 49047384) (tstamp 5638B86D)
+  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 56F9A3B8) (tstamp 5638B86D)
     (at 89.65 144.86 180)
     (descr "SMT resistor, 0805")
     (path /5635F23B/563890C0)
-    (fp_text reference R10 (at 0 0.9906 180) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference R10 (at -0.05 -1.64 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 510 (at 0 -0.9906 180) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 510 (at 3.35 -0.14 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -9968,15 +9968,15 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 49047384) (tstamp 5638B873)
+  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 56F9A40E) (tstamp 5638B873)
     (at 89.99 137.43)
     (descr "SMT resistor, 0805")
     (path /5635F23B/56389706)
-    (fp_text reference R11 (at 0 0.9906) (layer B.SilkS)
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text reference R11 (at 0.01 -1.53) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 10k (at 0 -0.9906) (layer B.SilkS) hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
+    (fp_text value 10k (at -2.89 -0.03) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.635 0.635) (end 0.635 -0.635) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.635 0.635) (end -0.635 -0.6096) (layer B.SilkS) (width 0.127))
@@ -10390,14 +10390,14 @@
     )
   )
 
-  (module knielsenlib:2-SOJ (layer B.Cu) (tedit 51E3FACE) (tstamp 5639EA72)
+  (module knielsenlib:2-SOJ (layer B.Cu) (tedit 56F9A112) (tstamp 5639EA72)
     (at 109.53 130.33)
     (descr "Eg. MA-505 crystal")
     (path /5635F23B/563C30B0)
-    (fp_text reference X1 (at 0 5.00126) (layer B.SilkS)
+    (fp_text reference X1 (at 0 -4.53) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (fp_text value MA-505 (at 0 -5.00126) (layer B.SilkS)
+    (fp_text value MA-505 (at 0.27 4.27) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (pad 1 smd rect (at -5.5499 0) (size 4.09956 5.6007) (layers B.Cu B.Paste B.Mask)
@@ -10425,12 +10425,12 @@
     (pad 1 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers))
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56E91060)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F99EDB) (tstamp 56E91060)
     (at 167.01 96.66 270)
     (descr "SMT capacitor, 0603")
     (path /5636686F/56388054)
-    (fp_text reference C34 (at 0 0.635 270) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C34 (at 0 1.31 270) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_text value 100n (at 0 -0.635 270) (layer B.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
@@ -10452,12 +10452,12 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56E91065)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F99F13) (tstamp 56E91065)
     (at 187.39 96.54 90)
     (descr "SMT capacitor, 0603")
     (path /5636686F/5638862D)
-    (fp_text reference C35 (at 0 0.635 90) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C35 (at -2.16 -0.49 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_text value 100n (at 0 -0.635 90) (layer B.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
@@ -10479,12 +10479,12 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56E9106A)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F99EAD) (tstamp 56E9106A)
     (at 143.89 113.88)
     (descr "SMT capacitor, 0603")
     (path /5636686F/563887EF)
-    (fp_text reference C36 (at 0 0.635) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C36 (at 0 1.92) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_text value 100n (at 0 -0.635) (layer B.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
@@ -10506,12 +10506,12 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56E9106F)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F99EC3) (tstamp 56E9106F)
     (at 147.18 97.76 270)
     (descr "SMT capacitor, 0603")
     (path /5636686F/563887F5)
-    (fp_text reference C37 (at 0 0.635 270) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C37 (at -0.86 1.88 270) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_text value 100n (at 0 -0.635 270) (layer B.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
@@ -10533,12 +10533,12 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56E91074)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F99E66) (tstamp 56E91074)
     (at 163.41 148.37)
     (descr "SMT capacitor, 0603")
     (path /5636686F/56388A0B)
-    (fp_text reference C38 (at 0 0.635) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C38 (at 0 1.43) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_text value 100n (at 0 -0.635) (layer B.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
@@ -10560,12 +10560,12 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56E91079)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F99E90) (tstamp 56E91079)
     (at 159.52 128.01)
     (descr "SMT capacitor, 0603")
     (path /5636686F/56388A11)
-    (fp_text reference C39 (at 0 0.635) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C39 (at 0 1.39) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_text value 100n (at 0 -0.635) (layer B.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
@@ -10587,12 +10587,12 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56E9107E)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F99E4E) (tstamp 56E9107E)
     (at 155.14 151.9 180)
     (descr "SMT capacitor, 0603")
     (path /5636686F/56388A17)
-    (fp_text reference C40 (at 0 0.635 180) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C40 (at 0 1.3 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_text value 100n (at 0 -0.635 180) (layer B.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
@@ -10614,12 +10614,12 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56E91083)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F99E2A) (tstamp 56E91083)
     (at 149 171.45 270)
     (descr "SMT capacitor, 0603")
     (path /5636686F/56388A1D)
-    (fp_text reference C41 (at 0 0.635 270) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C41 (at 0 1.3 270) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_text value 100n (at 0 -0.635 270) (layer B.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
@@ -10641,12 +10641,12 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56E91088)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F99D5E) (tstamp 56E91088)
     (at 135.89 186.48 180)
     (descr "SMT capacitor, 0603")
     (path /5636686F/56388C43)
-    (fp_text reference C42 (at 0 0.635 180) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C42 (at -2.61 -0.02 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_text value 100n (at 0 -0.635 180) (layer B.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
@@ -10668,12 +10668,12 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56E9108D)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F99DA5) (tstamp 56E9108D)
     (at 147 212.5)
     (descr "SMT capacitor, 0603")
     (path /5636686F/56388C49)
-    (fp_text reference C43 (at 0 0.635) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C43 (at -0.1 1.8) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_text value 100n (at 0 -0.635) (layer B.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
@@ -10695,12 +10695,12 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56E91092)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F99DC8) (tstamp 56E91092)
     (at 168.5 213.04)
     (descr "SMT capacitor, 0603")
     (path /5636686F/56388C4F)
-    (fp_text reference C44 (at 0 0.635) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C44 (at 0 1.36) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_text value 100n (at 0 -0.635) (layer B.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
@@ -10722,12 +10722,12 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56E91097)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F99DE4) (tstamp 56E91097)
     (at 186.25 210.75)
     (descr "SMT capacitor, 0603")
     (path /5636686F/56388C55)
-    (fp_text reference C45 (at 0 0.635) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C45 (at 0.05 -1.25) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_text value 100n (at 0 -0.635) (layer B.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
@@ -10749,14 +10749,14 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer F.Cu) (tedit 490472AA) (tstamp 56EA6E9F)
+  (module w_smd_cap:c_0603 (layer F.Cu) (tedit 56F9A51A) (tstamp 56EA6E9F)
     (at 81.24 157.06 270)
     (descr "SMT capacitor, 0603")
     (path /5635F23B/5636E075)
-    (fp_text reference L1 (at 0 -0.635 270) (layer F.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
+    (fp_text reference L1 (at -0.04 1.28 270) (layer F.SilkS) hide
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)))
     )
-    (fp_text value 30@100MHz (at 0 0.635 270) (layer F.SilkS) hide
+    (fp_text value 30@100MHz (at -0.01 -0.91 270) (layer F.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)))
     )
     (fp_line (start 0.5588 0.4064) (end 0.5588 -0.4064) (layer F.SilkS) (width 0.127))
@@ -10776,15 +10776,15 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56EA737A)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F99B9D) (tstamp 56EA737A)
     (at 102.5 208.5 315)
     (descr "SMT capacitor, 0603")
     (path /56362221)
-    (fp_text reference C1 (at 0 0.635 315) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C1 (at 0 1.414214 315) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 100n (at 0 -0.635 315) (layer B.SilkS) hide
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text value 100n (at 0 -1.272792 315) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.5588 -0.4064) (end 0.5588 0.4064) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.5588 0.381) (end -0.5588 -0.4064) (layer B.SilkS) (width 0.127))
@@ -10803,15 +10803,15 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56EA737F)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F9A5C6) (tstamp 56EA737F)
     (at 129.75 206)
     (descr "SMT capacitor, 0603")
     (path /563621DD)
-    (fp_text reference C2 (at 0 0.635) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C2 (at 0.05 -1.1) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 100n (at 0 -0.635) (layer B.SilkS) hide
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text value 100n (at 2.85 -0.1) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.5588 -0.4064) (end 0.5588 0.4064) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.5588 0.381) (end -0.5588 -0.4064) (layer B.SilkS) (width 0.127))
@@ -10830,15 +10830,15 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56EA7384)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F99CAE) (tstamp 56EA7384)
     (at 119.64 191.93 270)
     (descr "SMT capacitor, 0603")
     (path /563622A0)
-    (fp_text reference C4 (at 0 0.635 270) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C4 (at 2.17 -0.36 360) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 100n (at 0 -0.635 270) (layer B.SilkS) hide
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text value 100n (at -0.03 -1.46 270) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.5588 -0.4064) (end 0.5588 0.4064) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.5588 0.381) (end -0.5588 -0.4064) (layer B.SilkS) (width 0.127))
@@ -10857,15 +10857,15 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56EA7389)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F9A44F) (tstamp 56EA7389)
     (at 97.59 135.9 90)
     (descr "SMT capacitor, 0603")
     (path /5635F23B/56364ED3)
-    (fp_text reference C5 (at 0 0.635 90) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C5 (at 0 1.41 90) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 100n (at 0 -0.635 90) (layer B.SilkS) hide
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text value 100n (at 0 -1.29 90) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.5588 -0.4064) (end 0.5588 0.4064) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.5588 0.381) (end -0.5588 -0.4064) (layer B.SilkS) (width 0.127))
@@ -10884,12 +10884,12 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56EA7398)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F9A1B8) (tstamp 56EA7398)
     (at 113.21 136.63)
     (descr "SMT capacitor, 0603")
     (path /5635F23B/56364111)
-    (fp_text reference C8 (at 0 0.635) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C8 (at -2.21 -0.03) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_text value 100n (at 0 -0.635) (layer B.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
@@ -10911,15 +10911,15 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56EA739D)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F9A237) (tstamp 56EA739D)
     (at 121.62 142.6)
     (descr "SMT capacitor, 0603")
     (path /5635F23B/563640DF)
-    (fp_text reference C9 (at 0 0.635) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C9 (at 0 1.3) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 100n (at 0 -0.635) (layer B.SilkS) hide
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text value 100n (at -0.02 -1.3) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.5588 -0.4064) (end 0.5588 0.4064) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.5588 0.381) (end -0.5588 -0.4064) (layer B.SilkS) (width 0.127))
@@ -10938,15 +10938,15 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56EA73A2)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F9A2B8) (tstamp 56EA73A2)
     (at 120.66 148.83 90)
     (descr "SMT capacitor, 0603")
     (path /5635F23B/563640E5)
-    (fp_text reference C10 (at 0 0.635 90) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C10 (at 0.03 1.34 90) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 100n (at 0 -0.635 90) (layer B.SilkS) hide
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text value 100n (at -1.87 0.44 180) (layer B.SilkS)
+      (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_line (start 0.5588 -0.4064) (end 0.5588 0.4064) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.5588 0.381) (end -0.5588 -0.4064) (layer B.SilkS) (width 0.127))
@@ -10965,15 +10965,15 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56EA73A7)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F9A2CF) (tstamp 56EA73A7)
     (at 120.67 153.83 90)
     (descr "SMT capacitor, 0603")
     (path /5635F23B/563640EB)
-    (fp_text reference C11 (at 0 0.635 90) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C11 (at 0 1.43 90) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 100n (at 0 -0.635 90) (layer B.SilkS) hide
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text value 100n (at 1.83 0.43 180) (layer B.SilkS)
+      (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_line (start 0.5588 -0.4064) (end 0.5588 0.4064) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.5588 0.381) (end -0.5588 -0.4064) (layer B.SilkS) (width 0.127))
@@ -10992,15 +10992,15 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56EA73AC)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F9A318) (tstamp 56EA73AC)
     (at 121.5 159.47)
     (descr "SMT capacitor, 0603")
     (path /5635F23B/563640F8)
-    (fp_text reference C12 (at 0 0.635) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C12 (at 3.1 0.03) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 100n (at 0 -0.635) (layer B.SilkS) hide
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text value 100n (at 0.1 1.13) (layer B.SilkS)
+      (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_line (start 0.5588 -0.4064) (end 0.5588 0.4064) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.5588 0.381) (end -0.5588 -0.4064) (layer B.SilkS) (width 0.127))
@@ -11019,12 +11019,12 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56EA73B6)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F9A3CB) (tstamp 56EA73B6)
     (at 90.92 141.86 90)
     (descr "SMT capacitor, 0603")
     (path /5635F23B/5636DFCC)
-    (fp_text reference C14 (at 0 0.635 90) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C14 (at 2.26 0.48 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_text value 100n (at 0 -0.635 90) (layer B.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
@@ -11046,15 +11046,15 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56EA73BB)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F99967) (tstamp 56EA73BB)
     (at 102.54 165.99)
     (descr "SMT capacitor, 0603")
     (path /5635F23B/5636DF90)
-    (fp_text reference C15 (at 0 0.635) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C15 (at 0 1.31) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 100n (at 0 -0.635) (layer B.SilkS) hide
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text value 100n (at 2.86 0.01) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.5588 -0.4064) (end 0.5588 0.4064) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.5588 0.381) (end -0.5588 -0.4064) (layer B.SilkS) (width 0.127))
@@ -11073,15 +11073,15 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56EA73C0)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F998F5) (tstamp 56EA73C0)
     (at 94.77 166.17)
     (descr "SMT capacitor, 0603")
     (path /5635F23B/5636DF97)
-    (fp_text reference C16 (at 0 0.635) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C16 (at -0.07 1.33) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 100n (at 0 -0.635) (layer B.SilkS) hide
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text value 100n (at -2.87 0.03) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.5588 -0.4064) (end 0.5588 0.4064) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.5588 0.381) (end -0.5588 -0.4064) (layer B.SilkS) (width 0.127))
@@ -11100,15 +11100,15 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56EA73C5)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F998B6) (tstamp 56EA73C5)
     (at 91 161.4 270)
     (descr "SMT capacitor, 0603")
     (path /5635F23B/5636DF9E)
-    (fp_text reference C17 (at 0 0.635 270) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C17 (at 2.12 -0.12 360) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 100n (at 0 -0.635 270) (layer B.SilkS) hide
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text value 100n (at -0.02 1.32 270) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.5588 -0.4064) (end 0.5588 0.4064) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.5588 0.381) (end -0.5588 -0.4064) (layer B.SilkS) (width 0.127))
@@ -11127,15 +11127,15 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56EA73CF)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F9A383) (tstamp 56EA73CF)
     (at 90.27 149.17 270)
     (descr "SMT capacitor, 0603")
     (path /5635F23B/5636DFAE)
-    (fp_text reference C19 (at 0 0.635 270) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C19 (at 0 1.27 270) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 100n (at 0 -0.635 270) (layer B.SilkS) hide
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text value 100n (at 0 -1.43 270) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.5588 -0.4064) (end 0.5588 0.4064) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.5588 0.381) (end -0.5588 -0.4064) (layer B.SilkS) (width 0.127))
@@ -11154,12 +11154,12 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56EA73D4)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F999B5) (tstamp 56EA73D4)
     (at 111.64 166.84 90)
     (descr "SMT capacitor, 0603")
     (path /5635F23B/5636969C)
-    (fp_text reference C25 (at 0 0.635 90) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C25 (at -2.46 0.46 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_text value 100n (at 0 -0.635 90) (layer B.SilkS) hide
       (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
@@ -11181,15 +11181,15 @@
     )
   )
 
-  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 490472AA) (tstamp 56EA73D9)
+  (module w_smd_cap:c_0603 (layer B.Cu) (tedit 56F9A564) (tstamp 56EA73D9)
     (at 133.75184 122.75 180)
     (descr "SMT capacitor, 0603")
     (path /5635F23B/5636DF63)
-    (fp_text reference C29 (at 0 0.635 180) (layer B.SilkS)
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text reference C29 (at 0 1.35 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
-    (fp_text value 100n (at 0 -0.635 180) (layer B.SilkS) hide
-      (effects (font (size 0.20066 0.20066) (thickness 0.04064)) (justify mirror))
+    (fp_text value 100n (at 0.05184 -1.35 180) (layer B.SilkS)
+      (effects (font (size 1.016 0.8128) (thickness 0.1524)) (justify mirror))
     )
     (fp_line (start 0.5588 -0.4064) (end 0.5588 0.4064) (layer B.SilkS) (width 0.127))
     (fp_line (start -0.5588 0.381) (end -0.5588 -0.4064) (layer B.SilkS) (width 0.127))
@@ -11208,15 +11208,15 @@
     )
   )
 
-  (module TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval (layer F.Cu) (tedit 56F3D7BA) (tstamp 56EA7405)
+  (module TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval (layer F.Cu) (tedit 56F9A4CD) (tstamp 56EA7405)
     (at 99.85 211.77 135)
     (descr "TO-92 leads in-line, narrow, oval pads, drill 0.6mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
     (path /5636221A)
-    (fp_text reference U2 (at 0 -4 135) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text reference U2 (at -2.460732 -0.127279 135) (layer B.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value US4881_HALL (at 0 3 135) (layer F.Fab)
+    (fp_text value US4881_HALL (at 0 3 135) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.4 1.95) (end -1.4 -2.65) (layer F.CrtYd) (width 0.05))
@@ -11239,14 +11239,14 @@
     )
   )
 
-  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56EFD8EC) (tstamp 5638BC0A)
+  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56F99DF0) (tstamp 5638BC0A)
     (at 195.5 206.5)
     (descr "PowerPAD Plastic Small Outline for TLC5955")
     (path /5636686F/5639D387)
-    (fp_text reference U15 (at 0 6.15) (layer B.SilkS)
+    (fp_text reference U15 (at 0 5.7) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TLC5955 (at 0 -5.95) (layer B.SilkS)
+    (fp_text value TLC5955 (at 0 -5.95) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center -6.2 -2.25) (end -6.2 -2.65) (layer B.SilkS) (width 0.15))
@@ -11375,14 +11375,14 @@
     )
   )
 
-  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56EFD8EC) (tstamp 5638BBCD)
+  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56F99DBD) (tstamp 5638BBCD)
     (at 175.5 206.5)
     (descr "PowerPAD Plastic Small Outline for TLC5955")
     (path /5636686F/5639D301)
-    (fp_text reference U14 (at 0 6.15) (layer B.SilkS)
+    (fp_text reference U14 (at 0 5.8) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TLC5955 (at 0 -5.95) (layer B.SilkS)
+    (fp_text value TLC5955 (at 0 -5.95) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center -6.2 -2.25) (end -6.2 -2.65) (layer B.SilkS) (width 0.15))
@@ -11511,14 +11511,14 @@
     )
   )
 
-  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56EFD8EC) (tstamp 5638BB90)
+  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56F99D96) (tstamp 5638BB90)
     (at 155.5 206.5)
     (descr "PowerPAD Plastic Small Outline for TLC5955")
     (path /5636686F/5639D046)
     (fp_text reference U13 (at 0 6.15) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TLC5955 (at 0 -5.95) (layer B.SilkS)
+    (fp_text value TLC5955 (at 0 -5.95) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center -6.2 -2.25) (end -6.2 -2.65) (layer B.SilkS) (width 0.15))
@@ -11647,14 +11647,14 @@
     )
   )
 
-  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56EFD8EC) (tstamp 5638BB53)
+  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56F99D79) (tstamp 5638BB53)
     (at 140.5 194.5 270)
     (descr "PowerPAD Plastic Small Outline for TLC5955")
     (path /5636686F/5639CFC0)
     (fp_text reference U12 (at 0 6.15 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TLC5955 (at 0 -5.95 270) (layer B.SilkS)
+    (fp_text value TLC5955 (at 0 -5.95 270) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center -6.2 -2.25) (end -6.2 -2.65) (layer B.SilkS) (width 0.15))
@@ -11783,14 +11783,14 @@
     )
   )
 
-  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56EFD8EC) (tstamp 5638BB16)
+  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56F99E17) (tstamp 5638BB16)
     (at 154.5 180 270)
     (descr "PowerPAD Plastic Small Outline for TLC5955")
     (path /5636686F/5639CD21)
     (fp_text reference U11 (at 0 6.15 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TLC5955 (at 0 -5.95 270) (layer B.SilkS)
+    (fp_text value TLC5955 (at 0 -5.95 270) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center -6.2 -2.25) (end -6.2 -2.65) (layer B.SilkS) (width 0.15))
@@ -11919,14 +11919,14 @@
     )
   )
 
-  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56EFD8EC) (tstamp 5638BAD9)
+  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56F99E44) (tstamp 5638BAD9)
     (at 159.5 160 270)
     (descr "PowerPAD Plastic Small Outline for TLC5955")
     (path /5636686F/5639CC9B)
     (fp_text reference U10 (at 0 6.15 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TLC5955 (at 0 -5.95 270) (layer B.SilkS)
+    (fp_text value TLC5955 (at 0 -5.95 270) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center -6.2 -2.25) (end -6.2 -2.65) (layer B.SilkS) (width 0.15))
@@ -12055,14 +12055,14 @@
     )
   )
 
-  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56EFD8EC) (tstamp 5638BA9C)
+  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56F99E84) (tstamp 5638BA9C)
     (at 154.5 120 90)
     (descr "PowerPAD Plastic Small Outline for TLC5955")
     (path /5636686F/5639CC18)
     (fp_text reference U9 (at 0 6.15 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TLC5955 (at 0 -5.95 90) (layer B.SilkS)
+    (fp_text value TLC5955 (at 0 -5.95 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center -6.2 -2.25) (end -6.2 -2.65) (layer B.SilkS) (width 0.15))
@@ -12191,14 +12191,14 @@
     )
   )
 
-  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56EFD8EC) (tstamp 5638BA5F)
+  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56F99E7B) (tstamp 5638BA5F)
     (at 159.5 140 90)
     (descr "PowerPAD Plastic Small Outline for TLC5955")
     (path /5636686F/5639CB92)
     (fp_text reference U8 (at 0 6.15 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TLC5955 (at 0 -5.95 90) (layer B.SilkS)
+    (fp_text value TLC5955 (at 0 -5.95 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center -6.2 -2.25) (end -6.2 -2.65) (layer B.SilkS) (width 0.15))
@@ -12327,14 +12327,14 @@
     )
   )
 
-  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56EFD8EC) (tstamp 5638BA22)
+  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56F99ED1) (tstamp 5638BA22)
     (at 155.5 93.5)
     (descr "PowerPAD Plastic Small Outline for TLC5955")
     (path /5636686F/5639C85B)
     (fp_text reference U7 (at 0 6.15) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TLC5955 (at 0 -5.95) (layer B.SilkS)
+    (fp_text value TLC5955 (at 0 -5.95) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center -6.2 -2.25) (end -6.2 -2.65) (layer B.SilkS) (width 0.15))
@@ -12463,14 +12463,14 @@
     )
   )
 
-  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56EFD8EC) (tstamp 5638B9A8)
+  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56F99F28) (tstamp 5638B9A8)
     (at 195.5 93.5)
     (descr "PowerPAD Plastic Small Outline for TLC5955")
     (path /5636686F/5638619A)
-    (fp_text reference U5 (at 0 6.15) (layer B.SilkS)
+    (fp_text reference U5 (at 1 6.1) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TLC5955 (at 0 -5.95) (layer B.SilkS)
+    (fp_text value TLC5955 (at 0 -5.95) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center -6.2 -2.25) (end -6.2 -2.65) (layer B.SilkS) (width 0.15))
@@ -12599,14 +12599,14 @@
     )
   )
 
-  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56EFD8EC) (tstamp 5638B96B)
+  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56F99EE6) (tstamp 5638B96B)
     (at 175.5 93.5)
     (descr "PowerPAD Plastic Small Outline for TLC5955")
     (path /5636686F/56366EBE)
-    (fp_text reference U4 (at 0 6.15) (layer B.SilkS)
+    (fp_text reference U4 (at -1.3 6) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TLC5955 (at 0 -5.95) (layer B.SilkS)
+    (fp_text value TLC5955 (at 0 -5.95) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center -6.2 -2.25) (end -6.2 -2.65) (layer B.SilkS) (width 0.15))
@@ -12735,14 +12735,14 @@
     )
   )
 
-  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56EFD8EC) (tstamp 5638B9E5)
+  (module knielsenlib:TLC5955DCA (layer B.Cu) (tedit 56F99EA3) (tstamp 5638B9E5)
     (at 140.5 105.5 90)
     (descr "PowerPAD Plastic Small Outline for TLC5955")
     (path /5636686F/5639C7D5)
     (fp_text reference U6 (at 0 6.15 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TLC5955 (at 0 -5.95 90) (layer B.SilkS)
+    (fp_text value TLC5955 (at 0 -5.95 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center -6.2 -2.25) (end -6.2 -2.65) (layer B.SilkS) (width 0.15))
@@ -12942,16 +12942,16 @@
     )
   )
 
-  (module LEDs:LED_0805 (layer B.Cu) (tedit 55BDE1C2) (tstamp 56F2CBEC)
+  (module LEDs:LED_0805 (layer B.Cu) (tedit 56F9A0DB) (tstamp 56F2CBEC)
     (at 108.54902 120)
     (descr "LED 0805 smd package")
     (tags "LED 0805 SMD")
     (path /5635F23B/5636E03B)
     (attr smd)
-    (fp_text reference D2 (at 0 1.75) (layer B.SilkS)
+    (fp_text reference D2 (at 0.05098 -1.6) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value SML-211YTT86 (at 0 -1.75) (layer B.Fab)
+    (fp_text value SML-211YTT86 (at 0 -1.75) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.6 -0.75) (end 1.1 -0.75) (layer B.SilkS) (width 0.15))
@@ -12978,15 +12978,15 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_2x09 (layer B.Cu) (tedit 0) (tstamp 56F7C5D2)
+  (module Pin_Headers:Pin_Header_Straight_2x09 (layer B.Cu) (tedit 56F9A09D) (tstamp 56F7C5D2)
     (at 127.880256 96.411846 135)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /56F7FEF0)
-    (fp_text reference P6 (at 0 5.1 135) (layer B.SilkS)
+    (fp_text reference P6 (at 1.267207 2.426501 135) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value CONN_02X09 (at 0 3.1 135) (layer B.Fab)
+    (fp_text value CONN_02X09 (at 1.267207 -22.887922 135) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.75 1.75) (end -1.75 -22.1) (layer B.CrtYd) (width 0.05))
@@ -13044,6 +13044,15 @@
     )
   )
 
+  (gr_text USB (at 108.2 211.1) (layer F.SilkS) (tstamp 56F9A885)
+    (effects (font (size 1 0.8) (thickness 0.15)))
+  )
+  (gr_text BAT (at 112.8 211.1) (layer F.SilkS)
+    (effects (font (size 1 0.8) (thickness 0.15)))
+  )
+  (gr_text "LED-torus 2 rev1\nknielsen 2016\nknielsen-hq.org/ledtorus.html" (at 201.6 149.9 270) (layer B.SilkS)
+    (effects (font (size 4.2 3) (thickness 0.6)) (justify mirror))
+  )
   (gr_text Gnd (at 108.8 106.3 315) (layer B.SilkS) (tstamp 56F7CEC4)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
